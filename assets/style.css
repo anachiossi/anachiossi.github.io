@@ -59,7 +59,7 @@ a   { color: inherit; }
 .nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   height: 64px;
 }
 
@@ -673,6 +673,12 @@ a   { color: inherit; }
   display: flex;
   align-items: center;
   gap: 32px;
+  margin-left: auto;
+}
+
+/* nav-social is now a direct .nav child; restore the gap it had inside nav-right */
+.nav-social {
+  margin-left: 32px;
 }
 
 .social-icons {
@@ -707,9 +713,62 @@ a   { color: inherit; }
 }
 .social-icon--imdb:hover { opacity: .75; color: #000; }
 
-/* Hide header icons on mobile */
-.nav-social { display: flex; }
-@media (max-width: 768px) { .nav-social { display: none; } }
+/* ── Mobile fixes ≤768px ──────────────────────────────── */
+@media (max-width: 768px) {
+
+  /* 1. Two-row nav */
+  .nav {
+    flex-wrap: wrap;
+    height: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    align-items: center;
+  }
+  .nav-brand {
+    height: 52px;
+    display: flex;
+    align-items: center;
+  }
+  .nav-right {
+    height: 52px;
+    align-items: center;
+  }
+  .nav-social {
+    flex: 0 0 100%;
+    margin-left: 0;
+    padding: 8px 0 12px;
+    border-top: 1px solid var(--border);
+    gap: 4px;
+  }
+  .nav-social .social-icon {
+    min-width: 44px;
+    min-height: 44px;
+    justify-content: center;
+  }
+
+  /* 2. CV download — label above, buttons on one row */
+  .cv-download {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 6px;
+  }
+  .cv-download-label {
+    flex: 0 0 100%;
+    text-align: right;
+    margin-right: 0;
+  }
+  .cv-download-btn {
+    padding: 5px 10px;
+  }
+
+  /* 5. Profile photo — center it */
+  .hero-photo {
+    max-width: 340px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
 /* Footer social wrapper (centers icons + copyright) */
 .footer-social-wrap {
