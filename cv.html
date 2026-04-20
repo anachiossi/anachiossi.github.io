@@ -473,6 +473,30 @@
   <main>
 
     <!-- ══════════════════════════════════
+         CV DOWNLOAD — TOP RIGHT
+    ══════════════════════════════════ -->
+    <div class="cv-download-bar container">
+      <!-- Note: PDFs found with non-standard naming convention.
+           Using actual filenames: ENG_, PTBR_, ESP_, DE_, FRA_, ITA_CV_AnaChiossi.pdf
+           Replace with AnaChiossi_CV_{EN,PT,ES,DE,FR,IT}.pdf when renamed. -->
+      <div class="cv-download">
+        <span class="cv-download-label">Download CV PDF</span>
+        <!-- EN: assets/cv/ENG_CV_AnaChiossi.pdf -->
+        <a class="cv-download-btn" href="assets/cv/ENG_CV_AnaChiossi.pdf" download>EN</a>
+        <!-- PT: assets/cv/PTBR_CV_AnaChiossi.pdf -->
+        <a class="cv-download-btn" href="assets/cv/PTBR_CV_AnaChiossi.pdf" download>PT</a>
+        <!-- ES: assets/cv/ESP_CV_AnaChiossi.pdf -->
+        <a class="cv-download-btn" href="assets/cv/ESP_CV_AnaChiossi.pdf" download>ES</a>
+        <!-- DE: assets/cv/DE_CV_AnaChiossi.pdf -->
+        <a class="cv-download-btn" href="assets/cv/DE_CV_AnaChiossi.pdf" download>DE</a>
+        <!-- FR: assets/cv/FRA_CV_AnaChiossi.pdf -->
+        <a class="cv-download-btn" href="assets/cv/FRA_CV_AnaChiossi.pdf" download>FR</a>
+        <!-- IT: assets/cv/ITA_CV_AnaChiossi.pdf -->
+        <a class="cv-download-btn" href="assets/cv/ITA_CV_AnaChiossi.pdf" download>IT</a>
+      </div>
+    </div>
+
+    <!-- ══════════════════════════════════
          1 · EDUCATION TIMELINE
     ══════════════════════════════════ -->
     <section class="cv-section container">
@@ -769,7 +793,33 @@
 
 
     <!-- ══════════════════════════════════
-         3 · GLOBAL WORK LOCATIONS
+         3 · CERTIFICATIONS
+    ══════════════════════════════════ -->
+    <section class="cv-section certifications-section container">
+      <div class="cv-section-header">
+        <h2>Certifications</h2>
+      </div>
+      <div class="cert-row">
+
+        <!-- Cert 1: Dante Certified Level 3 — static badge image -->
+        <div class="cert-item">
+          <a href="https://www.audinate.com/learning/training-certification" target="_blank" rel="noopener" aria-label="Dante Certified Level 3">
+            <img src="assets/badge_dante_lv3.png" alt="Dante Certified Level 3" style="max-height:120px;width:auto;">
+          </a>
+        </div>
+
+        <!-- Cert 2: Avid Certified — Pro Tools Specialist (Credly live embed) -->
+        <!-- Script loaded once near </body> -->
+        <div class="cert-item">
+          <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="f2e7ec4b-aa23-428a-adec-833974695fa4" data-share-badge-host="https://www.credly.com"></div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ══════════════════════════════════
+         4 · GLOBAL WORK LOCATIONS
     ══════════════════════════════════ -->
     <section class="cv-section container">
       <div class="cv-section-header">
@@ -785,6 +835,7 @@
         ></iframe>
       </div>
     </section>
+
 
   </main>
 
@@ -958,6 +1009,9 @@
     });
   });
   </script>
+
+  <!-- Credly embed — loaded once for all Credly badges on this page -->
+  <script type="text/javascript" defer src="https://cdn.credly.com/assets/utilities/embed.js"></script>
 
 </body>
 </html>

@@ -286,6 +286,16 @@ a   { color: inherit; }
   margin-top: 16px;
 }
 
+.contact-photo {
+  display: block;
+  width: 100%;
+  margin-top: 36px;
+  border-radius: 12px;
+  box-shadow:
+    0 2px 8px rgba(0, 0, 0, 0.08),
+    0 12px 32px rgba(0, 0, 0, 0.10);
+}
+
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -406,6 +416,123 @@ a   { color: inherit; }
    ═══════════════════════════════════ */
 .cv-section {
   padding: 72px 0;
+}
+
+/* ═══════════════════════════════════
+   CERTIFICATIONS
+   ═══════════════════════════════════ */
+.certifications-section {}
+
+.cert-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 3.5rem;
+}
+
+.cert-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cert-item a {
+  display: block;
+  border-radius: 10px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow:
+    0 2px 6px rgba(0, 0, 0, 0.07),
+    0 8px 20px rgba(0, 0, 0, 0.06);
+}
+
+.cert-item a:hover {
+  transform: translateY(-3px);
+  box-shadow:
+    0 4px 12px rgba(0, 0, 0, 0.10),
+    0 16px 36px rgba(0, 0, 0, 0.08);
+}
+
+.cert-item a img {
+  display: block;
+  border-radius: 10px;
+  max-height: 120px;
+  width: auto;
+}
+
+/* Fallback text card for badges without images */
+.cert-text-card {
+  border: 1.5px solid var(--border);
+  border-radius: 12px;
+  padding: 20px 24px;
+  background: var(--surface);
+  max-width: 200px;
+  box-shadow:
+    0 2px 6px rgba(0, 0, 0, 0.05),
+    0 8px 20px rgba(0, 0, 0, 0.04);
+}
+
+@media (max-width: 600px) {
+  .cert-row {
+    justify-content: center;
+    gap: 2.5rem;
+  }
+}
+
+/* ═══════════════════════════════════
+   CV DOWNLOAD BUTTONS
+   ═══════════════════════════════════ */
+.cv-download-bar {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 32px;
+  padding-bottom: 0;
+}
+
+.cv-download {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.cv-download-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  white-space: nowrap;
+  margin-right: 4px;
+}
+
+.cv-download-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 14px;
+  border-radius: 999px;
+  border: 1.5px solid var(--text);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  background: transparent;
+  transition: background 0.15s, color 0.15s;
+  cursor: pointer;
+}
+
+.cv-download-btn:hover {
+  background: var(--text);
+  color: var(--bg);
+}
+
+.cv-btn-disabled {
+  opacity: 0.35;
+  cursor: default;
+  pointer-events: none;
 }
 
 .cv-section + .cv-section {
