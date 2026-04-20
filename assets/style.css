@@ -610,3 +610,34 @@ a   { color: inherit; }
 .footer-aits a:hover { border-color: var(--text); }
 
 
+
+
+/* ═══════════════════════════════════
+   FORMSPREE FEEDBACK STATES
+   ═══════════════════════════════════ */
+.form-success {
+  padding: 16px 20px;
+  background: #f0faf4;
+  border: 1px solid #b6e4c8;
+  border-radius: var(--r);
+  color: #1a5c35;
+  font-size: 0.9375rem;
+  font-weight: 600;
+}
+
+.form-error {
+  padding: 14px 18px;
+  background: #fff5f5;
+  border: 1px solid #fcc;
+  border-radius: var(--r);
+  color: #c0392b;
+  font-size: 0.875rem;
+  margin-bottom: 16px;
+}
+
+.field-error {
+  display: block;
+  font-size: 0.8125rem;
+  color: #c0392b;
+  margin-top: 4px;
+}

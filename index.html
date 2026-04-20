@@ -23,7 +23,6 @@
         <ul class="nav-links">
           <li><a href="index.html" class="active">Bio</a></li>
           <li><a href="cv.html">CV</a></li>
-          <li><a href="films.html">Films</a></li>
         </ul>
         <div class="social-icons nav-social">
           <a href="mailto:chiossi.sound@gmail.com" class="social-icon" aria-label="Email">
@@ -139,15 +138,12 @@
           </p>
         </div>
 
-        <!--
-          Formspree: replace YOUR_FORM_ID with your actual endpoint.
-          Create a free form at https://formspree.io → copy the ID.
-        -->
-        <form
-          class="contact-form"
-          action="https://formspree.io/f/YOUR_FORM_ID"
-          method="POST"
-        >
+        <div data-fs-success style="display:none" class="form-success">
+          Message sent — I'll get back to you soon.
+        </div>
+        <div data-fs-error style="display:none" class="form-error"></div>
+
+        <form id="contact-form" class="contact-form">
           <div class="field">
             <label for="contact-name">Name</label>
             <input
@@ -157,7 +153,9 @@
               required
               autocomplete="name"
               placeholder="Your name"
+              data-fs-field
             >
+            <span data-fs-error="name" class="field-error"></span>
           </div>
 
           <div class="field">
@@ -169,7 +167,9 @@
               required
               autocomplete="email"
               placeholder="your@email.com"
+              data-fs-field
             >
+            <span data-fs-error="email" class="field-error"></span>
           </div>
 
           <div class="field">
@@ -180,11 +180,19 @@
               rows="5"
               required
               placeholder="Tell me about your project…"
+              data-fs-field
             ></textarea>
+            <span data-fs-error="message" class="field-error"></span>
           </div>
 
-          <button type="submit" class="btn-submit">Send message →</button>
+          <button type="submit" class="btn-submit" data-fs-submit-btn>Send message →</button>
         </form>
+
+        <script>
+          window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
+          formspree('initForm', { formElement: '#contact-form', formId: 'xgorznbg' });
+        </script>
+        <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
 
       </div>
     </section>
