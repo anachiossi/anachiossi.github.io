@@ -18,7 +18,7 @@
   <!-- ── NAV ────────────────────────── -->
   <header class="site-header">
     <nav class="nav container">
-      <a href="index.html" class="nav-brand">Ana Chiossi</a>
+      <a href="index.html" class="nav-brand">Chiossi Sound</a>
       <div class="nav-right">
         <ul class="nav-links">
           <li><a href="index.html" class="active">Bio</a></li>
@@ -139,7 +139,9 @@
         </div>
 
         <div data-fs-success style="display:none" class="form-success">
-          Message sent — I'll get back to you soon.
+          <span class="form-success-icon">✓</span>
+          <strong>Message sent!</strong>
+          I'll get back to you as soon as possible.
         </div>
         <div data-fs-error style="display:none" class="form-error"></div>
 
@@ -173,6 +175,18 @@
           </div>
 
           <div class="field">
+            <label for="contact-phone">Phone</label>
+            <input
+              type="tel"
+              id="contact-phone"
+              name="phone"
+              autocomplete="tel"
+              placeholder="+39 333 000 0000"
+            >
+            <span id="phone-error" class="field-error"></span>
+          </div>
+
+          <div class="field">
             <label for="contact-message">Message</label>
             <textarea
               id="contact-message"
@@ -191,6 +205,23 @@
         <script>
           window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
           formspree('initForm', { formElement: '#contact-form', formId: 'xgorznbg' });
+
+          // Phone: if filled, must start with + (country code)
+          const phoneInput = document.getElementById('contact-phone');
+          const phoneErr   = document.getElementById('phone-error');
+
+          function validatePhone() {
+            const val = phoneInput.value.trim();
+            if (val !== '' && !val.startsWith('+')) {
+              phoneInput.setCustomValidity('Please include your country code (e.g. +39 333 000 0000).');
+              phoneErr.textContent = 'Please include your country code — e.g. +39 333 000 0000';
+            } else {
+              phoneInput.setCustomValidity('');
+              phoneErr.textContent = '';
+            }
+          }
+
+          phoneInput.addEventListener('input', validatePhone);
         </script>
         <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
 

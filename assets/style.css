@@ -64,9 +64,10 @@ a   { color: inherit; }
 }
 
 .nav-brand {
-  font-weight: 700;
-  font-size: 0.9375rem;
-  letter-spacing: 0.025em;
+  font-weight: 800;
+  font-size: 1.125rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
   color: var(--text);
   text-decoration: none;
 }
@@ -616,13 +617,33 @@ a   { color: inherit; }
    FORMSPREE FEEDBACK STATES
    ═══════════════════════════════════ */
 .form-success {
-  padding: 16px 20px;
-  background: #f0faf4;
-  border: 1px solid #b6e4c8;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 22px 24px;
+  background: #1a7a45;
   border-radius: var(--r);
-  color: #1a5c35;
-  font-size: 0.9375rem;
-  font-weight: 600;
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.form-success-icon {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  background: rgba(255,255,255,.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.form-success strong {
+  display: block;
+  font-size: 1.0625rem;
 }
 
 .form-error {
@@ -641,3 +662,4 @@ a   { color: inherit; }
   color: #c0392b;
   margin-top: 4px;
 }
+
