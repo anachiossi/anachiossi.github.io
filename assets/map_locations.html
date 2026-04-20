@@ -15,15 +15,22 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     html, body {
+      height: 100%;
       font-family: 'Manrope', system-ui, sans-serif;
-      background: #ffffff;
+      background: #EDEAE4;
       color: #1A1A1A;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
     }
 
     /* ── Map ── */
     #map {
       width: 100%;
-      height: 520px;
+      flex: 1;
+      min-height: 0;
     }
 
     /* ── Legend ── */
@@ -33,8 +40,8 @@
       align-items: center;
       gap: 6px 20px;
       padding: 13px 18px 11px;
-      border-top: 1px solid #E5E3DE;
-      background: #F7F6F3;
+      border-top: 1px solid #D8D5CF;
+      background: #EDEAE4;
     }
 
     .legend-label {

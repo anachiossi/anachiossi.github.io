@@ -426,15 +426,18 @@ a   { color: inherit; }
 .cert-row {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
-  gap: 3.5rem;
+  gap: 4rem;
 }
 
 .cert-item {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: fit-content;
+  flex-shrink: 0;
 }
 
 .cert-item a {
