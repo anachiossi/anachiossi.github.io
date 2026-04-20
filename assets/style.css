@@ -597,15 +597,14 @@ a   { color: inherit; }
 }
 
 .brand-link {
-  opacity: 0.65;
-  transition: opacity 0.2s ease;
   display: inline-flex;
   align-items: center;
   text-decoration: none;
+  transition: opacity 0.2s ease;
 }
 
 .brand-link:hover {
-  opacity: 1;
+  opacity: 0.75;
 }
 
 .brand-logo {
