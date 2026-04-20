@@ -1,0 +1,43 @@
+.schoeps 
+.lectrosonics
+.zaxcom
+.shure
+.sony
+.wisycom
+.sennheiser
+.aaton-digital
+.sound-devices
+.sanken
+.dpa-microphones
+.neumann
+.countryman
+.audio-technica
+.oktava
+.lom-microphones
+.canare
+.mogami
+.neutrik
+.lemo
+.beyerdynamic
+.comtek
+.phonak
+.HT halter technical
+.psc
+.k-tek
+.rf venue
+.rycote
+.cinela
+.bubblebee
+.ursa-straps
+.hide-a-mic
+.viviana sound solutions
+.radius
+.kit-bravo
+.tentacle-sync
+.denecke
+.audioroot
+.mixtwojacks
+.bellentani audio arte
+.bongoties
+.betso
+

@@ -562,6 +562,67 @@ a   { color: inherit; }
 
 
 /* ═══════════════════════════════════
+   TRUSTED GEAR — BRAND LOGOS
+   ═══════════════════════════════════ */
+.brands-section-header {
+  margin-bottom: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.brands-section-title {
+  font-size: 1.375rem;
+  font-weight: 800;
+  letter-spacing: -0.015em;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+
+.brands-section-subtitle {
+  font-size: 0.875rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.brands-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem 3rem;
+  background: #ffffff;
+  border-radius: var(--r);
+  padding: 2.5rem;
+}
+
+.brand-link {
+  opacity: 0.65;
+  transition: opacity 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.brand-link:hover {
+  opacity: 1;
+}
+
+.brand-logo {
+  width: auto;
+  display: block;
+}
+
+.brand-text-fallback {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  font-variant: small-caps;
+  color: var(--muted);
+  letter-spacing: 0.05em;
+}
+
+
+/* ═══════════════════════════════════
    COMING SOON (films.html)
    ═══════════════════════════════════ */
 .coming-soon-wrap {

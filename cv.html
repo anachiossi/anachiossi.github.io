@@ -15,38 +15,9 @@
 
   <style>
     /* ════════════════════════════════════════
-       CAREER STATS — MULTI-VARIANT
+       CAREER STATS
     ════════════════════════════════════════ */
-    .cv-nums-variant{display:none;}
-    .cv-nums-variant.active{display:block;}
-
-    /* ── VARIANT A · SWISS GRID ── */
-    .va{background:transparent;color:#0a0a0a;padding:0;font-family:"Space Grotesk",sans-serif;position:relative;}
-    .va-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:0;border-left:1px solid #d5d1c7;}
-    .va-grid > div{border-right:1px solid #d5d1c7;border-bottom:1px solid #d5d1c7;padding:22px 18px 20px;display:flex;flex-direction:column;justify-content:space-between;min-height:180px;}
-    .va-grid .lbl{font-size:10px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:#0a0a0a;}
-    .va-grid .n{font-variant-numeric:tabular-nums;font-weight:500;letter-spacing:-.04em;line-height:.85;color:#0a0a0a;}
-    .va-grid .sub{font-size:11px;color:#6a7280;margin-top:4px;letter-spacing:.04em;text-transform:uppercase;font-weight:600;}
-    .va-grid .hero{grid-column:span 8;min-height:360px;padding:26px 22px;}
-    .va-grid .hero .n{font-size:clamp(220px,24vw,360px);}
-    .va-grid .hero .lbl{font-size:11px;}
-    .va-grid .fmt{grid-column:span 4;min-height:90px;padding:18px 18px 16px;}
-    .va-grid .fmt .n{font-size:64px;}
-    .va-grid .fmt .lbl{font-size:10px;}
-    .va-grid .fmt.last{min-height:90px;}
-    .va-grid .dist{grid-column:span 3;}
-    .va-grid .dist .n{font-size:72px;}
-    .va-grid .dist2{grid-column:span 3;}
-    .va-grid .dist2 .n{font-size:72px;}
-    .va-grid .hero-2{grid-column:span 4;min-height:360px;padding:22px;}
-    .va-grid .hero-2 .n{font-size:clamp(140px,14vw,200px);}
-    .va-grid .sub-role{grid-column:span 3;}
-    .va-grid .sub-role .n{font-size:84px;}
-    .va-grid .cam{grid-column:span 3;}
-    .va-grid .cam .n{font-size:84px;color:#6a7280;}
     .plus-num{font-variant-numeric:tabular-nums;font-weight:500;letter-spacing:-.04em;line-height:.85;display:inline-block;color:#0a0a0a;}
-    .vb .plus-num{color:#0a0a0a;}
-    .vc .plus-num{color:#111;}
 
     /* ── VARIANT B · MONOCHROME POSTER ── */
     .vb{background:transparent;color:#0a0a0a;padding:0;font-family:"Space Grotesk",sans-serif;position:relative;overflow:hidden;}
@@ -72,13 +43,13 @@
     .vb-mid .dline:nth-child(2),.vb-mid .dline:nth-child(4){grid-template-columns:1fr auto auto;justify-content:end;}
     .vb-mid .dline:nth-child(2) .n,.vb-mid .dline:nth-child(4) .n{grid-column:2;text-align:right;}
     .vb-mid .dline:nth-child(2) .lbl,.vb-mid .dline:nth-child(4) .lbl{grid-column:3;text-align:left;}
-    .vb-mid .collab-cell{border-left:1px dashed rgba(10,10,10,.22);padding-left:32px;margin-left:8px;display:flex;flex-direction:column;justify-content:space-between;padding-bottom:44px;}
+    .vb-mid .collab-cell{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:8px;padding-bottom:44px;padding-left:32px;}
     .vb-mid .cell .n{font-family:"Space Grotesk",sans-serif;font-variant-numeric:tabular-nums;font-weight:500;font-size:108px;line-height:.8;letter-spacing:-.03em;color:#0a0a0a;align-self:end;}
     .vb-mid .cell .lbl{font-family:"Instrument Serif",serif;font-style:italic;font-size:22px;color:rgba(10,10,10,.85);line-height:1.15;min-height:2.3em;}
-    .vb-mid .collab-cell .eye{font-size:10px;font-weight:700;letter-spacing:.24em;text-transform:uppercase;color:rgba(10,10,10,.55);padding-bottom:18px;border-bottom:1px dashed rgba(10,10,10,.18);margin-bottom:18px;text-align:center;}
-    .vb-mid .collab-cell .n{font-size:132px;align-self:flex-start;}
-    .vb-mid .collab-cell .lbl-stack{display:flex;flex-direction:column;gap:8px;}
-    .vb-mid .collab-cell .of-row{display:flex;align-items:baseline;gap:10px;padding-top:10px;border-top:1px dashed rgba(10,10,10,.22);}
+    .vb-mid .collab-cell .eye{font-size:10px;font-weight:700;letter-spacing:.24em;text-transform:uppercase;color:rgba(10,10,10,.55);text-align:center;}
+    .vb-mid .collab-cell .n{font-size:132px;align-self:center;}
+    .vb-mid .collab-cell .collab-main{display:flex;flex-direction:column;align-items:center;gap:4px;}
+    .vb-mid .collab-cell .of-row{display:flex;align-items:baseline;gap:10px;}
     .vb-mid .collab-cell .of-row .of{font-family:"Instrument Serif",serif;font-style:italic;font-size:20px;color:rgba(10,10,10,.6);}
     .vb-mid .collab-cell .of-row .n14{font-family:"Space Grotesk",sans-serif;font-variant-numeric:tabular-nums;font-weight:500;font-size:72px;letter-spacing:-.03em;line-height:.85;color:#0a0a0a;}
     .vb-mid .collab-cell .of-row .w{font-family:"Instrument Serif",serif;font-style:italic;font-size:20px;color:rgba(10,10,10,.85);}
@@ -101,70 +72,12 @@
     .vb-roles .cd .w{font-family:"Instrument Serif",serif;font-style:italic;font-size:20px;color:rgba(10,10,10,.7);display:block;margin-top:6px;}
     .vb-roles .cd .note{font-family:"Instrument Serif",serif;font-style:italic;font-size:13px;color:rgba(10,10,10,.45);margin-top:10px;line-height:1.4;}
 
-    /* ── VARIANT C · TERMINAL / DATA ── */
-    .vc{background:transparent;color:#111;padding:0;font-family:"JetBrains Mono",monospace;position:relative;}
-    .vc .hr-ascii{font-family:"JetBrains Mono",monospace;font-size:12px;color:#c9c4b5;letter-spacing:.02em;line-height:1;margin:14px 0 18px;overflow:hidden;white-space:nowrap;}
-    .vc-hero{display:flex;align-items:flex-end;gap:32px;padding:18px 0 24px;}
-    .vc-hero .n{font-family:"Space Grotesk",sans-serif;font-variant-numeric:tabular-nums;font-weight:500;font-size:clamp(220px,22vw,320px);line-height:.78;letter-spacing:-.04em;}
-    .vc-hero .right{padding-bottom:20px;}
-    .vc-hero .right .lbl{font-size:11px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:#8a5a2b;}
-    .vc-hero .right .desc{font-size:14px;color:#111;margin-top:6px;max-width:24ch;line-height:1.4;}
-    .vc-table{margin:14px 0 4px;border-top:1px solid #d5d1c7;border-bottom:1px solid #d5d1c7;}
-    .vc-table .tr{display:grid;grid-template-columns:80px 1fr auto;gap:22px;align-items:center;padding:14px 2px;border-bottom:1px dashed #e5e3de;}
-    .vc-table .tr:last-child{border-bottom:none;}
-    .vc-table .tr .n{font-family:"Space Grotesk";font-variant-numeric:tabular-nums;font-weight:500;font-size:56px;line-height:.9;letter-spacing:-.03em;}
-    .vc-table .tr .lbl{font-family:"JetBrains Mono";font-size:15px;color:#111;font-weight:500;}
-    .vc-table .tr .meta{font-family:"JetBrains Mono";font-size:11px;color:#6a7280;letter-spacing:.12em;text-transform:uppercase;}
-    .vc-grid2{display:grid;grid-template-columns:1fr 1fr;gap:0;border-top:1px solid #d5d1c7;border-bottom:1px solid #d5d1c7;margin:14px 0;}
-    .vc-grid2 > div{padding:18px 20px;border-left:1px dashed #e5e3de;}
-    .vc-grid2 > div:first-child{border-left:none;padding-left:4px;}
-    .vc-grid2 .stat{display:flex;align-items:baseline;gap:16px;padding:10px 0;border-bottom:1px dashed #e5e3de;}
-    .vc-grid2 .stat:last-child{border-bottom:none;}
-    .vc-grid2 .stat .n{font-family:"Space Grotesk";font-variant-numeric:tabular-nums;font-weight:500;font-size:56px;line-height:.85;letter-spacing:-.03em;}
-    .vc-grid2 .stat .lbl{font-family:"JetBrains Mono";font-size:13px;color:#111;}
-    .vc-grid2 .eye{font-size:10px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:#8a5a2b;margin-bottom:8px;}
-    .vc-grid2 .big-stat{display:flex;align-items:baseline;gap:16px;padding:10px 0;}
-    .vc-grid2 .big-stat .n{font-size:96px;font-weight:500;letter-spacing:-.04em;font-family:"Space Grotesk";line-height:.8;}
-    .vc-grid2 .big-stat .lbl{font-family:"JetBrains Mono";font-size:14px;color:#111;max-width:16ch;line-height:1.3;}
-    .vc-roles{display:grid;grid-template-columns:1.3fr 1fr;gap:36px;margin-top:18px;border-top:1px solid #d5d1c7;padding-top:20px;}
-    .vc-roles .dept .eye{font-size:10px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:#8a5a2b;margin-bottom:10px;}
-    .vc-roles .dept .hero{display:flex;align-items:baseline;gap:20px;margin-bottom:10px;}
-    .vc-roles .dept .hero .n{font-family:"Space Grotesk";font-variant-numeric:tabular-nums;font-weight:500;font-size:clamp(160px,16vw,240px);line-height:.8;letter-spacing:-.04em;}
-    .vc-roles .dept .hero .lbl{font-family:"JetBrains Mono";font-size:14px;color:#111;padding-bottom:12px;}
-    .vc-roles .dept.cam .hero .n{color:#6a7280;font-size:clamp(100px,10vw,150px);}
-    .vc-roles .dept.cam .hero .lbl{color:#6a7280;}
-    .vc-roles .sub{display:flex;flex-direction:column;gap:0;border-top:1px dashed #e5e3de;}
-    .vc-roles .sub .r{display:grid;grid-template-columns:auto 1fr auto;gap:18px;align-items:baseline;padding:14px 0;border-bottom:1px dashed #e5e3de;}
-    .vc-roles .sub .r:last-child{border-bottom:none;}
-    .vc-roles .sub .r .n{font-family:"Space Grotesk";font-variant-numeric:tabular-nums;font-weight:500;font-size:72px;line-height:.85;letter-spacing:-.03em;}
-    .vc-roles .sub .r .lbl{font-family:"JetBrains Mono";font-size:13px;color:#111;}
-    .vc-roles .sub .r .pct{font-family:"JetBrains Mono";font-size:11px;color:#8a5a2b;font-weight:700;letter-spacing:.12em;}
-    .vc-note{font-family:"JetBrains Mono";font-size:12px;color:#6a7280;margin-top:10px;padding-top:10px;border-top:1px dashed #e5e3de;max-width:30ch;}
-
-    /* Tweaks panel */
-    #cvNumsTweaks{position:fixed;top:18px;right:18px;z-index:9999;background:#0a0a0a;color:#fbfaf7;border-radius:10px;padding:14px 16px;font-family:"Space Grotesk",sans-serif;font-size:13px;display:none;box-shadow:0 14px 38px rgba(0,0,0,.25);min-width:220px;}
-    #cvNumsTweaks .th{font-size:10px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:rgba(251,250,247,.5);margin-bottom:10px;}
-    #cvNumsTweaks .opt{display:block;padding:8px 10px;border-radius:6px;cursor:pointer;color:#fbfaf7;}
-    #cvNumsTweaks .opt.active{background:rgba(251,250,247,.1);}
-    #cvNumsTweaks .opt:hover{background:rgba(251,250,247,.06);}
-
     /* Responsive */
     @media (max-width:960px){
-      .va-grid > div{padding:16px;}
-      .va-grid .hero{grid-column:span 12;min-height:260px;}
-      .va-grid .fmt{grid-column:span 6;}
-      .va-grid .dist,.va-grid .dist2{grid-column:span 6;}
-      .va-grid .hero-2{grid-column:span 12;min-height:240px;}
-      .va-grid .sub-role,.va-grid .cam{grid-column:span 6;}
       .vb .hero-row{grid-template-columns:1fr;gap:16px;}
       .vb-fmt{grid-template-columns:repeat(2,1fr);gap:28px;}
       .vb-mid{grid-template-columns:1fr;gap:32px;}
       .vb-roles{grid-template-columns:1fr;gap:36px;}
-      .vc-hero{flex-direction:column;align-items:flex-start;gap:14px;}
-      .vc-grid2{grid-template-columns:1fr;}
-      .vc-grid2 > div{border-left:none;border-top:1px dashed #e5e3de;}
-      .vc-grid2 > div:first-child{border-top:none;}
-      .vc-roles{grid-template-columns:1fr;}
     }
 
     /* ── Mobile ≤768px: career stats + collab numbers ── */
@@ -606,77 +519,7 @@
         <p>Projects, roles, and collaborators — counted.</p>
       </div>
 
-      <!-- ── VARIANT A · SWISS GRID ── -->
-      <div class="cv-nums-variant" data-variant="swiss">
-        <div class="va">
-          <div class="va-grid" style="border-top:1px solid #d5d1c7;">
-            <div class="hero">
-              <span class="lbl">Projects</span>
-              <span class="n" data-count="64">0</span>
-              <span class="sub">Total</span>
-            </div>
-            <div class="fmt">
-              <span class="lbl">TV Series</span>
-              <span class="n" data-count="27">0</span>
-            </div>
-            <div class="fmt">
-              <span class="lbl">Features</span>
-              <span class="n" data-count="24">0</span>
-            </div>
-            <div class="fmt">
-              <span class="lbl">Docs</span>
-              <span class="n" data-count="5">0</span>
-            </div>
-            <div class="fmt last">
-              <span class="lbl">Shorts · Commercials</span>
-              <span class="n"><span data-count="5">0</span><span class="plus-num" style="margin-left:8px;">+</span></span>
-            </div>
-            <div class="dist">
-              <span class="lbl">TV Channels</span>
-              <span class="n" data-count="17">0</span>
-            </div>
-            <div class="dist">
-              <span class="lbl">Streaming</span>
-              <span class="n" data-count="7">0</span>
-            </div>
-            <div class="dist">
-              <span class="lbl">Festivals</span>
-              <span class="n" data-count="68">0</span>
-            </div>
-            <div class="dist2" style="grid-column:span 3;">
-              <span class="lbl">Languages</span>
-              <span class="n" data-count="5">0</span>
-            </div>
-            <div class="hero-2" style="grid-column:span 12;min-height:200px;">
-              <span class="lbl">Prod. Cos / Countries</span>
-              <span class="n" data-count="119">0</span>
-              <span class="sub" style="font-size:13px;">from <span class="n" style="font-size:26px;font-weight:500;vertical-align:-2px;" data-count="14">0</span> countries</span>
-            </div>
-            <div class="sub-role" style="grid-column:span 4;">
-              <span class="lbl">Sound Dept.</span>
-              <span class="n" style="font-size:clamp(120px,12vw,180px);" data-count="51">0</span>
-            </div>
-            <div class="sub-role">
-              <span class="lbl">Boom Op</span>
-              <span class="n" data-count="33">0</span>
-              <span class="sub">65%</span>
-            </div>
-            <div class="sub-role">
-              <span class="lbl">Sound Mixer</span>
-              <span class="n" data-count="16">0</span>
-              <span class="sub">31%</span>
-            </div>
-            <div class="cam" style="grid-column:span 2;">
-              <span class="lbl">Camera</span>
-              <span class="n" data-count="13">0</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- ── VARIANT B · MONOCHROME POSTER ── -->
-      <div class="cv-nums-variant" data-variant="poster">
-        <div class="vb">
+      <div class="vb">
           <div class="hero-row">
             <span class="n" data-count="64">0</span>
             <div class="meta">
@@ -706,14 +549,14 @@
             </div>
             <div class="cell collab-cell">
               <span class="eye">Collaborators</span>
-              <span class="n" data-count="119">0</span>
-              <div class="lbl-stack">
+              <div class="collab-main">
+                <span class="n" data-count="119">0</span>
                 <span class="lbl">Production companies</span>
-                <div class="of-row">
-                  <span class="of">of</span>
-                  <span class="n14" data-count="14">0</span>
-                  <span class="w">countries</span>
-                </div>
+              </div>
+              <div class="of-row">
+                <span class="of">of</span>
+                <span class="n14" data-count="14">0</span>
+                <span class="w">countries</span>
               </div>
             </div>
           </div>
@@ -731,85 +574,13 @@
             <div class="cd">
               <div class="ps">p.s.</div>
               <span class="n" data-count="13">0</span>
-              <span class="w">in Camera</span>
+              <span class="w">in Camera Dept.</span>
               <div class="note">As focus puller, loader &amp; video assist.</div>
             </div>
           </div>
         </div>
-      </div>
-
-      <!-- ── VARIANT C · TERMINAL / DATA ── -->
-      <div class="cv-nums-variant" data-variant="terminal">
-        <div class="vc">
-          <div class="hr-ascii">─────────────────────────────────────────────────────────────────────────────</div>
-          <div class="vc-hero">
-            <span class="n" data-count="64">0</span>
-            <div class="right">
-              <div class="lbl">Projects · total</div>
-              <div class="desc">Features, series, documentaries &amp; shorts.</div>
-            </div>
-          </div>
-          <div class="vc-table">
-            <div class="tr"><span class="n" data-count="27">0</span><span class="lbl">TV Series</span><span class="meta">Format 01</span></div>
-            <div class="tr"><span class="n" data-count="24">0</span><span class="lbl">Feature films</span><span class="meta">Format 02</span></div>
-            <div class="tr"><span class="n" data-count="5">0</span><span class="lbl">Documentaries</span><span class="meta">Format 03</span></div>
-            <div class="tr"><span class="n" style="white-space:nowrap;"><span data-count="5">0</span><span class="plus-num" style="margin-left:6px;">+</span></span><span class="lbl">Shorts · Commercials</span><span class="meta">Format 04</span></div>
-          </div>
-          <div class="hr-ascii">─────────────────────────────────────────────────────────────────────────────</div>
-          <div class="vc-grid2">
-            <div>
-              <div class="eye">&gt; distribution</div>
-              <div class="stat"><span class="n" data-count="17">0</span><span class="lbl">TV Channels</span></div>
-              <div class="stat"><span class="n" data-count="7">0</span><span class="lbl">Streaming platforms</span></div>
-              <div class="stat"><span class="n" data-count="68">0</span><span class="lbl">Film festivals</span></div>
-              <div class="stat"><span class="n" data-count="5">0</span><span class="lbl">Languages recorded</span></div>
-            </div>
-            <div>
-              <div class="eye">&gt; collaborators</div>
-              <div class="big-stat">
-                <span class="n" data-count="119">0</span>
-                <span class="lbl">Production companies</span>
-              </div>
-              <div class="stat" style="border-top:1px dashed #c9c4b5;">
-                <span class="n" data-count="14">0</span>
-                <span class="lbl">Countries</span>
-              </div>
-            </div>
-          </div>
-          <div class="hr-ascii">─────────────────────────────────────────────────────────────────────────────</div>
-          <div class="vc-roles">
-            <div class="dept">
-              <div class="eye">&gt; sound_dept</div>
-              <div class="hero">
-                <span class="n" data-count="51">0</span>
-                <span class="lbl">projects</span>
-              </div>
-              <div class="sub">
-                <div class="r"><span class="n" data-count="33">0</span><span class="lbl">as Boom Operator</span><span class="pct">65%</span></div>
-                <div class="r"><span class="n" data-count="16">0</span><span class="lbl">as Production Sound Mixer</span><span class="pct">31%</span></div>
-              </div>
-            </div>
-            <div class="dept cam">
-              <div class="eye">&gt; camera_dept</div>
-              <div class="hero">
-                <span class="n" data-count="13">0</span>
-                <span class="lbl">projects</span>
-              </div>
-              <div class="vc-note">Focus puller, loader, video assist.</div>
-            </div>
-          </div>
-        </div>
-      </div>
 
     </section>
-
-    <!-- Tweaks panel (shown when edit mode is on) -->
-    <div id="cvNumsTweaks">
-      <div class="th">Style</div>
-      <div class="opt" data-pick="swiss">A · Swiss Grid</div>
-      <div class="opt" data-pick="poster">B · Monochrome Poster</div>
-      <div class="opt" data-pick="terminal">C · Terminal / Data</div>
-    </div>
 
 
     <!-- ══════════════════════════════════
@@ -857,6 +628,59 @@
     </section>
 
 
+    <!-- ══════════════════════════════════
+         5 · TRUSTED GEAR
+    ══════════════════════════════════ -->
+    <section class="cv-section brands-section container">
+      <div class="brands-section-header">
+        <div class="brands-section-title">Trusted Gear</div>
+        <div class="brands-section-subtitle">the sound equipment and accessories I've been playing around</div>
+      </div>
+      <div class="brands-grid">
+        <a href="https://www.schoeps.de" target="_blank" rel="noopener noreferrer" class="brand-link" title="Schoeps"><img src="assets/logos/schoeps.png" alt="Schoeps" class="brand-logo" style="height: 40px;" onerror="this.onerror=null;this.src='assets/logos/schoeps.svg'"></a>
+        <a href="https://www.lectrosonics.com" target="_blank" rel="noopener noreferrer" class="brand-link" title="Lectrosonics"><img src="assets/logos/lectrosonics.png" alt="Lectrosonics" class="brand-logo" style="height: 40px;" onerror="this.onerror=null;this.src='assets/logos/lectrosonics.svg'"></a>
+        <a href="https://www.zaxcom.com" target="_blank" rel="noopener noreferrer" class="brand-link" title="Zaxcom"><img src="assets/logos/zaxcom.png" alt="Zaxcom" class="brand-logo" style="height: 40px;" onerror="this.onerror=null;this.src='assets/logos/zaxcom.svg'"></a>
+        <a href="https://www.shure.com" target="_blank" rel="noopener noreferrer" class="brand-link" title="Shure"><img src="assets/logos/shure.png" alt="Shure" class="brand-logo" style="height: 40px;" onerror="this.onerror=null;this.src='assets/logos/shure.svg'"></a>
+        <a href="https://pro.sony/en_GB/products/audio/pro-audio?cmp=mur-ngp-15738" target="_blank" rel="noopener noreferrer" class="brand-link" title="Sony"><img src="assets/logos/sony.png" alt="Sony" class="brand-logo" style="height: 40px;" onerror="this.onerror=null;this.src='assets/logos/sony.svg'"></a>
+        <a href="https://www.wisycom.com" target="_blank" rel="noopener noreferrer" class="brand-link" title="Wisycom"><img src="assets/logos/wisycom.png" alt="Wisycom" class="brand-logo" style="height: 40px;" onerror="this.onerror=null;this.src='assets/logos/wisycom.svg'"></a>
+        <a href="https://www.sennheiser.com" target="_blank" rel="noopener noreferrer" class="brand-link" title="Sennheiser"><img src="assets/logos/sennheiser.png" alt="Sennheiser" class="brand-logo" style="height: 40px;" onerror="this.onerror=null;this.src='assets/logos/sennheiser.svg'"></a>
+        <a href="https://www.aaton.com" target="_blank" rel="noopener noreferrer" class="brand-link" title="Aaton Digital"><img src="assets/logos/aaton.png" alt="Aaton Digital" class="brand-logo" style="height: 40px;" onerror="this.onerror=null;this.src='assets/logos/aaton.svg'"></a>
+        <a href="https://www.sounddevices.com" target="_blank" rel="noopener noreferrer" class="brand-link" title="Sound Devices"><img src="assets/logos/sound-devices.png" alt="Sound Devices" class="brand-logo" style="height: 40px;" onerror="this.onerror=null;this.src='assets/logos/sound-devices.svg'"></a>
+        <a href="https://www.sanken-mic.com" target="_blank" rel="noopener noreferrer" class="brand-link" title="Sanken"><img src="assets/logos/sanken.png" alt="Sanken" class="brand-logo" style="height: 40px;" onerror="this.onerror=null;this.src='assets/logos/sanken.svg'"></a>
+        <a href="https://www.dpamicrophones.com" target="_blank" rel="noopener noreferrer" class="brand-link" title="DPA Microphones"><img src="assets/logos/dpa.png" alt="DPA Microphones" class="brand-logo" style="height: 40px;" onerror="this.onerror=null;this.src='assets/logos/dpa.svg'"></a>
+        <a href="https://www.neumann.com" target="_blank" rel="noopener noreferrer" class="brand-link" title="Neumann"><img src="assets/logos/neumann.png" alt="Neumann" class="brand-logo" style="height: 40px;" onerror="this.onerror=null;this.src='assets/logos/neumann.svg'"></a>
+        <a href="https://www.countryman.com" target="_blank" rel="noopener noreferrer" class="brand-link" title="Countryman"><img src="assets/logos/countryman.png" alt="Countryman" class="brand-logo" style="height: 40px;" onerror="this.onerror=null;this.src='assets/logos/countryman.svg'"></a>
+        <a href="https://www.audio-technica.com" target="_blank" rel="noopener noreferrer" class="brand-link" title="Audio-Technica"><img src="assets/logos/audio-technica.png" alt="Audio-Technica" class="brand-logo" style="height: 40px;" onerror="this.onerror=null;this.src='assets/logos/audio-technica.svg'"></a>
+        <a href="https://oktavamicrophones.com/" target="_blank" rel="noopener noreferrer" class="brand-link" title="Oktava"><img src="assets/logos/oktava.png" alt="Oktava" class="brand-logo" style="height: 40px;" onerror="this.onerror=null;this.src='assets/logos/oktava.svg'"></a>
+        <a href="https://store.lom.audio/" target="_blank" rel="noopener noreferrer" class="brand-link" title="LOM Microphones"><img src="assets/logos/lom.png" alt="LOM Microphones" class="brand-logo" style="height: 40px;" onerror="this.onerror=null;this.src='assets/logos/lom.svg'"></a>
+        <a href="https://www.canare.com" target="_blank" rel="noopener noreferrer" class="brand-link" title="Canare"><img src="assets/logos/canare.png" alt="Canare" class="brand-logo" style="height: 40px;" onerror="this.onerror=null;this.src='assets/logos/canare.svg'"></a>
+        <a href="https://www.mogamicable.com" target="_blank" rel="noopener noreferrer" class="brand-link" title="Mogami"><img src="assets/logos/mogami.png" alt="Mogami" class="brand-logo" style="height: 40px;" onerror="this.onerror=null;this.src='assets/logos/mogami.svg'"></a>
+        <a href="https://www.neutrik.com" target="_blank" rel="noopener noreferrer" class="brand-link" title="Neutrik"><img src="assets/logos/neutrik.png" alt="Neutrik" class="brand-logo" style="height: 40px;" onerror="this.onerror=null;this.src='assets/logos/neutrik.svg'"></a>
+        <a href="https://www.lemo.com" target="_blank" rel="noopener noreferrer" class="brand-link" title="Lemo"><img src="assets/logos/lemo.png" alt="Lemo" class="brand-logo" style="height: 40px;" onerror="this.onerror=null;this.src='assets/logos/lemo.svg'"></a>
+        <a href="https://www.beyerdynamic.com" target="_blank" rel="noopener noreferrer" class="brand-link" title="Beyerdynamic"><img src="assets/logos/beyerdynamic.png" alt="Beyerdynamic" class="brand-logo" style="height: 40px;" onerror="this.onerror=null;this.src='assets/logos/beyerdynamic.svg'"></a>
+        <a href="https://www.phonak.com" target="_blank" rel="noopener noreferrer" class="brand-link" title="Phonak"><img src="assets/logos/phonak.png" alt="Phonak" class="brand-logo" style="height: 40px;" onerror="this.onerror=null;this.src='assets/logos/phonak.svg'"></a>
+        <a href="https://www.listentech.com" target="_blank" rel="noopener noreferrer" class="brand-link" title="Listen Technologies"><span class="brand-text-fallback">Listen Technologies</span></a>
+        <a href="https://professionalsound.com/bell-light-system" target="_blank" rel="noopener noreferrer" class="brand-link" title="PSC"><img src="assets/logos/psc.png" alt="PSC" class="brand-logo" style="height: 40px;" onerror="this.onerror=null;this.src='assets/logos/psc.svg'"></a>
+        <a href="https://www.rfvenue.com" target="_blank" rel="noopener noreferrer" class="brand-link" title="RF Venue"><img src="assets/logos/rf-venue.png" alt="RF Venue" class="brand-logo" style="height: 40px;" onerror="this.onerror=null;this.src='assets/logos/rf-venue.svg'"></a>
+        <a href="https://www.haltertechnical.com" target="_blank" rel="noopener noreferrer" class="brand-link" title="Halter Technical"><img src="assets/logos/ht.png" alt="Halter Technical" class="brand-logo" style="height: 40px;" onerror="this.onerror=null;this.src='assets/logos/ht.svg'"></a>
+        <a href="https://ktekpro.com/" target="_blank" rel="noopener noreferrer" class="brand-link" title="K-Tek"><img src="assets/logos/k-tek.png" alt="K-Tek" class="brand-logo" style="height: 40px;" onerror="this.onerror=null;this.src='assets/logos/k-tek.svg'"></a>
+        <a href="https://www.rycote.com" target="_blank" rel="noopener noreferrer" class="brand-link" title="Rycote"><img src="assets/logos/rycote.png" alt="Rycote" class="brand-logo" style="height: 40px;" onerror="this.onerror=null;this.src='assets/logos/rycote.svg'"></a>
+        <a href="https://www.cinela.fr/home/" target="_blank" rel="noopener noreferrer" class="brand-link" title="Cinela"><img src="assets/logos/cinela.png" alt="Cinela" class="brand-logo" style="height: 40px;" onerror="this.onerror=null;this.src='assets/logos/cinela.svg'"></a>
+        <a href="https://www.bubblebeeindustries.com" target="_blank" rel="noopener noreferrer" class="brand-link" title="Bubblebee"><img src="assets/logos/bubblebee.png" alt="Bubblebee" class="brand-logo" style="height: 40px;" onerror="this.onerror=null;this.src='assets/logos/bubblebee.svg'"></a>
+        <a href="https://www.ursastraps.com" target="_blank" rel="noopener noreferrer" class="brand-link" title="Ursa Straps"><img src="assets/logos/ursa.png" alt="Ursa Straps" class="brand-logo" style="height: 40px;" onerror="this.onerror=null;this.src='assets/logos/ursa.svg'"></a>
+        <a href="https://www.hideamic.com/" target="_blank" rel="noopener noreferrer" class="brand-link" title="Hide-A-Mic"><img src="assets/logos/hideamic.png" alt="Hide-A-Mic" class="brand-logo" style="height: 40px;" onerror="this.onerror=null;this.src='assets/logos/hideamic.svg'"></a>
+        <a href="https://www.vivianaproducts.com/it/" target="_blank" rel="noopener noreferrer" class="brand-link" title="Viviana"><img src="assets/logos/viviana.png" alt="Viviana" class="brand-logo" style="height: 40px;" onerror="this.onerror=null;this.src='assets/logos/viviana.svg'"></a>
+        <a href="https://radiuswindshields.com/" target="_blank" rel="noopener noreferrer" class="brand-link" title="Radius"><img src="assets/logos/radius.png" alt="Radius" class="brand-logo" style="height: 40px;" onerror="this.onerror=null;this.src='assets/logos/radius.svg'"></a>
+        <a href="https://kitbravo.net/" target="_blank" rel="noopener noreferrer" class="brand-link" title="Kit-Bravo"><img src="assets/logos/kit-bravo.png" alt="Kit-Bravo" class="brand-logo" style="height: 40px;" onerror="this.onerror=null;this.src='assets/logos/kit-bravo.svg'"></a>
+        <a href="https://www.tentaclesync.com" target="_blank" rel="noopener noreferrer" class="brand-link" title="Tentacle Sync"><img src="assets/logos/tentacle.png" alt="Tentacle Sync" class="brand-logo" style="height: 40px;" onerror="this.onerror=null;this.src='assets/logos/tentacle.svg'"></a>
+        <a href="http://www.denecke.com/" target="_blank" rel="noopener noreferrer" class="brand-link" title="Denecke"><img src="assets/logos/Denecke.png" alt="Denecke" class="brand-logo" style="height: 40px;" onerror="this.onerror=null;this.src='assets/logos/Denecke.svg'"></a>
+        <a href="https://www.audioroot.fr" target="_blank" rel="noopener noreferrer" class="brand-link" title="Audioroot"><img src="assets/logos/audioroot.png" alt="Audioroot" class="brand-logo" style="height: 40px;" onerror="this.onerror=null;this.src='assets/logos/audioroot.svg'"></a>
+        <a href="https://www.mixtwojacks.com" target="_blank" rel="noopener noreferrer" class="brand-link" title="Mixtwojacks"><img src="assets/logos/mixtwojacks.png" alt="Mixtwojacks" class="brand-logo" style="height: 40px;" onerror="this.onerror=null;this.src='assets/logos/mixtwojacks.svg'"></a>
+        <a href="https://www.bellentaniaudioarte.com" target="_blank" rel="noopener noreferrer" class="brand-link" title="Bellentani Audio Arte"><img src="assets/logos/bellentani.png" alt="Bellentani Audio Arte" class="brand-logo" style="height: 40px;" onerror="this.onerror=null;this.src='assets/logos/bellentani.svg'"></a>
+        <a href="https://www.locationsoundlondon.com/" target="_blank" rel="noopener noreferrer" class="brand-link" title="London Location Sound"><img src="assets/logos/locationsound-london.png" alt="London Location Sound" class="brand-logo" style="height: 40px;" onerror="this.onerror=null;this.src='assets/logos/locationsound-london.svg'"></a>
+      </div>
+    </section>
+
   </main>
 
   <!-- ── FOOTER ───────────────────────── -->
@@ -884,38 +708,6 @@
   /* ── Year ─────────────────────────────────────────────────── */
   document.getElementById('year').textContent = new Date().getFullYear();
 
-
-  /* ── Career stats — variant switcher ─────────────────────── */
-  const CV_NUMS_DEFAULT = 'poster';
-
-  function applyVariant(name) {
-    document.querySelectorAll('.cv-nums-variant').forEach(v => {
-      v.classList.toggle('active', v.dataset.variant === name);
-    });
-    document.querySelectorAll('#cvNumsTweaks .opt').forEach(o => {
-      o.classList.toggle('active', o.dataset.pick === name);
-    });
-    // Reset count-up
-    document.querySelectorAll('[data-count]').forEach(el => {
-      delete el.dataset.done;
-      el.textContent = '0';
-    });
-    setupCountUp();
-  }
-
-  applyVariant(CV_NUMS_DEFAULT);
-
-  window.addEventListener('message', e => {
-    if (e.data?.type === '__activate_edit_mode') {
-      document.getElementById('cvNumsTweaks').style.display = 'block';
-    } else if (e.data?.type === '__deactivate_edit_mode') {
-      document.getElementById('cvNumsTweaks').style.display = 'none';
-    }
-  });
-
-  document.querySelectorAll('#cvNumsTweaks .opt').forEach(o => {
-    o.addEventListener('click', () => applyVariant(o.dataset.pick));
-  });
 
   /* ── Count-up ─────────────────────────────────────────────── */
   function countUp(el, target) {
@@ -945,9 +737,7 @@
       });
     }, { threshold: 0.2 });
     document.querySelectorAll('[data-count]').forEach(n => {
-      if (n.closest('.cv-nums-variant.active')) {
-        cvNumsIO.observe(n);
-      }
+      cvNumsIO.observe(n);
     });
   }
   setupCountUp();
