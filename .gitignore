@@ -1,0 +1,16 @@
+# Raw working data — not part of the deployed site
+MY_WEBSITE/
+
+# Dev scripts
+inject_map_data.py
+map_new_entry.md
+
+# Preview/draft files
+assets/CV Numbers.html
+
+# Claude Code
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
