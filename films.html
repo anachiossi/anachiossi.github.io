@@ -4,11 +4,594 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Films — Ana Chiossi</title>
-  <meta name="description" content="Ana Chiossi — filmography and project credits. Coming soon.">
+  <meta name="description" content="Ana Chiossi — filmography and project credits. 60+ feature films, series, documentaries and shorts.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300..800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300..800&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css">
+
+  <style>
+    /* ── Films page — scoped styles ────────────────────────────────────────── */
+
+    /* Kill any horizontal overflow causing right-side ghost space on mobile */
+    html, body { overflow-x: hidden; }
+
+    /* Search bar */
+    .films-search-wrap {
+      padding: 28px 0 20px;
+    }
+
+    #films-search {
+      font-family: var(--font);
+      font-size: 0.9375rem;
+      font-weight: 400;
+      color: var(--text);
+      background: var(--bg);
+      border: 1.5px solid var(--border);
+      border-radius: 8px;
+      padding: 11px 16px;
+      width: 100%;
+      transition: border-color 0.15s;
+      -webkit-appearance: none;
+      appearance: none;
+      outline: none;
+    }
+
+    #films-search::placeholder { color: #BDBBB6; }
+    #films-search:focus        { border-color: var(--text); }
+
+    /* Search clear button (browser default) — keep it subtle */
+    #films-search::-webkit-search-cancel-button {
+      -webkit-appearance: auto;
+      opacity: 0.45;
+      cursor: pointer;
+    }
+
+    /* Grid — 6-up desktop, 3-up mobile */
+    .films-grid {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 8px;
+      margin-bottom: 96px;
+    }
+
+    @media (max-width: 560px) {
+      .films-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 6px;
+      }
+    }
+
+    /* Card — 2:3 poster ratio, collector-card aesthetic */
+    .film-card {
+      position: relative;
+      aspect-ratio: 2 / 3;
+      overflow: hidden;
+      cursor: pointer;
+      background: #e4e2dd;
+      border-radius: 12px;
+      box-shadow:
+        0 2px 6px rgba(0, 0, 0, 0.10),
+        0 6px 18px rgba(0, 0, 0, 0.08);
+      transition: transform 0.22s ease, box-shadow 0.22s ease;
+    }
+
+    .film-card > img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .film-card-placeholder {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      background: #e4e2dd;
+    }
+
+    /* Hover overlay — rendered in DOM always; activated by CSS only on
+       hover-capable devices so mobile tap stays clean for Phase 2 modal */
+    .film-card-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(0,0,0,0.72) 0%, transparent 58%);
+      display: flex;
+      align-items: flex-end;
+      padding: 10px 12px;
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .film-card-overlay-text {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .film-card-overlay-title {
+      color: #fff;
+      font-size: 0.8125rem;
+      font-weight: 800;
+      line-height: 1.2;
+      letter-spacing: 0.01em;
+    }
+
+    .film-card-overlay-year {
+      color: rgba(255,255,255,0.78);
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+
+    /* Activate overlay + lift on hover-capable devices only */
+    @media (hover: hover) {
+      .film-card-overlay {
+        transition: opacity 0.2s ease;
+      }
+      .film-card:hover .film-card-overlay {
+        opacity: 1;
+      }
+      .film-card:hover {
+        cursor: pointer;
+        transform: translateY(-3px);
+        box-shadow:
+          0 4px 12px rgba(0, 0, 0, 0.15),
+          0 12px 28px rgba(0, 0, 0, 0.12);
+      }
+    }
+
+    /* State messages: loading / error / no-results */
+    .films-state {
+      padding: 64px 0 80px;
+      text-align: center;
+      font-size: 0.9375rem;
+      color: var(--muted);
+      line-height: 1.65;
+    }
+
+    .films-state--error {
+      color: #c0392b;
+    }
+
+    /* ── Modal ──────────────────────────────────────────────────────────────── */
+
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.55);
+      z-index: 200;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.22s ease;
+    }
+
+    .modal-backdrop.is-open {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .film-modal {
+      position: relative;
+      background: var(--bg);
+      width: 100%;
+      max-width: 680px;
+      max-height: calc(100vh - 48px);
+      display: flex;
+      flex-direction: column;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    /* Scrollable content area */
+    .modal-scroller {
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+      overscroll-behavior: contain;
+      flex: 1 1 auto;
+      min-height: 0;
+    }
+
+    /* Content fade transition when navigating between projects */
+    .modal-content {
+      transition: opacity 0.14s ease;
+    }
+
+    .modal-content.is-fading {
+      opacity: 0;
+    }
+
+    /* Close button — sits on the white modal surface */
+    .modal-close {
+      position: absolute;
+      top: 14px;
+      right: 14px;
+      z-index: 10;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.15s, color 0.15s;
+      flex-shrink: 0;
+    }
+
+    .modal-close:hover { background: var(--border); color: var(--text); }
+
+    /* Prev / Next navigation arrows — fixed in viewport, flanking the modal */
+    .modal-nav {
+      position: fixed;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 201;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      color: rgba(255, 255, 255, 0.9);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.15s;
+    }
+
+    .modal-nav:hover { background: rgba(255, 255, 255, 0.22); }
+    .modal-nav[hidden] { display: none; }
+
+    /* On wide viewports arrows sit outside the modal box; on narrow they sit inside */
+    .modal-nav--prev { left:  max(12px, calc(50vw - 400px)); }
+    .modal-nav--next { right: max(12px, calc(50vw - 400px)); }
+
+    /* Modal body — no hero above, top padding clears close button */
+    .modal-body {
+      padding: 52px 32px 48px;
+    }
+
+    /* Header row: title+subtitle left, coin badges right */
+    .modal-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+
+    .modal-header-main {
+      flex: 1 1 0;
+      min-width: 0;
+    }
+
+    .modal-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 2.25rem;
+      font-weight: 800;
+      letter-spacing: -0.035em;
+      line-height: 1.05;
+      color: var(--text);
+      margin: 0 0 5px;
+    }
+
+    .modal-subtitle {
+      font-size: 0.8125rem;
+      font-weight: 500;
+      color: var(--muted);
+      letter-spacing: 0.02em;
+      margin: 0;
+    }
+
+    /* Coin badges — 48px PNGs side by side */
+    .modal-coins {
+      display: flex;
+      flex-direction: row;
+      gap: 6px;
+      flex-shrink: 0;
+      align-items: flex-start;
+      padding-top: 4px;
+    }
+
+    .modal-coin {
+      width: 48px;
+      height: 48px;
+    }
+
+    .modal-coin img {
+      width: 48px;
+      height: 48px;
+      display: block;
+    }
+
+    /* Role — left-accent bar treatment */
+    .modal-role {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--text);
+      border-left: 3px solid var(--text);
+      padding: 3px 10px 3px 9px;
+      margin-bottom: 22px;
+      line-height: 1.5;
+    }
+
+    .modal-desc {
+      font-size: 0.9375rem;
+      line-height: 1.8;
+      color: var(--text);
+      margin-bottom: 0;
+    }
+
+    /* Section: platforms */
+    .modal-section {
+      margin-top: 22px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+    }
+
+    .modal-section-label {
+      display: block;
+      font-size: 0.625rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+      margin-bottom: 10px;
+    }
+
+    .modal-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .modal-pill {
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      padding: 4px 12px;
+      border: 1.5px solid var(--border);
+      border-radius: 999px;
+      color: var(--text);
+    }
+
+    /* Section: director / production / countries / languages */
+    .modal-details {
+      margin-top: 22px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      gap: 11px;
+    }
+
+    .modal-detail-row {
+      display: grid;
+      grid-template-columns: 90px 1fr;
+      gap: 12px;
+      align-items: baseline;
+    }
+
+    .modal-detail-label {
+      font-size: 0.625rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+      padding-top: 2px;
+    }
+
+    .modal-detail-value {
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: var(--text);
+      line-height: 1.5;
+    }
+
+    /* IMDb link */
+    .modal-imdb {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 0.8125rem;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      border-bottom: 1.5px solid var(--border);
+      padding-bottom: 1px;
+      margin-top: 24px;
+      transition: border-color 0.15s;
+    }
+
+    .modal-imdb:hover { border-color: var(--text); }
+
+    /* ── Phase 3: Award & Festival badges ──────────────────────────────────── */
+
+    .modal-badges {
+      margin-top: 24px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .modal-badge {
+      flex: 1 1 auto;
+      min-width: 120px;
+      border-radius: 6px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: opacity 0.15s;
+      user-select: none;
+    }
+
+    .modal-badge:active { opacity: 0.75; }
+
+    .modal-badge--awards  { border: 1.5px solid #C9A84C; }
+    .modal-badge--festivals { border: 1.5px solid #E8C840; }
+
+    .modal-badge-header {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      padding: 9px 13px;
+    }
+
+    .modal-badge-icon {
+      font-size: 0.9375rem;
+      line-height: 1;
+      flex-shrink: 0;
+    }
+
+    .modal-badge-label {
+      font-size: 0.8125rem;
+      font-weight: 700;
+      letter-spacing: 0.01em;
+    }
+
+    .modal-badge--awards   .modal-badge-label { color: #C9A84C; }
+    .modal-badge--festivals .modal-badge-label { color: #C4A800; }
+
+    .modal-badge-chevron {
+      margin-left: auto;
+      flex-shrink: 0;
+      transition: transform 0.22s ease;
+      color: inherit;
+      opacity: 0.55;
+    }
+
+    .modal-badge--awards   .modal-badge-chevron { color: #C9A84C; }
+    .modal-badge--festivals .modal-badge-chevron { color: #C4A800; }
+
+    .modal-badge.is-open .modal-badge-chevron {
+      transform: rotate(180deg);
+    }
+
+    /* Collapsible list — height animation via max-height trick */
+    .modal-badge-body {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.28s ease;
+    }
+
+    .modal-badge.is-open .modal-badge-body {
+      max-height: 1200px;
+    }
+
+    .modal-badge-list {
+      list-style: none;
+      margin: 0;
+      padding: 0 13px 11px;
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .modal-badge-item {
+      font-size: 0.8rem;
+      line-height: 1.45;
+      padding: 6px 0;
+      border-top: 1px solid rgba(0,0,0,0.07);
+      display: flex;
+      flex-direction: column;
+      gap: 1px;
+    }
+
+    .modal-badge-item:first-child { border-top: none; }
+
+    .modal-badge-item-main {
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .modal-badge-item-sub {
+      font-size: 0.74rem;
+      color: var(--muted);
+    }
+
+    /* Sound award highlight */
+    .modal-badge-item--sound .modal-badge-item-main {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .modal-badge-item--sound .modal-badge-item-main::after {
+      content: '';
+      display: inline-block;
+      width: 14px;
+      height: 11px;
+      flex-shrink: 0;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23C9A84C' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolygon points='11 5 6 9 2 9 2 15 6 15 11 19 11 5'/%3E%3Cpath d='M19.07 4.93a10 10 0 0 1 0 14.14'/%3E%3Cpath d='M15.54 8.46a5 5 0 0 1 0 7.07'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+    /* ── Phase 3: Box office ──────────────────────────────────────────────── */
+
+    .modal-boxoffice {
+      margin-top: 22px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+    }
+
+    .modal-boxoffice-rows {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    .modal-boxoffice-row {
+      display: grid;
+      grid-template-columns: 110px 1fr;
+      gap: 10px;
+      align-items: baseline;
+    }
+
+    .modal-boxoffice-label {
+      font-size: 0.625rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+    }
+
+    .modal-boxoffice-value {
+      font-size: 0.8125rem;
+      font-weight: 500;
+      color: var(--text);
+    }
+
+    /* ── Modal responsive ────────────────────────────────────────────────────── */
+
+    @media (max-width: 600px) {
+      .modal-backdrop {
+        padding: 0;
+        align-items: flex-end;
+      }
+
+      .film-modal {
+        max-width: 100%;
+        max-height: 96vh;
+        border-radius: 12px 12px 0 0;
+      }
+
+      .modal-body  { padding: 48px 20px 36px; }
+      .modal-title { font-size: 1.75rem; }
+      .modal-coin, .modal-coin img { width: 40px; height: 40px; }
+    }
+  </style>
 </head>
 <body>
 
@@ -35,17 +618,34 @@
   </header>
 
   <main>
-    <div class="coming-soon-wrap">
-      <div class="coming-soon container">
+    <div class="container">
+
+      <!-- Page header — reuses .page-header from style.css -->
+      <div class="page-header">
         <p class="eyebrow">Films &amp; Projects</p>
-        <h1>Coming<br>soon</h1>
-        <p class="sub">
-          A searchable grid of 60+ projects — feature films, series,
-          documentaries, and advertising — with filters by year, type,
-          role, and country.
-        </p>
-        <a href="index.html" class="back-link">← Back to Bio</a>
+        <h1>Films</h1>
       </div>
+
+      <!-- Search -->
+      <div class="films-search-wrap">
+        <input
+          type="search"
+          id="films-search"
+          placeholder="Search by title, director, platform, country…"
+          autocomplete="off"
+          spellcheck="false"
+          aria-label="Search projects"
+        >
+      </div>
+
+      <!-- State messages -->
+      <p id="films-loading" class="films-state">Loading projects…</p>
+      <p id="films-error"      class="films-state films-state--error" hidden></p>
+      <p id="films-no-results" class="films-state" hidden></p>
+
+      <!-- Grid — hidden until data loads -->
+      <div id="films-grid" class="films-grid" hidden></div>
+
     </div>
   </main>
 
@@ -58,7 +658,7 @@
         <a href="https://wa.me/393383574233" class="social-icon" target="_blank" rel="noopener" aria-label="WhatsApp"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
         <a href="https://www.instagram.com/windhorse.sound/" class="social-icon" target="_blank" rel="noopener" aria-label="Instagram"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
         <!-- <a href="https://www.facebook.com/anacmchiossi/" class="social-icon" target="_blank" rel="noopener" aria-label="Facebook"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a> -->
-        <a href="https://www.linkedin.com/in/anachiossi/" class="social-icon" target="_blank" rel="noopener" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+        <a href="https://www.linkedin.com/in/anachiossi/" class="social-icon" target="_blank" rel="noopener" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.065-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
         <a href="https://www.imdb.com/name/nm5227170/" class="social-icon social-icon--imdb" target="_blank" rel="noopener" aria-label="IMDb">IMDb</a>
       </div>
       <p>
@@ -69,9 +669,41 @@
     </div>
   </footer>
 
+  <!-- ── MODAL ─────────────────────────────────────────────────────────────── -->
+  <div id="film-modal-backdrop" class="modal-backdrop" aria-hidden="true">
+    <div id="film-modal" class="film-modal" role="dialog" aria-modal="true">
+
+      <!-- Close -->
+      <button id="modal-close" class="modal-close" aria-label="Close modal">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true">
+          <path d="M18 6L6 18M6 6l12 12"/>
+        </svg>
+      </button>
+
+      <!-- Prev / Next (hidden until modal opens; updateNavButtons controls them) -->
+      <button id="modal-prev" class="modal-nav modal-nav--prev" aria-label="Previous project" hidden>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M15 18l-6-6 6-6"/>
+        </svg>
+      </button>
+      <button id="modal-next" class="modal-nav modal-nav--next" aria-label="Next project" hidden>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M9 18l6-6-6-6"/>
+        </svg>
+      </button>
+
+      <!-- Scrollable content — populated by films.js populateModal() -->
+      <div id="modal-scroller" class="modal-scroller">
+        <div id="modal-content" class="modal-content"></div>
+      </div>
+
+    </div>
+  </div>
+
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
+  <script src="assets/films.js"></script>
 
 </body>
 </html>
