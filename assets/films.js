@@ -109,7 +109,7 @@ function buildCard(project, index) {
     card.appendChild(createPlaceholder());
   } else {
     const img = document.createElement('img');
-    img.src      = `assets/images/thumbs/${project.image_id}-thumb.avif`;
+    img.src      = `assets/images/thumbs/${project.thumb_id || project.image_id}-thumb.avif`;
     img.alt      = project.title;
     img.loading  = 'lazy';
     img.decoding = 'async';

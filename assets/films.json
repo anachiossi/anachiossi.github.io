@@ -1,18 +1,344 @@
 [
   {
-    "id": "001f01",
-    "title": "OS AMIGOS",
-    "type": "Film",
+    "id": "049t20",
+    "title": "UMA GAROTA COMUM",
+    "type": "TV Series",
     "director": [
-      "Lina Chamie"
+      "Allan Deberton"
     ],
     "prod_co": [
-      "Girafa Filmes",
-      "Dezenove Som e Imagens"
+      "Cinefilm",
+      "Globo Filmes",
+      "Bananeira Filmes"
     ],
-    "department": "Cinematography",
-    "role": "Still Photographer",
-    "release_year": 2014,
+    "department": "Sound",
+    "role": "Add. Prod. Sound Mixer; Boom Operator",
+    "release_year": 0,
+    "release_status": "upcoming",
+    "platforms": [
+      "DISNEY+"
+    ],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": null,
+    "image_id": "049t20",
+    "thumb_id": "049t20",
+    "awards_count": 0,
+    "festivals_count": 0,
+    "awards_detail": [],
+    "festivals_detail": [],
+    "job_start": "2022-09-01",
+    "job_end": "2022-09-30",
+    "description": "A tropical, musical teen drama starring Colombian pop sensation Juliana Velásquez (Grammy Latino 2021 winner), who plays Alana—an international star hiding as an ordinary girl in small-town Brazil. Packed with dance, original songs, and reimagined hits, it’s Disney fun reinterpreted through Latin flair and youthful storytelling."
+  },
+  {
+    "id": "058f21",
+    "title": "100 DAYS",
+    "type": "Film",
+    "director": [
+      "Carlos Saldanha"
+    ],
+    "prod_co": [
+      "Ventre Studio",
+      "Star Original Productions",
+      "O2 Filmes",
+      "Total Post",
+      "Good Hand Production",
+      "MARZ",
+      "Boipeba Filmes",
+      "Madremidia"
+    ],
+    "department": "Sound",
+    "role": "Prod. Sound Mixer",
+    "release_year": 0,
+    "release_status": "upcoming",
+    "platforms": [
+      "STAR+"
+    ],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil",
+      "Finland",
+      "United States",
+      "Canada"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt15006536",
+    "image_id": "058f21",
+    "thumb_id": "058f21",
+    "awards_count": 0,
+    "festivals_count": 0,
+    "awards_detail": [],
+    "festivals_detail": [],
+    "job_start": "2024-07-16",
+    "job_end": "2024-09-30",
+    "description": "Live-action feature directed by Carlos Saldanha about explorer Amyr Klink’s 1984 solo South Atlantic row, inspired by the book One Hundred Days Between Sky and Sea. Produced by Ventre Studio with Buena Vista International/Disney; filming wrapped Sept 2024 with a 2025 theatrical target. Cast includes Filipe Bragança."
+  },
+  {
+    "id": "062c01",
+    "title": "VARIOUS",
+    "type": "Commercials",
+    "director": [],
+    "prod_co": [
+      "Amarena Pictures",
+      "Filmiki",
+      "Swixer",
+      "Wildframe",
+      "Haibun",
+      "Twister"
+    ],
+    "department": "Sound",
+    "role": "Prod. Sound Mixer",
+    "release_year": 0,
+    "release_status": "released",
+    "platforms": [],
+    "film_language": [
+      "ITA",
+      "SPA",
+      "ENG"
+    ],
+    "prod_country": [
+      "Italy"
+    ],
+    "imdb_link": null,
+    "image_id": "000x00",
+    "thumb_id": "000x00",
+    "awards_count": 0,
+    "festivals_count": 0,
+    "awards_detail": [],
+    "festivals_detail": [],
+    "job_start": "2025-02-01",
+    "job_end": "2025-09-01",
+    "description": null
+  },
+  {
+    "id": "063f24",
+    "title": "CARO MONDO CRUDELE",
+    "type": "Film",
+    "director": [
+      "Niccolò Falsetti"
+    ],
+    "prod_co": [
+      "Disparte",
+      "Fandango",
+      "Indigo Film",
+      "Rai Cinema"
+    ],
+    "department": "Sound",
+    "role": "2nd Boom Operator",
+    "release_year": 0,
+    "release_status": "upcoming",
+    "platforms": [],
+    "film_language": [
+      "ITA"
+    ],
+    "prod_country": [
+      "Italy"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt36664938/",
+    "image_id": "063f24",
+    "thumb_id": "063f24",
+    "awards_count": 0,
+    "festivals_count": 0,
+    "awards_detail": [],
+    "festivals_detail": [],
+    "job_start": "2025-05-01",
+    "job_end": "2025-06-30",
+    "description": "New feature by Niccolò Falsetti (with Francesco Turbanti), produced by Disparte with Fandango and Mompracem; Toscana Film Commission support. Filming started in Maremma (Tuscany) in May 2025."
+  },
+  {
+    "id": "064d04",
+    "title": "TUTTO SU MIO PADRE",
+    "type": "Documentary TV",
+    "director": [
+      "Massimo Chiellini",
+      "Sara Filippelli"
+    ],
+    "prod_co": [
+      "Next Different"
+    ],
+    "department": "Sound",
+    "role": "Add. Prod. Sound Mixer",
+    "release_year": 0,
+    "release_status": "upcoming",
+    "platforms": [
+      "RAI"
+    ],
+    "film_language": [
+      "ITA"
+    ],
+    "prod_country": [
+      "Italy"
+    ],
+    "imdb_link": null,
+    "image_id": "064d04",
+    "thumb_id": "064d04",
+    "awards_count": 0,
+    "festivals_count": 0,
+    "awards_detail": [],
+    "festivals_detail": [],
+    "job_start": "2025-07-01",
+    "job_end": "2025-07-31",
+    "description": "A RAI documentary about memory, justice, and the legacy of those who served the rule of law in Italy. Blends personal testimony and archival footage."
+  },
+  {
+    "id": "065f25",
+    "title": "CAMPIONI",
+    "type": "Film",
+    "director": [
+      "Jacopo Bonvicini"
+    ],
+    "prod_co": [
+      "Grøenlandia"
+    ],
+    "department": "Sound",
+    "role": "2nd Boom Operator",
+    "release_year": 0,
+    "release_status": "upcoming",
+    "platforms": [
+      "NETFLIX"
+    ],
+    "film_language": [
+      "ITA"
+    ],
+    "prod_country": [
+      "Italy"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt39385923/",
+    "image_id": "000x00",
+    "thumb_id": "000x00",
+    "awards_count": 0,
+    "festivals_count": 0,
+    "awards_detail": [],
+    "festivals_detail": [],
+    "job_start": "2025-10-01",
+    "job_end": "2025-12-15",
+    "description": "Italian remake of the Spanish comedy Campeones, following a basketball coach (Alessandro Gassman) forced to train a team of neurodivergent athletes."
+  },
+  {
+    "id": "066d02",
+    "title": "È STATO UN CASO",
+    "type": "Documentary Film",
+    "director": [
+      "Elisa Fuksas"
+    ],
+    "prod_co": [
+      "Indiana Production"
+    ],
+    "department": "Sound",
+    "role": "Prod. Sound Mixer",
+    "release_year": 0,
+    "release_status": "upcoming",
+    "platforms": [],
+    "film_language": [
+      "ITA"
+    ],
+    "prod_country": [
+      "Italy"
+    ],
+    "imdb_link": null,
+    "image_id": "000x00",
+    "thumb_id": "000x00",
+    "awards_count": 0,
+    "festivals_count": 0,
+    "awards_detail": [],
+    "festivals_detail": [],
+    "job_start": "2026-03-01",
+    "job_end": "2026-03-15",
+    "description": "A documentary portrait of the architects Massimiliano and Doriana Fuksas, the duo behind landmark works including Rome's Nuvola and the Peres Center for Peace in Jaffa. Directed by their daughter Elisa Fuksas, known for her intimate and personal filmmaking style."
+  },
+  {
+    "id": "059f22",
+    "title": "SOLO MIO",
+    "type": "Film",
+    "director": [
+      "Dan and Charles Kinnane"
+    ],
+    "prod_co": [
+      "A Higher Standard",
+      "Kinnane Brothers",
+      "Nickel City Pictures",
+      "Angel Studios"
+    ],
+    "department": "Sound",
+    "role": "Sound Trainee",
+    "release_year": 2026,
+    "release_status": "released",
+    "platforms": [],
+    "film_language": [
+      "ENG"
+    ],
+    "prod_country": [
+      "Italy",
+      "United States"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt32306991",
+    "image_id": "059f22",
+    "thumb_id": "059f22",
+    "awards_count": 0,
+    "festivals_count": 0,
+    "awards_detail": [],
+    "festivals_detail": [],
+    "job_start": "2024-11-01",
+    "job_end": "2024-11-30",
+    "description": "Rom-com directed by The Kinnane Brothers, starring Kevin James with Alyson Hannigan and Kim Coates. Angel Studios to distribute; release set for Feb 6, 2026."
+  },
+  {
+    "id": "067d03",
+    "title": "ALDAIR. CUORE GIALLOROSSO",
+    "type": "Documentary Film",
+    "director": [
+      "Simone Godano"
+    ],
+    "prod_co": [
+      "Grøenlandia",
+      "Sky Italia",
+      "InHouse e Duende Film"
+    ],
+    "department": "Sound",
+    "role": "Prod. Sound Mixer",
+    "release_year": 2026,
+    "release_status": "released",
+    "platforms": [
+      "RAI Cinema"
+    ],
+    "film_language": [
+      "ITA"
+    ],
+    "prod_country": [
+      "Italy"
+    ],
+    "imdb_link": null,
+    "image_id": "067d03",
+    "thumb_id": "067d03",
+    "awards_count": 0,
+    "festivals_count": 0,
+    "awards_detail": [],
+    "festivals_detail": [],
+    "job_start": "2026-01-01",
+    "job_end": "2026-02-01",
+    "description": "A documentary portrait of Aldair Nascimento Do Santos, the legendary Brazilian defender and AS Roma icon"
+  },
+  {
+    "id": "027d01",
+    "title": "EXPLODE SAO PAULO GIL",
+    "type": "Documentary Film",
+    "director": [
+      "Maria C. Escobar"
+    ],
+    "prod_co": [
+      "Filmes de Abril",
+      "Terratreme Filmes",
+      "Ponta de Lança"
+    ],
+    "department": "Sound",
+    "role": "Add. Prod. Sound Mixer; Boom Operator",
+    "release_year": 2025,
     "release_status": "released",
     "platforms": [],
     "film_language": [
@@ -21,66 +347,1367 @@
     "prod_country": [
       "Brazil"
     ],
-    "imdb_link": "https://www.imdb.com/title/tt2355936/",
-    "image_id": "001f01",
-    "image_missing": false,
+    "imdb_link": "https://www.imdb.com/title/tt37531732/",
+    "image_id": "027d01",
+    "thumb_id": "027d01",
+    "awards_count": 0,
+    "festivals_count": 1,
+    "awards_detail": [],
+    "festivals_detail": [
+      {
+        "name": "Olhar de Cinema – Festival Internacional de Curitiba",
+        "year": 2025,
+        "country": "Brazil"
+      }
+    ],
+    "job_start": "2017-09-01",
+    "job_end": "2017-09-30",
+    "description": "A domestic worker in São Paulo dreams of becoming a singer. Is hybrid documentary-fiction explores authorship, power, and the pursuit of dreams through music and cinema."
+  },
+  {
+    "id": "050t21",
+    "title": "TARÃ",
+    "type": "TV Series",
+    "director": [
+      "Anna Lee"
+    ],
+    "prod_co": [
+      "Formata",
+      "Star Original Productions"
+    ],
+    "department": "Sound",
+    "role": "Add. Prod. Sound Mixer; Boom Operator",
+    "release_year": 2025,
+    "release_status": "released",
+    "platforms": [
+      "DISNEY+"
+    ],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt20446902/",
+    "image_id": "050t21",
+    "thumb_id": "050t21",
+    "awards_count": 0,
+    "festivals_count": 0,
+    "awards_detail": [],
+    "festivals_detail": [],
+    "job_start": "2022-10-01",
+    "job_end": "2022-10-31",
+    "description": "An ambitious Amazonian fantasy directed by Marco Dutra and Juliana Rojas. With icons Xuxa Meneghel, Angélica, and Fafá de Belém. Featuring original music by indigenous composer Djuena Tikuna, the production built a full Amazonian village set in Acre, blending spectacle, culture, and Disney magic."
+  },
+  {
+    "id": "054t24",
+    "title": "SCARS OF BEAUTY",
+    "type": "TV Series",
+    "director": [
+      "Raphael Montes"
+    ],
+    "prod_co": [
+      "Coração da Selva",
+      "HBO Max"
+    ],
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2025,
+    "release_status": "released",
+    "platforms": [
+      "HBO MAX"
+    ],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt27526180",
+    "image_id": "054t24",
+    "thumb_id": "054t24",
+    "awards_count": 0,
+    "festivals_count": 0,
+    "awards_detail": [],
+    "festivals_detail": [],
+    "job_start": "2023-09-01",
+    "job_end": "2024-04-30",
+    "description": "This was Max’s most-watched Brazilian original ever — the telenovela set records in hours viewed and audience reach. From day one, it delivered 24× more demand than the platform’s average; by its finale, it reached a staggering 70× the normal viewership — a milestone achieved by less than 0.2% of monitored content globally. Even after the finale, it remained the most-watched title daily on Max Brazil. Internationally, it ranked in the Top 3 Latin American locally produced shows and broke into the Top 10 in the U.S. and Top 15 in Europe."
+  },
+  {
+    "id": "056f20",
+    "title": "O REI DA INTERNET",
+    "type": "Film",
+    "director": [
+      "Fabrício Bittar"
+    ],
+    "prod_co": [
+      "Clube Filmes",
+      "Paramount+",
+      "Los Bragas Produções"
+    ],
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2025,
+    "release_status": "released",
+    "platforms": [
+      "PARAMOUNT +"
+    ],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt31917699",
+    "image_id": "056f20",
+    "thumb_id": "056f20",
+    "awards_count": 0,
+    "festivals_count": 0,
+    "awards_detail": [],
+    "festivals_detail": [],
+    "job_start": "2024-05-16",
+    "job_end": "2024-05-30",
+    "description": "Based on a true story, a Brazilian teen becomes one of the country's top hackers, joins a criminal ring moving millions, and lives a lavish life until a Federal Police operation brings it down before he turns 17."
+  },
+  {
+    "id": "057t26",
+    "title": "DE MENOR",
+    "type": "TV Series",
+    "director": [
+      "Caru Alves de Souza"
+    ],
+    "prod_co": [
+      "Manjericão Filmes",
+      "Camisa Listrada",
+      "Tangerina Entretenimento"
+    ],
+    "department": "Sound",
+    "role": "Add. Prod. Sound Mixer; Boom Operator",
+    "release_year": 2025,
+    "release_status": "released",
+    "platforms": [
+      "TV CINE BRASIL"
+    ],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt35487907",
+    "image_id": "057t26",
+    "thumb_id": "057t26",
+    "awards_count": 0,
+    "festivals_count": 0,
+    "awards_detail": [],
+    "festivals_detail": [],
+    "job_start": "2024-06-01",
+    "job_end": "2024-06-30",
+    "description": "An inventive fiction series that transforms courtroom sessions involving at-risk youth into genre-bending storytelling—one episode is a musical, another a game, yet another a TV show or podcast. Directed by Caru Alves de Souza, it earned a world premiere at the 2025 Berlinale (Generation 14plus), marking it as one of Brazil’s most imaginative and socially charged TV entries this year."
+  },
+  {
+    "id": "060t27",
+    "title": "L'ALTRO ISPETTORE",
+    "type": "TV Series",
+    "director": [
+      "Salvatore de Mola"
+    ],
+    "prod_co": [
+      "Anele",
+      "Minerva Pictures"
+    ],
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2025,
+    "release_status": "released",
+    "platforms": [
+      "RAI"
+    ],
+    "film_language": [
+      "ITA"
+    ],
+    "prod_country": [
+      "Italy"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt35449349",
+    "image_id": "060t27",
+    "thumb_id": "060t27",
+    "awards_count": 0,
+    "festivals_count": 0,
+    "awards_detail": [],
+    "festivals_detail": [],
+    "job_start": "2024-12-01",
+    "job_end": "2024-12-31",
+    "description": "A new Rai crime drama filmed in Lucca, with its medieval streets and Renaissance walls as backdrop. Introducing an unconventional investigator, the series premiered at the Italian Global Series Festival in Riccione, gaining early industry attention."
+  },
+  {
+    "id": "048t19",
+    "title": "AS FIVE S03",
+    "type": "TV Series",
+    "director": [
+      "Cao Hamburger"
+    ],
+    "prod_co": [
+      "Gullane",
+      "Estúdios Globo"
+    ],
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2024,
+    "release_status": "released",
+    "platforms": [
+      "GLOBO PLAY"
+    ],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt11974516",
+    "image_id": "048t19",
+    "thumb_id": "048t19",
     "awards_count": 1,
+    "festivals_count": 0,
+    "awards_detail": [
+      {
+        "event": "Prêmio F5",
+        "year": 2020,
+        "category": "Melhor Série Dramática",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      }
+    ],
+    "festivals_detail": [],
+    "job_start": "2022-07-01",
+    "job_end": "2022-08-31",
+    "description": "Spin-off of Malhação: Viva a Diferença, following five friends as they navigate adulthood. Seasons 2 and 3 consolidated the series as a Globoplay flagship, praised for its authentic take on modern youth and consistently drawing a loyal fanbase."
+  },
+  {
+    "id": "053t23",
+    "title": "DA PONTE PRA LA",
+    "type": "TV Series",
+    "director": [
+      "Thais Falcão"
+    ],
+    "prod_co": [
+      "Floresta Produções",
+      "Gullane"
+    ],
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2024,
+    "release_status": "released",
+    "platforms": [
+      "HBO MAX"
+    ],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt26314200/",
+    "image_id": "053t23",
+    "thumb_id": "053t23",
+    "awards_count": 0,
+    "festivals_count": 0,
+    "awards_detail": [],
+    "festivals_detail": [],
+    "job_start": "2023-03-01",
+    "job_end": "2023-03-31",
+    "description": "A gripping São Paulo-set drama where a young rapper investigates the suspicious death of her trans best friend. Loaded with social commentary and fueled by trap and rap subculture, the series was one of Max’s early Brazilian hits—landing in the Top 10 most-watched shows on the platform shortly after its debut."
+  },
+  {
+    "id": "055t25",
+    "title": "O DIA EM QUE MINHA VIDA MUDOU",
+    "type": "TV Series",
+    "director": [
+      "Keka Reis"
+    ],
+    "prod_co": [
+      "Loma Filmes",
+      "Sato Company"
+    ],
+    "department": "Sound",
+    "role": "Sound Utility",
+    "release_year": 2024,
+    "release_status": "released",
+    "platforms": [
+      "GLOBO PLAY",
+      "GLOOB"
+    ],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt29230543/",
+    "image_id": "055t25",
+    "thumb_id": "055t25",
+    "awards_count": 0,
+    "festivals_count": 0,
+    "awards_detail": [],
+    "festivals_detail": [],
+    "job_start": "2024-05-01",
+    "job_end": "2024-05-15",
+    "description": "A kids’ adventure comedy based on the books by Keka Reis. Produced by Loma Filmes, it brings relatable schoolyard stories and everyday chaos to life with humor and heart, connecting with Brazil’s younger audiences on Gloob and Globoplay."
+  },
+  {
+    "id": "061f23",
+    "title": "L'ABBAGLIO",
+    "type": "Film",
+    "director": [
+      "Roberto Andò"
+    ],
+    "prod_co": [
+      "Bibi Film TV",
+      "Medusa Film",
+      "Rai Cinema",
+      "Tramp Limited",
+      "Netflix"
+    ],
+    "department": "Sound",
+    "role": "Dubbing Boom Operator",
+    "release_year": 2024,
+    "release_status": "released",
+    "platforms": [
+      "NETFLIX"
+    ],
+    "film_language": [
+      "ITA"
+    ],
+    "prod_country": [
+      "Italy"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt32448428/",
+    "image_id": "061f23",
+    "thumb_id": "061f23",
+    "awards_count": 0,
+    "festivals_count": 0,
+    "awards_detail": [],
+    "festivals_detail": [],
+    "job_start": "2025-01-01",
+    "job_end": "2025-01-31",
+    "description": "Historical drama by Roberto Andò (Rai Cinema), set in 1860 during Garibaldi’s Expedition of the Thousand. Filmed in Sicily; Italian theatrical launch 16 Jan 2025."
+  },
+  {
+    "id": "042f17",
+    "title": "TPM MEU AMOR",
+    "type": "Film",
+    "director": [
+      "Eliana Fonseca"
+    ],
+    "prod_co": [
+      "Moonshot Pictures"
+    ],
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2023,
+    "release_status": "released",
+    "platforms": [],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt22376320",
+    "image_id": "042f17",
+    "thumb_id": "042f17",
+    "awards_count": 0,
+    "festivals_count": 0,
+    "awards_detail": [],
+    "festivals_detail": [],
+    "job_start": "2021-01-01",
+    "job_end": "2021-03-31",
+    "description": "Comedy directed by Eliana Fonseca, written by Jacqueline Vargas, starring Paloma Bernardi. Produced by Moonshot Pictures with Star Original Productions/Claro; distributed by Galeria Distribuidora. Brazil theatrical release: 31 Aug 2023."
+  },
+  {
+    "id": "046t18",
+    "title": "AS FIVE S02",
+    "type": "TV Series",
+    "director": [
+      "Cao Hamburger"
+    ],
+    "prod_co": [
+      "Gullane",
+      "Estúdios Globo"
+    ],
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2023,
+    "release_status": "released",
+    "platforms": [
+      "GLOBO PLAY"
+    ],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt11974516",
+    "image_id": "046t18",
+    "thumb_id": "046t18",
+    "awards_count": 1,
+    "festivals_count": 0,
+    "awards_detail": [
+      {
+        "event": "MTV MIAW Brasil",
+        "year": 2021,
+        "category": "Maratonei",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      }
+    ],
+    "festivals_detail": [],
+    "job_start": "2022-05-01",
+    "job_end": "2022-05-31",
+    "description": "Spin-off of Malhação: Viva a Diferença, following five friends as they navigate adulthood. Seasons 2 and 3 consolidated the series as a Globoplay flagship, praised for its authentic take on modern youth and consistently drawing a loyal fanbase."
+  },
+  {
+    "id": "047f18",
+    "title": "ESCOLA DA QUEBRADA",
+    "type": "Film",
+    "director": [
+      "Kaique Alves",
+      "Thiago Eva"
+    ],
+    "prod_co": [
+      "Kondzilla",
+      "VIS (Viacom International Studios)",
+      "Paramount+"
+    ],
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2023,
+    "release_status": "released",
+    "platforms": [
+      "PARAMOUNT +"
+    ],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt20868416/",
+    "image_id": "047f18",
+    "thumb_id": "047f18",
+    "awards_count": 1,
+    "festivals_count": 0,
+    "awards_detail": [
+      {
+        "event": "International Emmy Awards",
+        "year": 2024,
+        "category": "Best Live-Action for Children",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Usa"
+      }
+    ],
+    "festivals_detail": [],
+    "job_start": "2022-06-01",
+    "job_end": "2022-06-30",
+    "description": "Youth comedy co-produced by Paramount+ and KondZilla, directed by Kaique Alves & Thiago Eva. Premiered on Paramount+ on 3 Mar 2023 (official trailer released by the platform). International Emmy nominee (2024) – Kids: Live-Action."
+  },
+  {
+    "id": "052f19",
+    "title": "THE HIJACKING OF FLIGHT 375",
+    "type": "Film",
+    "director": [
+      "Marcos Baldini"
+    ],
+    "prod_co": [
+      "Estúdio Escarlate",
+      "LTC Produções",
+      "Star Original Productions"
+    ],
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2023,
+    "release_status": "released",
+    "platforms": [
+      "STAR+"
+    ],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil",
+      "United States"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt13073252/",
+    "image_id": "052f19",
+    "thumb_id": "052f19",
+    "awards_count": 19,
     "festivals_count": 5,
     "awards_detail": [
       {
-        "event": "Festival de Cinema de Gramado",
-        "year": 2013,
+        "event": "Los Angeles Brazilian Film Festival",
+        "year": 2023,
+        "category": "Best Screenplay",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Usa"
+      },
+      {
+        "event": "Cinema Brazil Grand Prize",
+        "year": 2024,
+        "category": "Best Supporting Actor",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Cinema Brazil Grand Prize",
+        "year": 2024,
+        "category": "Best Screenplay Adapted",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Cinema Brazil Grand Prize",
+        "year": 2024,
+        "category": "Best Art Direction",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Cinema Brazil Grand Prize",
+        "year": 2024,
         "category": "Best Editing",
         "result": "Winner",
         "is_sound_award": false,
         "country": "Brazil"
       },
       {
-        "event": "Grande Prêmio do Cinema Brasileiro",
-        "year": 2015,
-        "category": "Best Original Soundtrack",
+        "event": "Cinema Brazil Grand Prize",
+        "year": 2024,
+        "category": "Best Sound",
+        "result": "Winner",
+        "is_sound_award": true,
+        "country": "Brazil"
+      },
+      {
+        "event": "Cinema Brazil Grand Prize",
+        "year": 2024,
+        "category": "Best Visual Effects",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Cinema Brazil Grand Prize",
+        "year": 2024,
+        "category": "Best Picture",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Cinema Brazil Grand Prize",
+        "year": 2024,
+        "category": "Best Director",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Cinema Brazil Grand Prize",
+        "year": 2024,
+        "category": "Best Cinematography",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Cinema Brazil Grand Prize",
+        "year": 2024,
+        "category": "Best Costume Design",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Cinema Brazil Grand Prize",
+        "year": 2024,
+        "category": "Best Make-Up",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Cinema Brazil Grand Prize",
+        "year": 2024,
+        "category": "Best Music",
         "result": "Nominated",
         "is_sound_award": true,
+        "country": "Brazil"
+      },
+      {
+        "event": "Cinema Brazil Grand Prize",
+        "year": 2023,
+        "category": "Best Visual Effects",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "SESC Film Festival - Audience Award",
+        "year": 2024,
+        "category": "Best Screenplay",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "SESC Film Festival - Audience Award",
+        "year": 2024,
+        "category": "Best Cinematography",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Septimius Award",
+        "year": 2024,
+        "category": "Best American Film",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Denmark"
+      },
+      {
+        "event": "Golden Reel",
+        "year": 2024,
+        "category": "Best Editing",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Usa"
+      },
+      {
+        "event": "Premio F5",
+        "year": 2024,
+        "category": "Film of the Year",
+        "result": "Nominated",
+        "is_sound_award": false,
         "country": "Brazil"
       }
     ],
     "festivals_detail": [
       {
-        "name": "Festival de Cinema de Gramado",
-        "year": 2013,
-        "country": "Brazil"
+        "name": "Los Angeles Brazilian Film Festival",
+        "year": 2023,
+        "country": "USA"
+      },
+      {
+        "name": "Inffinito Brazilian Film Festival (New York / Miami)",
+        "year": 2024,
+        "country": "USA"
+      },
+      {
+        "name": "Brazil Film Fest Toronto",
+        "year": 2023,
+        "country": "Canada"
+      },
+      {
+        "name": "Festival du Film Brésilien de Montréal",
+        "year": 2024,
+        "country": "Canada"
       },
       {
         "name": "Festival do Rio",
-        "year": 2013,
-        "country": "Brazil"
-      },
-      {
-        "name": "Mostra Internacional de Cinema de São Paulo",
-        "year": 2013,
-        "country": "Brazil"
-      },
-      {
-        "name": "Cine BH International Film Festival",
-        "year": 2013,
-        "country": "Brazil"
-      },
-      {
-        "name": "Mostra de Cinema de Tiradentes",
-        "year": 2014,
+        "year": 2023,
         "country": "Brazil"
       }
     ],
-    "box_office": {
-      "release_type": "Theatrical (BR)",
-      "admissions_br": "5,513",
-      "box_office_brl": "R$69.936,81",
-      "box_office_usd": "$29,760",
-      "currently_streaming_on": null
-    },
-    "job_start": "01-07-12",
-    "job_end": "30-09-12",
-    "description": "An intimate São Paulo drama by Lina Chamie about friendship, grief, and healing after loss. Premiered at the Festival de Brasília and praised for its sensitive storytelling and strong performances."
+    "job_start": "2022-12-01",
+    "job_end": "2023-02-28",
+    "description": "A tense dramatization of a real-life aviation crisis that shook Brazil in the late 1980s. The Hijacking of Flight 375 recreates the moment a commercial flight is taken hostage mid-air, escalating into a national emergency"
+  },
+  {
+    "id": "022f07",
+    "title": "O AMOR DA VOLTAS",
+    "type": "Film",
+    "director": [
+      "Marcos Bernstein"
+    ],
+    "prod_co": [
+      "Pontos de Fuga",
+      "Neanderthal MB",
+      "Globo Filmes"
+    ],
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2022,
+    "release_status": "released",
+    "platforms": [
+      "HBO MAX"
+    ],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt6360426/",
+    "image_id": "022f07",
+    "thumb_id": "022f07",
+    "awards_count": 0,
+    "festivals_count": 1,
+    "awards_detail": [],
+    "festivals_detail": [
+      {
+        "name": "Mostra Internacional de Cinema de São Paulo",
+        "year": 2019,
+        "country": "Brazil"
+      }
+    ],
+    "job_start": "2016-11-01",
+    "job_end": "2016-12-31",
+    "description": "A light-hearted romantic comedy where chance encounters and missed connections shape the path of love. Shot in a Rio de Janeiro coast paradise location: Arraial do Cabo"
+  },
+  {
+    "id": "035f14",
+    "title": "SAO PAULO HEIST",
+    "type": "Film",
+    "director": [
+      "Flavio Federico"
+    ],
+    "prod_co": [
+      "Kinoscópio"
+    ],
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2022,
+    "release_status": "released",
+    "platforms": [
+      "AMAZON PRIME"
+    ],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt20417610/",
+    "image_id": "035f14",
+    "thumb_id": "035f14",
+    "awards_count": 0,
+    "festivals_count": 0,
+    "awards_detail": [],
+    "festivals_detail": [],
+    "job_start": "2019-04-01",
+    "job_end": "2019-06-30",
+    "description": "A high-stakes action crime thriller unfolds during a bank robbery in São Paulo, where precision and chaos collide in real time."
+  },
+  {
+    "id": "036f15",
+    "title": "JESUS KID",
+    "type": "Film",
+    "director": [
+      "Aly Muritiba"
+    ],
+    "prod_co": [
+      "Grafo Audiovisual",
+      "Muritiba Filmes"
+    ],
+    "department": "Sound",
+    "role": "Prod. Sound Mixer",
+    "release_year": 2022,
+    "release_status": "released",
+    "platforms": [
+      "AMAZON PRIME"
+    ],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt10930820/",
+    "image_id": "036f15",
+    "thumb_id": "036f15",
+    "awards_count": 7,
+    "festivals_count": 2,
+    "awards_detail": [
+      {
+        "event": "Winter Film Awards",
+        "year": 2021,
+        "category": "IndiePix Award",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Usa"
+      },
+      {
+        "event": "Gramado Film Festival",
+        "year": 2021,
+        "category": "Best Director",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Gramado Film Festival",
+        "year": 2021,
+        "category": "Best Screenplay",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Gramado Film Festival",
+        "year": 2021,
+        "category": "Best Supporting Actor",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Cinema Brazil Grand Prize",
+        "year": 2023,
+        "category": "Best Comedy",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Cinema Brazil Grand Prize",
+        "year": 2023,
+        "category": "Best Screenplay Adapted",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Cinema Brazil Grand Prize",
+        "year": 2023,
+        "category": "Best Visual Effects",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Brazil"
+      }
+    ],
+    "festivals_detail": [
+      {
+        "name": "Winter Film Awards",
+        "year": 2021,
+        "country": "USA"
+      },
+      {
+        "name": "Festival de Gramado",
+        "year": 2021,
+        "country": "Brazil"
+      }
+    ],
+    "job_start": "2019-07-01",
+    "job_end": "2019-08-31",
+    "description": "Dark meta-comedy by Aly Muritiba, adapted from Lourenço Mutarelli. Premiered on the festival circuit; won Best Screenplay – Festival de Gramado 2021."
+  },
+  {
+    "id": "040t14",
+    "title": "ESTRADA DO BATOM",
+    "type": "TV Series",
+    "director": [],
+    "prod_co": [
+      "Um Por Todos"
+    ],
+    "department": "Sound",
+    "role": "Prod. Sound Mixer",
+    "release_year": 2022,
+    "release_status": "released",
+    "platforms": [],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": null,
+    "image_id": "000x00",
+    "thumb_id": "000x00",
+    "awards_count": 0,
+    "festivals_count": 0,
+    "awards_detail": [],
+    "festivals_detail": [],
+    "job_start": "2020-02-01",
+    "job_end": "2020-03-31",
+    "description": null
+  },
+  {
+    "id": "043t15",
+    "title": "EL PRESIDENTE 2 CORRUPTION GAME",
+    "type": "TV Series",
+    "director": [
+      "Armando Bo"
+    ],
+    "prod_co": [
+      "Salado Uy",
+      "Gaumont",
+      "Fábula",
+      "About Entertainment",
+      "Kapow"
+    ],
+    "department": "Sound",
+    "role": "Add. Prod. Sound Mixer; Boom Operator",
+    "release_year": 2022,
+    "release_status": "released",
+    "platforms": [
+      "AMAZON PRIME"
+    ],
+    "film_language": [
+      "SPA",
+      "PT_BR",
+      "ENG",
+      "FRA"
+    ],
+    "prod_country": [
+      "France",
+      "Uruguay",
+      "Chile",
+      "Argentina"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt10091306/",
+    "image_id": "043t15",
+    "thumb_id": "043t15",
+    "awards_count": 1,
+    "festivals_count": 0,
+    "awards_detail": [
+      {
+        "event": "PRODU Awards",
+        "year": 2022,
+        "category": "Best Fiction Series (Non-English)",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Mexico"
+      }
+    ],
+    "festivals_detail": [],
+    "job_start": "2021-04-01",
+    "job_end": "2021-08-31",
+    "description": "A sharp satire about FIFA’s power plays, this season followed João Havelange’s rise across continents. Showrun by Oscar-winner Armando Bó, it earned an International Emmy nomination for Best Drama Series, strengthening its global prestige."
+  },
+  {
+    "id": "044t16",
+    "title": "UNDER PRESSURE S05",
+    "type": "TV Series",
+    "director": [
+      "Andrucha Waddington"
+    ],
+    "prod_co": [
+      "Conspiração Filmes",
+      "TV Globo",
+      "Estúdios Globo"
+    ],
+    "department": "Sound",
+    "role": "Add. Prod. Sound Mixer; Boom Operator",
+    "release_year": 2022,
+    "release_status": "released",
+    "platforms": [
+      "GLOBO PLAY",
+      "TV GLOBO"
+    ],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt7216954",
+    "image_id": "044t16",
+    "thumb_id": "044t16",
+    "awards_count": 3,
+    "festivals_count": 0,
+    "awards_detail": [
+      {
+        "event": "International Emmy Awards",
+        "year": 2019,
+        "category": "Best Drama Series",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Usa"
+      },
+      {
+        "event": "Banff Rockie Awards",
+        "year": 2018,
+        "category": "Best Drama Series",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Canada"
+      },
+      {
+        "event": "International Emmy Awards",
+        "year": 2019,
+        "category": "Best Performance by an Actress - Marjorie Estiano",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Usa"
+      }
+    ],
+    "festivals_detail": [],
+    "job_start": "2021-08-01",
+    "job_end": "2021-12-31",
+    "description": "One of Globo’s biggest drama hits, blending medical emergencies with intense personal stories. Season 5 kept strong ratings on free TV, often above 20 IBOPE points (≈4 million households), and drew international attention with screenings in more than 20 countries."
+  },
+  {
+    "id": "045t17",
+    "title": "AREA DE SERVIÇO",
+    "type": "TV Series",
+    "director": [
+      "Pedro Cardoso"
+    ],
+    "prod_co": [
+      "Dueto Produções",
+      "HBO Max"
+    ],
+    "department": "Sound",
+    "role": "Add. Prod. Sound Mixer; Boom Operator",
+    "release_year": 2022,
+    "release_status": "canceled",
+    "platforms": [
+      "HBO MAX"
+    ],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt19403702/",
+    "image_id": "045t17",
+    "thumb_id": "045t17",
+    "awards_count": 0,
+    "festivals_count": 0,
+    "awards_detail": [],
+    "festivals_detail": [],
+    "job_start": "2022-01-01",
+    "job_end": "2022-04-30",
+    "description": "A comedy created by Pedro Cardoso, planned as part of HBO Max’s original Brazilian slate. Production was halted during development and the project never aired, remembered as one of the high-profile cancellations when the platform restructured its content."
+  },
+  {
+    "id": "051t22",
+    "title": "BACK TO 15",
+    "type": "TV Series",
+    "director": [
+      "Janaina Tokitaka"
+    ],
+    "prod_co": [
+      "Neoplastic",
+      "A Fábrica",
+      "Glaz Entretenimento"
+    ],
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2022,
+    "release_status": "released",
+    "platforms": [
+      "NETFLIX"
+    ],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt15301854/",
+    "image_id": "051t22",
+    "thumb_id": "051t22",
+    "awards_count": 1,
+    "festivals_count": 0,
+    "awards_detail": [
+      {
+        "event": "PRODU Awards",
+        "year": 2022,
+        "category": "Best Fiction Series for Young Adults",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Mexico"
+      }
+    ],
+    "festivals_detail": [],
+    "job_start": "2022-11-01",
+    "job_end": "2022-11-30",
+    "description": "A coming-of-age dramedy where a 30-year-old woman wakes up in her 15-year-old self’s body. Based on the hit novel by Bruna Vieira, it became one of Netflix Brazil’s most popular YA shows, reaching audiences in over 100 countries and praised for its mix of nostalgia, humor, and heart."
+  },
+  {
+    "id": "029f12",
+    "title": "LAMENTO",
+    "type": "Film",
+    "director": [
+      "Diego Lopes"
+    ],
+    "prod_co": [
+      "Moro Filmes",
+      "Oger Sepol Produções"
+    ],
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2021,
+    "release_status": "released",
+    "platforms": [],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt9000454/",
+    "image_id": "029f12",
+    "thumb_id": "029f12",
+    "awards_count": 5,
+    "festivals_count": 5,
+    "awards_detail": [
+      {
+        "event": "Festival de Burbank",
+        "year": 2021,
+        "category": "Best Foreign Film",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Usa"
+      },
+      {
+        "event": "Festival da Lapa",
+        "year": 2019,
+        "category": "Best Actor",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Festival da Lapa",
+        "year": 2019,
+        "category": "Best Actress",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Festival da Lapa",
+        "year": 2019,
+        "category": "Best Cinematography",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Festival da Lapa",
+        "year": 2019,
+        "category": "Best Art Direction",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      }
+    ],
+    "festivals_detail": [
+      {
+        "name": "Festival de Brasília",
+        "year": 2019,
+        "country": "Brazil"
+      },
+      {
+        "name": "Nashville Film Festival",
+        "year": 2019,
+        "country": "USA"
+      },
+      {
+        "name": "Festival de Burbank",
+        "year": 2021,
+        "country": "USA"
+      },
+      {
+        "name": "Cairo Film Festival",
+        "year": 2021,
+        "country": "Egypt"
+      },
+      {
+        "name": "Festival de Cinema da Lapa",
+        "year": 2019,
+        "country": "Brazil"
+      }
+    ],
+    "job_start": "2018-01-01",
+    "job_end": "2018-02-28",
+    "description": "Indie drama by Diego Lopes and Claudio Bittencourt about grief and guilt in the aftermath of loss. Festival-circuit title in Brazil; limited theatrical/TV play."
+  },
+  {
+    "id": "034f13",
+    "title": "HELEN",
+    "type": "Film",
+    "director": [
+      "André Collazzo"
+    ],
+    "prod_co": [
+      "Prosperidade",
+      "Prosperidade Content"
+    ],
+    "department": "Sound",
+    "role": "Add. Prod. Sound Mixer; Boom Operator",
+    "release_year": 2021,
+    "release_status": "released",
+    "platforms": [],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt10308528/",
+    "image_id": "034f13",
+    "thumb_id": "034f13",
+    "awards_count": 2,
+    "festivals_count": 5,
+    "awards_detail": [
+      {
+        "event": "Festival do Roteiro de Língua Portuguesa",
+        "year": 2017,
+        "category": "Best Screenplay",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Portugal"
+      },
+      {
+        "event": "Festival de Cinema Latino-Americano de Toulouse",
+        "year": 2020,
+        "category": "Prix Rail Doc",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "France"
+      }
+    ],
+    "festivals_detail": [
+      {
+        "name": "Festival do Roteiro de Língua Portuguesa",
+        "year": 2017,
+        "country": "Portugal"
+      },
+      {
+        "name": "Festival de Cinema Latino-Americano de Toulouse",
+        "year": 2020,
+        "country": "France"
+      },
+      {
+        "name": "Mostra de Cinema de Ouro Preto (CineOP)",
+        "year": 2020,
+        "country": "Brazil"
+      },
+      {
+        "name": "Cine en Construcción – Toulouse",
+        "year": 2019,
+        "country": "France"
+      },
+      {
+        "name": "Festival LE ZOLA – Reflets du Cinéma",
+        "year": 2020,
+        "country": "France"
+      }
+    ],
+    "job_start": "2018-10-01",
+    "job_end": "2018-11-30",
+    "description": "Feature drama by André Meirelles Collazzo, starring Marcélia Cartaxo and Thalita Machado. Inspired by real events, it follows a 9-year-old girl in a São Paulo tenement trying to buy a birthday gift for her grandmother. Selected at Cinélatino Toulouse."
+  },
+  {
+    "id": "037t12",
+    "title": "INVISIBLE CITY S01",
+    "type": "TV Series",
+    "director": [
+      "Carlos Saldanha"
+    ],
+    "prod_co": [
+      "Pródigo Films",
+      "Boipeba Filmes",
+      "BottleCap Productions"
+    ],
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2021,
+    "release_status": "released",
+    "platforms": [
+      "NETFLIX"
+    ],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt8878862",
+    "image_id": "037t12",
+    "thumb_id": "037t12",
+    "awards_count": 3,
+    "festivals_count": 0,
+    "awards_detail": [
+      {
+        "event": "International Emmy Awards",
+        "year": 2021,
+        "category": "Best Drama Series",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Usa"
+      },
+      {
+        "event": "Seoul International Drama Awards",
+        "year": 2021,
+        "category": "Best Series (International)",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "South Korea"
+      },
+      {
+        "event": "APCA - São Paulo Arts Critics Association",
+        "year": 2021,
+        "category": "Best Series",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Brazil"
+      }
+    ],
+    "festivals_detail": [],
+    "job_start": "2019-09-01",
+    "job_end": "2019-12-15",
+    "description": "A Netflix fantasy-thriller rooted in Brazilian folklore that quickly resonated globally. It hit #1 most popular show in Brazil, and landed in the Top 10 in 12 countries, including France and Spain. Lauded for weaving myth into mystery and showcasing Brazil’s stories to the world."
+  },
+  {
+    "id": "041f16",
+    "title": "DETETIVE MADEINUSA",
+    "type": "Film",
+    "director": [
+      "Rodrigo Van Der Put"
+    ],
+    "prod_co": [
+      "Formata Produções",
+      "Galeria Distribuidora",
+      "Grupo Telefilms"
+    ],
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2021,
+    "release_status": "released",
+    "platforms": [
+      "AMAZON PRIME"
+    ],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt14028680/",
+    "image_id": "041f16",
+    "thumb_id": "041f16",
+    "awards_count": 0,
+    "festivals_count": 0,
+    "awards_detail": [],
+    "festivals_detail": [],
+    "job_start": "2020-10-01",
+    "job_end": "2020-12-31",
+    "description": "Brazilian comedy starring Tirullipa and Whindersson Nunes, directed by Rodrigo Van Der Put. A clumsy ex-politician turned rookie detective is hired by a billionaire lobbyist to investigate the theft of a prize bull—kicking off a chaotic case with a creator-economy all-star ensemble (GKay, Bruno Montaleone, Aisha Jambo). Premiered exclusively on Amazon Prime Video on November 12, 2021, with a worldwide platform release."
   },
   {
     "id": "002s01",
@@ -103,7 +1730,7 @@
     ],
     "imdb_link": "https://www.imdb.com/title/tt3457366/",
     "image_id": "002s01",
-    "image_missing": false,
+    "thumb_id": "002s01",
     "awards_count": 10,
     "festivals_count": 2,
     "awards_detail": [
@@ -142,7 +1769,7 @@
       {
         "event": "Silver Scad Film Festival",
         "year": 2020,
-        "category": "Special Prize – Love Without Borders",
+        "category": "Special Prize - Love Without Borders",
         "result": "Winner",
         "is_sound_award": false,
         "country": "Russia"
@@ -184,7 +1811,7 @@
         "year": 2020,
         "category": "Best Soundtrack",
         "result": "Winner",
-        "is_sound_award": false,
+        "is_sound_award": true,
         "country": "Brazil"
       }
     ],
@@ -200,28 +1827,26 @@
         "country": "India"
       }
     ],
-    "box_office": null,
-    "job_start": "01-10-12",
-    "job_end": "31-10-12",
+    "job_start": "2012-10-01",
+    "job_end": "2012-10-31",
     "description": "A shortfilm love story filmed in 35mm with the leggendary ARRI BL2 in Curitiba, my hometown"
   },
   {
-    "id": "003t01",
-    "title": "PEDRO E BIANCA",
-    "type": "Tv Serie",
+    "id": "038t13",
+    "title": "SPECTROS",
+    "type": "TV Series",
     "director": [
-      "Cao Hamburger"
+      "Douglas (Doug) Petrie"
     ],
     "prod_co": [
-      "Coração da Selva",
-      "TV Cultura"
+      "Moonshot Pictures"
     ],
-    "department": "Cinematography",
-    "role": "Focus Puller",
-    "release_year": 2012,
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2020,
     "release_status": "released",
     "platforms": [
-      "TV CULTURA"
+      "NETFLIX"
     ],
     "film_language": [
       "PT_BR"
@@ -229,66 +1854,1364 @@
     "prod_country": [
       "Brazil"
     ],
-    "imdb_link": "https://www.imdb.com/title/tt2563912/",
-    "image_id": "003t01",
-    "image_missing": false,
-    "awards_count": 4,
+    "imdb_link": "https://www.imdb.com/title/tt10145110/",
+    "image_id": "038t13",
+    "thumb_id": "038t13",
+    "awards_count": 0,
+    "festivals_count": 0,
+    "awards_detail": [],
+    "festivals_detail": [],
+    "job_start": "2019-11-01",
+    "job_end": "2020-03-31",
+    "description": "A supernatural thriller set in São Paulo’s Liberdade district, blending Japanese folklore with Brazilian urban legends. Created and showrun by Douglas Petrie (American Horror Story, Daredevil), the series marked one of Netflix’s boldest cross-cultural originals in Brazil."
+  },
+  {
+    "id": "039r02",
+    "title": "A QUEEN IS BORN",
+    "type": "Reality Show",
+    "director": [
+      "Gustavo Mello"
+    ],
+    "prod_co": [
+      "Boutique Filmes"
+    ],
+    "department": "Sound",
+    "role": "Sound Utility",
+    "release_year": 2020,
+    "release_status": "released",
+    "platforms": [
+      "NETFLIX"
+    ],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt12571792/",
+    "image_id": "039r02",
+    "thumb_id": "039r02",
+    "awards_count": 1,
     "festivals_count": 0,
     "awards_detail": [
       {
-        "event": "International Emmy Kids Awards",
-        "year": 2014,
-        "category": "Best Kids Series",
+        "event": "Prêmio F5",
+        "year": 2020,
+        "category": "Melhor Reality Show",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Brazil"
+      }
+    ],
+    "festivals_detail": [],
+    "job_start": "2020-01-01",
+    "job_end": "2020-02-29",
+    "description": "A drag reality show hosted by Gloria Groove and Alexia Twister. Contestants were mentored in performance, fashion, and self-expression, bringing Brazilian drag culture to a global Netflix audience."
+  },
+  {
+    "id": "013f04",
+    "title": "LOS ANGELES NO TIENEN ALAS",
+    "type": "Film",
+    "director": [
+      "Enrique Boh"
+    ],
+    "prod_co": [
+      "NBC Films"
+    ],
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2019,
+    "release_status": "released",
+    "platforms": [],
+    "film_language": [
+      "SPA"
+    ],
+    "prod_country": [
+      "Ecuador",
+      "Brazil"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt4781406/",
+    "image_id": "013f04",
+    "thumb_id": "013f04",
+    "awards_count": 0,
+    "festivals_count": 3,
+    "awards_detail": [],
+    "festivals_detail": [
+      {
+        "name": "Scoprir Muestra de Cine Iberoamericano",
+        "year": 2019,
+        "country": "Italy"
+      },
+      {
+        "name": "Kunturñawi Film Festival",
+        "year": 2019,
+        "country": "Ecuador"
+      },
+      {
+        "name": "Cuenca Festival",
+        "year": 2019,
+        "country": "Ecuador"
+      }
+    ],
+    "job_start": "2015-07-01",
+    "job_end": "2015-08-31",
+    "description": "A small independent feature by Enrique Boh, set on the Ecuadorian coast. It screened on the Latin American festival circuit, reflecting the vitality of emerging Ecuadorian cinema."
+  },
+  {
+    "id": "026f10",
+    "title": "THE YELLOW NIGHT",
+    "type": "Film",
+    "director": [
+      "Ramon P. Mota"
+    ],
+    "prod_co": [
+      "Vermelho Profundo Produções Audiovisuais"
+    ],
+    "department": "Sound",
+    "role": "Prod. Sound Mixer",
+    "release_year": 2019,
+    "release_status": "released",
+    "platforms": [],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt10297530/",
+    "image_id": "026f10",
+    "thumb_id": "026f10",
+    "awards_count": 2,
+    "festivals_count": 2,
+    "awards_detail": [
+      {
+        "event": "Brooklyn Horror Film Festival - Head Trip Feature Competition",
+        "year": 2019,
+        "category": "Best Director",
         "result": "Winner",
         "is_sound_award": false,
         "country": "Usa"
       },
       {
-        "event": "Prix Jeunesse Iberoamericano",
-        "year": 2014,
-        "category": "Best Fiction Series (ages 11–15)",
-        "result": "Winner",
-        "is_sound_award": false,
+        "event": "Prêmio Guarani de Cinema Brasileiro",
+        "year": 2020,
+        "category": "Best Sound",
+        "result": "Nominated",
+        "is_sound_award": true,
         "country": "Brazil"
+      }
+    ],
+    "festivals_detail": [
+      {
+        "name": "Brooklyn Horror Film Festival",
+        "year": 2019,
+        "country": "USA"
       },
       {
-        "event": "Prix Jeunesse International",
-        "year": 2014,
-        "category": "Fiction & Non-Fiction (ages 12–15)",
+        "name": "IndieLisboa International Independent Film Festival",
+        "year": 2019,
+        "country": "Portugal"
+      }
+    ],
+    "job_start": "2017-08-01",
+    "job_end": "2017-08-31",
+    "description": "A group of teenagers gathers on a remote island, where reality begins to fracture. The Yellow Night blends coming-of-age with science fiction, building a hypnotic, disorienting atmosphere intensified by the sound design, earning us a nommination for best sound award."
+  },
+  {
+    "id": "028f11",
+    "title": "DIVINE LOVE",
+    "type": "Film",
+    "director": [
+      "Gabriel Mascaro"
+    ],
+    "prod_co": [
+      "Desvia",
+      "Malbicho Cine",
+      "Snowglobe",
+      "Jirafa",
+      "Bord Cadre Films",
+      "Mer Film",
+      "Film i Väst",
+      "Globo Filmes"
+    ],
+    "department": "Sound",
+    "role": "Add. Prod. Sound Mixer; Boom Operator",
+    "release_year": 2019,
+    "release_status": "released",
+    "platforms": [
+      "AMAZON PRIME"
+    ],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil",
+      "Denmark",
+      "Norway",
+      "Uruguay",
+      "Chile",
+      "Sweden",
+      "France",
+      "Switzerland"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt8311958/",
+    "image_id": "028f11",
+    "thumb_id": "028f11",
+    "awards_count": 34,
+    "festivals_count": 3,
+    "awards_detail": [
+      {
+        "event": "Durban International Film Festival",
+        "year": 2019,
+        "category": "Best Direction",
         "result": "Winner",
+        "is_sound_award": false,
+        "country": "South Africa"
+      },
+      {
+        "event": "Durban International Film Festival",
+        "year": 2019,
+        "category": "Best Cinematography",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "South Africa"
+      },
+      {
+        "event": "Guadalajara International Film Festival",
+        "year": 2019,
+        "category": "FEISAL Award",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Mexico"
+      },
+      {
+        "event": "Berlin International Film Festival",
+        "year": 2019,
+        "category": "C.I.C.A.E. Award - Panorama",
+        "result": "Nominated",
         "is_sound_award": false,
         "country": "Germany"
       },
       {
-        "event": "APCA (Associação Paulista de Críticos de Arte)",
-        "year": 2012,
-        "category": "Best Children’s/Youth Program",
-        "result": "Winner",
+        "event": "Cinema Brazil Grand Prize",
+        "year": 2020,
+        "category": "Best Picture",
+        "result": "Nominated",
         "is_sound_award": false,
         "country": "Brazil"
       },
       {
-        "event": "Banff Rockie Awards",
-        "year": 2013,
-        "category": "Best Fiction Program for Children & Youth",
+        "event": "Cinema Brazil Grand Prize",
+        "year": 2020,
+        "category": "Best Director",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Cinema Brazil Grand Prize",
+        "year": 2020,
+        "category": "Best Actress",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Cinema Brazil Grand Prize",
+        "year": 2020,
+        "category": "Best Supporting Actor",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Cinema Brazil Grand Prize",
+        "year": 2020,
+        "category": "Best Screenplay Original",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Guadalajara International Film Festival",
+        "year": 2019,
+        "category": "Ibero-America Competition - Best Picture",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Mexico"
+      },
+      {
+        "event": "Havana Film Festival",
+        "year": 2019,
+        "category": "Grand Coral - First Prize",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Cuba"
+      },
+      {
+        "event": "Havana Film Festival",
+        "year": 2019,
+        "category": "Louve d Or",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Cuba"
+      },
+      {
+        "event": "Havana Film Festival",
+        "year": 2019,
+        "category": "Prix de l innovation Daniel Langlois",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Cuba"
+      },
+      {
+        "event": "Havana Film Festival",
+        "year": 2019,
+        "category": "HBO Ibero-American Competition - Best Film",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Cuba"
+      },
+      {
+        "event": "Havana Film Festival",
+        "year": 2019,
+        "category": "Knight Competition Grand Jury Prize",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Cuba"
+      },
+      {
+        "event": "Stockholm Film Festival",
+        "year": 2019,
+        "category": "Bronze Horse - Best Film",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Sweden"
+      },
+      {
+        "event": "Sundance Film Festival",
+        "year": 2019,
+        "category": "Grand Jury Prize - World Cinema Dramatic",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Usa"
+      },
+      {
+        "event": "Uruguay International Film Festival",
+        "year": 2019,
+        "category": "Best Film",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Uruguay"
+      },
+      {
+        "event": "Vina del Mar Film Festival",
+        "year": 2019,
+        "category": "Grand Paoa - Best Film",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Chile"
+      },
+      {
+        "event": "ABC Cinematography Award",
+        "year": 2020,
+        "category": "Best Art Direction",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Lima Latin American Film Festival",
+        "year": 2019,
+        "category": "Best Film - Irresistibles Competition",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Peru"
+      },
+      {
+        "event": "Durban International Film Festival",
+        "year": 2019,
+        "category": "Best Film - International Competition",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "South Africa"
+      },
+      {
+        "event": "Zurich Film Festival",
+        "year": 2019,
+        "category": "Golden Eye Award - Best International Feature",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Switzerland"
+      },
+      {
+        "event": "World Cinema Amsterdam",
+        "year": 2019,
+        "category": "Jury Award - Best Film",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Netherlands"
+      },
+      {
+        "event": "World Cinema Amsterdam",
+        "year": 2019,
+        "category": "Special Mention",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Netherlands"
+      },
+      {
+        "event": "Montclair Film Festival",
+        "year": 2019,
+        "category": "Narrative Feature Competition",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Usa"
+      },
+      {
+        "event": "Bucharest International Film Festival",
+        "year": 2019,
+        "category": "Festival Prize - Best Film",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Romania"
+      },
+      {
+        "event": "Montreal Festival of New Cinema",
+        "year": 2019,
+        "category": "Best Film",
         "result": "Nominated",
         "is_sound_award": false,
         "country": "Canada"
       },
       {
-        "event": "Japan Prize (NHK)",
-        "year": 2013,
-        "category": "Best Educational TV Program (Youth)",
+        "event": "Miami Film Festival",
+        "year": 2019,
+        "category": "Best Film",
         "result": "Nominated",
         "is_sound_award": false,
-        "country": "Japan"
+        "country": "Usa"
+      },
+      {
+        "event": "Premio Guarani",
+        "year": 2020,
+        "category": "Best Actress",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Premio Guarani",
+        "year": 2020,
+        "category": "Best Art Direction",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Premio Guarani",
+        "year": 2020,
+        "category": "Best Cinematography",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Abraccine Prize",
+        "year": 2019,
+        "category": "Best Brazilian Feature Film",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Brazil Online Film Award",
+        "year": 2020,
+        "category": "Brazilian Film of the Year",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Brazil"
+      }
+    ],
+    "festivals_detail": [
+      {
+        "name": "Sundance Film Festival",
+        "year": 2019,
+        "country": "USA"
+      },
+      {
+        "name": "Berlin International Film Festival",
+        "year": 2019,
+        "country": "Germany"
+      },
+      {
+        "name": "Vancouver International Film Festival",
+        "year": 2019,
+        "country": "Canada"
+      }
+    ],
+    "job_start": "2017-10-01",
+    "job_end": "2017-12-31",
+    "description": "A near-future Brazil where religion, technology, and state control merge into everyday life. It's a bold, sensual dystopia blending satire, spirituality, and social critique."
+  },
+  {
+    "id": "031t10",
+    "title": "A GAROTA DA MOTO S02",
+    "type": "TV Series",
+    "director": [
+      "João Daniel Tikhomiroff"
+    ],
+    "prod_co": [
+      "Radar",
+      "Mixer Filmes",
+      "SBT"
+    ],
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2019,
+    "release_status": "released",
+    "platforms": [
+      "FOX",
+      "SBT"
+    ],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt5512844/",
+    "image_id": "031t10",
+    "thumb_id": "031t10",
+    "awards_count": 0,
+    "festivals_count": 0,
+    "awards_detail": [],
+    "festivals_detail": [],
+    "job_start": "2018-03-11",
+    "job_end": "2018-07-31",
+    "description": "The biker heroine returned with even more action and suspense. The premiere scored 11.9 IBOPE points in São Paulo, a 15% increase over season one’s debut, proving the show’s lasting appeal on free-to-air TV."
+  },
+  {
+    "id": "032t11",
+    "title": "FERAS",
+    "type": "TV Series",
+    "director": [
+      "Teodoro Poppovic"
+    ],
+    "prod_co": [
+      "Primo Filmes",
+      "MTV Brasil"
+    ],
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2019,
+    "release_status": "released",
+    "platforms": [
+      "MTV BR"
+    ],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt9795982/",
+    "image_id": "032t11",
+    "thumb_id": "032t11",
+    "awards_count": 1,
+    "festivals_count": 0,
+    "awards_detail": [
+      {
+        "event": "Cinema Brazil Grand Prize",
+        "year": 2020,
+        "category": "Best Sound",
+        "result": "Nominated",
+        "is_sound_award": true,
+        "country": "Brazil"
       }
     ],
     "festivals_detail": [],
-    "box_office": null,
-    "job_start": "01-03-13",
-    "job_end": "31-07-13",
-    "description": "A teen drama that went far beyond its modest audience to become one of TV Cultura’s most acclaimed shows. It tackled school and social themes with honesty, winning the International Emmy Kids Award, the Prix Jeunesse International, and APCA recognition. A true milestone in Brazilian youth television."
+    "job_start": "2018-08-01",
+    "job_end": "2018-08-31",
+    "description": "An urban dramedy set in São Paulo’s nightlife, mixing music, parties, and tangled relationships. With strong LGBTQ+ representation and the irreverent freedom of MTV, it stood out as a fresh take on youth drama. It also earned nominations at the Grande Prêmio do Cinema Brasileiro, including Best Sound."
+  },
+  {
+    "id": "033s05",
+    "title": "A MULHER QUE SOU",
+    "type": "Short Film",
+    "director": [
+      "Nathalia Tereza"
+    ],
+    "prod_co": [
+      "Diadorim Filmes",
+      "Ponte Produções"
+    ],
+    "department": "Sound",
+    "role": "Add. Prod. Sound Mixer; Boom Operator",
+    "release_year": 2019,
+    "release_status": "released",
+    "platforms": [],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt12380182",
+    "image_id": "033s05",
+    "thumb_id": "033s05",
+    "awards_count": 2,
+    "festivals_count": 4,
+    "awards_detail": [
+      {
+        "event": "Festival De Cinema De Gramado",
+        "year": 2019,
+        "category": "Best Actress (Cassia Damasceno)",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Olhar De Cinema - Festival De Curitiba",
+        "year": 2020,
+        "category": "Prêmio Avec (Berenice Mendes)",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      }
+    ],
+    "festivals_detail": [
+      {
+        "name": "Goiânia Mostra Curtas",
+        "year": 2019,
+        "country": "Brazil"
+      },
+      {
+        "name": "Janela Internacional De Cinema Do Recife",
+        "year": 2019,
+        "country": "Brazil"
+      },
+      {
+        "name": "Panorama Coisa De Cinema",
+        "year": 2019,
+        "country": "Brazil"
+      },
+      {
+        "name": "Cabíria Festival",
+        "year": 2019,
+        "country": "Brazil"
+      }
+    ],
+    "job_start": "2018-09-01",
+    "job_end": "2018-09-30",
+    "description": "A character-driven short film that follows Marta, a single mother who moves to a new town to rebuild her life, rediscover her independence."
+  },
+  {
+    "id": "018f05",
+    "title": "BLITZ",
+    "type": "Film",
+    "director": [
+      "Rene Brasil"
+    ],
+    "prod_co": [
+      "Kinoscópio Cinematográfica"
+    ],
+    "department": "Sound",
+    "role": "Prod. Sound Mixer",
+    "release_year": 2018,
+    "release_status": "released",
+    "platforms": [],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt13739990",
+    "image_id": "018f05",
+    "thumb_id": "018f05",
+    "awards_count": 0,
+    "festivals_count": 0,
+    "awards_detail": [],
+    "festivals_detail": [],
+    "job_start": "2016-06-01",
+    "job_end": "2016-07-31",
+    "description": "Crime drama directed by Rene Tada Brasil, about a police officer accused of killing a student during a school blitz. Released in Brazilian theaters by Pandora Filmes and later on VOD."
+  },
+  {
+    "id": "019t08",
+    "title": "NATUREZA MORTA",
+    "type": "TV Series",
+    "director": [
+      "Flavio Frederico"
+    ],
+    "prod_co": [
+      "Kinoscópio Cinematográfica"
+    ],
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2018,
+    "release_status": "released",
+    "platforms": [
+      "CINE BRASIL TV"
+    ],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt8277094/",
+    "image_id": "019t08",
+    "thumb_id": "019t08",
+    "awards_count": 1,
+    "festivals_count": 0,
+    "awards_detail": [
+      {
+        "event": "Prêmio ABC de Cinematografia",
+        "year": 2016,
+        "category": "Direction of Photography - Documentary",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      }
+    ],
+    "festivals_detail": [],
+    "job_start": "2016-08-01",
+    "job_end": "2016-08-31",
+    "description": "Serial-killer noir set in São Paulo’s fashion scene: a star photographer hides a deadly secret. Starring Erom Cordeiro and Nanda Costa, the season premiered on April 22, 2018 and later landed on Prime Video."
+  },
+  {
+    "id": "023s03",
+    "title": "SWEET HEART",
+    "type": "Short Film",
+    "director": [
+      "Amina Jorge"
+    ],
+    "prod_co": [
+      "Filmes de Vagabundo"
+    ],
+    "department": "Sound",
+    "role": "Prod. Sound Mixer",
+    "release_year": 2018,
+    "release_status": "released",
+    "platforms": [],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt9461318/",
+    "image_id": "023s03",
+    "thumb_id": "023s03",
+    "awards_count": 0,
+    "festivals_count": 2,
+    "awards_detail": [],
+    "festivals_detail": [
+      {
+        "name": "Mostra De Cinema De Tiradentes",
+        "year": 2018,
+        "country": "Brazil"
+      },
+      {
+        "name": "Goiânia Mostra Curtas",
+        "year": 2018,
+        "country": "Brazil"
+      }
+    ],
+    "job_start": "2017-02-01",
+    "job_end": "2017-02-28",
+    "description": "A coming-of-age short set in São Paulo's Liberdade neighborhood about a Brazilian-born Chinese teenager. A naturalistic short blending non-actors and intimate observation to capture cultural clash and self-discovery."
+  },
+  {
+    "id": "024f08",
+    "title": "FERRUGEM",
+    "type": "Film",
+    "director": [
+      "Aly Muritiba"
+    ],
+    "prod_co": [
+      "Grafo Audiovisual",
+      "Muritiba Filmes",
+      "Globo Filmes"
+    ],
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2018,
+    "release_status": "released",
+    "platforms": [],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt7467324/",
+    "image_id": "024f08",
+    "thumb_id": "024f08",
+    "awards_count": 9,
+    "festivals_count": 4,
+    "awards_detail": [
+      {
+        "event": "Gramado Film Festival",
+        "year": 2018,
+        "category": "Best Brazilian Feature Film",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Gramado Film Festival",
+        "year": 2018,
+        "category": "Best Screenplay",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Gramado Film Festival",
+        "year": 2018,
+        "category": "Best Sound Design",
+        "result": "Winner",
+        "is_sound_award": true,
+        "country": "Brazil"
+      },
+      {
+        "event": "San Sebastián - Films in Progress Industry Awards",
+        "year": 2017,
+        "category": "Films in Progress Industry Award",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Spain"
+      },
+      {
+        "event": "San Sebastián - Film Factory Award",
+        "year": 2017,
+        "category": "Film Factory Award",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Spain"
+      },
+      {
+        "event": "San Sebastián - CAACI/Ibermedia Award",
+        "year": 2017,
+        "category": "CAACI/Ibermedia TV Films in Progress Award",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Spain"
+      },
+      {
+        "event": "FESTin (Lisbon Festival)",
+        "year": 2019,
+        "category": "Critics' Award - Best Brazilian Film",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Portugal"
+      },
+      {
+        "event": "FESTin (Lisbon Festival)",
+        "year": 2019,
+        "category": "Critics' Award - Best Director (Aly Muritiba)",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Portugal"
+      },
+      {
+        "event": "FESTin (Lisbon Festival)",
+        "year": 2019,
+        "category": "Critics' Award - Best Actress (Tifanny Dopke)",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Portugal"
+      }
+    ],
+    "festivals_detail": [
+      {
+        "name": "Sundance Film Festival",
+        "year": 2018,
+        "country": "USA"
+      },
+      {
+        "name": "San Sebastián International Film Festival",
+        "year": 2018,
+        "country": "Spain"
+      },
+      {
+        "name": "Berlin European Film Market (EFM)",
+        "year": 2018,
+        "country": "Germany"
+      },
+      {
+        "name": "San Sebastián International Film Festival",
+        "year": 2017,
+        "country": "Spain"
+      }
+    ],
+    "job_start": "2017-03-01",
+    "job_end": "2017-05-31",
+    "description": "A haunting portrait of adolescence in the digital age, where a leaked intimate video sets off a chain of irreversible consequences."
+  },
+  {
+    "id": "025f09",
+    "title": "QUERIDA MAMAE",
+    "type": "Film",
+    "director": [
+      "Jeremias Moreira"
+    ],
+    "prod_co": [
+      "Moonshot Pictures"
+    ],
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2018,
+    "release_status": "released",
+    "platforms": [],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt7579474/",
+    "image_id": "025f09",
+    "thumb_id": "025f09",
+    "awards_count": 0,
+    "festivals_count": 0,
+    "awards_detail": [],
+    "festivals_detail": [],
+    "job_start": "2017-05-01",
+    "job_end": "2017-07-31",
+    "description": "An umberable drama that unravels the complexities of family, memory, and unresolved emotions. Do not recomend it, the whole movie is a non stop arguing of 3 generations of women, shot in studio and directed by a 75 y.o. man. I'm sorry but it's true."
+  },
+  {
+    "id": "030s04",
+    "title": "MESMO COM TANTA AGONIA",
+    "type": "Short Film",
+    "director": [
+      "Alice Andrade Drummond"
+    ],
+    "prod_co": [
+      "A Flor e a Náusea"
+    ],
+    "department": "Sound",
+    "role": "Prod. Sound Mixer",
+    "release_year": 2018,
+    "release_status": "released",
+    "platforms": [],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt13272910/",
+    "image_id": "030s04",
+    "thumb_id": "030s04",
+    "awards_count": 3,
+    "festivals_count": 3,
+    "awards_detail": [
+      {
+        "event": "Festival De Brasília",
+        "year": 2018,
+        "category": "Best Actress (Maria Leite)",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Festival De Brasília",
+        "year": 2018,
+        "category": "Best Short - Crítica (Abraccine)",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Festival De Brasília",
+        "year": 2018,
+        "category": "Best Short - Canal Brasil",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      }
+    ],
+    "festivals_detail": [
+      {
+        "name": "Mostra De Cinema De Tiradentes",
+        "year": 2018,
+        "country": "Brazil"
+      },
+      {
+        "name": "Festival Internacional De Curtas De São Paulo",
+        "year": 2019,
+        "country": "Brazil"
+      },
+      {
+        "name": "Curta Cinema – Festival Internacional De Curtas Do Rio",
+        "year": 2019,
+        "country": "Brazil"
+      }
+    ],
+    "job_start": "2018-03-01",
+    "job_end": "2018-03-10",
+    "description": "A colorful, energetic short film about a working mother racing against time to reach her daughter's birthday party she so carefully planned. That feeling of the everyday struggle of a 20-million-person city where public transport becomes an obstacle."
+  },
+  {
+    "id": "009s02",
+    "title": "WHEN THE DOGS BARK",
+    "type": "Short Film",
+    "director": [
+      "Rafael Farias Issas"
+    ],
+    "prod_co": [
+      "A Fúria Filmes",
+      "Perigo Filmes"
+    ],
+    "department": "Cinematography",
+    "role": "Focus Puller",
+    "release_year": 2017,
+    "release_status": "released",
+    "platforms": [],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt3815692/",
+    "image_id": "009s02",
+    "thumb_id": "009s02",
+    "awards_count": 2,
+    "festivals_count": 0,
+    "awards_detail": [
+      {
+        "event": "Worldfest Houston",
+        "year": 2015,
+        "category": "Gold Award - Best Short Film",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Usa"
+      },
+      {
+        "event": "New York City Independent Film Festival",
+        "year": 2014,
+        "category": "Best Short Film",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Usa"
+      }
+    ],
+    "festivals_detail": [],
+    "job_start": "2014-11-01",
+    "job_end": "2014-11-10",
+    "description": "A thriller short film about security paranoia"
+  },
+  {
+    "id": "020f06",
+    "title": "O PIOR ALUNO DA ESCOLA",
+    "type": "Film",
+    "director": [
+      "Fabricio Bittar"
+    ],
+    "prod_co": [
+      "Clube Filmes",
+      "Warner Bros.",
+      "Telecine"
+    ],
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2017,
+    "release_status": "released",
+    "platforms": [],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt6791886/",
+    "image_id": "020f06",
+    "thumb_id": "020f06",
+    "awards_count": 0,
+    "festivals_count": 0,
+    "awards_detail": [],
+    "festivals_detail": [],
+    "job_start": "2016-09-01",
+    "job_end": "2016-10-31",
+    "description": "Comedy feature directed by Fabrício Bittar, based on Danilo Gentili’s book. Starring Carlos Villagrán (“Quico” from Chaves), it became a box-office success in Brazil thanks to its irreverent humor."
+  },
+  {
+    "id": "021t09",
+    "title": "ZOO DA ZU S02",
+    "type": "TV Series",
+    "director": [
+      "Tiago Mello"
+    ],
+    "prod_co": [
+      "Boutique Filmes"
+    ],
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2017,
+    "release_status": "released",
+    "platforms": [
+      "DISCOVERY KIDS"
+    ],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt6153266/",
+    "image_id": "021t09",
+    "thumb_id": "021t09",
+    "awards_count": 2,
+    "festivals_count": 0,
+    "awards_detail": [
+      {
+        "event": "International Emmy Kids Awards",
+        "year": 2016,
+        "category": "Kids: Preschool",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Usa"
+      },
+      {
+        "event": "International Emmy Kids Awards",
+        "year": 2018,
+        "category": "Kids: Series",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Usa"
+      }
+    ],
+    "festivals_detail": [],
+    "job_start": "2016-10-01",
+    "job_end": "2016-11-30",
+    "description": "A playful preschool series set in a fantastical zoo, starring Zu, a curious girl who talks to animals. One of Discovery Kids’ most popular Latin American originals, it expanded across the region and earned an International Emmy Kids nomination."
+  },
+  {
+    "id": "008d01",
+    "title": "QUAL VAI SER",
+    "type": "Documentary TV",
+    "director": [
+      "Rui Guilherme de Almeida Calvo"
+    ],
+    "prod_co": [
+      "Boutique Filmes"
+    ],
+    "department": "Cinematography",
+    "role": "Focus Puller",
+    "release_year": 2016,
+    "release_status": "released",
+    "platforms": [
+      "TV GLOBO"
+    ],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt11716308/",
+    "image_id": "008d01",
+    "thumb_id": "008d01",
+    "awards_count": 0,
+    "festivals_count": 0,
+    "awards_detail": [],
+    "festivals_detail": [],
+    "job_start": "2014-10-01",
+    "job_end": "2014-10-31",
+    "description": "A documentary series about the challenges of education and the choices young Brazilians face after school. Broadcast nationwide on TV Globo, reaching families across the country."
+  },
+  {
+    "id": "011d02",
+    "title": "A GRANDE LUTA",
+    "type": "Documentary TV",
+    "director": [
+      "Gustavo Mello"
+    ],
+    "prod_co": [
+      "Boutique Filmes"
+    ],
+    "department": "Cinematography",
+    "role": "Focus Puller",
+    "release_year": 2016,
+    "release_status": "released",
+    "platforms": [
+      "CINEMAX"
+    ],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt5859764/",
+    "image_id": "011d02",
+    "thumb_id": "011d02",
+    "awards_count": 0,
+    "festivals_count": 0,
+    "awards_detail": [],
+    "festivals_detail": [],
+    "job_start": "2015-02-01",
+    "job_end": "2015-03-31",
+    "description": "Documentary exploring Brazilian martial arts, with appearances from greats like Acelino “Popó” Freitas and Muhammad Ali. Aired across Latin America on Cinemax, bringing international spotlight to the fighters’ stories."
+  },
+  {
+    "id": "012t04",
+    "title": "QUE TALENTO S03",
+    "type": "TV Series",
+    "director": [
+      "André Rodrigues"
+    ],
+    "prod_co": [
+      "Cinefilm"
+    ],
+    "department": "Cinematography",
+    "role": "Focus Puller",
+    "release_year": 2016,
+    "release_status": "released",
+    "platforms": [
+      "DISNEY CHANNEL"
+    ],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt4401616/",
+    "image_id": "012t04",
+    "thumb_id": "012t04",
+    "awards_count": 0,
+    "festivals_count": 0,
+    "awards_detail": [],
+    "festivals_detail": [],
+    "job_start": "2015-04-01",
+    "job_end": "2015-09-30",
+    "description": "The very first Brazilian original scripted series on Disney Channel, following the adventures of a teen band navigating life and music. It resonated deeply with Latin American audiences, blending pop culture and youthful energy in an authentic local format."
+  },
+  {
+    "id": "015t05",
+    "title": "A GAROTA DA MOTO S01",
+    "type": "TV Series",
+    "director": [
+      "João Daniel Tikhomiroff"
+    ],
+    "prod_co": [
+      "Mixer FIlmes",
+      "SBT",
+      "Fox Networks Group Brasil"
+    ],
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2016,
+    "release_status": "released",
+    "platforms": [
+      "FOX",
+      "SBT"
+    ],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt5512844/",
+    "image_id": "015t05",
+    "thumb_id": "015t05",
+    "awards_count": 1,
+    "festivals_count": 0,
+    "awards_detail": [
+      {
+        "event": "APCA - São Paulo Arts Critics Association",
+        "year": 2016,
+        "category": "Best Series",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Brazil"
+      }
+    ],
+    "festivals_detail": [],
+    "job_start": "2015-10-01",
+    "job_end": "2015-12-31",
+    "description": "An action-packed drama about a fearless motorcycle courier protecting her son. A huge success on SBT, it averaged over 11 IBOPE points in São Paulo, peaking at 14 and even leading the audience in some cities. One of the most-watched Brazilian series of the decade on free-to-air TV."
+  },
+  {
+    "id": "016t06",
+    "title": "LILI A EX S02",
+    "type": "TV Series",
+    "director": [
+      "Marcelo Montenegro",
+      "Erez Milgron",
+      "Lilian Amarante"
+    ],
+    "prod_co": [
+      "Floresta Produções",
+      "O2 Filmes"
+    ],
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2016,
+    "release_status": "released",
+    "platforms": [
+      "GNT"
+    ],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt5314250/",
+    "image_id": "016t06",
+    "thumb_id": "016t06",
+    "awards_count": 0,
+    "festivals_count": 0,
+    "awards_detail": [],
+    "festivals_detail": [],
+    "job_start": "2016-01-01",
+    "job_end": "2016-03-31",
+    "description": "Comedy series about relationships and breakups, adapted from Caco Galhardo’s popular cartoon. Its witty, fast-paced episodes made it one of GNT’s standout originals, praised for sharp humor and relatable themes."
+  },
+  {
+    "id": "017t07",
+    "title": "A SECRETARIA DO PRESIDENTE",
+    "type": "TV Series",
+    "director": [
+      "Emilio Boechat"
+    ],
+    "prod_co": [
+      "Rt2a",
+      "Mixer Filmes",
+      "Multishow"
+    ],
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2016,
+    "release_status": "released",
+    "platforms": [
+      "MULTISHOW"
+    ],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": "https://www.imdb.com/title/tt5963264/",
+    "image_id": "017t07",
+    "thumb_id": "017t07",
+    "awards_count": 0,
+    "festivals_count": 0,
+    "awards_detail": [],
+    "festivals_detail": [],
+    "job_start": "2016-04-01",
+    "job_end": "2016-06-30",
+    "description": "A lighthearted comedy mixing politics and romance, following the daily chaos of a president’s secretary. With quick humor and a playful tone, it fit Multishow’s lineup of irreverent originals aimed at young adult audiences."
   },
   {
     "id": "004f02",
@@ -317,14 +3240,14 @@
     ],
     "imdb_link": "https://www.imdb.com/title/tt3742378/",
     "image_id": "004f02",
-    "image_missing": false,
-    "awards_count": 13,
+    "thumb_id": "004f02",
+    "awards_count": 74,
     "festivals_count": 8,
     "awards_detail": [
       {
         "event": "Sundance Film Festival",
         "year": 2015,
-        "category": "Special Jury Award – Acting",
+        "category": "Special Jury Award - Acting",
         "result": "Winner",
         "is_sound_award": false,
         "country": "Usa"
@@ -362,7 +3285,7 @@
         "country": "Usa"
       },
       {
-        "event": "São Paulo Association of Art Critics",
+        "event": "APCA - São Paulo Arts Critics Association",
         "year": 2015,
         "category": "Best Film",
         "result": "Winner",
@@ -370,7 +3293,7 @@
         "country": "Brazil"
       },
       {
-        "event": "São Paulo Association of Art Critics",
+        "event": "APCA - São Paulo Arts Critics Association",
         "year": 2015,
         "category": "Best Actress",
         "result": "Winner",
@@ -420,10 +3343,498 @@
       {
         "event": "Prêmio Guarani de Cinema Brasileiro",
         "year": 2016,
-        "category": "Multiple Categories, Film, Direction, Actress",
+        "category": "Best Film",
         "result": "Winner",
         "is_sound_award": false,
         "country": "Brazil"
+      },
+      {
+        "event": "Prêmio Guarani de Cinema Brasileiro",
+        "year": 2016,
+        "category": "Best Direction",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Prêmio Guarani de Cinema Brasileiro",
+        "year": 2016,
+        "category": "Best Actress",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Ariel Awards",
+        "year": 2017,
+        "category": "Best Latin-American Film",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Mexico"
+      },
+      {
+        "event": "Critics Choice Award",
+        "year": 2016,
+        "category": "Best Foreign Language Film",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Usa"
+      },
+      {
+        "event": "Cinema Brazil Grand Prize",
+        "year": 2016,
+        "category": "Best Picture",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Cinema Brazil Grand Prize",
+        "year": 2016,
+        "category": "Best Director",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Cinema Brazil Grand Prize",
+        "year": 2016,
+        "category": "Best Actress",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Cinema Brazil Grand Prize",
+        "year": 2016,
+        "category": "Best Supporting Actress",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Cinema Brazil Grand Prize",
+        "year": 2016,
+        "category": "Best Screenplay Original",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Cinema Brazil Grand Prize",
+        "year": 2016,
+        "category": "Best Editing",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Cinema Brazil Grand Prize",
+        "year": 2016,
+        "category": "Best Supporting Actress",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Cinema Brazil Grand Prize",
+        "year": 2016,
+        "category": "Best Supporting Actor",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Cinema Brazil Grand Prize",
+        "year": 2016,
+        "category": "Best Cinematography",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Cinema Brazil Grand Prize",
+        "year": 2016,
+        "category": "Best Art Direction",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Cinema Brazil Grand Prize",
+        "year": 2016,
+        "category": "Best Costume Design",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Cinema Brazil Grand Prize",
+        "year": 2016,
+        "category": "Best Special Effects",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Cinema Brazil Grand Prize",
+        "year": 2016,
+        "category": "Best Sound",
+        "result": "Nominated",
+        "is_sound_award": true,
+        "country": "Brazil"
+      },
+      {
+        "event": "Cinema Brazil Grand Prize",
+        "year": 2016,
+        "category": "Best Original Music",
+        "result": "Nominated",
+        "is_sound_award": true,
+        "country": "Brazil"
+      },
+      {
+        "event": "Dallas-Fort Worth Film Critics Association",
+        "year": 2015,
+        "category": "Best Foreign Language Film",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Usa"
+      },
+      {
+        "event": "Satellite Award",
+        "year": 2016,
+        "category": "Best Motion Picture International Film",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Usa"
+      },
+      {
+        "event": "Ljubljana International Film Festival",
+        "year": 2015,
+        "category": "Best Feature",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Slovenia"
+      },
+      {
+        "event": "National Board of Review",
+        "year": 2015,
+        "category": "Top Five Foreign Language Films",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Usa"
+      },
+      {
+        "event": "RiverRun International Film Festival",
+        "year": 2015,
+        "category": "Jury Prize - Best Screenplay",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Usa"
+      },
+      {
+        "event": "Seattle International Film Festival",
+        "year": 2015,
+        "category": "Golden Space Needle - Best Actress",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Usa"
+      },
+      {
+        "event": "Sundance Film Festival",
+        "year": 2015,
+        "category": "Grand Jury Prize - World Cinema Dramatic",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Usa"
+      },
+      {
+        "event": "Sundance Film Festival",
+        "year": 2015,
+        "category": "Special Jury Prize - World Cinema Dramatic",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Usa"
+      },
+      {
+        "event": "ABC Cinematography Award",
+        "year": 2016,
+        "category": "Best Cinematography",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "ABC Cinematography Award",
+        "year": 2016,
+        "category": "Best Art Direction",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "ABC Cinematography Award",
+        "year": 2016,
+        "category": "Best Editing",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "ABC Cinematography Award",
+        "year": 2016,
+        "category": "Best Sound",
+        "result": "Nominated",
+        "is_sound_award": true,
+        "country": "Brazil"
+      },
+      {
+        "event": "Spondylus Trophy",
+        "year": 2015,
+        "category": "Audience Award",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Ecuador"
+      },
+      {
+        "event": "Lima Latin American Film Festival",
+        "year": 2016,
+        "category": "Best Feature Film",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Peru"
+      },
+      {
+        "event": "APCA - São Paulo Arts Critics Association",
+        "year": 2016,
+        "category": "Best Film",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "APCA - São Paulo Arts Critics Association",
+        "year": 2016,
+        "category": "Best Actress",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Washington DC Area Film Critics Association",
+        "year": 2015,
+        "category": "Best Foreign Language Film",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Usa"
+      },
+      {
+        "event": "SESC Film Festival - Critics Award",
+        "year": 2016,
+        "category": "Best Film",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "SESC Film Festival - Critics Award",
+        "year": 2016,
+        "category": "Best Director",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "SESC Film Festival - Critics Award",
+        "year": 2016,
+        "category": "Best Screenplay",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "SESC Film Festival - Critics Award",
+        "year": 2016,
+        "category": "Best Actress",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "SESC Film Festival - Audience Award",
+        "year": 2016,
+        "category": "Best Film",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "SESC Film Festival - Audience Award",
+        "year": 2016,
+        "category": "Best Director",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "SESC Film Festival - Audience Award",
+        "year": 2016,
+        "category": "Best Actress",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "SESC Film Festival - Audience Award",
+        "year": 2016,
+        "category": "Best Screenplay",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "SESC Film Festival - Audience Award",
+        "year": 2016,
+        "category": "Best Cinematography",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Platino Awards",
+        "year": 2016,
+        "category": "Film and Education Values",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Spain"
+      },
+      {
+        "event": "Women Film Critics Circle",
+        "year": 2015,
+        "category": "Best Movie by a Woman",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Usa"
+      },
+      {
+        "event": "Women Film Critics Circle",
+        "year": 2015,
+        "category": "Best Ensemble",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Usa"
+      },
+      {
+        "event": "World Cinema Amsterdam",
+        "year": 2015,
+        "category": "Audience Award",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Netherlands"
+      },
+      {
+        "event": "World Cinema Amsterdam",
+        "year": 2015,
+        "category": "Jury Award - Best Film",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Netherlands"
+      },
+      {
+        "event": "Premio Fenix",
+        "year": 2015,
+        "category": "Best Actress",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Mexico"
+      },
+      {
+        "event": "Premio Guarani",
+        "year": 2016,
+        "category": "Best Supporting Actor",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Premio Guarani",
+        "year": 2016,
+        "category": "Best Supporting Actress",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Premio Guarani",
+        "year": 2016,
+        "category": "Best Original Screenplay",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Premio Guarani",
+        "year": 2016,
+        "category": "Best Film Editing",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Premio Guarani",
+        "year": 2016,
+        "category": "Best Music",
+        "result": "Nominated",
+        "is_sound_award": true,
+        "country": "Brazil"
+      },
+      {
+        "event": "Premio Guarani",
+        "year": 2016,
+        "category": "Best Sound",
+        "result": "Nominated",
+        "is_sound_award": true,
+        "country": "Brazil"
+      },
+      {
+        "event": "Premio Guarani",
+        "year": 2016,
+        "category": "Best Art Direction",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Premio Guarani",
+        "year": 2016,
+        "category": "Best Ensemble Cast",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Premio Guarani",
+        "year": 2016,
+        "category": "Best Newcomer",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Abraccine Prize",
+        "year": 2015,
+        "category": "Best Brazilian Feature Film",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Festival Nazionale del Doppiaggio Voci nell Ombra",
+        "year": 2015,
+        "category": "Best Overall Dubbing",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Italy"
       }
     ],
     "festivals_detail": [
@@ -468,208 +3879,9 @@
         "country": "Brazil"
       }
     ],
-    "box_office": {
-      "release_type": "Theatrical (BR)",
-      "admissions_br": "493,585",
-      "box_office_brl": "R$6.881.242,79",
-      "box_office_usd": "$2,066,439",
-      "currently_streaming_on": "Prime Video"
-    },
-    "job_start": "01-01-14",
-    "job_end": "28-02-14",
+    "job_start": "2014-01-01",
+    "job_end": "2014-02-28",
     "description": "Directed by Anna Muylaert and starring Regina Casé, this acclaimed social drama won the Berlin Panorama Audience Award and was Brazil’s submission to the Academy Awards. A landmark film on class and motherhood."
-  },
-  {
-    "id": "005t02",
-    "title": "EXPERIMENTOS EXTRAORDINARIOS",
-    "type": "Tv Serie",
-    "director": [
-      "Tiago Mello",
-      "Cássio Koshikumo"
-    ],
-    "prod_co": [
-      "Boutique Filmes"
-    ],
-    "department": "Cinematography",
-    "role": "2nd Camera Assistant",
-    "release_year": 2014,
-    "release_status": "released",
-    "platforms": [
-      "CARTOON NETWORK"
-    ],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt3859802/",
-    "image_id": "005t02",
-    "image_missing": false,
-    "awards_count": 0,
-    "festivals_count": 0,
-    "awards_detail": [],
-    "festivals_detail": [],
-    "box_office": null,
-    "job_start": "01-03-14",
-    "job_end": "31-05-14",
-    "description": "The first Brazilian live-action series on Cartoon Network, co-produced with Canal Futura. Created by the popular Manual do Mundo team, it brought their millions of YouTube fans to TV. The show helped Cartoon Network surpass Discovery Kids and cement its lead in Brazilian kids’ cable."
-  },
-  {
-    "id": "006t03",
-    "title": "CINELAB",
-    "type": "Tv Serie",
-    "director": [
-      "Tiago Mello"
-    ],
-    "prod_co": [
-      "Boutique Filmes"
-    ],
-    "department": "Cinematography",
-    "role": "2nd Camera Assistant",
-    "release_year": 2014,
-    "release_status": "released",
-    "platforms": [
-      "UNIVERSAL"
-    ],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt3673034/",
-    "image_id": "006t03",
-    "image_missing": false,
-    "awards_count": 0,
-    "festivals_count": 0,
-    "awards_detail": [],
-    "festivals_detail": [],
-    "box_office": null,
-    "job_start": "01-06-14",
-    "job_end": "31-08-14",
-    "description": "A mix of science, cinema, and special effects, Cinelab turned DIY movie experiments into a hit format. Produced by Boutique Filmes, it became a cult favorite on Universal Channel and spawned multiple seasons."
-  },
-  {
-    "id": "007r01",
-    "title": "BREAKOUT BRASIL",
-    "type": "Reality Show",
-    "director": [
-      "Enrico Saraiva"
-    ],
-    "prod_co": [
-      "Delicatessen Filmes"
-    ],
-    "department": "Cinematography",
-    "role": "2nd Camera Assistant",
-    "release_year": 2014,
-    "release_status": "released",
-    "platforms": [
-      "SONY"
-    ],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt10510234/",
-    "image_id": "007r01",
-    "image_missing": false,
-    "awards_count": 0,
-    "festivals_count": 0,
-    "awards_detail": [],
-    "festivals_detail": [],
-    "box_office": null,
-    "job_start": "01-09-14",
-    "job_end": "30-09-14",
-    "description": "A reality show for 12 up-and-coming Brazilian bands, competing over eight episodes with only original songs — no covers. The winner took home a Sony Music recording contract and career management. Live performances, online voting via Google/YouTube, and a jury including Supla, Bianca Jhordão, and Lucas Silveira gave the show both energy and credibility."
-  },
-  {
-    "id": "008d01",
-    "title": "QUAL VAI SER",
-    "type": "Documentary TV",
-    "director": [
-      "Rui Guilherme de Almeida Calvo"
-    ],
-    "prod_co": [
-      "Boutique Filmes"
-    ],
-    "department": "Cinematography",
-    "role": "Focus Puller",
-    "release_year": 2016,
-    "release_status": "released",
-    "platforms": [
-      "TV GLOBO"
-    ],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt11716308/",
-    "image_id": "008d01",
-    "image_missing": false,
-    "awards_count": 0,
-    "festivals_count": 0,
-    "awards_detail": [],
-    "festivals_detail": [],
-    "box_office": null,
-    "job_start": "01-10-14",
-    "job_end": "31-10-14",
-    "description": "A documentary series about the challenges of education and the choices young Brazilians face after school. Broadcast nationwide on TV Globo, reaching families across the country."
-  },
-  {
-    "id": "009s02",
-    "title": "WHEN THE DOGS BARK",
-    "type": "Short Film",
-    "director": [
-      "Rafael Farias Issas"
-    ],
-    "prod_co": [
-      "A Fúria Filmes",
-      "Perigo Filmes"
-    ],
-    "department": "Cinematography",
-    "role": "Focus Puller",
-    "release_year": 2017,
-    "release_status": "released",
-    "platforms": [],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt3815692/",
-    "image_id": "009s02",
-    "image_missing": false,
-    "awards_count": 1,
-    "festivals_count": 0,
-    "awards_detail": [
-      {
-        "event": "Worldfest Houston",
-        "year": 2015,
-        "category": "Gold Award – Best Short Film",
-        "result": "Winner",
-        "is_sound_award": false,
-        "country": "Usa"
-      },
-      {
-        "event": "New York City Independent Film Festival",
-        "year": 2014,
-        "category": "Best Short Film",
-        "result": "Nominated",
-        "is_sound_award": false,
-        "country": "Usa"
-      }
-    ],
-    "festivals_detail": [],
-    "box_office": null,
-    "job_start": "01-11-14",
-    "job_end": "10-11-14",
-    "description": "A thriller short film about security paranoia"
   },
   {
     "id": "010f03",
@@ -703,7 +3915,7 @@
     ],
     "imdb_link": "https://www.imdb.com/title/tt1291570/",
     "image_id": "010f03",
-    "image_missing": false,
+    "thumb_id": "010f03",
     "awards_count": 0,
     "festivals_count": 1,
     "awards_detail": [],
@@ -714,142 +3926,9 @@
         "country": "Canada"
       }
     ],
-    "box_office": {
-      "release_type": "Theatrical (INT)",
-      "admissions_br": "—",
-      "box_office_brl": "—",
-      "box_office_usd": "$22,400,000",
-      "currently_streaming_on": "Netflix / Amazon / Apple (varies)"
-    },
-    "job_start": "10-11-14",
-    "job_end": "30-12-14",
+    "job_start": "2014-11-10",
+    "job_end": "2014-12-30",
     "description": "A psychological thriller directed by Afonso Poyart, starring Anthony Hopkins, Colin Farrell, and Jeffrey Dean Morgan. Released internationally, it drew attention for its star power and tense atmosphere."
-  },
-  {
-    "id": "011d02",
-    "title": "A GRANDE LUTA",
-    "type": "Documentary TV",
-    "director": [
-      "Gustavo Mello"
-    ],
-    "prod_co": [
-      "Boutique Filmes"
-    ],
-    "department": "Cinematography",
-    "role": "Focus Puller",
-    "release_year": 2016,
-    "release_status": "released",
-    "platforms": [
-      "CINEMAX"
-    ],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt5859764/",
-    "image_id": "011d02",
-    "image_missing": false,
-    "awards_count": 0,
-    "festivals_count": 0,
-    "awards_detail": [],
-    "festivals_detail": [],
-    "box_office": null,
-    "job_start": "01-02-15",
-    "job_end": "31-03-15",
-    "description": "Documentary exploring Brazilian martial arts, with appearances from greats like Acelino “Popó” Freitas and Muhammad Ali. Aired across Latin America on Cinemax, bringing international spotlight to the fighters’ stories."
-  },
-  {
-    "id": "012t04",
-    "title": "QUE TALENTO S03",
-    "type": "Tv Serie",
-    "director": [
-      "André Rodrigues"
-    ],
-    "prod_co": [
-      "Cinefilm"
-    ],
-    "department": "Cinematography",
-    "role": "Focus Puller",
-    "release_year": 2016,
-    "release_status": "released",
-    "platforms": [
-      "DISNEY CHANNEL"
-    ],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt4401616/",
-    "image_id": "012t04",
-    "image_missing": false,
-    "awards_count": 0,
-    "festivals_count": 0,
-    "awards_detail": [],
-    "festivals_detail": [],
-    "box_office": null,
-    "job_start": "01-04-15",
-    "job_end": "30-09-15",
-    "description": "The very first Brazilian original scripted series on Disney Channel, following the adventures of a teen band navigating life and music. It resonated deeply with Latin American audiences, blending pop culture and youthful energy in an authentic local format."
-  },
-  {
-    "id": "013f04",
-    "title": "LOS ANGELES NO TIENEN ALAS",
-    "type": "Film",
-    "director": [
-      "Enrique Boh"
-    ],
-    "prod_co": [
-      "NBC Films"
-    ],
-    "department": "Sound",
-    "role": "Boom Operator",
-    "release_year": 2019,
-    "release_status": "released",
-    "platforms": [],
-    "film_language": [
-      "SPA"
-    ],
-    "prod_country": [
-      "Ecuador",
-      "Brazil"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt4781406/",
-    "image_id": "013f04",
-    "image_missing": false,
-    "awards_count": 0,
-    "festivals_count": 3,
-    "awards_detail": [],
-    "festivals_detail": [
-      {
-        "name": "Scoprir Muestra de Cine Iberoamericano",
-        "year": 2019,
-        "country": "Italy"
-      },
-      {
-        "name": "Kunturñawi Film Festival",
-        "year": 2019,
-        "country": "Ecuador"
-      },
-      {
-        "name": "Cuenca Festival",
-        "year": 2019,
-        "country": "Ecuador"
-      }
-    ],
-    "box_office": {
-      "release_type": "Theatrical (festival/limited)",
-      "admissions_br": "—",
-      "box_office_brl": "—",
-      "box_office_usd": "—",
-      "currently_streaming_on": "—"
-    },
-    "job_start": "01-07-15",
-    "job_end": "31-08-15",
-    "description": "A small independent feature by Enrique Boh, set on the Ecuadorian coast. It screened on the Latin American festival circuit, reflecting the vitality of emerging Ecuadorian cinema."
   },
   {
     "id": "014d03",
@@ -877,12 +3956,12 @@
     ],
     "imdb_link": "https://www.imdb.com/title/tt4822652/",
     "image_id": "014d03",
-    "image_missing": false,
+    "thumb_id": "014d03",
     "awards_count": 2,
     "festivals_count": 12,
     "awards_detail": [
       {
-        "event": "Architectures Film Festival Lisboa – Lusofonia Award",
+        "event": "Architectures Film Festival Lisboa - Lusofonia Award",
         "year": 2015,
         "category": "Best Film in Portuguese Language",
         "result": "Winner",
@@ -890,9 +3969,9 @@
         "country": "Portugal"
       },
       {
-        "event": "APCA Prize – São Paulo Arts Critics Association",
+        "event": "APCA - São Paulo Arts Critics Association",
         "year": 2016,
-        "category": "Cultural Action “Artigas 100”",
+        "category": "Cultural Action Artigas 100",
         "result": "Winner",
         "is_sound_award": false,
         "country": "Brazil"
@@ -940,7 +4019,7 @@
         "country": "Italy"
       },
       {
-        "name": "Path Festival, São Paulo",
+        "name": "Path Festival São Paulo",
         "year": 2016,
         "country": "Brazil"
       },
@@ -960,152 +4039,24 @@
         "country": "South Korea"
       }
     ],
-    "box_office": {
-      "release_type": "Theatrical (doc, limited)",
-      "admissions_br": "—",
-      "box_office_brl": "—",
-      "box_office_usd": "—",
-      "currently_streaming_on": "Shelter / Prime Video / Vimeo OD"
-    },
-    "job_start": "01-09-15",
-    "job_end": "31-10-15",
+    "job_start": "2015-09-01",
+    "job_end": "2015-10-31",
     "description": "A portrait of Vilanova Artigas, a key architect of Latin American modernism. Blending archival material with visits to six iconic works, the film reveals the relationship between architecture, light, and social vision."
   },
   {
-    "id": "015t05",
-    "title": "A GAROTA DA MOTO S01",
-    "type": "Tv Serie",
-    "director": [
-      "João Daniel Tikhomiroff"
-    ],
-    "prod_co": [
-      "Mixer FIlmes",
-      "SBT",
-      "Fox Networks Group Brasil"
-    ],
-    "department": "Sound",
-    "role": "Boom Operator",
-    "release_year": 2016,
-    "release_status": "released",
-    "platforms": [
-      "FOX",
-      "SBT"
-    ],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt5512844/",
-    "image_id": "015t05",
-    "image_missing": false,
-    "awards_count": 0,
-    "festivals_count": 0,
-    "awards_detail": [
-      {
-        "event": "Prêmio APCA (Televisão)",
-        "year": 2016,
-        "category": "Best Series",
-        "result": "Nominated",
-        "is_sound_award": false,
-        "country": "Brazil"
-      }
-    ],
-    "festivals_detail": [],
-    "box_office": null,
-    "job_start": "01-10-15",
-    "job_end": "31-12-15",
-    "description": "An action-packed drama about a fearless motorcycle courier protecting her son. A huge success on SBT, it averaged over 11 IBOPE points in São Paulo, peaking at 14 and even leading the audience in some cities. One of the most-watched Brazilian series of the decade on free-to-air TV."
-  },
-  {
-    "id": "016t06",
-    "title": "LILI A EX S02",
-    "type": "Tv Serie",
-    "director": [
-      "Marcelo Montenegro",
-      "Erez Milgron",
-      "Lilian Amarante"
-    ],
-    "prod_co": [
-      "Floresta Produções",
-      "O2 Filmes"
-    ],
-    "department": "Sound",
-    "role": "Boom Operator",
-    "release_year": 2016,
-    "release_status": "released",
-    "platforms": [
-      "GNT"
-    ],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt5314250/",
-    "image_id": "016t06",
-    "image_missing": false,
-    "awards_count": 0,
-    "festivals_count": 0,
-    "awards_detail": [],
-    "festivals_detail": [],
-    "box_office": null,
-    "job_start": "01-01-16",
-    "job_end": "31-03-16",
-    "description": "Comedy series about relationships and breakups, adapted from Caco Galhardo’s popular cartoon. Its witty, fast-paced episodes made it one of GNT’s standout originals, praised for sharp humor and relatable themes."
-  },
-  {
-    "id": "017t07",
-    "title": "A SECRETARIA DO PRESIDENTE",
-    "type": "Tv Serie",
-    "director": [
-      "Emilio Boechat"
-    ],
-    "prod_co": [
-      "Rt2a",
-      "Mixer Filmes",
-      "Multishow"
-    ],
-    "department": "Sound",
-    "role": "Boom Operator",
-    "release_year": 2016,
-    "release_status": "released",
-    "platforms": [
-      "MULTISHOW"
-    ],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt5963264/",
-    "image_id": "017t07",
-    "image_missing": false,
-    "awards_count": 0,
-    "festivals_count": 0,
-    "awards_detail": [],
-    "festivals_detail": [],
-    "box_office": null,
-    "job_start": "01-04-16",
-    "job_end": "30-06-16",
-    "description": "A lighthearted comedy mixing politics and romance, following the daily chaos of a president’s secretary. With quick humor and a playful tone, it fit Multishow’s lineup of irreverent originals aimed at young adult audiences."
-  },
-  {
-    "id": "018f05",
-    "title": "BLITZ",
+    "id": "001f01",
+    "title": "OS AMIGOS",
     "type": "Film",
     "director": [
-      "Rene Brasil"
+      "Lina Chamie"
     ],
     "prod_co": [
-      "Kinoscópio Cinematográfica"
+      "Girafa Filmes",
+      "Dezenove Som e Imagens"
     ],
-    "department": "Sound",
-    "role": "Prod. Sound Mixer",
-    "release_year": 2018,
+    "department": "Cinematography",
+    "role": "Still Photographer",
+    "release_year": 2014,
     "release_status": "released",
     "platforms": [],
     "film_language": [
@@ -1114,125 +4065,111 @@
     "prod_country": [
       "Brazil"
     ],
-    "imdb_link": "https://www.imdb.com/title/tt13739990",
-    "image_id": "018f05",
-    "image_missing": false,
-    "awards_count": 0,
-    "festivals_count": 0,
-    "awards_detail": [],
-    "festivals_detail": [],
-    "box_office": {
-      "release_type": "Theatrical (BR)",
-      "admissions_br": "264",
-      "box_office_brl": "R$2.502,00",
-      "box_office_usd": "$685",
-      "currently_streaming_on": "Prime Video"
-    },
-    "job_start": "01-06-16",
-    "job_end": "31-07-16",
-    "description": "Crime drama directed by Rene Tada Brasil, about a police officer accused of killing a student during a school blitz. Released in Brazilian theaters by Pandora Filmes and later on VOD."
-  },
-  {
-    "id": "019t08",
-    "title": "NATUREZA MORTA",
-    "type": "Tv Serie",
-    "director": [
-      "Flavio Frederico"
-    ],
-    "prod_co": [
-      "Kinoscópio Cinematográfica"
-    ],
-    "department": "Sound",
-    "role": "Boom Operator",
-    "release_year": 2018,
-    "release_status": "released",
-    "platforms": [
-      "CINE BRASIL TV"
-    ],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt8277094/",
-    "image_id": "019t08",
-    "image_missing": false,
-    "awards_count": 1,
-    "festivals_count": 0,
+    "imdb_link": "https://www.imdb.com/title/tt2355936/",
+    "image_id": "001f01",
+    "thumb_id": "001f01",
+    "awards_count": 2,
+    "festivals_count": 5,
     "awards_detail": [
       {
-        "event": "Prêmio ABC de Cinematografia",
-        "year": 2016,
-        "category": "Direction of Photography – Documentary",
+        "event": "Gramado Film Festival",
+        "year": 2013,
+        "category": "Best Editing",
         "result": "Winner",
         "is_sound_award": false,
         "country": "Brazil"
+      },
+      {
+        "event": "Cinema Brazil Grand Prize",
+        "year": 2015,
+        "category": "Best Original Soundtrack",
+        "result": "Nominated",
+        "is_sound_award": true,
+        "country": "Brazil"
       }
     ],
-    "festivals_detail": [],
-    "box_office": null,
-    "job_start": "01-08-16",
-    "job_end": "31-08-16",
-    "description": "Serial-killer noir set in São Paulo’s fashion scene: a star photographer hides a deadly secret. Starring Erom Cordeiro and Nanda Costa, the season premiered on April 22, 2018 and later landed on Prime Video."
+    "festivals_detail": [
+      {
+        "name": "Festival de Cinema de Gramado",
+        "year": 2013,
+        "country": "Brazil"
+      },
+      {
+        "name": "Festival do Rio",
+        "year": 2013,
+        "country": "Brazil"
+      },
+      {
+        "name": "Mostra Internacional de Cinema de São Paulo",
+        "year": 2013,
+        "country": "Brazil"
+      },
+      {
+        "name": "Cine BH International Film Festival",
+        "year": 2013,
+        "country": "Brazil"
+      },
+      {
+        "name": "Mostra de Cinema de Tiradentes",
+        "year": 2014,
+        "country": "Brazil"
+      }
+    ],
+    "job_start": "2012-07-01",
+    "job_end": "2012-09-30",
+    "description": "An intimate São Paulo drama by Lina Chamie about friendship, grief, and healing after loss. Premiered at the Festival de Brasília and praised for its sensitive storytelling and strong performances."
   },
   {
-    "id": "020f06",
-    "title": "O PIOR ALUNO DA ESCOLA",
-    "type": "Film",
+    "id": "005t02",
+    "title": "EXPERIMENTOS EXTRAORDINARIOS",
+    "type": "TV Series",
     "director": [
-      "Fabricio Bittar"
+      "Tiago Mello",
+      "Cássio Koshikumo"
     ],
     "prod_co": [
-      "Clube Filmes",
-      "Warner Bros.",
-      "Telecine"
+      "Boutique Filmes"
     ],
-    "department": "Sound",
-    "role": "Boom Operator",
-    "release_year": 2017,
+    "department": "Cinematography",
+    "role": "2nd Camera Assistant",
+    "release_year": 2014,
     "release_status": "released",
-    "platforms": [],
+    "platforms": [
+      "CARTOON NETWORK"
+    ],
     "film_language": [
       "PT_BR"
     ],
     "prod_country": [
       "Brazil"
     ],
-    "imdb_link": "https://www.imdb.com/title/tt6791886/",
-    "image_id": "020f06",
-    "image_missing": false,
+    "imdb_link": "https://www.imdb.com/title/tt3859802/",
+    "image_id": "005t02",
+    "thumb_id": "005t02",
     "awards_count": 0,
     "festivals_count": 0,
     "awards_detail": [],
     "festivals_detail": [],
-    "box_office": {
-      "release_type": "Theatrical (BR)",
-      "admissions_br": "506,412",
-      "box_office_brl": "R$6.850.270,39",
-      "box_office_usd": "$2,147,420",
-      "currently_streaming_on": "—"
-    },
-    "job_start": "01-09-16",
-    "job_end": "31-10-16",
-    "description": "Comedy feature directed by Fabrício Bittar, based on Danilo Gentili’s book. Starring Carlos Villagrán (“Quico” from Chaves), it became a box-office success in Brazil thanks to its irreverent humor."
+    "job_start": "2014-03-01",
+    "job_end": "2014-05-31",
+    "description": "The first Brazilian live-action series on Cartoon Network, co-produced with Canal Futura. Created by the popular Manual do Mundo team, it brought their millions of YouTube fans to TV. The show helped Cartoon Network surpass Discovery Kids and cement its lead in Brazilian kids’ cable."
   },
   {
-    "id": "021t09",
-    "title": "ZOO DA ZU S02",
-    "type": "Tv Serie",
+    "id": "006t03",
+    "title": "CINELAB",
+    "type": "TV Series",
     "director": [
       "Tiago Mello"
     ],
     "prod_co": [
       "Boutique Filmes"
     ],
-    "department": "Sound",
-    "role": "Boom Operator",
-    "release_year": 2017,
+    "department": "Cinematography",
+    "role": "2nd Camera Assistant",
+    "release_year": 2014,
     "release_status": "released",
     "platforms": [
-      "DISCOVERY KIDS"
+      "UNIVERSAL"
     ],
     "film_language": [
       "PT_BR"
@@ -1240,1147 +4177,33 @@
     "prod_country": [
       "Brazil"
     ],
-    "imdb_link": "https://www.imdb.com/title/tt6153266/",
-    "image_id": "021t09",
-    "image_missing": false,
-    "awards_count": 0,
-    "festivals_count": 0,
-    "awards_detail": [
-      {
-        "event": "International Emmy Kids Awards",
-        "year": 2016,
-        "category": "Kids: Preschool",
-        "result": "Nominated",
-        "is_sound_award": false,
-        "country": "Usa"
-      },
-      {
-        "event": "International Emmy Kids Awards",
-        "year": 2018,
-        "category": "Kids: Series",
-        "result": "Nominated",
-        "is_sound_award": false,
-        "country": "Usa"
-      }
-    ],
-    "festivals_detail": [],
-    "box_office": null,
-    "job_start": "01-10-16",
-    "job_end": "30-11-16",
-    "description": "A playful preschool series set in a fantastical zoo, starring Zu, a curious girl who talks to animals. One of Discovery Kids’ most popular Latin American originals, it expanded across the region and earned an International Emmy Kids nomination."
-  },
-  {
-    "id": "022f07",
-    "title": "O AMOR DA VOLTAS",
-    "type": "Film",
-    "director": [
-      "Marcos Bernstein"
-    ],
-    "prod_co": [
-      "Pontos de Fuga",
-      "Neanderthal MB",
-      "Globo Filmes"
-    ],
-    "department": "Sound",
-    "role": "Boom Operator",
-    "release_year": 2022,
-    "release_status": "released",
-    "platforms": [
-      "HBO MAX"
-    ],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt6360426/",
-    "image_id": "022f07",
-    "image_missing": false,
-    "awards_count": 0,
-    "festivals_count": 1,
-    "awards_detail": [],
-    "festivals_detail": [
-      {
-        "name": "Mostra Internacional de Cinema de São Paulo",
-        "year": 2019,
-        "country": "Brazil"
-      }
-    ],
-    "box_office": {
-      "release_type": "Theatrical (BR)",
-      "admissions_br": "11,027",
-      "box_office_brl": "R$188.171,77",
-      "box_office_usd": "$36,397",
-      "currently_streaming_on": "—"
-    },
-    "job_start": "01-11-16",
-    "job_end": "31-12-16",
-    "description": "A light-hearted romantic comedy where chance encounters and missed connections shape the path of love. Shot in a Rio de Janeiro coast paradise location: Arraial do Cabo"
-  },
-  {
-    "id": "023s03",
-    "title": "SWEET HEART",
-    "type": "Short Film",
-    "director": [
-      "Amina Jorge"
-    ],
-    "prod_co": [
-      "Filmes de Vagabundo"
-    ],
-    "department": "Sound",
-    "role": "Prod. Sound Mixer",
-    "release_year": 2018,
-    "release_status": "released",
-    "platforms": [],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt9461318/",
-    "image_id": "023s03",
-    "image_missing": false,
-    "awards_count": 0,
-    "festivals_count": 2,
-    "awards_detail": [],
-    "festivals_detail": [
-      {
-        "name": "Mostra De Cinema De Tiradentes",
-        "year": 2018,
-        "country": "Brazil"
-      },
-      {
-        "name": "Goiânia Mostra Curtas",
-        "year": 2018,
-        "country": "Brazil"
-      }
-    ],
-    "box_office": null,
-    "job_start": "01-02-17",
-    "job_end": "28-02-17",
-    "description": "A coming-of-age short set in São Paulo's Liberdade neighborhood about a Brazilian-born Chinese teenager. A naturalistic short blending non-actors and intimate observation to capture cultural clash and self-discovery."
-  },
-  {
-    "id": "024f08",
-    "title": "FERRUGEM",
-    "type": "Film",
-    "director": [
-      "Aly Muritiba"
-    ],
-    "prod_co": [
-      "Grafo Audiovisual",
-      "Muritiba Filmes",
-      "Globo Filmes"
-    ],
-    "department": "Sound",
-    "role": "Boom Operator",
-    "release_year": 2018,
-    "release_status": "released",
-    "platforms": [],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt7467324/",
-    "image_id": "024f08",
-    "image_missing": false,
-    "awards_count": 9,
-    "festivals_count": 4,
-    "awards_detail": [
-      {
-        "event": "Festival de Gramado",
-        "year": 2018,
-        "category": "Best Brazilian Feature Film",
-        "result": "Winner",
-        "is_sound_award": false,
-        "country": "Brazil"
-      },
-      {
-        "event": "Festival de Gramado",
-        "year": 2018,
-        "category": "Best Screenplay",
-        "result": "Winner",
-        "is_sound_award": false,
-        "country": "Brazil"
-      },
-      {
-        "event": "Festival de Gramado",
-        "year": 2018,
-        "category": "Best Sound Design",
-        "result": "Winner",
-        "is_sound_award": true,
-        "country": "Brazil"
-      },
-      {
-        "event": "San Sebastián – Films in Progress Industry Awards",
-        "year": 2017,
-        "category": "Films in Progress Industry Award",
-        "result": "Winner",
-        "is_sound_award": false,
-        "country": "Spain"
-      },
-      {
-        "event": "San Sebastián – Film Factory Award",
-        "year": 2017,
-        "category": "Film Factory Award",
-        "result": "Winner",
-        "is_sound_award": false,
-        "country": "Spain"
-      },
-      {
-        "event": "San Sebastián – CAACI/Ibermedia Award",
-        "year": 2017,
-        "category": "CAACI/Ibermedia TV Films in Progress Award",
-        "result": "Winner",
-        "is_sound_award": false,
-        "country": "Spain"
-      },
-      {
-        "event": "FESTin (Lisbon Festival)",
-        "year": 2019,
-        "category": "Critics’ Award – Best Brazilian Film",
-        "result": "Winner",
-        "is_sound_award": false,
-        "country": "Portugal"
-      },
-      {
-        "event": "FESTin (Lisbon Festival)",
-        "year": 2019,
-        "category": "Critics’ Award – Best Director (Aly Muritiba)",
-        "result": "Winner",
-        "is_sound_award": false,
-        "country": "Portugal"
-      },
-      {
-        "event": "FESTin (Lisbon Festival)",
-        "year": 2019,
-        "category": "Critics’ Award – Best Actress (Tifanny Dopke)",
-        "result": "Winner",
-        "is_sound_award": false,
-        "country": "Portugal"
-      }
-    ],
-    "festivals_detail": [
-      {
-        "name": "Sundance Film Festival",
-        "year": 2018,
-        "country": "USA"
-      },
-      {
-        "name": "San Sebastián International Film Festival",
-        "year": 2018,
-        "country": "Spain"
-      },
-      {
-        "name": "Berlin European Film Market (EFM)",
-        "year": 2018,
-        "country": "Germany"
-      },
-      {
-        "name": "San Sebastián International Film Festival",
-        "year": 2017,
-        "country": "Spain"
-      }
-    ],
-    "box_office": {
-      "release_type": "Theatrical (BR)",
-      "admissions_br": "27,888",
-      "box_office_brl": "R$362.551,00",
-      "box_office_usd": "$99,329",
-      "currently_streaming_on": "Prime Video / Apple TV"
-    },
-    "job_start": "01-03-17",
-    "job_end": "31-05-17",
-    "description": "A haunting portrait of adolescence in the digital age, where a leaked intimate video sets off a chain of irreversible consequences."
-  },
-  {
-    "id": "025f09",
-    "title": "QUERIDA MAMAE",
-    "type": "Film",
-    "director": [
-      "Jeremias Moreira"
-    ],
-    "prod_co": [
-      "Moonshot Pictures"
-    ],
-    "department": "Sound",
-    "role": "Boom Operator",
-    "release_year": 2018,
-    "release_status": "released",
-    "platforms": [],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt7579474/",
-    "image_id": "025f09",
-    "image_missing": false,
+    "imdb_link": "https://www.imdb.com/title/tt3673034/",
+    "image_id": "006t03",
+    "thumb_id": "006t03",
     "awards_count": 0,
     "festivals_count": 0,
     "awards_detail": [],
     "festivals_detail": [],
-    "box_office": {
-      "release_type": "Theatrical (BR)",
-      "admissions_br": "1,646",
-      "box_office_brl": "R$17.577,00",
-      "box_office_usd": "$4,816",
-      "currently_streaming_on": "Plex (AVOD)"
-    },
-    "job_start": "01-05-17",
-    "job_end": "31-07-17",
-    "description": "An umberable drama that unravels the complexities of family, memory, and unresolved emotions. Do not recomend it, the whole movie is a non stop arguing of 3 generations of women, shot in studio and directed by a 75 y.o. man. I'm sorry but it's true."
+    "job_start": "2014-06-01",
+    "job_end": "2014-08-31",
+    "description": "A mix of science, cinema, and special effects, Cinelab turned DIY movie experiments into a hit format. Produced by Boutique Filmes, it became a cult favorite on Universal Channel and spawned multiple seasons."
   },
   {
-    "id": "026f10",
-    "title": "THE YELLOW NIGHT",
-    "type": "Film",
-    "director": [
-      "Ramon P. Mota"
-    ],
-    "prod_co": [
-      "Vermelho Profundo Produções Audiovisuais"
-    ],
-    "department": "Sound",
-    "role": "Prod. Sound Mixer",
-    "release_year": 2019,
-    "release_status": "released",
-    "platforms": [],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt10297530/",
-    "image_id": "026f10",
-    "image_missing": false,
-    "awards_count": 1,
-    "festivals_count": 2,
-    "awards_detail": [
-      {
-        "event": "Brooklyn Horror Film Festival – Head Trip Feature Competition",
-        "year": 2019,
-        "category": "Best Director",
-        "result": "Winner",
-        "is_sound_award": false,
-        "country": "Usa"
-      },
-      {
-        "event": "Prêmio Guarani de Cinema Brasileiro",
-        "year": 2020,
-        "category": "Best Sound",
-        "result": "Nominated",
-        "is_sound_award": true,
-        "country": "Brazil"
-      }
-    ],
-    "festivals_detail": [
-      {
-        "name": "Brooklyn Horror Film Festival",
-        "year": 2019,
-        "country": "USA"
-      },
-      {
-        "name": "IndieLisboa International Independent Film Festival",
-        "year": 2019,
-        "country": "Portugal"
-      }
-    ],
-    "box_office": {
-      "release_type": "Theatrical (limited)",
-      "admissions_br": "1,824",
-      "box_office_brl": "R$13.055,00",
-      "box_office_usd": "$3,313",
-      "currently_streaming_on": "Prime Video / Roku / Hoopla"
-    },
-    "job_start": "01-08-17",
-    "job_end": "31-08-17",
-    "description": "A group of teenagers gathers on a remote island, where reality begins to fracture. The Yellow Night blends coming-of-age with science fiction, building a hypnotic, disorienting atmosphere intensified by the sound design, earning us a nommination for best sound award."
-  },
-  {
-    "id": "027d01",
-    "title": "EXPLODE SAO PAULO GIL",
-    "type": "Documentary Film",
-    "director": [
-      "Maria C. Escobar"
-    ],
-    "prod_co": [
-      "Filmes de Abril",
-      "Terratreme Filmes",
-      "Ponta de Lança"
-    ],
-    "department": "Sound",
-    "role": "Prod. Sound Mixer",
-    "release_year": 2025,
-    "release_status": "released",
-    "platforms": [],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt37531732/",
-    "image_id": "027d01",
-    "image_missing": false,
-    "awards_count": 0,
-    "festivals_count": 1,
-    "awards_detail": [],
-    "festivals_detail": [
-      {
-        "name": "Olhar de Cinema – Festival Internacional de Curitiba",
-        "year": 2025,
-        "country": "Brazil"
-      }
-    ],
-    "box_office": {
-      "release_type": "Theatrical (BR)",
-      "admissions_br": "—",
-      "box_office_brl": "—",
-      "box_office_usd": "—",
-      "currently_streaming_on": "—"
-    },
-    "job_start": "01-09-17",
-    "job_end": "30-09-17",
-    "description": "A domestic worker in São Paulo dreams of becoming a singer. Is hybrid documentary-fiction explores authorship, power, and the pursuit of dreams through music and cinema. "
-  },
-  {
-    "id": "028f11",
-    "title": "DIVINE LOVE",
-    "type": "Film",
-    "director": [
-      "Gabriel Mascaro"
-    ],
-    "prod_co": [
-      "Desvia",
-      "Malbicho Cine",
-      "Snowglobe",
-      "Jirafa",
-      "Bord Cadre Films",
-      "Mer Film",
-      "Film i Väst",
-      "Globo Filmes"
-    ],
-    "department": "Sound",
-    "role": "Add. Prod. Sound Mixer; Boom Operator",
-    "release_year": 2019,
-    "release_status": "released",
-    "platforms": [
-      "AMAZON PRIME"
-    ],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil",
-      "Denmark",
-      "Norway",
-      "Uruguay",
-      "Chile",
-      "Sweden",
-      "France",
-      "Switzerland"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt8311958/",
-    "image_id": "028f11",
-    "image_missing": false,
-    "awards_count": 3,
-    "festivals_count": 3,
-    "awards_detail": [
-      {
-        "event": "Durban International Film Festival",
-        "year": 2019,
-        "category": "Best Direction",
-        "result": "Winner",
-        "is_sound_award": false,
-        "country": "South Africa"
-      },
-      {
-        "event": "Durban International Film Festival",
-        "year": 2019,
-        "category": "Best Cinematography",
-        "result": "Winner",
-        "is_sound_award": false,
-        "country": "South Africa"
-      },
-      {
-        "event": "Guadalajara International Film Festival",
-        "year": 2019,
-        "category": "FEISAL Award",
-        "result": "Winner",
-        "is_sound_award": false,
-        "country": "Mexico"
-      }
-    ],
-    "festivals_detail": [
-      {
-        "name": "Sundance Film Festival",
-        "year": 2019,
-        "country": "USA"
-      },
-      {
-        "name": "Berlin International Film Festival",
-        "year": 2019,
-        "country": "Germany"
-      },
-      {
-        "name": "Vancouver International Film Festival",
-        "year": 2019,
-        "country": "Canada"
-      }
-    ],
-    "box_office": {
-      "release_type": "Theatrical (limited)",
-      "admissions_br": "35,781",
-      "box_office_brl": "R$446.201,00",
-      "box_office_usd": "$113,249",
-      "currently_streaming_on": "Roku Channel / Amazon / Apple"
-    },
-    "job_start": "01-10-17",
-    "job_end": "31-12-17",
-    "description": "A near-future Brazil where religion, technology, and state control merge into everyday life. It's a bold, sensual dystopia blending satire, spirituality, and social critique."
-  },
-  {
-    "id": "029f12",
-    "title": "LAMENTO",
-    "type": "Film",
-    "director": [
-      "Diego Lopes"
-    ],
-    "prod_co": [
-      "Moro Filmes",
-      "Oger Sepol Produções"
-    ],
-    "department": "Sound",
-    "role": "Boom Operator",
-    "release_year": 2021,
-    "release_status": "released",
-    "platforms": [],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt9000454/",
-    "image_id": "029f12",
-    "image_missing": false,
-    "awards_count": 1,
-    "festivals_count": 5,
-    "awards_detail": [
-      {
-        "event": "Festival de Burbank",
-        "year": 2021,
-        "category": "Best Foreign Film",
-        "result": "Nominated",
-        "is_sound_award": false,
-        "country": "Usa"
-      },
-      {
-        "event": "Festival da Lapa",
-        "year": 2019,
-        "category": "Best Actor, Best Actress, Best Cinematography, Best Art Direction",
-        "result": "Winner",
-        "is_sound_award": false,
-        "country": "Brazil"
-      }
-    ],
-    "festivals_detail": [
-      {
-        "name": "Festival de Brasília",
-        "year": 2019,
-        "country": "Brazil"
-      },
-      {
-        "name": "Nashville Film Festival",
-        "year": 2019,
-        "country": "USA"
-      },
-      {
-        "name": "Festival de Burbank",
-        "year": 2021,
-        "country": "USA"
-      },
-      {
-        "name": "Cairo Film Festival",
-        "year": 2021,
-        "country": "Egypt"
-      },
-      {
-        "name": "Festival de Cinema da Lapa",
-        "year": 2019,
-        "country": "Brazil"
-      }
-    ],
-    "box_office": {
-      "release_type": "Theatrical (limited)",
-      "admissions_br": "317",
-      "box_office_brl": "R$4.928,92",
-      "box_office_usd": "$914",
-      "currently_streaming_on": "Globoplay / Prime Video"
-    },
-    "job_start": "01-01-18",
-    "job_end": "28-02-18",
-    "description": "Indie drama by Diego Lopes and Claudio Bittencourt about grief and guilt in the aftermath of loss. Festival-circuit title in Brazil; limited theatrical/TV play."
-  },
-  {
-    "id": "030s04",
-    "title": "MESMO COM TANTA AGONIA",
-    "type": "Short Film",
-    "director": [
-      "Alice Andrade Drummond"
-    ],
-    "prod_co": [
-      "A Flor e a Náusea"
-    ],
-    "department": "Sound",
-    "role": "Prod. Sound Mixer",
-    "release_year": 2018,
-    "release_status": "released",
-    "platforms": [],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt13272910/",
-    "image_id": "030s04",
-    "image_missing": false,
-    "awards_count": 3,
-    "festivals_count": 3,
-    "awards_detail": [
-      {
-        "event": "Festival De Brasília",
-        "year": 2018,
-        "category": "Best Actress (Maria Leite)",
-        "result": "Winner",
-        "is_sound_award": false,
-        "country": "Brazil"
-      },
-      {
-        "event": "Festival De Brasília",
-        "year": 2018,
-        "category": "Best Short – Crítica (Abraccine)",
-        "result": "Winner",
-        "is_sound_award": false,
-        "country": "Brazil"
-      },
-      {
-        "event": "Festival De Brasília",
-        "year": 2018,
-        "category": "Best Short – Canal Brasil",
-        "result": "Winner",
-        "is_sound_award": false,
-        "country": "Brazil"
-      }
-    ],
-    "festivals_detail": [
-      {
-        "name": "Mostra De Cinema De Tiradentes",
-        "year": 2018,
-        "country": "Brazil"
-      },
-      {
-        "name": "Festival Internacional De Curtas De São Paulo",
-        "year": 2019,
-        "country": "Brazil"
-      },
-      {
-        "name": "Curta Cinema – Festival Internacional De Curtas Do Rio",
-        "year": 2019,
-        "country": "Brazil"
-      }
-    ],
-    "box_office": null,
-    "job_start": "01-03-18",
-    "job_end": "10-03-18",
-    "description": "A colorful, energetic short film about a working mother racing against time to reach her daughter's birthday party she so carefully planned. That feeling of the everyday struggle of a 20-million-person city where public transport becomes an obstacle."
-  },
-  {
-    "id": "031t10",
-    "title": "A GAROTA DA MOTO S02",
-    "type": "Tv Serie",
-    "director": [
-      "João Daniel Tikhomiroff"
-    ],
-    "prod_co": [
-      "Radar",
-      "Mixer Filmes",
-      "SBT"
-    ],
-    "department": "Sound",
-    "role": "Boom Operator",
-    "release_year": 2019,
-    "release_status": "released",
-    "platforms": [
-      "FOX",
-      "SBT"
-    ],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt5512844/",
-    "image_id": "031t10",
-    "image_missing": false,
-    "awards_count": 0,
-    "festivals_count": 0,
-    "awards_detail": [],
-    "festivals_detail": [],
-    "box_office": null,
-    "job_start": "11-03-18",
-    "job_end": "31-07-18",
-    "description": "The biker heroine returned with even more action and suspense. The premiere scored 11.9 IBOPE points in São Paulo, a 15% increase over season one’s debut, proving the show’s lasting appeal on free-to-air TV."
-  },
-  {
-    "id": "032t11",
-    "title": "FERAS",
-    "type": "Tv Serie",
-    "director": [
-      "Teodoro Poppovic"
-    ],
-    "prod_co": [
-      "Primo Filmes",
-      "MTV Brasil"
-    ],
-    "department": "Sound",
-    "role": "Boom Operator",
-    "release_year": 2019,
-    "release_status": "released",
-    "platforms": [
-      "MTV BR"
-    ],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt9795982/",
-    "image_id": "032t11",
-    "image_missing": false,
-    "awards_count": 0,
-    "festivals_count": 0,
-    "awards_detail": [
-      {
-        "event": "Grande Prêmio do Cinema Brasileiro",
-        "year": 2020,
-        "category": "Best Sound",
-        "result": "Nominated",
-        "is_sound_award": false,
-        "country": "Brazil"
-      }
-    ],
-    "festivals_detail": [],
-    "box_office": null,
-    "job_start": "01-08-18",
-    "job_end": "31-08-18",
-    "description": "An urban dramedy set in São Paulo’s nightlife, mixing music, parties, and tangled relationships. With strong LGBTQ+ representation and the irreverent freedom of MTV, it stood out as a fresh take on youth drama. It also earned nominations at the Grande Prêmio do Cinema Brasileiro, including Best Sound."
-  },
-  {
-    "id": "033s05",
-    "title": "A MULHER QUE SOU",
-    "type": "Short Film",
-    "director": [
-      "Nathalia Tereza"
-    ],
-    "prod_co": [
-      "Diadorim Filmes",
-      "Ponte Produções"
-    ],
-    "department": "Sound",
-    "role": "Prod. Sound Mixer",
-    "release_year": 2019,
-    "release_status": "released",
-    "platforms": [],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt12380182",
-    "image_id": "033s05",
-    "image_missing": false,
-    "awards_count": 2,
-    "festivals_count": 4,
-    "awards_detail": [
-      {
-        "event": "Festival De Cinema De Gramado",
-        "year": 2019,
-        "category": "Best Actress (Cassia Damasceno)",
-        "result": "Winner",
-        "is_sound_award": false,
-        "country": "Brazil"
-      },
-      {
-        "event": "Olhar De Cinema – Festival De Curitiba",
-        "year": 2020,
-        "category": "Prêmio Avec (Berenice Mendes)",
-        "result": "Winner",
-        "is_sound_award": false,
-        "country": "Brazil"
-      }
-    ],
-    "festivals_detail": [
-      {
-        "name": "Goiânia Mostra Curtas",
-        "year": 2019,
-        "country": "Brazil"
-      },
-      {
-        "name": "Janela Internacional De Cinema Do Recife",
-        "year": 2019,
-        "country": "Brazil"
-      },
-      {
-        "name": "Panorama Coisa De Cinema",
-        "year": 2019,
-        "country": "Brazil"
-      },
-      {
-        "name": "Cabíria Festival",
-        "year": 2019,
-        "country": "Brazil"
-      }
-    ],
-    "box_office": null,
-    "job_start": "01-09-18",
-    "job_end": "30-09-18",
-    "description": "A character-driven short film that follows Marta, a single mother who moves to a new town to rebuild her life, rediscover her independence."
-  },
-  {
-    "id": "034f13",
-    "title": "HELEN",
-    "type": "Film",
-    "director": [
-      "André Collazzo"
-    ],
-    "prod_co": [
-      "Prosperidade",
-      "Prosperidade Content"
-    ],
-    "department": "Sound",
-    "role": "Prod. Sound Mixer",
-    "release_year": 2021,
-    "release_status": "released",
-    "platforms": [],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt10308528/",
-    "image_id": "034f13",
-    "image_missing": false,
-    "awards_count": 1,
-    "festivals_count": 5,
-    "awards_detail": [
-      {
-        "event": "Festival do Roteiro de Língua Portuguesa",
-        "year": 2017,
-        "category": "Best Screenplay",
-        "result": "Nominated",
-        "is_sound_award": false,
-        "country": "Portugal"
-      },
-      {
-        "event": "Festival de Cinema Latino-Americano de Toulouse",
-        "year": 2020,
-        "category": "Prix Rail Doc",
-        "result": "Winner",
-        "is_sound_award": false,
-        "country": "France"
-      }
-    ],
-    "festivals_detail": [
-      {
-        "name": "Festival do Roteiro de Língua Portuguesa",
-        "year": 2017,
-        "country": "Portugal"
-      },
-      {
-        "name": "Festival de Cinema Latino-Americano de Toulouse",
-        "year": 2020,
-        "country": "France"
-      },
-      {
-        "name": "Mostra de Cinema de Ouro Preto (CineOP)",
-        "year": 2020,
-        "country": "Brazil"
-      },
-      {
-        "name": "Cine en Construcción – Toulouse",
-        "year": 2019,
-        "country": "France"
-      },
-      {
-        "name": "Festival LE ZOLA – Reflets du Cinéma",
-        "year": 2020,
-        "country": "France"
-      }
-    ],
-    "box_office": {
-      "release_type": "Theatrical (limited)",
-      "admissions_br": "—",
-      "box_office_brl": "—",
-      "box_office_usd": "—",
-      "currently_streaming_on": "—"
-    },
-    "job_start": "01-10-18",
-    "job_end": "30-11-18",
-    "description": "Feature drama by André Meirelles Collazzo, starring Marcélia Cartaxo and Thalita Machado. Inspired by real events, it follows a 9-year-old girl in a São Paulo tenement trying to buy a birthday gift for her grandmother. Selected at Cinélatino Toulouse."
-  },
-  {
-    "id": "035f14",
-    "title": "SAO PAULO HEIST",
-    "type": "Film",
-    "director": [
-      "Flavio Federico"
-    ],
-    "prod_co": [
-      "Kinoscópio"
-    ],
-    "department": "Sound",
-    "role": "Boom Operator",
-    "release_year": 2022,
-    "release_status": "released",
-    "platforms": [
-      "AMAZON PRIME"
-    ],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt20417610/",
-    "image_id": "035f14",
-    "image_missing": false,
-    "awards_count": 0,
-    "festivals_count": 0,
-    "awards_detail": [],
-    "festivals_detail": [],
-    "box_office": {
-      "release_type": "Direct-to-Streaming",
-      "admissions_br": "—",
-      "box_office_brl": "—",
-      "box_office_usd": "—",
-      "currently_streaming_on": "Prime Video"
-    },
-    "job_start": "01-04-19",
-    "job_end": "30-06-19",
-    "description": "A high-stakes action crime thriller unfolds during a bank robbery in São Paulo, where precision and chaos collide in real time."
-  },
-  {
-    "id": "036f15",
-    "title": "JESUS KID",
-    "type": "Film",
-    "director": [
-      "Aly Muritiba"
-    ],
-    "prod_co": [
-      "Grafo Audiovisual",
-      "Muritiba Filmes"
-    ],
-    "department": "Sound",
-    "role": "Prod. Sound Mixer",
-    "release_year": 2022,
-    "release_status": "released",
-    "platforms": [
-      "AMAZON PRIME"
-    ],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt10930820/",
-    "image_id": "036f15",
-    "image_missing": false,
-    "awards_count": 4,
-    "festivals_count": 2,
-    "awards_detail": [
-      {
-        "event": "Winter Film Awards",
-        "year": 2021,
-        "category": "IndiePix Award",
-        "result": "Winner",
-        "is_sound_award": false,
-        "country": "Usa"
-      },
-      {
-        "event": "Festival de Gramado",
-        "year": 2021,
-        "category": "Best Director",
-        "result": "Winner",
-        "is_sound_award": false,
-        "country": "Brazil"
-      },
-      {
-        "event": "Festival de Gramado",
-        "year": 2021,
-        "category": "Best Screenplay",
-        "result": "Winner",
-        "is_sound_award": false,
-        "country": "Brazil"
-      },
-      {
-        "event": "Festival de Gramado",
-        "year": 2021,
-        "category": "Best Supporting Actor",
-        "result": "Winner",
-        "is_sound_award": false,
-        "country": "Brazil"
-      }
-    ],
-    "festivals_detail": [
-      {
-        "name": "Winter Film Awards",
-        "year": 2021,
-        "country": "USA"
-      },
-      {
-        "name": "Festival de Gramado",
-        "year": 2021,
-        "country": "Brazil"
-      }
-    ],
-    "box_office": {
-      "release_type": "Theatrical (BR)",
-      "admissions_br": "768",
-      "box_office_brl": "R$9.772,68",
-      "box_office_usd": "$1,890",
-      "currently_streaming_on": "Tubi / Amazon / Apple"
-    },
-    "job_start": "01-07-19",
-    "job_end": "31-08-19",
-    "description": "Dark meta-comedy by Aly Muritiba, adapted from Lourenço Mutarelli. Premiered on the festival circuit; won Best Screenplay – Festival de Gramado 2021."
-  },
-  {
-    "id": "037t12",
-    "title": "INVISIBLE CITY S01",
-    "type": "Tv Serie",
-    "director": [
-      "Carlos Saldanha"
-    ],
-    "prod_co": [
-      "Pródigo Films",
-      "Boipeba Filmes",
-      "BottleCap Productions"
-    ],
-    "department": "Sound",
-    "role": "Boom Operator",
-    "release_year": 2021,
-    "release_status": "released",
-    "platforms": [
-      "NETFLIX"
-    ],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt8878862",
-    "image_id": "037t12",
-    "image_missing": false,
-    "awards_count": 0,
-    "festivals_count": 0,
-    "awards_detail": [
-      {
-        "event": "International Emmy Awards",
-        "year": 2021,
-        "category": "Best Drama Series",
-        "result": "Nominated",
-        "is_sound_award": false,
-        "country": "Usa"
-      },
-      {
-        "event": "Seoul International Drama Awards",
-        "year": 2021,
-        "category": "Best Series (International)",
-        "result": "Nominated",
-        "is_sound_award": false,
-        "country": "South Korea"
-      },
-      {
-        "event": "Prêmio APCA (Televisão)",
-        "year": 2021,
-        "category": "Best Series",
-        "result": "Nominated",
-        "is_sound_award": false,
-        "country": "Brazil"
-      }
-    ],
-    "festivals_detail": [],
-    "box_office": null,
-    "job_start": "01-09-19",
-    "job_end": "15-12-19",
-    "description": "A Netflix fantasy-thriller rooted in Brazilian folklore that quickly resonated globally. It hit #1 most popular show in Brazil, and landed in the Top 10 in 12 countries, including France and Spain. Lauded for weaving myth into mystery and showcasing Brazil’s stories to the world."
-  },
-  {
-    "id": "038t13",
-    "title": "SPECTROS",
-    "type": "Tv Serie",
-    "director": [
-      "Douglas (Doug) Petrie"
-    ],
-    "prod_co": [
-      "Moonshot Pictures"
-    ],
-    "department": "Sound",
-    "role": "Boom Operator",
-    "release_year": 2020,
-    "release_status": "released",
-    "platforms": [
-      "NETFLIX"
-    ],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt10145110/",
-    "image_id": "038t13",
-    "image_missing": false,
-    "awards_count": 0,
-    "festivals_count": 0,
-    "awards_detail": [],
-    "festivals_detail": [],
-    "box_office": null,
-    "job_start": "01-11-19",
-    "job_end": "31-03-20",
-    "description": "A supernatural thriller set in São Paulo’s Liberdade district, blending Japanese folklore with Brazilian urban legends. Created and showrun by Douglas Petrie (American Horror Story, Daredevil), the series marked one of Netflix’s boldest cross-cultural originals in Brazil."
-  },
-  {
-    "id": "039r02",
-    "title": "A QUEEN IS BORN",
+    "id": "007r01",
+    "title": "BREAKOUT BRASIL",
     "type": "Reality Show",
     "director": [
-      "Gustavo Mello"
+      "Enrico Saraiva"
     ],
     "prod_co": [
-      "Boutique Filmes"
+      "Delicatessen Filmes"
     ],
-    "department": "Sound",
-    "role": "Sound Utility",
-    "release_year": 2020,
+    "department": "Cinematography",
+    "role": "2nd Camera Assistant",
+    "release_year": 2014,
     "release_status": "released",
     "platforms": [
-      "NETFLIX"
+      "SONY"
     ],
     "film_language": [
       "PT_BR"
@@ -2388,664 +4211,34 @@
     "prod_country": [
       "Brazil"
     ],
-    "imdb_link": "https://www.imdb.com/title/tt12571792/",
-    "image_id": "039r02",
-    "image_missing": false,
-    "awards_count": 0,
-    "festivals_count": 0,
-    "awards_detail": [
-      {
-        "event": "Prêmio F5",
-        "year": 2020,
-        "category": "Melhor Reality Show",
-        "result": "Nominated",
-        "is_sound_award": false,
-        "country": "Brazil"
-      }
-    ],
-    "festivals_detail": [],
-    "box_office": null,
-    "job_start": "01-01-20",
-    "job_end": "29-02-20",
-    "description": "A drag reality show hosted by Gloria Groove and Alexia Twister. Contestants were mentored in performance, fashion, and self-expression, bringing Brazilian drag culture to a global Netflix audience."
-  },
-  {
-    "id": "041f16",
-    "title": "DETETIVE MADEINUSA",
-    "type": "Film",
-    "director": [
-      "Rodrigo Van Der Put"
-    ],
-    "prod_co": [
-      "Formata Produções",
-      "Galeria Distribuidora",
-      "Grupo Telefilms"
-    ],
-    "department": "Sound",
-    "role": "Boom Operator",
-    "release_year": 2021,
-    "release_status": "released",
-    "platforms": [
-      "AMAZON PRIME"
-    ],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt14028680/",
-    "image_id": "041f16",
-    "image_missing": false,
+    "imdb_link": "https://www.imdb.com/title/tt10510234/",
+    "image_id": "007r01",
+    "thumb_id": "007r01",
     "awards_count": 0,
     "festivals_count": 0,
     "awards_detail": [],
     "festivals_detail": [],
-    "box_office": {
-      "release_type": "Direct-to-Streaming",
-      "admissions_br": "—",
-      "box_office_brl": "—",
-      "box_office_usd": "—",
-      "currently_streaming_on": "Netflix"
-    },
-    "job_start": "01-10-20",
-    "job_end": "31-12-20",
-    "description": "Brazilian comedy starring Tirullipa and Whindersson Nunes, directed by Rodrigo Van Der Put. A clumsy ex-politician turned rookie detective is hired by a billionaire lobbyist to investigate the theft of a prize bull—kicking off a chaotic case with a creator-economy all-star ensemble (GKay, Bruno Montaleone, Aisha Jambo). Premiered exclusively on Amazon Prime Video on November 12, 2021, with a worldwide platform release."
+    "job_start": "2014-09-01",
+    "job_end": "2014-09-30",
+    "description": "A reality show for 12 up-and-coming Brazilian bands, competing over eight episodes with only original songs — no covers. The winner took home a Sony Music recording contract and career management. Live performances, online voting via Google/YouTube, and a jury including Supla, Bianca Jhordão, and Lucas Silveira gave the show both energy and credibility."
   },
   {
-    "id": "042f17",
-    "title": "TPM MEU AMOR",
-    "type": "Film",
-    "director": [
-      "Eliana Fonseca"
-    ],
-    "prod_co": [
-      "Moonshot Pictures"
-    ],
-    "department": "Sound",
-    "role": "Boom Operator",
-    "release_year": 2023,
-    "release_status": "released",
-    "platforms": [],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt22376320",
-    "image_id": "042f17",
-    "image_missing": false,
-    "awards_count": 0,
-    "festivals_count": 0,
-    "awards_detail": [],
-    "festivals_detail": [],
-    "box_office": {
-      "release_type": "Theatrical (BR)",
-      "admissions_br": "—",
-      "box_office_brl": "—",
-      "box_office_usd": "—",
-      "currently_streaming_on": "—"
-    },
-    "job_start": "01-01-21",
-    "job_end": "31-03-21",
-    "description": "Comedy directed by Eliana Fonseca, written by Jacqueline Vargas, starring Paloma Bernardi. Produced by Moonshot Pictures with Star Original Productions/Claro; distributed by Galeria Distribuidora. Brazil theatrical release: 31 Aug 2023."
-  },
-  {
-    "id": "043t15",
-    "title": "EL PRESIDENTE 2 CORRUPTION GAME",
-    "type": "Tv Serie",
-    "director": [
-      "Armando Bo"
-    ],
-    "prod_co": [
-      "Salado Uy",
-      "Gaumont",
-      "Fábula",
-      "About Entertainment",
-      "Kapow"
-    ],
-    "department": "Sound",
-    "role": "Boom Operator",
-    "release_year": 2022,
-    "release_status": "released",
-    "platforms": [
-      "AMAZON PRIME"
-    ],
-    "film_language": [
-      "SPA",
-      "PT_BR",
-      "ENG",
-      "FRA"
-    ],
-    "prod_country": [
-      "France",
-      "Uruguay",
-      "Chile",
-      "Argentina"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt10091306/",
-    "image_id": "043t15",
-    "image_missing": false,
-    "awards_count": 1,
-    "festivals_count": 0,
-    "awards_detail": [
-      {
-        "event": "PRODU Awards",
-        "year": 2022,
-        "category": "Best Fiction Series (Non-English)",
-        "result": "Winner",
-        "is_sound_award": false,
-        "country": "Mexico"
-      }
-    ],
-    "festivals_detail": [],
-    "box_office": null,
-    "job_start": "01-04-21",
-    "job_end": "31-08-21",
-    "description": "A sharp satire about FIFA’s power plays, this season followed João Havelange’s rise across continents. Showrun by Oscar-winner Armando Bó, it earned an International Emmy nomination for Best Drama Series, strengthening its global prestige."
-  },
-  {
-    "id": "044t16",
-    "title": "UNDER PRESSURE S05",
-    "type": "Tv Serie",
-    "director": [
-      "Andrucha Waddington"
-    ],
-    "prod_co": [
-      "Conspiração Filmes",
-      "TV Globo",
-      "Estúdios Globo"
-    ],
-    "department": "Sound",
-    "role": "Add. Prod. Sound Mixer; Boom Operator",
-    "release_year": 2022,
-    "release_status": "released",
-    "platforms": [
-      "GLOBO PLAY",
-      "TV GLOBO"
-    ],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt7216954",
-    "image_id": "044t16",
-    "image_missing": false,
-    "awards_count": 0,
-    "festivals_count": 0,
-    "awards_detail": [
-      {
-        "event": "International Emmy Awards",
-        "year": 2019,
-        "category": "Best Drama Series",
-        "result": "Nominated",
-        "is_sound_award": false,
-        "country": "Usa"
-      },
-      {
-        "event": "Banff Rockie Awards",
-        "year": 2018,
-        "category": "Best Drama Series",
-        "result": "Nominated",
-        "is_sound_award": false,
-        "country": "Canada"
-      },
-      {
-        "event": "International Emmy Awards",
-        "year": 2019,
-        "category": "Best Performance by an Actress — Marjorie Estiano",
-        "result": "Nominated",
-        "is_sound_award": false,
-        "country": "Usa"
-      }
-    ],
-    "festivals_detail": [],
-    "box_office": null,
-    "job_start": "01-08-21",
-    "job_end": "31-12-21",
-    "description": "One of Globo’s biggest drama hits, blending medical emergencies with intense personal stories. Season 5 kept strong ratings on free TV, often above 20 IBOPE points (≈4 million households), and drew international attention with screenings in more than 20 countries."
-  },
-  {
-    "id": "045t17",
-    "title": "AREA DE SERVIÇO",
-    "type": "Tv Serie",
-    "director": [
-      "Pedro Cardoso"
-    ],
-    "prod_co": [
-      "Dueto Produções",
-      "HBO Max"
-    ],
-    "department": "Sound",
-    "role": "Add. Prod. Sound Mixer; Boom Operator",
-    "release_year": 2022,
-    "release_status": "canceled",
-    "platforms": [
-      "HBO MAX"
-    ],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt19403702/",
-    "image_id": "045t17",
-    "image_missing": false,
-    "awards_count": 0,
-    "festivals_count": 0,
-    "awards_detail": [],
-    "festivals_detail": [],
-    "box_office": null,
-    "job_start": "01-01-22",
-    "job_end": "30-04-22",
-    "description": "A comedy created by Pedro Cardoso, planned as part of HBO Max’s original Brazilian slate. Production was halted during development and the project never aired, remembered as one of the high-profile cancellations when the platform restructured its content."
-  },
-  {
-    "id": "046t18",
-    "title": "AS FIVE S02",
-    "type": "Tv Serie",
+    "id": "003t01",
+    "title": "PEDRO E BIANCA",
+    "type": "TV Series",
     "director": [
       "Cao Hamburger"
-    ],
-    "prod_co": [
-      "Gullane",
-      "Estúdios Globo"
-    ],
-    "department": "Sound",
-    "role": "Boom Operator",
-    "release_year": 2023,
-    "release_status": "released",
-    "platforms": [
-      "GLOBO PLAY"
-    ],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt11974516",
-    "image_id": "046t18",
-    "image_missing": false,
-    "awards_count": 1,
-    "festivals_count": 0,
-    "awards_detail": [
-      {
-        "event": "MTV MIAW Brasil",
-        "year": 2021,
-        "category": "“Maratonei”",
-        "result": "Winner",
-        "is_sound_award": false,
-        "country": "Brazil"
-      }
-    ],
-    "festivals_detail": [],
-    "box_office": null,
-    "job_start": "01-05-22",
-    "job_end": "31-05-22",
-    "description": "Spin-off of Malhação: Viva a Diferença, following five friends as they navigate adulthood. Seasons 2 and 3 consolidated the series as a Globoplay flagship, praised for its authentic take on modern youth and consistently drawing a loyal fanbase."
-  },
-  {
-    "id": "047f18",
-    "title": "ESCOLA DA QUEBRADA",
-    "type": "Film",
-    "director": [
-      "Kaique Alves",
-      "Thiago Eva"
-    ],
-    "prod_co": [
-      "Kondzilla",
-      "VIS (Viacom International Studios)",
-      "Paramount+"
-    ],
-    "department": "Sound",
-    "role": "Boom Operator",
-    "release_year": 2023,
-    "release_status": "released",
-    "platforms": [
-      "PARAMOUNT +"
-    ],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt20868416/",
-    "image_id": "047f18",
-    "image_missing": false,
-    "awards_count": 0,
-    "festivals_count": 0,
-    "awards_detail": [
-      {
-        "event": "International Emmy Awards",
-        "year": 2024,
-        "category": "Best Live-Action for Children",
-        "result": "Nominated",
-        "is_sound_award": false,
-        "country": "Usa"
-      }
-    ],
-    "festivals_detail": [],
-    "box_office": {
-      "release_type": "Direct-to-Streaming",
-      "admissions_br": "—",
-      "box_office_brl": "—",
-      "box_office_usd": "—",
-      "currently_streaming_on": "Paramount+"
-    },
-    "job_start": "01-06-22",
-    "job_end": "30-06-22",
-    "description": "Youth comedy co-produced by Paramount+ and KondZilla, directed by Kaique Alves & Thiago Eva. Premiered on Paramount+ on 3 Mar 2023 (official trailer released by the platform). International Emmy nominee (2024) – Kids: Live-Action."
-  },
-  {
-    "id": "048t19",
-    "title": "AS FIVE S03",
-    "type": "Tv Serie",
-    "director": [
-      "Cao Hamburger"
-    ],
-    "prod_co": [
-      "Gullane",
-      "Estúdios Globo"
-    ],
-    "department": "Sound",
-    "role": "Boom Operator",
-    "release_year": 2024,
-    "release_status": "released",
-    "platforms": [
-      "GLOBO PLAY"
-    ],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt11974516",
-    "image_id": "048t19",
-    "image_missing": false,
-    "awards_count": 1,
-    "festivals_count": 0,
-    "awards_detail": [
-      {
-        "event": "Prêmio F5",
-        "year": 2020,
-        "category": "Melhor Série Dramática",
-        "result": "Winner",
-        "is_sound_award": false,
-        "country": "Brazil"
-      }
-    ],
-    "festivals_detail": [],
-    "box_office": null,
-    "job_start": "01-07-22",
-    "job_end": "31-08-22",
-    "description": "Spin-off of Malhação: Viva a Diferença, following five friends as they navigate adulthood. Seasons 2 and 3 consolidated the series as a Globoplay flagship, praised for its authentic take on modern youth and consistently drawing a loyal fanbase."
-  },
-  {
-    "id": "049t20",
-    "title": "UMA GAROTA COMUM",
-    "type": "Tv Serie",
-    "director": [
-      "Allan Deberton"
-    ],
-    "prod_co": [
-      "Cinefilm",
-      "Globo Filmes",
-      "Bananeira Filmes"
-    ],
-    "department": "Sound",
-    "role": "Boom Operator",
-    "release_year": 0,
-    "release_status": "upcoming",
-    "platforms": [
-      "DISNEY+"
-    ],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": null,
-    "image_id": "049t20",
-    "image_missing": false,
-    "awards_count": 0,
-    "festivals_count": 0,
-    "awards_detail": [],
-    "festivals_detail": [],
-    "box_office": null,
-    "job_start": "01-09-22",
-    "job_end": "30-09-22",
-    "description": "A tropical, musical teen drama starring Colombian pop sensation Juliana Velásquez (Grammy Latino 2021 winner), who plays Alana—an international star hiding as an ordinary girl in small-town Brazil. Packed with dance, original songs, and reimagined hits, it’s Disney fun reinterpreted through Latin flair and youthful storytelling."
-  },
-  {
-    "id": "050t21",
-    "title": "TARÃ",
-    "type": "Tv Serie",
-    "director": [
-      "Anna Lee"
-    ],
-    "prod_co": [
-      "Formata",
-      "Star Original Productions"
-    ],
-    "department": "Sound",
-    "role": "Add. Prod. Sound Mixer; Boom Operator",
-    "release_year": 0,
-    "release_status": "upcoming",
-    "platforms": [
-      "DISNEY+"
-    ],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt20446902/",
-    "image_id": "050t21",
-    "image_missing": false,
-    "awards_count": 0,
-    "festivals_count": 0,
-    "awards_detail": [],
-    "festivals_detail": [],
-    "box_office": null,
-    "job_start": "01-10-22",
-    "job_end": "31-10-22",
-    "description": "An ambitious Amazonian fantasy directed by Marco Dutra and Juliana Rojas. With icons Xuxa Meneghel, Angélica, and Fafá de Belém. Featuring original music by indigenous composer Djuena Tikuna, the production built a full Amazonian village set in Acre, blending spectacle, culture, and Disney magic."
-  },
-  {
-    "id": "051t22",
-    "title": "BACK TO 15",
-    "type": "Tv Serie",
-    "director": [
-      "Janaina Tokitaka"
-    ],
-    "prod_co": [
-      "Neoplastic",
-      "A Fábrica",
-      "Glaz Entretenimento"
-    ],
-    "department": "Sound",
-    "role": "Boom Operator",
-    "release_year": 2022,
-    "release_status": "released",
-    "platforms": [
-      "NETFLIX"
-    ],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt15301854/",
-    "image_id": "051t22",
-    "image_missing": false,
-    "awards_count": 1,
-    "festivals_count": 0,
-    "awards_detail": [
-      {
-        "event": "PRODU Awards",
-        "year": 2022,
-        "category": "Best Fiction Series for Young Adults",
-        "result": "Winner",
-        "is_sound_award": false,
-        "country": "Mexico"
-      }
-    ],
-    "festivals_detail": [],
-    "box_office": null,
-    "job_start": "01-11-22",
-    "job_end": "30-11-22",
-    "description": "A coming-of-age dramedy where a 30-year-old woman wakes up in her 15-year-old self’s body. Based on the hit novel by Bruna Vieira, it became one of Netflix Brazil’s most popular YA shows, reaching audiences in over 100 countries and praised for its mix of nostalgia, humor, and heart."
-  },
-  {
-    "id": "052f19",
-    "title": "THE HIJACKING OF FLIGHT 375",
-    "type": "Film",
-    "director": [
-      "Marcos Baldini"
-    ],
-    "prod_co": [
-      "Estúdio Escarlate",
-      "LTC Produções",
-      "Star Original Productions"
-    ],
-    "department": "Sound",
-    "role": "Boom Operator",
-    "release_year": 2023,
-    "release_status": "released",
-    "platforms": [
-      "STAR+"
-    ],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil",
-      "United States"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt13073252/",
-    "image_id": "052f19",
-    "image_missing": false,
-    "awards_count": 2,
-    "festivals_count": 5,
-    "awards_detail": [
-      {
-        "event": "Los Angeles Brazilian Film Festival",
-        "year": 2023,
-        "category": "Best Screenplay",
-        "result": "Winner",
-        "is_sound_award": false,
-        "country": "Usa"
-      },
-      {
-        "event": "Grande Prêmio do Cinema Brasileiro",
-        "year": 2023,
-        "category": "Multiple Awards*",
-        "result": "Winner",
-        "is_sound_award": false,
-        "country": "Brazil"
-      }
-    ],
-    "festivals_detail": [
-      {
-        "name": "Los Angeles Brazilian Film Festival",
-        "year": 2023,
-        "country": "USA"
-      },
-      {
-        "name": "Inffinito Brazilian Film Festival (New York / Miami)",
-        "year": 2024,
-        "country": "USA"
-      },
-      {
-        "name": "Brazil Film Fest Toronto",
-        "year": 2023,
-        "country": "Canada"
-      },
-      {
-        "name": "Festival du Film Brésilien de Montréal",
-        "year": 2024,
-        "country": "Canada"
-      },
-      {
-        "name": "Festival do Rio",
-        "year": 2023,
-        "country": "Brazil"
-      }
-    ],
-    "box_office": {
-      "release_type": "Direct-to-Streaming",
-      "admissions_br": "—",
-      "box_office_brl": "—",
-      "box_office_usd": "—",
-      "currently_streaming_on": "Star+ / Disney+ (LatAm)"
-    },
-    "job_start": "01-12-22",
-    "job_end": "28-02-23",
-    "description": "A tense dramatization of a real-life aviation crisis that shook Brazil in the late 1980s. The Hijacking of Flight 375 recreates the moment a commercial flight is taken hostage mid-air, escalating into a national emergency"
-  },
-  {
-    "id": "053t23",
-    "title": "DA PONTE PRA LA",
-    "type": "Tv Serie",
-    "director": [
-      "Thais Falcão"
-    ],
-    "prod_co": [
-      "Floresta Produções",
-      "Gullane"
-    ],
-    "department": "Sound",
-    "role": "Boom Operator",
-    "release_year": 2024,
-    "release_status": "released",
-    "platforms": [
-      "HBO MAX"
-    ],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt26314200/",
-    "image_id": "053t23",
-    "image_missing": false,
-    "awards_count": 0,
-    "festivals_count": 0,
-    "awards_detail": [],
-    "festivals_detail": [],
-    "box_office": null,
-    "job_start": "01-03-23",
-    "job_end": "31-03-23",
-    "description": "A gripping São Paulo-set drama where a young rapper investigates the suspicious death of her trans best friend. Loaded with social commentary and fueled by trap and rap subculture, the series was one of Max’s early Brazilian hits—landing in the Top 10 most-watched shows on the platform shortly after its debut."
-  },
-  {
-    "id": "054t24",
-    "title": "SCARS OF BEAUTY",
-    "type": "Tv Serie",
-    "director": [
-      "Raphael Montes"
     ],
     "prod_co": [
       "Coração da Selva",
-      "HBO Max"
+      "TV Cultura"
     ],
-    "department": "Sound",
-    "role": "Boom Operator",
-    "release_year": 2025,
+    "department": "Cinematography",
+    "role": "Focus Puller",
+    "release_year": 2012,
     "release_status": "released",
     "platforms": [
-      "HBO MAX"
+      "TV CULTURA"
     ],
     "film_language": [
       "PT_BR"
@@ -3053,386 +4246,64 @@
     "prod_country": [
       "Brazil"
     ],
-    "imdb_link": "https://www.imdb.com/title/tt27526180",
-    "image_id": "054t24",
-    "image_missing": false,
-    "awards_count": 0,
+    "imdb_link": "https://www.imdb.com/title/tt2563912/",
+    "image_id": "003t01",
+    "thumb_id": "003t01",
+    "awards_count": 6,
     "festivals_count": 0,
-    "awards_detail": [],
+    "awards_detail": [
+      {
+        "event": "International Emmy Kids Awards",
+        "year": 2014,
+        "category": "Best Kids Series",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Usa"
+      },
+      {
+        "event": "Prix Jeunesse Iberoamericano",
+        "year": 2014,
+        "category": "Best Fiction Series (ages 11-15)",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Prix Jeunesse International",
+        "year": 2014,
+        "category": "Fiction and Non-Fiction (ages 12-15)",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Germany"
+      },
+      {
+        "event": "APCA - São Paulo Arts Critics Association",
+        "year": 2012,
+        "category": "Best Children's/Youth Program",
+        "result": "Winner",
+        "is_sound_award": false,
+        "country": "Brazil"
+      },
+      {
+        "event": "Banff Rockie Awards",
+        "year": 2013,
+        "category": "Best Fiction Program for Children and Youth",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Canada"
+      },
+      {
+        "event": "Japan Prize (NHK)",
+        "year": 2013,
+        "category": "Best Educational TV Program (Youth)",
+        "result": "Nominated",
+        "is_sound_award": false,
+        "country": "Japan"
+      }
+    ],
     "festivals_detail": [],
-    "box_office": null,
-    "job_start": "01-09-23",
-    "job_end": "30-04-24",
-    "description": "This was Max’s most-watched Brazilian original ever — the telenovela set records in hours viewed and audience reach. From day one, it delivered 24× more demand than the platform’s average; by its finale, it reached a staggering 70× the normal viewership — a milestone achieved by less than 0.2% of monitored content globally. Even after the finale, it remained the most-watched title daily on Max Brazil. Internationally, it ranked in the Top 3 Latin American locally produced shows and broke into the Top 10 in the U.S. and Top 15 in Europe."
-  },
-  {
-    "id": "055t25",
-    "title": "O DIA EM QUE MINHA VIDA MUDOU",
-    "type": "Tv Serie",
-    "director": [
-      "Keka Reis"
-    ],
-    "prod_co": [
-      "Loma Filmes",
-      "Sato Company"
-    ],
-    "department": "Sound",
-    "role": "Sound Utility",
-    "release_year": 2024,
-    "release_status": "released",
-    "platforms": [
-      "GLOBO PLAY",
-      "GLOOB"
-    ],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt29230543/",
-    "image_id": "055t25",
-    "image_missing": false,
-    "awards_count": 0,
-    "festivals_count": 0,
-    "awards_detail": [],
-    "festivals_detail": [],
-    "box_office": null,
-    "job_start": "01-05-24",
-    "job_end": "15-05-24",
-    "description": "A kids’ adventure comedy based on the books by Keka Reis. Produced by Loma Filmes, it brings relatable schoolyard stories and everyday chaos to life with humor and heart, connecting with Brazil’s younger audiences on Gloob and Globoplay."
-  },
-  {
-    "id": "056f20",
-    "title": "O REI DA INTERNET",
-    "type": "Film",
-    "director": [
-      "Fabrício Bittar"
-    ],
-    "prod_co": [
-      "Clube Filmes",
-      "Paramount+",
-      "Los Bragas Produções"
-    ],
-    "department": "Sound",
-    "role": "Boom Operator",
-    "release_year": 2026,
-    "release_status": "released",
-    "platforms": [
-      "PARAMOUNT +"
-    ],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt31917699",
-    "image_id": "056f20",
-    "image_missing": false,
-    "awards_count": 0,
-    "festivals_count": 0,
-    "awards_detail": [],
-    "festivals_detail": [],
-    "box_office": {
-      "release_type": "Upcoming",
-      "admissions_br": "—",
-      "box_office_brl": "—",
-      "box_office_usd": "—",
-      "currently_streaming_on": "—"
-    },
-    "job_start": "16-05-24",
-    "job_end": "30-05-24",
-    "description": "Based on a true story, a Brazilian teen becomes one of the country's top hackers, joins a criminal ring moving millions, and lives a lavish life until a Federal Police operation brings it down before he turns 17."
-  },
-  {
-    "id": "057t26",
-    "title": "DE MENOR",
-    "type": "Tv Serie",
-    "director": [
-      "Caru Alves de Souza"
-    ],
-    "prod_co": [
-      "Manjericão Filmes",
-      "Camisa Listrada",
-      "Tangerina Entretenimento"
-    ],
-    "department": "Sound",
-    "role": "Prod. Sound Mixer",
-    "release_year": 2025,
-    "release_status": "upcoming",
-    "platforms": [
-      "TV CINE BRASIL"
-    ],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt35487907",
-    "image_id": "057t26",
-    "image_missing": false,
-    "awards_count": 0,
-    "festivals_count": 0,
-    "awards_detail": [],
-    "festivals_detail": [],
-    "box_office": null,
-    "job_start": "01-06-24",
-    "job_end": "30-06-24",
-    "description": "An inventive fiction series that transforms courtroom sessions involving at-risk youth into genre-bending storytelling—one episode is a musical, another a game, yet another a TV show or podcast. Directed by Caru Alves de Souza, it earned a world premiere at the 2025 Berlinale (Generation 14plus), marking it as one of Brazil’s most imaginative and socially charged TV entries this year."
-  },
-  {
-    "id": "058f21",
-    "title": "100 DAYS",
-    "type": "Film",
-    "director": [
-      "Carlos Saldanha"
-    ],
-    "prod_co": [
-      "Ventre Studio",
-      "Star Original Productions",
-      "O2 Filmes",
-      "Total Post",
-      "Good Hand Production",
-      "MARZ",
-      "Boipeba Filmes",
-      "Madremidia"
-    ],
-    "department": "Sound",
-    "role": "Prod. Sound Mixer",
-    "release_year": 0,
-    "release_status": "upcoming",
-    "platforms": [
-      "STAR+"
-    ],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil",
-      "Finland",
-      "United States",
-      "Canada"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt15006536",
-    "image_id": "058f21",
-    "image_missing": false,
-    "awards_count": 0,
-    "festivals_count": 0,
-    "awards_detail": [],
-    "festivals_detail": [],
-    "box_office": {
-      "release_type": "Upcoming",
-      "admissions_br": "—",
-      "box_office_brl": "—",
-      "box_office_usd": "—",
-      "currently_streaming_on": "—"
-    },
-    "job_start": "16-07-24",
-    "job_end": "30-09-24",
-    "description": "Live-action feature directed by Carlos Saldanha about explorer Amyr Klink’s 1984 solo South Atlantic row, inspired by the book One Hundred Days Between Sky and Sea. Produced by Ventre Studio with Buena Vista International/Disney; filming wrapped Sept 2024 with a 2025 theatrical target. Cast includes Filipe Bragança."
-  },
-  {
-    "id": "059f22",
-    "title": "SOLO MIO",
-    "type": "Film",
-    "director": [
-      "Dan and Charles Kinnane"
-    ],
-    "prod_co": [
-      "A Higher Standard",
-      "Kinnane Brothers",
-      "Nickel City Pictures",
-      "Angel Studios"
-    ],
-    "department": "Sound",
-    "role": "Sound Trainee",
-    "release_year": 2026,
-    "release_status": "upcoming",
-    "platforms": [],
-    "film_language": [
-      "ENG"
-    ],
-    "prod_country": [
-      "Italy",
-      "United States"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt32306991",
-    "image_id": "059f22",
-    "image_missing": false,
-    "awards_count": 0,
-    "festivals_count": 0,
-    "awards_detail": [],
-    "festivals_detail": [],
-    "box_office": {
-      "release_type": "Upcoming",
-      "admissions_br": "—",
-      "box_office_brl": "—",
-      "box_office_usd": "—",
-      "currently_streaming_on": "—"
-    },
-    "job_start": "01-11-24",
-    "job_end": "30-11-24",
-    "description": "Rom-com directed by The Kinnane Brothers, starring Kevin James with Alyson Hannigan and Kim Coates. Angel Studios to distribute; release set for Feb 6, 2026."
-  },
-  {
-    "id": "060t27",
-    "title": "L'ALTRO ISPETTORE",
-    "type": "Tv Serie",
-    "director": [
-      "Salvatore de Mola"
-    ],
-    "prod_co": [
-      "Anele",
-      "Minerva Pictures"
-    ],
-    "department": "Sound",
-    "role": "Boom Operator",
-    "release_year": 2025,
-    "release_status": "released",
-    "platforms": [
-      "RAI"
-    ],
-    "film_language": [
-      "ITA"
-    ],
-    "prod_country": [
-      "Italy"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt35449349",
-    "image_id": "060t27",
-    "image_missing": false,
-    "awards_count": 0,
-    "festivals_count": 0,
-    "awards_detail": [],
-    "festivals_detail": [],
-    "box_office": null,
-    "job_start": "01-12-24",
-    "job_end": "31-12-24",
-    "description": "A new Rai crime drama filmed in Lucca, with its medieval streets and Renaissance walls as backdrop. The series premiered on Rai 1 on December 2, 2025, to strong viewership, with over 3 million viewers for its debut."
-  },
-  {
-    "id": "061f23",
-    "title": "L'ABBAGLIO",
-    "type": "Film",
-    "director": [
-      "Roberto Andò"
-    ],
-    "prod_co": [
-      "Bibi Film TV",
-      "Medusa Film",
-      "Rai Cinema",
-      "Tramp Limited",
-      "Netflix"
-    ],
-    "department": "Sound",
-    "role": "Dubbing Boom Operator",
-    "release_year": 2024,
-    "release_status": "released",
-    "platforms": [
-      "NETFLIX"
-    ],
-    "film_language": [
-      "ITA"
-    ],
-    "prod_country": [
-      "Italy"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt32448428/",
-    "image_id": "061f23",
-    "image_missing": false,
-    "awards_count": 0,
-    "festivals_count": 0,
-    "awards_detail": [],
-    "festivals_detail": [],
-    "box_office": {
-      "release_type": "Theatrical (IT) + Streaming",
-      "admissions_br": "—",
-      "box_office_brl": "—",
-      "box_office_usd": "—",
-      "currently_streaming_on": "Netflix (IT)"
-    },
-    "job_start": "01-01-25",
-    "job_end": "31-01-25",
-    "description": "Historical drama by Roberto Andò (Rai Cinema), set in 1860 during Garibaldi’s Expedition of the Thousand. Filmed in Sicily; Italian theatrical launch 16 Jan 2025."
-  },
-  {
-    "id": "063f24",
-    "title": "CARO MONDO CRUDELE",
-    "type": "Film",
-    "director": [
-      "Niccolò Falsetti"
-    ],
-    "prod_co": [
-      "Disparte",
-      "Fandango",
-      "Indigo Film",
-      "Rai Cinema"
-    ],
-    "department": "Sound",
-    "role": "2nd Boom Operator",
-    "release_year": 0,
-    "release_status": "upcoming",
-    "platforms": [],
-    "film_language": [
-      "ITA"
-    ],
-    "prod_country": [
-      "Italy"
-    ],
-    "imdb_link": "https://www.imdb.com/title/tt36664938/",
-    "image_id": "063f24",
-    "image_missing": false,
-    "awards_count": 0,
-    "festivals_count": 0,
-    "awards_detail": [],
-    "festivals_detail": [],
-    "box_office": {
-      "release_type": "Upcoming",
-      "admissions_br": "—",
-      "box_office_brl": "—",
-      "box_office_usd": "—",
-      "currently_streaming_on": "—"
-    },
-    "job_start": "01-05-25",
-    "job_end": "30-06-25",
-    "description": "New feature by Niccolò Falsetti (with Francesco Turbanti), produced by Disparte with Fandango and Mompracem; Toscana Film Commission support. Filming started in Maremma (Tuscany) in May 2025."
-  },
-  {
-    "id": "064d04",
-    "title": "TUTTO SU MIO PADRE",
-    "type": "Documentary TV",
-    "director": [
-      "Massimo Chiellini",
-      "Sara Filippelli"
-    ],
-    "prod_co": [
-      "Next Different"
-    ],
-    "department": "Sound",
-    "role": "Add. Prod. Sound Mixer",
-    "release_year": 2026,
-    "release_status": "upcoming",
-    "platforms": [
-      "RAI"
-    ],
-    "film_language": [
-      "ITA"
-    ],
-    "prod_country": [
-      "Italy"
-    ],
-    "imdb_link": null,
-    "image_id": "064d04",
-    "image_missing": false,
-    "awards_count": 0,
-    "festivals_count": 0,
-    "awards_detail": [],
-    "festivals_detail": [],
-    "box_office": null,
-    "job_start": "01-07-25",
-    "job_end": "31-07-25",
-    "description": "A RAI documentary about memory, justice, and the legacy of those who served the rule of law in Italy. Blends personal testimony and archival footage."
+    "job_start": "2013-03-01",
+    "job_end": "2013-07-31",
+    "description": "A teen drama that went far beyond its modest audience to become one of TV Cultura’s most acclaimed shows. It tackled school and social themes with honesty, winning the International Emmy Kids Award, the Prix Jeunesse International, and APCA recognition. A true milestone in Brazilian youth television."
   }
 ]

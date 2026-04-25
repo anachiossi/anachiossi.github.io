@@ -1,0 +1,35 @@
+- main "Ana Chiossi — Portfolio" [ref=e2]:
+  - paragraph [ref=e5]: Rome, Italy
+  - generic [ref=e6]:
+    - heading "Ana Chiossi" [level=1] [ref=e7]:
+      - generic [ref=e8]: Ana
+      - generic [ref=e9]: Chiossi
+    - generic [ref=e10]: Production Sound Mixer & Boom Operator
+  - generic [ref=e11]:
+    - navigation "Site navigation" [ref=e12]:
+      - list [ref=e13]:
+        - listitem [ref=e14]:
+          - link "About Me" [ref=e15] [cursor=pointer]:
+            - /url: index.html
+            - generic [ref=e16]: "01"
+            - text: About Me
+        - listitem [ref=e17]:
+          - link "Curriculum" [ref=e18] [cursor=pointer]:
+            - /url: cv.html
+            - generic [ref=e19]: "02"
+            - text: Curriculum
+        - listitem [ref=e20]:
+          - link "Filmography" [ref=e21] [cursor=pointer]:
+            - /url: films.html
+            - generic [ref=e22]: "03"
+            - text: Filmography
+    - list [ref=e23]:
+      - listitem "Email" [ref=e24] [cursor=pointer]:
+        - img [ref=e25]
+      - listitem "WhatsApp" [ref=e28] [cursor=pointer]:
+        - img [ref=e29]
+      - listitem "Instagram" [ref=e31] [cursor=pointer]:
+        - img [ref=e32]
+      - listitem "LinkedIn" [ref=e35] [cursor=pointer]:
+        - img [ref=e36]
+      - listitem "IMDb" [ref=e38] [cursor=pointer]

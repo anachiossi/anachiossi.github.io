@@ -15,3 +15,8 @@ assets/CV Numbers.html
 # OS
 .DS_Store
 Thumbs.db
+
+# data
+_data/
+_output/
+_backup/
