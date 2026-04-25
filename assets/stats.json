@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-25 22:20",
+  "generated_at": "2026-04-25 22:33",
   "career": {
-    "total_projects": 66,
+    "total_projects": 67,
     "years_active": 14,
     "first_year": 2012,
     "countries_worked": 14,
@@ -33,13 +33,13 @@
   "by_type": {
     "features": 25,
     "short_films": 5,
-    "tv_series": 26,
+    "tv_series": 27,
     "documentaries": 7,
     "reality": 2,
     "commercials": 1
   },
   "by_department": {
-    "sound_projects": 53,
+    "sound_projects": 54,
     "camera_projects": 13
   },
   "roles": {
@@ -48,8 +48,8 @@
     "Focus Puller": 6,
     "Video Assistant": 2,
     "2nd Camera Assistant": 3,
-    "Boom Operator": 39,
-    "Prod. Sound Mixer": 20,
+    "Boom Operator": 40,
+    "Prod. Sound Mixer": 21,
     "Sound Utility": 2,
     "Sound Trainee": 1
   },
@@ -84,7 +84,7 @@
     ]
   },
   "production": {
-    "companies_count": 124
+    "companies_count": 125
   },
   "awards": {
     "total_nominations": 196,

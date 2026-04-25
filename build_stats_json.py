@@ -44,7 +44,12 @@ ff = read("film_festivals")
 jt = read("job_timeline")
 
 # Filter to released + upcoming only (exclude canceled)
-active = fd[fd["release_status"].astype(str).str.strip().isin(["released","upcoming"])]
+# Count all projects except explicitly hidden ones (show_on_site=FALSE)
+# Canceled projects still count — the work was done
+if "show_on_site" in fd.columns:
+    active = fd[fd["show_on_site"].astype(str).str.upper() != "FALSE"]
+else:
+    active = fd
 
 # ── Project counts ───────────────────────────────────────────
 total_projects = len(active)
