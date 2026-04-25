@@ -56,19 +56,19 @@
 
         <div class="stats-row">
           <div class="stat">
-            <span class="stat-value">65+</span>
+            <span class="stat-value" id="idx-projects">65+</span>
             <span class="stat-label">Projects</span>
           </div>
           <div class="stat">
-            <span class="stat-value">14</span>
+            <span class="stat-value" id="idx-years">14</span>
             <span class="stat-label">Years</span>
           </div>
           <div class="stat">
-            <span class="stat-value">5</span>
+            <span class="stat-value" id="idx-countries">14</span>
             <span class="stat-label">Countries</span>
           </div>
           <div class="stat">
-            <span class="stat-value">5</span>
+            <span class="stat-value" id="idx-languages">5</span>
             <span class="stat-label">Languages</span>
           </div>
         </div>
@@ -105,7 +105,7 @@
       <div class="bio-content">
         <p>
           Production sound mixer and boom operator based in Rome, Italy.
-          Born in Brazil, I've spent 14 years working across feature films,
+          Born in Brazil, I've spent <span id="idx-bio-years">14</span> years working across feature films,
           series, documentaries, and advertising — in Portuguese, English,
           Spanish, Italian, et un petit peu du Français.
         </p>
@@ -117,7 +117,7 @@
           and cinematographers from day one.
         </p>
         <p>
-          Over 65 projects, I've collaborated with 119 production companies.
+          Over <span id="idx-bio-projects">65</span> projects, I've collaborated with <span id="idx-bio-companies">119</span> production companies.
           My work has reached audiences on Netflix,
           Disney+, HBO, and Amazon Prime.
         </p>
@@ -267,6 +267,19 @@
 
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
+
+    fetch('assets/stats.json')
+      .then(r => r.json())
+      .then(s => {
+        const set = (id, val) => { const el = document.getElementById(id); if (el) el.textContent = val; };
+        set('idx-projects',    s.career.total_projects);
+        set('idx-years',       s.career.years_active);
+        set('idx-countries',   s.career.countries_worked);
+        set('idx-languages',   s.career.languages_count);
+        set('idx-bio-years',   s.career.years_active);
+        set('idx-bio-projects',s.career.total_projects);
+        set('idx-bio-companies',s.production.companies_count);
+      });
   </script>
 
 </body>

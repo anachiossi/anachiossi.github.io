@@ -186,74 +186,6 @@
 </div>
 
 <script>
-/* ── Data ──────────────────────────────────────────────────────────── */
-const PROJECTS = [
-  { lat:-23.6493, lon:-46.6222, type:"Film", title:"OS AMIGOS", dept:"Cinematography", role:"Still Photographer", year:2014 },
-  { lat:-25.4400, lon:-49.2767, type:"Short Film", title:"AUGUSTA E ANTONICO", dept:"Cinematography", role:"Loader", year:2020 },
-  { lat:-23.5700, lon:-46.7200, type:"TV Series", title:"PEDRO E BIANCA", dept:"Cinematography", role:"Focus Puller", year:2012 },
-  { lat:-23.6000, lon:-46.7203, type:"Film", title:"QUE HORAS ELA VOLTA", dept:"Cinematography", role:"Video Assistant", year:2015 },
-  { lat:-23.5313, lon:-46.7416, type:"TV Series", title:"EXPERIMENTOS EXTRAORDINARIOS", dept:"Cinematography", role:"2nd Camera Assistant", year:2014 },
-  { lat:-23.5361, lon:-46.6347, type:"TV Series", title:"CINELAB", dept:"Cinematography", role:"2nd Camera Assistant", year:2014 },
-  { lat:-23.5111, lon:-46.8764, type:"Reality Show", title:"BREAKOUT BRASIL", dept:"Cinematography", role:"2nd Camera Assistant", year:2014 },
-  { lat:-23.5338, lon:-46.6253, type:"Documentary TV", title:"QUAL VAI SER", dept:"Cinematography", role:"Focus Puller", year:2016 },
-  { lat:-23.5361, lon:-46.6347, type:"Short Film", title:"WHEN THE DOGS BARK", dept:"Cinematography", role:"Focus Puller", year:2017 },
-  { lat:-23.5201, lon:-46.6989, type:"Film", title:"SOLACE", dept:"Cinematography", role:"Video Assistant", year:2015 },
-  { lat:-12.9777, lon:-38.5016, type:"Documentary TV", title:"A GRANDE LUTA", dept:"Cinematography", role:"Focus Puller", year:2016 },
-  { lat:-23.5338, lon:-46.6253, type:"TV Series", title:"QUE TALENTO S03", dept:"Cinematography", role:"Focus Puller", year:2016 },
-  { lat:1.2860, lon:-78.8356, type:"Film", title:"LOS ANGELES NO TIENEN ALAS", dept:"Sound", role:"Boom Operator", year:2019 },
-  { lat:-23.5338, lon:-46.6253, type:"Documentary Film", title:"VILANOVA ARTIGAS THE ARCHITECT AND THE LIGHT", dept:"Cinematography", role:"Focus Puller", year:2015 },
-  { lat:-23.5338, lon:-46.6253, type:"TV Series", title:"A GAROTA DA MOTO S01", dept:"Sound", role:"Boom Operator", year:2016 },
-  { lat:-23.5338, lon:-46.6253, type:"TV Series", title:"LILI A EX S02", dept:"Sound", role:"Boom Operator", year:2016 },
-  { lat:-23.5338, lon:-46.6253, type:"TV Series", title:"A SECRETARIA DO PRESIDENTE", dept:"Sound", role:"Boom Operator", year:2016 },
-  { lat:-23.5338, lon:-46.6253, type:"Film", title:"BLITZ", dept:"Sound", role:"Prod. Sound Mixer", year:2018 },
-  { lat:-23.5338, lon:-46.6253, type:"TV Series", title:"NATUREZA MORTA", dept:"Sound", role:"Boom Operator", year:2018 },
-  { lat:-23.5338, lon:-46.6253, type:"Film", title:"O PIOR ALUNO DA ESCOLA", dept:"Sound", role:"Boom Operator", year:2017 },
-  { lat:-23.5201, lon:-46.6989, type:"TV Series", title:"ZOO DA ZU S02", dept:"Sound", role:"Boom Operator", year:2017 },
-  { lat:-22.9667, lon:-42.0270, type:"Film", title:"O AMOR DA VOLTAS", dept:"Sound", role:"Boom Operator", year:2022 },
-  { lat:-23.5338, lon:-46.6253, type:"Short Film", title:"SWEET HEART", dept:"Sound", role:"Prod. Sound Mixer", year:2018 },
-  { lat:-25.5465, lon:-48.3116, type:"Film", title:"FERRUGEM", dept:"Sound", role:"Boom Operator", year:2018 },
-  { lat:-23.5338, lon:-46.6253, type:"Film", title:"QUERIDA MAMAE", dept:"Sound", role:"Boom Operator", year:2018 },
-  { lat:-7.3257, lon:-34.7938, type:"Film", title:"THE YELLOW NIGHT", dept:"Sound", role:"Prod. Sound Mixer", year:2019 },
-  { lat:-23.5338, lon:-46.6253, type:"Documentary Film", title:"EXPLODE SAO PAULO GIL", dept:"Sound", role:"Prod. Sound Mixer", year:2025 },
-  { lat:-8.0476, lon:-34.8770, type:"Film", title:"DIVINE LOVE", dept:"Sound", role:"Add. Prod. Sound Mixer; Boom Operator", year:2019 },
-  { lat:-25.4284, lon:-49.2733, type:"Film", title:"LAMENTO", dept:"Sound", role:"Boom Operator", year:2021 },
-  { lat:-23.5338, lon:-46.6253, type:"Short Film", title:"MESMO COM TANTA AGONIA", dept:"Sound", role:"Prod. Sound Mixer", year:2018 },
-  { lat:-23.5338, lon:-46.6253, type:"TV Series", title:"A GAROTA DA MOTO S02", dept:"Sound", role:"Boom Operator", year:2019 },
-  { lat:-23.6000, lon:-46.7203, type:"TV Series", title:"FERAS", dept:"Sound", role:"Boom Operator", year:2019 },
-  { lat:-25.4284, lon:-49.2733, type:"Short Film", title:"A MULHER QUE SOU", dept:"Sound", role:"Prod. Sound Mixer", year:2019 },
-  { lat:-23.5338, lon:-46.6253, type:"Film", title:"HELEN", dept:"Sound", role:"Add. Prod. Sound Mixer; Boom Operator", year:2021 },
-  { lat:-23.5338, lon:-46.6253, type:"Film", title:"SAO PAULO HEIST", dept:"Sound", role:"Boom Operator", year:2022 },
-  { lat:-25.4284, lon:-49.2733, type:"Film", title:"JESUS KID", dept:"Sound", role:"Prod. Sound Mixer", year:2022 },
-  { lat:-23.5201, lon:-46.6989, type:"TV Series", title:"INVISIBLE CITY S01", dept:"Sound", role:"Boom Operator", year:2021 },
-  { lat:-23.5338, lon:-46.6253, type:"TV Series", title:"SPECTROS", dept:"Sound", role:"Boom Operator", year:2020 },
-  { lat:-23.5338, lon:-46.6253, type:"Reality Show", title:"A QUEEN IS BORN", dept:"Sound", role:"Sound Utility", year:2020 },
-  { lat:-27.1577, lon:-48.5469, type:"TV Series", title:"ESTRADA DO BATOM", dept:"Sound", role:"Prod. Sound Mixer", year:2022 },
-  { lat:-23.5338, lon:-46.6253, type:"Film", title:"DETETIVE MADEINUSA", dept:"Sound", role:"Boom Operator", year:2021 },
-  { lat:-23.5338, lon:-46.6253, type:"Film", title:"TPM MEU AMOR", dept:"Sound", role:"Boom Operator", year:2023 },
-  { lat:-34.9011, lon:-56.1645, type:"TV Series", title:"EL PRESIDENTE 2 CORRUPTION GAME", dept:"Sound", role:"Boom Operator", year:2022 },
-  { lat:-22.9083, lon:-43.1964, type:"TV Series", title:"UNDER PRESSURE S05", dept:"Sound", role:"Add. Prod. Sound Mixer; Boom Operator", year:2022 },
-  { lat:-23.6000, lon:-46.7203, type:"TV Series", title:"AREA DE SERVIÇO", dept:"Sound", role:"Add. Prod. Sound Mixer; Boom Operator", year:2022 },
-  { lat:-23.5017, lon:-46.8489, type:"TV Series", title:"AS FIVE S02", dept:"Sound", role:"Boom Operator", year:2023 },
-  { lat:-23.5338, lon:-46.6253, type:"Film", title:"ESCOLA DA QUEBRADA", dept:"Sound", role:"Boom Operator", year:2023 },
-  { lat:-23.5017, lon:-46.8489, type:"TV Series", title:"AS FIVE S03", dept:"Sound", role:"Boom Operator", year:2024 },
-  { lat:-23.4545, lon:-46.5333, type:"TV Series", title:"UMA GAROTA COMUM", dept:"Sound", role:"Boom Operator", year:null },
-  { lat:-23.5313, lon:-46.7416, type:"TV Series", title:"TARÃ", dept:"Sound", role:"Add. Prod. Sound Mixer; Boom Operator", year:2025 },
-  { lat:-22.6813, lon:-44.3233, type:"TV Series", title:"BACK TO 15", dept:"Sound", role:"Boom Operator", year:2022 },
-  { lat:-22.9083, lon:-43.1964, type:"Film", title:"THE HIJACKING OF FLIGHT 375", dept:"Sound", role:"Boom Operator", year:2023 },
-  { lat:-23.5338, lon:-46.6253, type:"TV Series", title:"DA PONTE PRA LA", dept:"Sound", role:"Boom Operator", year:2024 },
-  { lat:-23.5017, lon:-46.8489, type:"TV Series", title:"SCARS OF BEAUTY", dept:"Sound", role:"Boom Operator", year:2025 },
-  { lat:-23.5338, lon:-46.6253, type:"TV Series", title:"O DIA EM QUE MINHA VIDA MUDOU", dept:"Sound", role:"Sound Utility", year:2024 },
-  { lat:-23.5338, lon:-46.6253, type:"Film", title:"O REI DA INTERNET", dept:"Sound", role:"Boom Operator", year:2025 },
-  { lat:-23.5201, lon:-46.6989, type:"TV Series", title:"DE MENOR", dept:"Sound", role:"Prod. Sound Mixer", year:null },
-  { lat:-23.2221, lon:-44.7175, type:"Film", title:"100 DAYS", dept:"Sound", role:"Add. Prod. Sound Mixer; Boom Operator", year:null },
-  { lat:41.8909, lon:12.4700, type:"Film", title:"SOLO MIO", dept:"Sound", role:"Sound Trainee", year:null },
-  { lat:43.8420, lon:10.5020, type:"TV Series", title:"L'ALTRO ISPETTORE", dept:"Sound", role:"Boom Operator", year:null },
-  { lat:41.9028, lon:12.4964, type:"Film", title:"L'ABBAGLIO", dept:"Sound", role:"Dubbing Boom Operator", year:2024 },
-  { lat:41.9028, lon:12.4964, type:"Commercials", title:"VARIOUS", dept:"Sound", role:"Prod. Sound Mixer", year:null },
-  { lat:42.4527, lon:11.2280, type:"Film", title:"CARO MONDO CRUDELE", dept:"Sound", role:"2nd Boom Operator", year:null },
-  { lat:41.8909, lon:12.4700, type:"Documentary TV", title:"TUTTO SU MIO PADRE", dept:"Sound", role:"Add. Prod. Sound Mixer", year:null }
-];
-
 /* ── Colors ────────────────────────────────────────────────────────── */
 const TYPE_COLOR = {
   "Film":             "#D4163C",
@@ -271,10 +203,9 @@ const map = L.map('map', {
   center: [-15, -25],
   zoom: 3,
   zoomControl: true,
-  scrollWheelZoom: false,  // don't hijack page scroll in iframe
+  scrollWheelZoom: false,
 });
 
-/* CARTO Voyager — no token, CORS *, works from file:// */
 L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
   attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> © <a href="https://carto.com/">CARTO</a>',
   subdomains: 'abcd',
@@ -295,69 +226,81 @@ function makePinIcon(color, delay = 0) {
   });
 }
 
-/* ── Layer group (no clustering) ──────────────────────────────────── */
-const clusters = L.layerGroup();
+/* ── Load data and build map ───────────────────────────────────────── */
+fetch('geo.json')
+  .then(r => r.json())
+  .then(data => {
+    const PROJECTS = data.map(p => ({
+      lat:  p.lat,
+      lon:  p.lon,
+      type: p.type,
+      title: p.title,
+      dept: p.department,
+      role: p.role,
+      year: p.release_year > 0 ? p.release_year : null,
+    }));
 
-/* ── Add markers ───────────────────────────────────────────────────── */
-const layersByType = {};
+    const clusters = L.layerGroup();
+    const layersByType = {};
 
-PROJECTS.forEach((p, i) => {
-  const color = TYPE_COLOR[p.type] || '#888';
-  const delay = Math.min(i * 18, 800);
-  const yr = p.year ? ` · ${p.year}` : '';
+    PROJECTS.forEach((p, i) => {
+      const color = TYPE_COLOR[p.type] || '#888';
+      const delay = Math.min(i * 18, 800);
+      const yr = p.year ? ` · ${p.year}` : '';
 
-  const marker = L.marker([p.lat, p.lon], {
-    icon: makePinIcon(color, delay),
-    title: p.title,
+      const marker = L.marker([p.lat, p.lon], {
+        icon: makePinIcon(color, delay),
+        title: p.title,
+      });
+
+      marker.bindPopup(`
+        <div class="popup-inner">
+          <div class="popup-type" style="background:${color}">${p.type}</div>
+          <div class="popup-title">${p.title}</div>
+          <div class="popup-meta">
+            ${p.role}${yr}<br>
+            ${p.dept}
+          </div>
+        </div>
+      `, { maxWidth: 260, minWidth: 200 });
+
+      if (!layersByType[p.type]) layersByType[p.type] = [];
+      layersByType[p.type].push(marker);
+      clusters.addLayer(marker);
+    });
+
+    map.addLayer(clusters);
+
+    /* ── Legend with toggle ──────────────────────────────────────────── */
+    const legendEl = document.getElementById('legend');
+    const hidden   = new Set();
+
+    TYPE_ORDER.forEach(type => {
+      if (!PROJECTS.some(p => p.type === type)) return;
+
+      const item = document.createElement('div');
+      item.className = 'legend-item';
+      item.innerHTML = `
+        <span class="legend-dot" style="background:${TYPE_COLOR[type]}"></span>
+        <span>${type}</span>
+      `;
+
+      item.addEventListener('click', () => {
+        const markers = layersByType[type] || [];
+        if (hidden.has(type)) {
+          hidden.delete(type);
+          item.classList.remove('hidden');
+          markers.forEach(m => clusters.addLayer(m));
+        } else {
+          hidden.add(type);
+          item.classList.add('hidden');
+          markers.forEach(m => clusters.removeLayer(m));
+        }
+      });
+
+      legendEl.appendChild(item);
+    });
   });
-
-  marker.bindPopup(`
-    <div class="popup-inner">
-      <div class="popup-type" style="background:${color}">${p.type}</div>
-      <div class="popup-title">${p.title}</div>
-      <div class="popup-meta">
-        ${p.role}${yr}<br>
-        ${p.dept}
-      </div>
-    </div>
-  `, { maxWidth: 260, minWidth: 200 });
-
-  if (!layersByType[p.type]) layersByType[p.type] = [];
-  layersByType[p.type].push(marker);
-  clusters.addLayer(marker);
-});
-
-map.addLayer(clusters);
-
-/* ── Legend with toggle ────────────────────────────────────────────── */
-const legendEl  = document.getElementById('legend');
-const hidden    = new Set();
-
-TYPE_ORDER.forEach(type => {
-  if (!PROJECTS.some(p => p.type === type)) return;
-
-  const item = document.createElement('div');
-  item.className = 'legend-item';
-  item.innerHTML = `
-    <span class="legend-dot" style="background:${TYPE_COLOR[type]}"></span>
-    <span>${type}</span>
-  `;
-
-  item.addEventListener('click', () => {
-    const markers = layersByType[type] || [];
-    if (hidden.has(type)) {
-      hidden.delete(type);
-      item.classList.remove('hidden');
-      markers.forEach(m => clusters.addLayer(m));
-    } else {
-      hidden.add(type);
-      item.classList.add('hidden');
-      markers.forEach(m => clusters.removeLayer(m));
-    }
-  });
-
-  legendEl.appendChild(item);
-});
 
 /* Enable scroll zoom only when map is focused */
 map.on('click', () => map.scrollWheelZoom.enable());

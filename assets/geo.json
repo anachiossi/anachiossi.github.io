@@ -1,0 +1,672 @@
+[
+  {
+    "id": "001f01",
+    "title": "OS AMIGOS",
+    "type": "Film",
+    "department": "Cinematography",
+    "role": "Still Photographer",
+    "release_year": 2014,
+    "lat": -23.649301,
+    "lon": -46.622157
+  },
+  {
+    "id": "002s01",
+    "title": "AUGUSTA E ANTONICO",
+    "type": "Short Film",
+    "department": "Cinematography",
+    "role": "Loader",
+    "release_year": 2020,
+    "lat": -25.440029,
+    "lon": -49.276691
+  },
+  {
+    "id": "003t01",
+    "title": "PEDRO E BIANCA",
+    "type": "TV Series",
+    "department": "Cinematography",
+    "role": "Focus Puller",
+    "release_year": 2012,
+    "lat": -23.57,
+    "lon": -46.72
+  },
+  {
+    "id": "004f02",
+    "title": "QUE HORAS ELA VOLTA",
+    "type": "Film",
+    "department": "Cinematography",
+    "role": "Video Assistant",
+    "release_year": 2015,
+    "lat": -23.6,
+    "lon": -46.72028
+  },
+  {
+    "id": "005t02",
+    "title": "EXPERIMENTOS EXTRAORDINARIOS",
+    "type": "TV Series",
+    "department": "Cinematography",
+    "role": "2nd Camera Assistant",
+    "release_year": 2014,
+    "lat": -23.531254,
+    "lon": -46.741615
+  },
+  {
+    "id": "006t03",
+    "title": "CINELAB",
+    "type": "TV Series",
+    "department": "Cinematography",
+    "role": "2nd Camera Assistant",
+    "release_year": 2014,
+    "lat": -23.536111,
+    "lon": -46.634722
+  },
+  {
+    "id": "007r01",
+    "title": "BREAKOUT BRASIL",
+    "type": "Reality Show",
+    "department": "Cinematography",
+    "role": "2nd Camera Assistant",
+    "release_year": 2014,
+    "lat": -23.51111,
+    "lon": -46.87639
+  },
+  {
+    "id": "008d01",
+    "title": "QUAL VAI SER",
+    "type": "Documentary TV",
+    "department": "Cinematography",
+    "role": "Focus Puller",
+    "release_year": 2016,
+    "lat": -23.533773,
+    "lon": -46.62529
+  },
+  {
+    "id": "009s02",
+    "title": "WHEN THE DOGS BARK",
+    "type": "Short Film",
+    "department": "Cinematography",
+    "role": "Focus Puller",
+    "release_year": 2017,
+    "lat": -23.536111,
+    "lon": -46.634722
+  },
+  {
+    "id": "010f03",
+    "title": "SOLACE",
+    "type": "Film",
+    "department": "Cinematography",
+    "role": "Video Assistant",
+    "release_year": 2015,
+    "lat": -23.520109,
+    "lon": -46.698917
+  },
+  {
+    "id": "011d02",
+    "title": "A GRANDE LUTA",
+    "type": "Documentary TV",
+    "department": "Cinematography",
+    "role": "Focus Puller",
+    "release_year": 2016,
+    "lat": -12.9777,
+    "lon": -38.5016
+  },
+  {
+    "id": "012t04",
+    "title": "QUE TALENTO S03",
+    "type": "TV Series",
+    "department": "Cinematography",
+    "role": "Focus Puller",
+    "release_year": 2016,
+    "lat": -23.533773,
+    "lon": -46.62529
+  },
+  {
+    "id": "013f04",
+    "title": "LOS ANGELES NO TIENEN ALAS",
+    "type": "Film",
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2019,
+    "lat": 1.286,
+    "lon": -78.8356
+  },
+  {
+    "id": "014d03",
+    "title": "VILANOVA ARTIGAS THE ARCHITECT AND THE LIGHT",
+    "type": "Documentary TV",
+    "department": "Cinematography",
+    "role": "Focus Puller",
+    "release_year": 2015,
+    "lat": -23.533773,
+    "lon": -46.62529
+  },
+  {
+    "id": "015t05",
+    "title": "A GAROTA DA MOTO S01",
+    "type": "TV Series",
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2016,
+    "lat": -23.533773,
+    "lon": -46.62529
+  },
+  {
+    "id": "016t06",
+    "title": "LILI A EX S02",
+    "type": "TV Series",
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2016,
+    "lat": -23.533773,
+    "lon": -46.62529
+  },
+  {
+    "id": "017t07",
+    "title": "A SECRETARIA DO PRESIDENTE",
+    "type": "TV Series",
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2016,
+    "lat": -23.533773,
+    "lon": -46.62529
+  },
+  {
+    "id": "018f05",
+    "title": "BLITZ",
+    "type": "Film",
+    "department": "Sound",
+    "role": "Prod. Sound Mixer",
+    "release_year": 2018,
+    "lat": -23.533773,
+    "lon": -46.62529
+  },
+  {
+    "id": "019t08",
+    "title": "NATUREZA MORTA",
+    "type": "TV Series",
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2018,
+    "lat": -23.533773,
+    "lon": -46.62529
+  },
+  {
+    "id": "020f06",
+    "title": "O PIOR ALUNO DA ESCOLA",
+    "type": "Film",
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2017,
+    "lat": -23.533773,
+    "lon": -46.62529
+  },
+  {
+    "id": "021t09",
+    "title": "ZOO DA ZU S02",
+    "type": "TV Series",
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2017,
+    "lat": -23.520109,
+    "lon": -46.698917
+  },
+  {
+    "id": "022f07",
+    "title": "O AMOR DA VOLTAS",
+    "type": "Film",
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2022,
+    "lat": -22.9667,
+    "lon": -42.027
+  },
+  {
+    "id": "023s03",
+    "title": "SWEET HEART",
+    "type": "Short Film",
+    "department": "Sound",
+    "role": "Prod. Sound Mixer",
+    "release_year": 2018,
+    "lat": -23.533773,
+    "lon": -46.62529
+  },
+  {
+    "id": "024f08",
+    "title": "FERRUGEM",
+    "type": "Film",
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2018,
+    "lat": -25.5465,
+    "lon": -48.3116
+  },
+  {
+    "id": "025f09",
+    "title": "QUERIDA MAMAE",
+    "type": "Film",
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2018,
+    "lat": -23.533773,
+    "lon": -46.62529
+  },
+  {
+    "id": "026f10",
+    "title": "THE YELLOW NIGHT",
+    "type": "Film",
+    "department": "Sound",
+    "role": "Prod. Sound Mixer",
+    "release_year": 2019,
+    "lat": -7.3257,
+    "lon": -34.7938
+  },
+  {
+    "id": "027d01",
+    "title": "EXPLODE SAO PAULO GIL",
+    "type": "Documentary Film",
+    "department": "Sound",
+    "role": "Add. Prod. Sound Mixer",
+    "release_year": 2025,
+    "lat": -23.533773,
+    "lon": -46.62529
+  },
+  {
+    "id": "028f11",
+    "title": "DIVINE LOVE",
+    "type": "Film",
+    "department": "Sound",
+    "role": "Add. Prod. Sound Mixer",
+    "release_year": 2019,
+    "lat": -8.0476,
+    "lon": -34.877
+  },
+  {
+    "id": "029f12",
+    "title": "LAMENTO",
+    "type": "Film",
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2021,
+    "lat": -25.4284,
+    "lon": -49.2733
+  },
+  {
+    "id": "030s04",
+    "title": "MESMO COM TANTA AGONIA",
+    "type": "Short Film",
+    "department": "Sound",
+    "role": "Prod. Sound Mixer",
+    "release_year": 2018,
+    "lat": -23.533773,
+    "lon": -46.62529
+  },
+  {
+    "id": "031t10",
+    "title": "A GAROTA DA MOTO S02",
+    "type": "TV Series",
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2019,
+    "lat": -23.533773,
+    "lon": -46.62529
+  },
+  {
+    "id": "032t11",
+    "title": "FERAS",
+    "type": "TV Series",
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2019,
+    "lat": -23.6,
+    "lon": -46.72028
+  },
+  {
+    "id": "033s05",
+    "title": "A MULHER QUE SOU",
+    "type": "Short Film",
+    "department": "Sound",
+    "role": "Add. Prod. Sound Mixer",
+    "release_year": 2019,
+    "lat": -25.4284,
+    "lon": -49.2733
+  },
+  {
+    "id": "034f13",
+    "title": "HELEN",
+    "type": "Film",
+    "department": "Sound",
+    "role": "Add. Prod. Sound Mixer",
+    "release_year": 2021,
+    "lat": -23.533773,
+    "lon": -46.62529
+  },
+  {
+    "id": "035f14",
+    "title": "SAO PAULO HEIST",
+    "type": "Film",
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2022,
+    "lat": -23.533773,
+    "lon": -46.62529
+  },
+  {
+    "id": "036f15",
+    "title": "JESUS KID",
+    "type": "Film",
+    "department": "Sound",
+    "role": "Prod. Sound Mixer",
+    "release_year": 2022,
+    "lat": -25.4284,
+    "lon": -49.2733
+  },
+  {
+    "id": "037t12",
+    "title": "INVISIBLE CITY S01",
+    "type": "TV Series",
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2021,
+    "lat": -23.520109,
+    "lon": -46.698917
+  },
+  {
+    "id": "038t13",
+    "title": "SPECTROS",
+    "type": "TV Series",
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2020,
+    "lat": -23.533773,
+    "lon": -46.62529
+  },
+  {
+    "id": "039r02",
+    "title": "A QUEEN IS BORN",
+    "type": "Reality Show",
+    "department": "Sound",
+    "role": "Sound Utility",
+    "release_year": 2020,
+    "lat": -23.533773,
+    "lon": -46.62529
+  },
+  {
+    "id": "040t14",
+    "title": "ESTRADA DO BATOM",
+    "type": "TV Series",
+    "department": "Sound",
+    "role": "Prod. Sound Mixer",
+    "release_year": 2022,
+    "lat": -27.1577,
+    "lon": -48.5469
+  },
+  {
+    "id": "041f16",
+    "title": "DETETIVE MADEINUSA",
+    "type": "Film",
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2021,
+    "lat": -23.533773,
+    "lon": -46.62529
+  },
+  {
+    "id": "042f17",
+    "title": "TPM MEU AMOR",
+    "type": "Film",
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2023,
+    "lat": -23.533773,
+    "lon": -46.62529
+  },
+  {
+    "id": "043t15",
+    "title": "EL PRESIDENTE 2 CORRUPTION GAME",
+    "type": "TV Series",
+    "department": "Sound",
+    "role": "Add. Prod. Sound Mixer",
+    "release_year": 2022,
+    "lat": -34.9011,
+    "lon": -56.1645
+  },
+  {
+    "id": "044t16",
+    "title": "UNDER PRESSURE S05",
+    "type": "TV Series",
+    "department": "Sound",
+    "role": "Add. Prod. Sound Mixer",
+    "release_year": 2022,
+    "lat": -22.9083,
+    "lon": -43.1964
+  },
+  {
+    "id": "045t17",
+    "title": "AREA DE SERVIÇO",
+    "type": "TV Series",
+    "department": "Sound",
+    "role": "Add. Prod. Sound Mixer",
+    "release_year": 2022,
+    "lat": -23.6,
+    "lon": -46.72028
+  },
+  {
+    "id": "046t18",
+    "title": "AS FIVE S02",
+    "type": "TV Series",
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2023,
+    "lat": -23.5017,
+    "lon": -46.8489
+  },
+  {
+    "id": "047f18",
+    "title": "ESCOLA DA QUEBRADA",
+    "type": "Film",
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2023,
+    "lat": -23.533773,
+    "lon": -46.62529
+  },
+  {
+    "id": "048t19",
+    "title": "AS FIVE S03",
+    "type": "TV Series",
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2024,
+    "lat": -23.5017,
+    "lon": -46.8489
+  },
+  {
+    "id": "049t20",
+    "title": "UMA GAROTA COMUM",
+    "type": "TV Series",
+    "department": "Sound",
+    "role": "Add. Prod. Sound Mixer",
+    "release_year": 2023,
+    "lat": -23.4545,
+    "lon": -46.5333
+  },
+  {
+    "id": "050t21",
+    "title": "TARÃ",
+    "type": "TV Series",
+    "department": "Sound",
+    "role": "Add. Prod. Sound Mixer",
+    "release_year": 2025,
+    "lat": -23.531254,
+    "lon": -46.741615
+  },
+  {
+    "id": "051t22",
+    "title": "BACK TO 15",
+    "type": "TV Series",
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2022,
+    "lat": -22.6813,
+    "lon": -44.3233
+  },
+  {
+    "id": "052f19",
+    "title": "THE HIJACKING OF FLIGHT 375",
+    "type": "Film",
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2023,
+    "lat": -22.9083,
+    "lon": -43.1964
+  },
+  {
+    "id": "053t23",
+    "title": "DA PONTE PRA LA",
+    "type": "TV Series",
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2024,
+    "lat": -23.533773,
+    "lon": -46.62529
+  },
+  {
+    "id": "054t24",
+    "title": "SCARS OF BEAUTY",
+    "type": "TV Series",
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2025,
+    "lat": -23.5017,
+    "lon": -46.8489
+  },
+  {
+    "id": "055t25",
+    "title": "O DIA EM QUE MINHA VIDA MUDOU",
+    "type": "TV Series",
+    "department": "Sound",
+    "role": "Sound Utility",
+    "release_year": 2024,
+    "lat": -23.533773,
+    "lon": -46.62529
+  },
+  {
+    "id": "056f20",
+    "title": "O REI DA INTERNET",
+    "type": "Film",
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2025,
+    "lat": -23.533773,
+    "lon": -46.62529
+  },
+  {
+    "id": "057t26",
+    "title": "DE MENOR",
+    "type": "TV Series",
+    "department": "Sound",
+    "role": "Add. Prod. Sound Mixer",
+    "release_year": 2025,
+    "lat": -23.520109,
+    "lon": -46.698917
+  },
+  {
+    "id": "058f21",
+    "title": "100 DAYS",
+    "type": "Film",
+    "department": "Sound",
+    "role": "Prod. Sound Mixer",
+    "release_year": 0,
+    "lat": -23.2221,
+    "lon": -44.7175
+  },
+  {
+    "id": "059f22",
+    "title": "SOLO MIO",
+    "type": "Film",
+    "department": "Sound",
+    "role": "Sound Trainee",
+    "release_year": 2026,
+    "lat": 41.89332,
+    "lon": 12.482932
+  },
+  {
+    "id": "060t27",
+    "title": "L'ALTRO ISPETTORE",
+    "type": "TV Series",
+    "department": "Sound",
+    "role": "Boom Operator",
+    "release_year": 2025,
+    "lat": 43.842,
+    "lon": 10.502
+  },
+  {
+    "id": "061f23",
+    "title": "L'ABBAGLIO",
+    "type": "Film",
+    "department": "Sound",
+    "role": "Dubbing Boom Operator",
+    "release_year": 2024,
+    "lat": 41.90278,
+    "lon": 12.49637
+  },
+  {
+    "id": "062c01",
+    "title": "VARIOUS",
+    "type": "Commercials",
+    "department": "Sound",
+    "role": "Prod. Sound Mixer",
+    "release_year": 2024,
+    "lat": 41.9028,
+    "lon": 12.4964
+  },
+  {
+    "id": "063f24",
+    "title": "CARO MONDO CRUDELE",
+    "type": "Film",
+    "department": "Sound",
+    "role": "2nd Boom Operator",
+    "release_year": 0,
+    "lat": 42.4527,
+    "lon": 11.228
+  },
+  {
+    "id": "064d04",
+    "title": "TUTTO SU MIO PADRE",
+    "type": "Documentary TV",
+    "department": "Sound",
+    "role": "Add. Prod. Sound Mixer",
+    "release_year": 0,
+    "lat": 41.891159,
+    "lon": 12.466846
+  },
+  {
+    "id": "065f25",
+    "title": "CAMPIONI",
+    "type": "Film",
+    "department": "Sound",
+    "role": "2nd Boom Operator",
+    "release_year": 0,
+    "lat": 44.49382,
+    "lon": 11.342633
+  },
+  {
+    "id": "066d02",
+    "title": "È STATO UN CASO",
+    "type": "Documentary Film",
+    "department": "Sound",
+    "role": "Prod. Sound Mixer",
+    "release_year": 0,
+    "lat": 41.894135,
+    "lon": 12.473578
+  },
+  {
+    "id": "067d03",
+    "title": "ALDAIR. CUORE GIALLOROSSO",
+    "type": "Documentary Film",
+    "department": "Sound",
+    "role": "Prod. Sound Mixer",
+    "release_year": 2026,
+    "lat": -14.792599,
+    "lon": -39.045384
+  }
+]

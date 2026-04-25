@@ -1,0 +1,98 @@
+{
+  "generated_at": "2026-04-25 21:53",
+  "career": {
+    "total_projects": 66,
+    "years_active": 14,
+    "first_year": 2012,
+    "countries_worked": 14,
+    "countries_list": [
+      "Argentina",
+      "Brazil",
+      "Canada",
+      "Chile",
+      "Denmark",
+      "Ecuador",
+      "Finland",
+      "France",
+      "Italy",
+      "Norway",
+      "Sweden",
+      "Switzerland",
+      "United States",
+      "Uruguay"
+    ],
+    "languages_count": 5,
+    "languages_list": [
+      "ENG",
+      "FRA",
+      "ITA",
+      "PT_BR",
+      "SPA"
+    ]
+  },
+  "by_type": {
+    "features": 25,
+    "short_films": 5,
+    "tv_series": 26,
+    "documentaries": 7,
+    "reality": 2,
+    "commercials": 1
+  },
+  "by_department": {
+    "sound_projects": 53,
+    "camera_projects": 13
+  },
+  "roles": {
+    "Still Photographer": 1,
+    "Loader": 1,
+    "Focus Puller": 6,
+    "Video Assistant": 2,
+    "2nd Camera Assistant": 3,
+    "Boom Operator": 39,
+    "Prod. Sound Mixer": 20,
+    "Sound Utility": 2,
+    "Sound Trainee": 1
+  },
+  "platforms": {
+    "count": 25,
+    "list": [
+      "AMAZON PRIME",
+      "CARTOON NETWORK",
+      "CINE BRASIL TV",
+      "CINEMAX",
+      "DISCOVERY KIDS",
+      "DISNEY CHANNEL",
+      "DISNEY+",
+      "FOX",
+      "GLOBO PLAY",
+      "GLOOB",
+      "GNT",
+      "HBO MAX",
+      "MTV BR",
+      "MULTISHOW",
+      "NETFLIX",
+      "PARAMOUNT +",
+      "RAI",
+      "RAI Cinema",
+      "SBT",
+      "SONY",
+      "STAR+",
+      "TV CINE BRASIL",
+      "TV CULTURA",
+      "TV GLOBO",
+      "UNIVERSAL"
+    ]
+  },
+  "production": {
+    "companies_count": 124
+  },
+  "awards": {
+    "total_nominations": 196,
+    "total_wins": 106,
+    "sound_award_wins": 3
+  },
+  "festivals": {
+    "total_entries": 68,
+    "unique_festivals": 60
+  }
+}

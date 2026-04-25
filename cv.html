@@ -441,7 +441,7 @@
 
       <div class="vb">
           <div class="hero-row">
-            <span class="n" data-count="64">0</span>
+            <span class="n" id="stat-total" data-count="64">0</span>
             <div class="meta">
               <div class="eye">Projects to date</div>
               <div class="ital">
@@ -451,10 +451,10 @@
             </div>
           </div>
           <div class="vb-fmt">
-            <div class="cell"><span class="n" data-count="27">0</span><span class="lbl">TV Series</span></div>
-            <div class="cell"><span class="n" data-count="24">0</span><span class="lbl">Features</span></div>
-            <div class="cell"><span class="n" data-count=" 5">0</span><span class="lbl">Documentaries</span></div>
-            <div class="cell"><span class="n" data-count=" 5">0</span><span class="lbl">Short films</span></div>
+            <div class="cell"><span class="n" id="stat-tv-series" data-count="27">0</span><span class="lbl">TV Series</span></div>
+            <div class="cell"><span class="n" id="stat-features" data-count="24">0</span><span class="lbl">Features</span></div>
+            <div class="cell"><span class="n" id="stat-docs" data-count=" 5">0</span><span class="lbl">Documentaries</span></div>
+            <div class="cell"><span class="n" id="stat-shorts" data-count=" 5">0</span><span class="lbl">Short films</span></div>
             <div class="cell"><span class="n"><span class="plus-num">+</span></span><span class="lbl">Commercials</span><span class="sub">Uncounted</span></div>
           </div>
           <div class="vb-mid">
@@ -463,37 +463,37 @@
               <div class="dist-lines">
                 <div class="dline"><span class="n" data-count="17">0</span><span class="lbl">TV Channels</span></div>
                 <div class="dline"><span class="n" data-count="7 ">0</span><span class="lbl">Streaming platforms</span></div>
-                <div class="dline"><span class="n" data-count="68">0</span><span class="lbl">Film festival entries</span></div>
-                <div class="dline"><span class="n" data-count="5 ">0</span><span class="lbl">Languages recorded</span></div>
+                <div class="dline"><span class="n" id="stat-festivals" data-count="68">0</span><span class="lbl">Film festival entries</span></div>
+                <div class="dline"><span class="n" id="stat-languages" data-count="5 ">0</span><span class="lbl">Languages recorded</span></div>
               </div>
             </div>
             <div class="cell collab-cell">
               <span class="eye">Collaborators</span>
               <div class="collab-main">
-                <span class="n" data-count="119">0</span>
+                <span class="n" id="stat-companies" data-count="119">0</span>
                 <span class="lbl">Production companies</span>
               </div>
               <div class="of-row">
                 <span class="of">of</span>
-                <span class="n14" data-count="14">0</span>
+                <span class="n14" id="stat-countries" data-count="14">0</span>
                 <span class="w">countries</span>
               </div>
             </div>
           </div>
           <div class="vb-roles">
-            <span class="n-51" data-count="51">0</span>
+            <span class="n-51" id="stat-sound" data-count="51">0</span>
             <div class="sd-right">
               <div class="head">
                 <div class="big-word">in Sound Department</div>
               </div>
               <div class="sub-ladder">
-                <div class="r"><span class="n" data-count="33">0</span><span class="w">as Boom Operator</span><span class="pct">65%</span></div>
-                <div class="r"><span class="n" data-count="16">0</span><span class="w">as Production Sound Mixer</span><span class="pct">31%</span></div>
+                <div class="r"><span class="n" id="stat-boom" data-count="33">0</span><span class="w">as Boom Operator</span><span class="pct" id="pct-boom">65%</span></div>
+                <div class="r"><span class="n" id="stat-mixer" data-count="16">0</span><span class="w">as Production Sound Mixer</span><span class="pct" id="pct-mixer">31%</span></div>
               </div>
             </div>
             <div class="cd">
               <div class="ps">not forgetting</div>
-              <span class="n" data-count="13">0</span>
+              <span class="n" id="stat-camera" data-count="13">0</span>
               <span class="w">in Camera Dept.</span>
               <div class="note">As focus puller, loader &amp; video assist.</div>
             </div>
@@ -743,7 +743,34 @@
       cvNumsIO.observe(n);
     });
   }
-  setupCountUp();
+  fetch('assets/stats.json')
+    .then(r => r.json())
+    .then(s => {
+      const set = (id, val) => {
+        const el = document.getElementById(id);
+        if (el) el.dataset.count = String(val);
+      };
+      set('stat-total',     s.career.total_projects);
+      set('stat-tv-series', s.by_type.tv_series);
+      set('stat-features',  s.by_type.features);
+      set('stat-docs',      s.by_type.documentaries);
+      set('stat-shorts',    s.by_type.short_films);
+      set('stat-festivals', s.festivals.total_entries);
+      set('stat-languages', s.career.languages_count);
+      set('stat-companies', s.production.companies_count);
+      set('stat-countries', s.career.countries_worked);
+      set('stat-sound',     s.by_department.sound_projects);
+      set('stat-boom',      s.roles['Boom Operator']);
+      set('stat-mixer',     s.roles['Prod. Sound Mixer']);
+      set('stat-camera',    s.by_department.camera_projects);
+      const total = s.by_department.sound_projects;
+      const pctBoom  = document.getElementById('pct-boom');
+      const pctMixer = document.getElementById('pct-mixer');
+      if (pctBoom)  pctBoom.textContent  = Math.round(s.roles['Boom Operator']       / total * 100) + '%';
+      if (pctMixer) pctMixer.textContent = Math.round(s.roles['Prod. Sound Mixer']   / total * 100) + '%';
+      setupCountUp();
+    })
+    .catch(() => setupCountUp());
 
 
   /* ── Education modal ─────────────────────────────────────── */

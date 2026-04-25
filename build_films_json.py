@@ -52,6 +52,9 @@ os.makedirs("_output", exist_ok=True)
 print("\n  Reading sheets...")
 
 fd   = read("film_details")
+# Filter out films marked as hidden (if column exists)
+if "show_on_site" in fd.columns:
+    fd = fd[fd["show_on_site"].astype(str).str.upper() != "FALSE"]
 aw   = read("all_awards")
 ff   = read("film_festivals")
 jt   = read("job_timeline")

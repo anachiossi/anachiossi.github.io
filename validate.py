@@ -58,6 +58,11 @@ for i, row in fd.iterrows():
     if t not in VALID_TYPES:
         err("film_details", r, "type", f"'{t}' not in allowed types")
 
+    # show_on_site
+    sos = str(row.get("show_on_site","")).strip().upper()
+    if sos not in ("TRUE", "FALSE", "NAN", ""):
+        err("film_details", r, "show_on_site", f"'{sos}' must be TRUE or FALSE")
+
     rs = str(row.get("release_status",""))
     if rs != rs.strip():
         err("film_details", r, "release_status", "Trailing/leading space detected")
