@@ -66,17 +66,16 @@ sound_projects  = int(dept_counts.get("Sound", 0))
 camera_projects = int(dept_counts.get("Cinematography", 0))
 
 # ── Roles ────────────────────────────────────────────────────
+# Use role_1 only so each project counts once — keeps boom + PSM == sound total.
 role_counts = {}
 for _, row in active.iterrows():
-    for rf in ["role_1", "role_2"]:
-        r = str(row.get(rf,"")).strip()
-        if r and r != "nan":
-            # Normalize role variants into primary roles
-            if r == "Add. Prod. Sound Mixer":
-                r = "Prod. Sound Mixer"
-            elif r in ("2nd Boom Operator", "Dubbing Boom Operator"):
-                r = "Boom Operator"
-            role_counts[r] = role_counts.get(r, 0) + 1
+    r = str(row.get("role_1", "")).strip()
+    if r and r != "nan":
+        if r == "Add. Prod. Sound Mixer":
+            r = "Prod. Sound Mixer"
+        elif r in ("2nd Boom Operator", "Dubbing Boom Operator"):
+            r = "Boom Operator"
+        role_counts[r] = role_counts.get(r, 0) + 1
 
 # ── Countries (filming locations from geo.json) ──────────────
 GEO_FILE = "_output/geo.json"
