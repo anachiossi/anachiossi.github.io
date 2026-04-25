@@ -12,7 +12,7 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 import sys
 from datetime import datetime
 
-DATA_FILE   = "_data/ana_chiossi_data.xlsx"
+DATA_FILE   = "_data/ana_chiossi_data_clean.xlsx"
 OUTPUT_FILE = "_output/films.json"
 HEROES_DIR  = "assets/images/heroes"
 THUMBS_DIR  = "assets/images/thumbs"
@@ -196,7 +196,8 @@ if no_desc:
 if no_timeline:
     print(f"\n  ⚠️   {len(no_timeline)} films with no job timeline dates:")
     for p in no_timeline:
-        print(f"       {p}")
+        title = next((f["title"] for f in films if f["id"] == p), p)
+        print(f"       {p}  {title}")
 
 print(f"\n  Check _output/films.json before copying to assets/")
 print("="*60)

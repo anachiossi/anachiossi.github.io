@@ -13,7 +13,7 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 import sys
 from datetime import datetime
 
-DATA_FILE   = "_data/ana_chiossi_data.xlsx"
+DATA_FILE   = "_data/ana_chiossi_data_clean.xlsx"
 OUTPUT_FILE = "_output/stats.json"
 
 def read(sheet):
@@ -43,16 +43,12 @@ aw = read("all_awards")
 ff = read("film_festivals")
 jt = read("job_timeline")
 
-# Filter to released + upcoming only (exclude canceled)
-# Count all projects except explicitly hidden ones (show_on_site=FALSE)
-# Canceled projects still count — the work was done
-if "show_on_site" in fd.columns:
-    active = fd[fd["show_on_site"].astype(str).str.upper() != "FALSE"]
-else:
-    active = fd
+# Stats count all work done — show_on_site only controls website display,
+# not whether a project counts toward career numbers.
+active = fd
 
 # ── Project counts ───────────────────────────────────────────
-total_projects = len(active)
+total_projects = len(active[active["type"] != "Commercials"])
 
 type_counts = active["type"].value_counts().to_dict()
 features        = int(type_counts.get("Film", 0))
@@ -82,11 +78,25 @@ for _, row in active.iterrows():
                 r = "Boom Operator"
             role_counts[r] = role_counts.get(r, 0) + 1
 
-# ── Countries ────────────────────────────────────────────────
+# ── Countries (filming locations from geo.json) ──────────────
+GEO_FILE = "_output/geo.json"
 all_countries = set()
-for _, row in active.iterrows():
-    for c in split_semi(row.get("prod_country")):
-        all_countries.add(c)
+if os.path.exists(GEO_FILE):
+    try:
+        with open(GEO_FILE, encoding="utf-8") as _gf:
+            for entry in json.load(_gf):
+                c = entry.get("country")
+                if c and str(c).strip() not in ("", "None", "nan"):
+                    all_countries.add(str(c).strip())
+    except Exception:
+        pass
+
+if not all_countries:
+    # fallback: production countries if geo.json missing or has no country data
+    for _, row in active.iterrows():
+        for c in split_semi(row.get("prod_country")):
+            all_countries.add(c)
+
 countries_count = len(all_countries)
 countries_list  = sorted(all_countries)
 
@@ -198,7 +208,7 @@ with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
 # ── Summary ──────────────────────────────────────────────────
 print(f"\n  ✅  stats.json written to {OUTPUT_FILE}")
 print(f"\n  Career snapshot:")
-print(f"    {total_projects} projects  |  {years_active} years active  |  {countries_count} countries  |  {languages_count} languages")
+print(f"    {total_projects} projects (excl. Commercials)  |  {years_active} years active  |  {countries_count} countries  |  {languages_count} languages")
 print(f"    {sound_projects} sound  |  {camera_projects} camera")
 print(f"    {total_wins}/{total_nominations} wins/nominations  |  {total_festival_entries} festival entries")
 print(f"    {companies_count} production companies  |  {platforms_count} platforms")

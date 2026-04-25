@@ -1,13 +1,11 @@
 # Raw working data — not part of the deployed site
 MY_WEBSITE/
 
-# Dev scripts and misc
-inject_map_data.py
-map_new_entry.md
-assets/social-links.txt.txt
+# Work in progress
+_wip/
 
-# Preview/draft files
-assets/CV Numbers.html
+# Legacy / archived files
+_legacy/
 
 # Claude Code
 .claude/
@@ -15,6 +13,7 @@ assets/CV Numbers.html
 # OS
 .DS_Store
 Thumbs.db
+*.bak
 
 # data
 _data/

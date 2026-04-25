@@ -34,7 +34,7 @@ def read(sheet):
     return df.iloc[0:].reset_index(drop=True)
 
 print("\n" + "="*60)
-print("  VALIDATE — ana_chiossi_data.xlsx")
+print("  VALIDATE — ana_chiossi_data_clean.xlsx")
 print("="*60)
 
 if not os.path.exists(DATA_FILE):

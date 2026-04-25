@@ -1,41 +1,5 @@
 [
   {
-    "id": "049t20",
-    "title": "UMA GAROTA COMUM",
-    "type": "TV Series",
-    "director": [
-      "Allan Deberton"
-    ],
-    "prod_co": [
-      "Cinefilm",
-      "Globo Filmes",
-      "Bananeira Filmes"
-    ],
-    "department": "Sound",
-    "role": "Add. Prod. Sound Mixer; Boom Operator",
-    "release_year": 0,
-    "release_status": "upcoming",
-    "platforms": [
-      "DISNEY+"
-    ],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": null,
-    "image_id": "049t20",
-    "thumb_id": "049t20",
-    "awards_count": 0,
-    "festivals_count": 0,
-    "awards_detail": [],
-    "festivals_detail": [],
-    "job_start": "2022-09-01",
-    "job_end": "2022-09-30",
-    "description": "A tropical, musical teen drama starring Colombian pop sensation Juliana Velásquez (Grammy Latino 2021 winner), who plays Alana—an international star hiding as an ordinary girl in small-town Brazil. Packed with dance, original songs, and reimagined hits, it’s Disney fun reinterpreted through Latin flair and youthful storytelling."
-  },
-  {
     "id": "058f21",
     "title": "100 DAYS",
     "type": "Film",
@@ -78,43 +42,6 @@
     "job_start": "2024-07-16",
     "job_end": "2024-09-30",
     "description": "Live-action feature directed by Carlos Saldanha about explorer Amyr Klink’s 1984 solo South Atlantic row, inspired by the book One Hundred Days Between Sky and Sea. Produced by Ventre Studio with Buena Vista International/Disney; filming wrapped Sept 2024 with a 2025 theatrical target. Cast includes Filipe Bragança."
-  },
-  {
-    "id": "062c01",
-    "title": "VARIOUS",
-    "type": "Commercials",
-    "director": [],
-    "prod_co": [
-      "Amarena Pictures",
-      "Filmiki",
-      "Swixer",
-      "Wildframe",
-      "Haibun",
-      "Twister"
-    ],
-    "department": "Sound",
-    "role": "Prod. Sound Mixer",
-    "release_year": 0,
-    "release_status": "released",
-    "platforms": [],
-    "film_language": [
-      "ITA",
-      "SPA",
-      "ENG"
-    ],
-    "prod_country": [
-      "Italy"
-    ],
-    "imdb_link": null,
-    "image_id": "000x00",
-    "thumb_id": "000x00",
-    "awards_count": 0,
-    "festivals_count": 0,
-    "awards_detail": [],
-    "festivals_detail": [],
-    "job_start": "2025-02-01",
-    "job_end": "2025-09-01",
-    "description": null
   },
   {
     "id": "063f24",
@@ -298,7 +225,8 @@
     "prod_co": [
       "Grøenlandia",
       "Sky Italia",
-      "InHouse e Duende Film"
+      "InHouse",
+      "Duende Film"
     ],
     "department": "Sound",
     "role": "Prod. Sound Mixer",
@@ -549,8 +477,8 @@
       "Cao Hamburger"
     ],
     "prod_co": [
-      "Gullane",
-      "Estúdios Globo"
+      "Formata Produções",
+      "Star Original Productions"
     ],
     "department": "Sound",
     "role": "Boom Operator",
@@ -815,6 +743,42 @@
     "job_start": "2022-06-01",
     "job_end": "2022-06-30",
     "description": "Youth comedy co-produced by Paramount+ and KondZilla, directed by Kaique Alves & Thiago Eva. Premiered on Paramount+ on 3 Mar 2023 (official trailer released by the platform). International Emmy nominee (2024) – Kids: Live-Action."
+  },
+  {
+    "id": "049t20",
+    "title": "UMA GAROTA COMUM",
+    "type": "TV Series",
+    "director": [
+      "Allan Deberton"
+    ],
+    "prod_co": [
+      "Cinefilm",
+      "Globo Filmes",
+      "Bananeira Filmes"
+    ],
+    "department": "Sound",
+    "role": "Add. Prod. Sound Mixer; Boom Operator",
+    "release_year": 2023,
+    "release_status": "upcoming",
+    "platforms": [
+      "DISNEY+"
+    ],
+    "film_language": [
+      "PT_BR"
+    ],
+    "prod_country": [
+      "Brazil"
+    ],
+    "imdb_link": null,
+    "image_id": "049t20",
+    "thumb_id": "049t20",
+    "awards_count": 0,
+    "festivals_count": 0,
+    "awards_detail": [],
+    "festivals_detail": [],
+    "job_start": "2022-09-01",
+    "job_end": "2022-09-30",
+    "description": "A tropical, musical teen drama starring Colombian pop sensation Juliana Velásquez (Grammy Latino 2021 winner), who plays Alana—an international star hiding as an ordinary girl in small-town Brazil. Packed with dance, original songs, and reimagined hits, it’s Disney fun reinterpreted through Latin flair and youthful storytelling."
   },
   {
     "id": "052f19",
@@ -1212,36 +1176,6 @@
     "description": "Dark meta-comedy by Aly Muritiba, adapted from Lourenço Mutarelli. Premiered on the festival circuit; won Best Screenplay – Festival de Gramado 2021."
   },
   {
-    "id": "040t14",
-    "title": "ESTRADA DO BATOM",
-    "type": "TV Series",
-    "director": [],
-    "prod_co": [
-      "Um Por Todos"
-    ],
-    "department": "Sound",
-    "role": "Prod. Sound Mixer",
-    "release_year": 2022,
-    "release_status": "released",
-    "platforms": [],
-    "film_language": [
-      "PT_BR"
-    ],
-    "prod_country": [
-      "Brazil"
-    ],
-    "imdb_link": null,
-    "image_id": "000x00",
-    "thumb_id": "000x00",
-    "awards_count": 0,
-    "festivals_count": 0,
-    "awards_detail": [],
-    "festivals_detail": [],
-    "job_start": "2020-02-01",
-    "job_end": "2020-03-31",
-    "description": null
-  },
-  {
     "id": "043t15",
     "title": "EL PRESIDENTE 2 CORRUPTION GAME",
     "type": "TV Series",
@@ -1544,8 +1478,7 @@
       "André Collazzo"
     ],
     "prod_co": [
-      "Prosperidade",
-      "Prosperidade Content"
+      "Kinoscópio Cinematográfica"
     ],
     "department": "Sound",
     "role": "Add. Prod. Sound Mixer; Boom Operator",
@@ -1916,7 +1849,9 @@
       "Enrique Boh"
     ],
     "prod_co": [
-      "NBC Films"
+      "Mixer Filmes",
+      "SBT",
+      "Fox Networks Group Brasil"
     ],
     "department": "Sound",
     "role": "Boom Operator",
@@ -2443,8 +2378,7 @@
       "Nathalia Tereza"
     ],
     "prod_co": [
-      "Diadorim Filmes",
-      "Ponte Produções"
+      "Prosperidade Content"
     ],
     "department": "Sound",
     "role": "Add. Prod. Sound Mixer; Boom Operator",

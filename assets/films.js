@@ -173,14 +173,14 @@ function populateModal(project) {
   if (project.awards_count > 0) {
     coinParts.push(
       `<div class="modal-coin">` +
-        `<img src="assets/badge_awards.png" alt="${esc(project.awards_count)} award${project.awards_count !== 1 ? 's' : ''}">` +
+        `<img src="assets/images/badge_awards.png" alt="${esc(project.awards_count)} award${project.awards_count !== 1 ? 's' : ''}">` +
       `</div>`
     );
   }
   if (project.festivals_count > 0) {
     coinParts.push(
       `<div class="modal-coin">` +
-        `<img src="assets/badge_festivals.png" alt="${esc(project.festivals_count)} festival${project.festivals_count !== 1 ? 's' : ''}">` +
+        `<img src="assets/images/badge_festivals.png" alt="${esc(project.festivals_count)} festival${project.festivals_count !== 1 ? 's' : ''}">` +
       `</div>`
     );
   }

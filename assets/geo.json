@@ -6,6 +6,7 @@
     "department": "Cinematography",
     "role": "Still Photographer",
     "release_year": 2014,
+    "country": "BRAZIL",
     "lat": -23.649301,
     "lon": -46.622157
   },
@@ -16,6 +17,7 @@
     "department": "Cinematography",
     "role": "Loader",
     "release_year": 2020,
+    "country": "BRAZIL",
     "lat": -25.440029,
     "lon": -49.276691
   },
@@ -26,6 +28,7 @@
     "department": "Cinematography",
     "role": "Focus Puller",
     "release_year": 2012,
+    "country": "BRAZIL",
     "lat": -23.57,
     "lon": -46.72
   },
@@ -36,6 +39,7 @@
     "department": "Cinematography",
     "role": "Video Assistant",
     "release_year": 2015,
+    "country": "BRAZIL",
     "lat": -23.6,
     "lon": -46.72028
   },
@@ -46,6 +50,7 @@
     "department": "Cinematography",
     "role": "2nd Camera Assistant",
     "release_year": 2014,
+    "country": "BRAZIL",
     "lat": -23.531254,
     "lon": -46.741615
   },
@@ -56,6 +61,7 @@
     "department": "Cinematography",
     "role": "2nd Camera Assistant",
     "release_year": 2014,
+    "country": "BRAZIL",
     "lat": -23.536111,
     "lon": -46.634722
   },
@@ -66,6 +72,7 @@
     "department": "Cinematography",
     "role": "2nd Camera Assistant",
     "release_year": 2014,
+    "country": "BRAZIL",
     "lat": -23.51111,
     "lon": -46.87639
   },
@@ -76,6 +83,7 @@
     "department": "Cinematography",
     "role": "Focus Puller",
     "release_year": 2016,
+    "country": "BRAZIL",
     "lat": -23.533773,
     "lon": -46.62529
   },
@@ -86,6 +94,7 @@
     "department": "Cinematography",
     "role": "Focus Puller",
     "release_year": 2017,
+    "country": "BRAZIL",
     "lat": -23.536111,
     "lon": -46.634722
   },
@@ -96,6 +105,7 @@
     "department": "Cinematography",
     "role": "Video Assistant",
     "release_year": 2015,
+    "country": "BRAZIL",
     "lat": -23.520109,
     "lon": -46.698917
   },
@@ -106,6 +116,7 @@
     "department": "Cinematography",
     "role": "Focus Puller",
     "release_year": 2016,
+    "country": "BRAZIL",
     "lat": -12.9777,
     "lon": -38.5016
   },
@@ -116,6 +127,7 @@
     "department": "Cinematography",
     "role": "Focus Puller",
     "release_year": 2016,
+    "country": "BRAZIL",
     "lat": -23.533773,
     "lon": -46.62529
   },
@@ -126,6 +138,7 @@
     "department": "Sound",
     "role": "Boom Operator",
     "release_year": 2019,
+    "country": "ECUATOR",
     "lat": 1.286,
     "lon": -78.8356
   },
@@ -136,6 +149,7 @@
     "department": "Cinematography",
     "role": "Focus Puller",
     "release_year": 2015,
+    "country": "BRAZIL",
     "lat": -23.533773,
     "lon": -46.62529
   },
@@ -146,6 +160,7 @@
     "department": "Sound",
     "role": "Boom Operator",
     "release_year": 2016,
+    "country": "BRAZIL",
     "lat": -23.533773,
     "lon": -46.62529
   },
@@ -156,6 +171,7 @@
     "department": "Sound",
     "role": "Boom Operator",
     "release_year": 2016,
+    "country": "BRAZIL",
     "lat": -23.533773,
     "lon": -46.62529
   },
@@ -166,6 +182,7 @@
     "department": "Sound",
     "role": "Boom Operator",
     "release_year": 2016,
+    "country": "BRAZIL",
     "lat": -23.533773,
     "lon": -46.62529
   },
@@ -176,6 +193,7 @@
     "department": "Sound",
     "role": "Prod. Sound Mixer",
     "release_year": 2018,
+    "country": "BRAZIL",
     "lat": -23.533773,
     "lon": -46.62529
   },
@@ -186,6 +204,7 @@
     "department": "Sound",
     "role": "Boom Operator",
     "release_year": 2018,
+    "country": "BRAZIL",
     "lat": -23.533773,
     "lon": -46.62529
   },
@@ -196,6 +215,7 @@
     "department": "Sound",
     "role": "Boom Operator",
     "release_year": 2017,
+    "country": "BRAZIL",
     "lat": -23.533773,
     "lon": -46.62529
   },
@@ -206,6 +226,7 @@
     "department": "Sound",
     "role": "Boom Operator",
     "release_year": 2017,
+    "country": "BRAZIL",
     "lat": -23.520109,
     "lon": -46.698917
   },
@@ -216,6 +237,7 @@
     "department": "Sound",
     "role": "Boom Operator",
     "release_year": 2022,
+    "country": "BRAZIL",
     "lat": -22.9667,
     "lon": -42.027
   },
@@ -226,6 +248,7 @@
     "department": "Sound",
     "role": "Prod. Sound Mixer",
     "release_year": 2018,
+    "country": "BRAZIL",
     "lat": -23.533773,
     "lon": -46.62529
   },
@@ -236,6 +259,7 @@
     "department": "Sound",
     "role": "Boom Operator",
     "release_year": 2018,
+    "country": "BRAZIL",
     "lat": -25.5465,
     "lon": -48.3116
   },
@@ -246,6 +270,7 @@
     "department": "Sound",
     "role": "Boom Operator",
     "release_year": 2018,
+    "country": "BRAZIL",
     "lat": -23.533773,
     "lon": -46.62529
   },
@@ -256,6 +281,7 @@
     "department": "Sound",
     "role": "Prod. Sound Mixer",
     "release_year": 2019,
+    "country": "BRAZIL",
     "lat": -7.3257,
     "lon": -34.7938
   },
@@ -266,6 +292,7 @@
     "department": "Sound",
     "role": "Add. Prod. Sound Mixer",
     "release_year": 2025,
+    "country": "BRAZIL",
     "lat": -23.533773,
     "lon": -46.62529
   },
@@ -276,6 +303,7 @@
     "department": "Sound",
     "role": "Add. Prod. Sound Mixer",
     "release_year": 2019,
+    "country": "BRAZIL",
     "lat": -8.0476,
     "lon": -34.877
   },
@@ -286,6 +314,7 @@
     "department": "Sound",
     "role": "Boom Operator",
     "release_year": 2021,
+    "country": "BRAZIL",
     "lat": -25.4284,
     "lon": -49.2733
   },
@@ -296,6 +325,7 @@
     "department": "Sound",
     "role": "Prod. Sound Mixer",
     "release_year": 2018,
+    "country": "BRAZIL",
     "lat": -23.533773,
     "lon": -46.62529
   },
@@ -306,6 +336,7 @@
     "department": "Sound",
     "role": "Boom Operator",
     "release_year": 2019,
+    "country": "BRAZIL",
     "lat": -23.533773,
     "lon": -46.62529
   },
@@ -316,6 +347,7 @@
     "department": "Sound",
     "role": "Boom Operator",
     "release_year": 2019,
+    "country": "BRAZIL",
     "lat": -23.6,
     "lon": -46.72028
   },
@@ -326,6 +358,7 @@
     "department": "Sound",
     "role": "Add. Prod. Sound Mixer",
     "release_year": 2019,
+    "country": "BRAZIL",
     "lat": -25.4284,
     "lon": -49.2733
   },
@@ -336,6 +369,7 @@
     "department": "Sound",
     "role": "Add. Prod. Sound Mixer",
     "release_year": 2021,
+    "country": "BRAZIL",
     "lat": -23.533773,
     "lon": -46.62529
   },
@@ -346,6 +380,7 @@
     "department": "Sound",
     "role": "Boom Operator",
     "release_year": 2022,
+    "country": "BRAZIL",
     "lat": -23.533773,
     "lon": -46.62529
   },
@@ -356,6 +391,7 @@
     "department": "Sound",
     "role": "Prod. Sound Mixer",
     "release_year": 2022,
+    "country": "BRAZIL",
     "lat": -25.4284,
     "lon": -49.2733
   },
@@ -366,6 +402,7 @@
     "department": "Sound",
     "role": "Boom Operator",
     "release_year": 2021,
+    "country": "BRAZIL",
     "lat": -23.520109,
     "lon": -46.698917
   },
@@ -376,6 +413,7 @@
     "department": "Sound",
     "role": "Boom Operator",
     "release_year": 2020,
+    "country": "BRAZIL",
     "lat": -23.533773,
     "lon": -46.62529
   },
@@ -386,6 +424,7 @@
     "department": "Sound",
     "role": "Sound Utility",
     "release_year": 2020,
+    "country": "BRAZIL",
     "lat": -23.533773,
     "lon": -46.62529
   },
@@ -396,6 +435,7 @@
     "department": "Sound",
     "role": "Prod. Sound Mixer",
     "release_year": 2022,
+    "country": "BRAZIL",
     "lat": -27.1577,
     "lon": -48.5469
   },
@@ -406,6 +446,7 @@
     "department": "Sound",
     "role": "Boom Operator",
     "release_year": 2021,
+    "country": "BRAZIL",
     "lat": -23.533773,
     "lon": -46.62529
   },
@@ -416,6 +457,7 @@
     "department": "Sound",
     "role": "Boom Operator",
     "release_year": 2023,
+    "country": "BRAZIL",
     "lat": -23.533773,
     "lon": -46.62529
   },
@@ -426,6 +468,7 @@
     "department": "Sound",
     "role": "Add. Prod. Sound Mixer",
     "release_year": 2022,
+    "country": "URUGUAY",
     "lat": -34.9011,
     "lon": -56.1645
   },
@@ -436,6 +479,7 @@
     "department": "Sound",
     "role": "Add. Prod. Sound Mixer",
     "release_year": 2022,
+    "country": "BRAZIL",
     "lat": -22.9083,
     "lon": -43.1964
   },
@@ -446,6 +490,7 @@
     "department": "Sound",
     "role": "Add. Prod. Sound Mixer",
     "release_year": 2022,
+    "country": "BRAZIL",
     "lat": -23.6,
     "lon": -46.72028
   },
@@ -456,6 +501,7 @@
     "department": "Sound",
     "role": "Boom Operator",
     "release_year": 2023,
+    "country": "BRAZIL",
     "lat": -23.5017,
     "lon": -46.8489
   },
@@ -466,6 +512,7 @@
     "department": "Sound",
     "role": "Boom Operator",
     "release_year": 2023,
+    "country": "BRAZIL",
     "lat": -23.533773,
     "lon": -46.62529
   },
@@ -476,6 +523,7 @@
     "department": "Sound",
     "role": "Boom Operator",
     "release_year": 2024,
+    "country": "BRAZIL",
     "lat": -23.5017,
     "lon": -46.8489
   },
@@ -486,6 +534,7 @@
     "department": "Sound",
     "role": "Add. Prod. Sound Mixer",
     "release_year": 2023,
+    "country": "BRAZIL",
     "lat": -23.4545,
     "lon": -46.5333
   },
@@ -496,6 +545,7 @@
     "department": "Sound",
     "role": "Add. Prod. Sound Mixer",
     "release_year": 2025,
+    "country": "BRAZIL",
     "lat": -23.531254,
     "lon": -46.741615
   },
@@ -506,6 +556,7 @@
     "department": "Sound",
     "role": "Boom Operator",
     "release_year": 2022,
+    "country": "BRAZIL",
     "lat": -22.6813,
     "lon": -44.3233
   },
@@ -516,6 +567,7 @@
     "department": "Sound",
     "role": "Boom Operator",
     "release_year": 2023,
+    "country": "BRAZIL",
     "lat": -22.9083,
     "lon": -43.1964
   },
@@ -526,6 +578,7 @@
     "department": "Sound",
     "role": "Boom Operator",
     "release_year": 2024,
+    "country": "BRAZIL",
     "lat": -23.533773,
     "lon": -46.62529
   },
@@ -536,6 +589,7 @@
     "department": "Sound",
     "role": "Boom Operator",
     "release_year": 2025,
+    "country": "BRAZIL",
     "lat": -23.5017,
     "lon": -46.8489
   },
@@ -546,6 +600,7 @@
     "department": "Sound",
     "role": "Sound Utility",
     "release_year": 2024,
+    "country": "BRAZIL",
     "lat": -23.533773,
     "lon": -46.62529
   },
@@ -556,6 +611,7 @@
     "department": "Sound",
     "role": "Boom Operator",
     "release_year": 2025,
+    "country": "BRAZIL",
     "lat": -23.533773,
     "lon": -46.62529
   },
@@ -566,6 +622,7 @@
     "department": "Sound",
     "role": "Add. Prod. Sound Mixer",
     "release_year": 2025,
+    "country": "BRAZIL",
     "lat": -23.520109,
     "lon": -46.698917
   },
@@ -576,6 +633,7 @@
     "department": "Sound",
     "role": "Prod. Sound Mixer",
     "release_year": 0,
+    "country": "BRAZIL",
     "lat": -23.2221,
     "lon": -44.7175
   },
@@ -586,6 +644,7 @@
     "department": "Sound",
     "role": "Sound Trainee",
     "release_year": 2026,
+    "country": "ITALY",
     "lat": 41.89332,
     "lon": 12.482932
   },
@@ -596,6 +655,7 @@
     "department": "Sound",
     "role": "Boom Operator",
     "release_year": 2025,
+    "country": "ITALY",
     "lat": 43.842,
     "lon": 10.502
   },
@@ -606,6 +666,7 @@
     "department": "Sound",
     "role": "Dubbing Boom Operator",
     "release_year": 2024,
+    "country": "ITALY",
     "lat": 41.90278,
     "lon": 12.49637
   },
@@ -616,6 +677,7 @@
     "department": "Sound",
     "role": "Prod. Sound Mixer",
     "release_year": 2024,
+    "country": "ITALY",
     "lat": 41.9028,
     "lon": 12.4964
   },
@@ -626,6 +688,7 @@
     "department": "Sound",
     "role": "2nd Boom Operator",
     "release_year": 0,
+    "country": "ITALY",
     "lat": 42.4527,
     "lon": 11.228
   },
@@ -636,6 +699,7 @@
     "department": "Sound",
     "role": "Add. Prod. Sound Mixer",
     "release_year": 0,
+    "country": "ITALY",
     "lat": 41.891159,
     "lon": 12.466846
   },
@@ -646,6 +710,7 @@
     "department": "Sound",
     "role": "2nd Boom Operator",
     "release_year": 0,
+    "country": "ITALY",
     "lat": 44.49382,
     "lon": 11.342633
   },
@@ -656,6 +721,7 @@
     "department": "Sound",
     "role": "Prod. Sound Mixer",
     "release_year": 0,
+    "country": "ITALY",
     "lat": 41.894135,
     "lon": 12.473578
   },
@@ -666,6 +732,7 @@
     "department": "Sound",
     "role": "Prod. Sound Mixer",
     "release_year": 2026,
+    "country": "BRAZIL",
     "lat": -14.792599,
     "lon": -39.045384
   }

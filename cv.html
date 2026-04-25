@@ -27,7 +27,7 @@
     .vb .hero-row .meta .eye{font-size:10px;font-weight:700;letter-spacing:.24em;text-transform:uppercase;color:rgba(10,10,10,.5);margin-bottom:14px;}
     .vb .hero-row .meta .ital{font-family:"Instrument Serif",serif;font-style:italic;font-weight:400;font-size:30px;line-height:1.15;}
     .vb .hero-row .meta .ital .big-word{display:block;font-family:"Space Grotesk",sans-serif;font-style:normal;font-weight:600;font-size:54px;line-height:.95;letter-spacing:-.03em;text-transform:uppercase;color:#0a0a0a;margin-bottom:6px;}
-    .vb-fmt{display:grid;grid-template-columns:repeat(5,1fr);gap:36px;padding:36px 0;border-top:1px solid rgba(10,10,10,.25);border-bottom:1px solid rgba(10,10,10,.25);margin-bottom:20px;}
+    .vb-fmt{display:grid;grid-template-columns:repeat(6,1fr);gap:36px;padding:36px 0;border-top:1px solid rgba(10,10,10,.25);border-bottom:1px solid rgba(10,10,10,.25);margin-bottom:20px;}
     .vb-fmt .cell{display:flex;flex-direction:column;gap:8px;}
     .vb-fmt .cell .n{font-family:"Space Grotesk";font-weight:500;font-size:clamp(84px,8.5vw,128px);line-height:.85;letter-spacing:-.04em;}
     .vb-fmt .cell .lbl{font-family:"Instrument Serif",serif;font-style:italic;font-size:22px;color:rgba(10,10,10,.75);}
@@ -454,6 +454,7 @@
             <div class="cell"><span class="n" id="stat-tv-series" data-count="27">0</span><span class="lbl">TV Series</span></div>
             <div class="cell"><span class="n" id="stat-features" data-count="24">0</span><span class="lbl">Features</span></div>
             <div class="cell"><span class="n" id="stat-docs" data-count=" 5">0</span><span class="lbl">Documentaries</span></div>
+            <div class="cell"><span class="n" id="stat-reality" data-count="2">0</span><span class="lbl">Reality Shows</span></div>
             <div class="cell"><span class="n" id="stat-shorts" data-count=" 5">0</span><span class="lbl">Short films</span></div>
             <div class="cell"><span class="n"><span class="plus-num">+</span></span><span class="lbl">Commercials</span><span class="sub">Uncounted</span></div>
           </div>
@@ -615,7 +616,7 @@
         <!-- Cert 1: Dante Certified Level 3 — static badge image -->
         <div class="cert-item">
           <a href="https://www.audinate.com/learning/training-certification" target="_blank" rel="noopener" aria-label="Dante Certified Level 3">
-            <img src="assets/badge_dante_lv3.png" alt="Dante Certified Level 3" style="max-height:120px;width:auto;">
+            <img src="assets/images/badge_dante_lv3.png" alt="Dante Certified Level 3" style="max-height:120px;width:auto;">
           </a>
         </div>
 
@@ -754,6 +755,7 @@
       set('stat-tv-series', s.by_type.tv_series);
       set('stat-features',  s.by_type.features);
       set('stat-docs',      s.by_type.documentaries);
+      set('stat-reality',   s.by_type.reality);
       set('stat-shorts',    s.by_type.short_films);
       set('stat-festivals', s.festivals.total_entries);
       set('stat-languages', s.career.languages_count);

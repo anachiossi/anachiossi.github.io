@@ -99,6 +99,7 @@ for _, row in film_geo.iterrows():
 # manual overrides + needs geocoding from geo_localization_finder
 manual_coords   = {}
 needs_geocoding = []
+country_map     = {}
 
 for _, row in geo_finder.iterrows():
     _id = str(row.get("_id", "")).strip()
@@ -110,6 +111,8 @@ for _, row in geo_finder.iterrows():
     country = str(row.get("country", "")).strip()
     loc     = str(row.get("location_city", "")).strip()
 
+    if country and country != "nan":
+        country_map[_id] = country
     if lat is not None and lon is not None:
         manual_coords[_id] = (lat, lon)
     elif city and country:
@@ -195,6 +198,7 @@ for _id, (lat, lon) in sorted(all_coords.items()):
         "department":   film.get("department"),
         "role":         film.get("role"),
         "release_year": year,
+        "country":      country_map.get(_id),
         "lat":          round(lat, 6),
         "lon":          round(lon, 6),
     })
@@ -206,7 +210,7 @@ for _id in fd_map:
 with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
     json.dump(locations, f, ensure_ascii=False, indent=2)
 
-print(f"\n  {len(locations)} locations written to {OUTPUT_FILE}")
+print(f"\n  ✅  {len(locations)} locations written to {OUTPUT_FILE}")
 if new_coords:
     print(f"  {len(new_coords)} new location(s) geocoded")
 if no_coords:

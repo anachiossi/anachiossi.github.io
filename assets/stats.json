@@ -1,25 +1,15 @@
 {
-  "generated_at": "2026-04-25 22:33",
+  "generated_at": "2026-04-25 23:28",
   "career": {
-    "total_projects": 67,
+    "total_projects": 66,
     "years_active": 14,
     "first_year": 2012,
-    "countries_worked": 14,
+    "countries_worked": 4,
     "countries_list": [
-      "Argentina",
-      "Brazil",
-      "Canada",
-      "Chile",
-      "Denmark",
-      "Ecuador",
-      "Finland",
-      "France",
-      "Italy",
-      "Norway",
-      "Sweden",
-      "Switzerland",
-      "United States",
-      "Uruguay"
+      "BRAZIL",
+      "ECUATOR",
+      "ITALY",
+      "URUGUAY"
     ],
     "languages_count": 5,
     "languages_list": [
@@ -84,7 +74,7 @@
     ]
   },
   "production": {
-    "companies_count": 125
+    "companies_count": 122
   },
   "awards": {
     "total_nominations": 196,
