@@ -122,6 +122,13 @@ for _, row in active.iterrows():
         all_companies.add(c)
 companies_count = len(all_companies)
 
+# ── Production countries ─────────────────────────────────────
+all_prod_countries = set()
+for _, row in active.iterrows():
+    for c in split_semi(row.get("prod_country")):
+        all_prod_countries.add(c)
+prod_countries_count = len(all_prod_countries)
+
 # ── Years active ─────────────────────────────────────────────
 years = []
 for _, row in jt.iterrows():
@@ -186,7 +193,8 @@ stats = {
     },
 
     "production": {
-        "companies_count": companies_count,
+        "companies_count":      companies_count,
+        "prod_countries_count": prod_countries_count,
     },
 
     "awards": {
@@ -210,7 +218,7 @@ print(f"\n  Career snapshot:")
 print(f"    {total_projects} projects (excl. Commercials)  |  {years_active} years active  |  {countries_count} countries  |  {languages_count} languages")
 print(f"    {sound_projects} sound  |  {camera_projects} camera")
 print(f"    {total_wins}/{total_nominations} wins/nominations  |  {total_festival_entries} festival entries")
-print(f"    {companies_count} production companies  |  {platforms_count} platforms")
+print(f"    {companies_count} production companies ({prod_countries_count} prod. countries)  |  {platforms_count} platforms")
 print(f"\n  Check _output/stats.json before copying to assets/")
 print("="*60)
 input("\nPress Enter to close...")

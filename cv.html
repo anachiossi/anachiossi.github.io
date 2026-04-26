@@ -471,13 +471,13 @@
             <div class="cell collab-cell">
               <span class="eye">Collaborators</span>
               <div class="collab-main">
-                <span class="n" id="stat-companies" data-count="119">0</span>
-                <span class="lbl">Production companies</span>
+                <span class="n" id="stat-prod-countries" data-count="4">0</span>
+                <span class="lbl">Production countries</span>
               </div>
               <div class="of-row">
                 <span class="of">of</span>
-                <span class="n14" id="stat-countries" data-count="14">0</span>
-                <span class="w">countries</span>
+                <span class="n14" id="stat-companies" data-count="122">0</span>
+                <span class="w">companies</span>
               </div>
             </div>
           </div>
@@ -759,8 +759,9 @@
       set('stat-shorts',    s.by_type.short_films);
       set('stat-festivals', s.festivals.total_entries);
       set('stat-languages', s.career.languages_count);
-      set('stat-companies', s.production.companies_count);
-      set('stat-countries', s.career.countries_worked);
+      set('stat-prod-countries', s.production.prod_countries_count);
+      set('stat-companies',      s.production.companies_count);
+      set('stat-countries',      s.career.countries_worked);
       set('stat-sound',     s.by_department.sound_projects);
       set('stat-boom',      s.roles['Boom Operator']);
       set('stat-mixer',     s.roles['Prod. Sound Mixer']);

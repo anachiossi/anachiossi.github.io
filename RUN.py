@@ -1,7 +1,7 @@
 """
 RUN.py
 Master launcher. Double-click this to run the full pipeline.
-Runs: validate → build_films_json → build_geo_json → build_stats_json
+Runs: validate → build_films_json → build_geo_json → build_stats_json → deploy to assets/
 """
 
 import subprocess
@@ -19,7 +19,7 @@ def run_script(name):
 
 print("\n" + "="*60)
 print("  ANA CHIOSSI — DATA PIPELINE")
-print("  validate → build_films_json → build_geo_json → build_stats_json")
+print("  validate → build_films_json → build_geo_json → build_stats_json → deploy")
 print("="*60)
 
 # ── Step 1: Validate ─────────────────────────────────────────
@@ -53,24 +53,39 @@ if code != 0:
     print("\n  ❌  build_stats_json.py failed.")
     input("\nPress Enter to close...")
     sys.exit(1)
-
-# ── Done ──────────────────────────────────────────────────────
+    
+# ── Step 5: Replace assets? ──────────────────────────────────
 print("\n" + "="*60)
-print("""
-  ✅  Pipeline complete.
+answer = input("\n  Replace assets/films.json, stats.json, geo.json with new outputs? (y/n): ").strip().lower()
 
-  Next steps:
-  1. Check the _output/ folder
-  2. Compare with assets/ if needed
-  3. When happy, copy:
-       _output/films.json  →  assets/films.json
-       _output/geo.json    →  assets/geo.json
-       _output/stats.json  →  assets/stats.json
+if answer == "y":
+    import shutil
+    os.makedirs("_backup", exist_ok=True)
+    
+    for name in ["films.json", "stats.json", "geo.json"]:
+        src = os.path.join("_output", name)
+        dst = os.path.join("assets", name)
+        bak = os.path.join("_backup", name)
+        if os.path.exists(src):
+            if os.path.exists(dst):
+                shutil.copy2(dst, bak)
+            shutil.copy2(src, dst)
+            print(f"  ✅  {name} → assets/ (old version backed up to _backup/)")
 
-  Then push to GitHub:
-       git add .
-       git commit -m "Update data"
-       git push
-""")
+    # ── Step 6: Git push? ────────────────────────────────────
+    answer2 = input("\n  Push to GitHub? (y/n): ").strip().lower()
+    if answer2 == "y":
+        msg = input("  Commit message: ").strip()
+        if not msg:
+            msg = "Update data"
+        os.system("git add .")
+        os.system(f'git commit -m "{msg}"')
+        os.system("git push")
+        print("\n  ✅  Pushed. Site will update in ~2 minutes.")
+else:
+    print("\n  Skipped. Files remain in _output/ for review.")
+
+print("\n" + "="*60)
+print("  ✅  Pipeline complete.")
 print("="*60)
 input("\nPress Enter to close...")

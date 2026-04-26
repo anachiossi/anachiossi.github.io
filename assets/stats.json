@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25 23:54",
+  "generated_at": "2026-04-26 10:26",
   "career": {
     "total_projects": 66,
     "years_active": 14,
@@ -74,7 +74,8 @@
     ]
   },
   "production": {
-    "companies_count": 122
+    "companies_count": 122,
+    "prod_countries_count": 14
   },
   "awards": {
     "total_nominations": 196,
