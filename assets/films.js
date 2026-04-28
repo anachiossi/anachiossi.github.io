@@ -128,7 +128,10 @@ function buildCard(project, index) {
     `</div>`;
   card.appendChild(overlay);
 
-  card.addEventListener('click', () => openModal(index));
+  card.addEventListener('click', () => {
+    if (window.umami) window.umami.track('Film Click', { title: project.title });
+    openModal(index);
+  });
 
   return card;
 }
@@ -446,8 +449,15 @@ async function init() {
     loadingEl.hidden = true;
     renderGrid(allProjects);
 
+    let searchTrackTimer;
     searchEl.addEventListener('input', () => {
       renderGrid(filterProjects(searchEl.value));
+      clearTimeout(searchTrackTimer);
+      searchTrackTimer = setTimeout(() => {
+        if (searchEl.value.trim() && window.umami) {
+          window.umami.track('Film Search', { query: searchEl.value.trim() });
+        }
+      }, 500);
     });
 
   } catch (err) {
