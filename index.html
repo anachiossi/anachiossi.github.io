@@ -1,364 +1,1908 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ana Chiossi — Production Sound Mixer &amp; Boom Operator</title>
-  <meta name="description" content="Ana Chiossi — Production sound mixer and boom operator based in Rome, Italy. 14 years, 65+ projects. Credits include Netflix, Disney+, HBO and Amazon Prime.">
-  <meta property="og:title" content="Ana Chiossi — Production Sound Mixer &amp; Boom Operator">
-  <meta property="og:description" content="Based in Rome, Italy. Feature films, series, documentaries, advertising.">
-  <meta property="og:type" content="website">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300..800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/style.css">
-  <script defer src="https://cloud.umami.is/script.js" data-website-id="750385db-41ff-488f-a13b-eb989f32e89e"></script>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+<title>Ana Chiossi — Production Sound Mixer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300..800&display=block" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=block" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=block" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=block" rel="stylesheet">
+<script defer src="https://cloud.umami.is/script.js" data-website-id="750385db-41ff-488f-a13b-eb989f32e89e"></script>
+
+<template id="__bundler_thumbnail" data-bg-color="#0a0a0a">
+  <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1200" height="800" fill="#0a0a0a"/>
+    <rect x="300" y="300" width="600" height="200" fill="#2a0a0a" stroke="#ff2e3a" stroke-width="3"/>
+    <text x="600" y="420" text-anchor="middle" font-family="monospace" font-weight="700" font-size="72" fill="#ff4450">ANA CHIOSSI</text>
+  </svg>
+</template>
+
+<style>
+  @font-face {
+    font-family: 'DSEG7';
+    src: url('assets/fonts/DSEG7Classic-Regular.woff2') format('woff2'),
+         url('assets/fonts/DSEG7Classic-Regular.woff') format('woff'),
+         url('assets/fonts/DSEG7Classic-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+
+  :root {
+    --ink: #1A1A1A;
+    --ink-dim: #6B6B6B;
+    --ink-dimmer: #9a9890;
+    --bg: #fbfaf7;
+    --bg-2: #F7F6F3;
+    --panel: #F7F6F3;
+    --panel-2: #E5E3DE;
+    --rule: rgba(26,26,26,.12);
+    --rule-strong: rgba(26,26,26,.25);
+    --font: 'Manrope', system-ui, -apple-system, sans-serif;
+    --lcd: 'DSEG7', monospace;
+
+    --c-red:    #ff5a5a;
+    --c-blue:   #2b7dff;
+    --c-yellow: #ffc21f;
+    --c-green:  #2fe36a;
+
+    /* display-panel palette (changes with MODE) */
+    --disp-bg: #9fe7ff;
+    --disp-bg-armed: #ff4450;
+    --disp-ink: #0a2533;
+    --disp-ink-armed: #3a0004;
+    --disp-accent: rgba(126,219,255,.45);
+    --disp-glow: rgba(126,219,255,.18);
+
+    --safe-t: env(safe-area-inset-top, 0px);
+    --safe-b: env(safe-area-inset-bottom, 0px);
+    --safe-l: env(safe-area-inset-left, 0px);
+    --safe-r: env(safe-area-inset-right, 0px);
+  }
+
+  /* ---------------- MODE PALETTES -------------------------- */
+  /* Studio Red (default) — cool cyan display, red armed state */
+  body.mode-studio{
+    --bg:#eef0e8; --bg-2:#e6e9df; --panel:#e6e9df; --panel-2:#d8dccf;
+    --ink:#1A1A1A; --ink-dim:#6B6B6B; --ink-dimmer:#9a9890;
+    --rule:rgba(26,26,26,.12); --rule-strong:rgba(26,26,26,.25);
+    --disp-bg:#9fe7ff; --disp-bg-armed:#ff4450;
+    --disp-ink:#0a2533; --disp-ink-armed:#3a0004;
+    --disp-accent:rgba(126,219,255,.45); --disp-glow:rgba(126,219,255,.18);
+  }
+  /* Field Green — daylight outdoor, olive chassis, amber display */
+  body.mode-field{
+    --bg:#121410; --bg-2:#191c16; --panel:#1c2018; --panel-2:#23271d;
+    --ink:#e3e0cd; --ink-dim:#8a8672; --ink-dimmer:#524f41;
+    --rule:rgba(227,224,205,.14); --rule-strong:rgba(227,224,205,.3);
+    --disp-bg:#f0c24a; --disp-bg-armed:#ff4450;
+    --disp-ink:#1d1200; --disp-ink-armed:#3a0004;
+    --disp-accent:rgba(240,194,74,.5); --disp-glow:rgba(240,194,74,.22);
+    --c-red:#ff5a3c; --c-blue:#7db87d; --c-yellow:#f0c24a; --c-green:#9ec94a;
+  }
+  /* Archive Cream — warm sepia editorial, paper-white display */
+  body.mode-archive{
+    --bg:#1a1613; --bg-2:#221d19; --panel:#26201c; --panel-2:#2d2722;
+    --ink:#efe7d8; --ink-dim:#9b9182; --ink-dimmer:#615a4f;
+    --rule:rgba(239,231,216,.16); --rule-strong:rgba(239,231,216,.3);
+    --disp-bg:#f5ecd7; --disp-bg-armed:#c94a3a;
+    --disp-ink:#2a1c10; --disp-ink-armed:#ffe9dc;
+    --disp-accent:rgba(245,236,215,.5); --disp-glow:rgba(245,236,215,.18);
+    --c-red:#c94a3a; --c-blue:#4a7e9e; --c-yellow:#d9a648; --c-green:#7ea368;
+  }
+
+  /* ---------------- TWEAKS PANEL --------------------------- */
+  .tweaks{
+    position:fixed; z-index:120;
+    right:clamp(12px,2vw,24px); bottom:clamp(12px,2vw,24px);
+    width:min(280px,92vw);
+    background:var(--panel);
+    border:1px solid var(--rule-strong);
+    border-radius:14px;
+    box-shadow:0 8px 32px rgba(26,26,26,.12), inset 0 1px 0 rgba(255,255,255,.6);
+    color:var(--ink);
+    font-family:var(--font);
+    padding:14px;
+    display:none;
+  }
+  .tweaks.on{display:block}
+  .tweaks h3{
+    margin:0 0 10px;
+    font-size:10px; letter-spacing:.28em; text-transform:uppercase;
+    color:var(--ink-dim);
+    display:flex; justify-content:space-between; align-items:center;
+  }
+  .tweaks h3 .dot{
+    width:6px;height:6px;border-radius:50%;background:#ff2e3a;
+    box-shadow:0 0 8px #ff2e3a;
+    display:inline-block;margin-right:6px;animation:blink 1.6s steps(1) infinite;
+  }
+  .tweaks h3 .close{
+    cursor:pointer;color:var(--ink-dim);background:transparent;border:0;
+    font-family:inherit;font-size:14px;line-height:1;padding:4px 8px;
+    border-radius:999px;transition:background .15s ease;
+  }
+  .tweaks h3 .close:hover{background:rgba(26,26,26,.08); color:var(--ink)}
+  .tw-group{margin:10px 0 14px}
+  .tw-group:last-child{margin-bottom:0}
+  .tw-label{
+    font-size:9px; letter-spacing:.24em; text-transform:uppercase;
+    color:var(--ink-dim); margin-bottom:6px;
+  }
+  .tw-row{
+    display:flex; gap:4px;
+    background:var(--bg-2);
+    border:1px solid var(--rule);
+    border-radius:10px;
+    padding:3px;
+  }
+  .tw-row button{
+    flex:1; appearance:none; cursor:pointer;
+    background:transparent; color:var(--ink-dim);
+    border:0; border-radius:8px;
+    padding:8px 6px;
+    font-family:var(--font); font-size:10px; letter-spacing:.18em;
+    text-transform:uppercase;
+    transition:all .18s ease;
+  }
+  .tw-row button:hover{color:var(--ink)}
+  .tw-row button.on{
+    background:var(--panel-2);
+    color:var(--ink);
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.6), 0 1px 3px rgba(26,26,26,.1);
+  }
+  .tw-row button.on .sw{display:inline-block;width:5px;height:5px;border-radius:50%;background:#ff2e3a;margin-right:5px;box-shadow:0 0 6px #ff2e3a;vertical-align:middle}
+  .tw-toggle{
+    display:flex;align-items:center;justify-content:space-between;
+    background:var(--bg-2);border:1px solid var(--rule);border-radius:10px;
+    padding:8px 12px;cursor:pointer;
+  }
+  .tw-toggle .sw{
+    width:34px;height:18px;border-radius:999px;
+    background:#c8c5be;border:1px solid var(--rule-strong);
+    position:relative;transition:background .2s ease;
+  }
+  .tw-toggle .sw::after{
+    content:"";position:absolute;top:2px;left:2px;
+    width:12px;height:12px;border-radius:50%;
+    background:#8a8780;transition:all .2s ease;
+  }
+  .tw-toggle.on .sw{background:#3a0004;border-color:rgba(255,46,58,.6)}
+  .tw-toggle.on .sw::after{left:18px;background:#ff2e3a;box-shadow:0 0 8px #ff2e3a}
+  .tw-toggle span.lbl{
+    font-size:10px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ink);
+  }
+  /* ---------------- GRAIN OVERLAY -------------------------- */
+  body.grain-on::after{
+    content:"";
+    position:fixed; inset:0; pointer-events:none; z-index:90;
+    background-image:
+      repeating-linear-gradient(180deg, rgba(255,255,255,.025) 0 1px, transparent 1px 3px),
+      url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.22 0'/></filter><rect width='180' height='180' filter='url(%23n)' opacity='0.55'/></svg>");
+    mix-blend-mode:overlay;
+    opacity:.55;
+    animation:grainShift 1.2s steps(6) infinite;
+  }
+  @keyframes grainShift{
+    0%  { transform:translate(0,0) }
+    20% { transform:translate(-3%,2%) }
+    40% { transform:translate(2%,-3%) }
+    60% { transform:translate(-2%,-2%) }
+    80% { transform:translate(3%,1%) }
+    100%{ transform:translate(0,0) }
+  }
+  *,*::before,*::after{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  html{background:var(--bg)}
+  body{
+    background:var(--bg);
+    color:var(--ink);
+    font-family:var(--font);
+    min-height:100svh;
+    overflow:hidden;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+    position:relative;
+    transition:background 220ms ease;
+  }
+  /* launching state kept subtle — only the recorder + armed track flash */
+
+  button{font:inherit;color:inherit;background:transparent;border:0;padding:0;cursor:pointer}
+  a{color:inherit;text-decoration:none}
+
+  /* ------------------------------------------------------------------
+     Mixer faceplate
+  ------------------------------------------------------------------ */
+  .stage{
+    position:fixed;inset:0;
+    padding:
+      calc(16px + var(--safe-t))
+      calc(20px + var(--safe-r))
+      calc(16px + var(--safe-b))
+      calc(20px + var(--safe-l));
+    display:grid;
+    grid-template-rows:auto auto 1fr;
+    gap:clamp(10px,1.6vh,20px);
+    background: var(--bg);
+    overflow-x:hidden;
+    overflow-y:auto;
+  }
+  @media(min-width:900px){
+    .stage{
+      padding:
+        calc(22px + var(--safe-t))
+        calc(32px + var(--safe-r))
+        calc(22px + var(--safe-b))
+        calc(32px + var(--safe-l));
+      gap:clamp(14px,2vh,26px);
+    }
+  }
+
+  /* corner ticks */
+  .ticks{position:fixed;inset:0;pointer-events:none;z-index:1}
+  .tick{position:absolute;width:14px;height:14px;border:1px solid var(--rule-strong);opacity:0;animation:fadeIn .6s ease .3s forwards}
+  .tick.tl{top:10px;left:10px;border-right:none;border-bottom:none}
+  .tick.tr{top:10px;right:10px;border-left:none;border-bottom:none}
+  .tick.bl{bottom:10px;left:10px;border-right:none;border-top:none}
+  .tick.br{bottom:10px;right:10px;border-left:none;border-top:none}
+  @keyframes fadeIn{to{opacity:1}}
+
+  /* ------------------------------------------------------------------
+     Top bar: slate + TC display
+  ------------------------------------------------------------------ */
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    flex-wrap:wrap;
+    gap:8px;
+    padding-bottom:10px;
+    border-bottom:1px solid var(--rule);
+  }
+
+  .pill{
+    display:inline-flex;align-items:center;gap:6px;
+    padding:5px 10px;border:1px solid var(--rule);
+    border-radius:999px;
+    font-size:9px;letter-spacing:.22em;
+  }
+  .led-dot{
+    display:inline-block;width:7px;height:7px;border-radius:50%;
+    background:var(--dot,var(--ink-dim));
+    box-shadow:0 0 6px var(--dot,transparent), 0 0 2px var(--dot,transparent);
+  }
+  .led-dot.blink{animation:blink 1.3s steps(2,end) infinite}
+  @keyframes blink{50%{opacity:.25}}
+
+  /* TC clapboard display */
+  .tc-group {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .tc-label {
+    font-size: 9px;
+    letter-spacing: .22em;
+    text-transform: uppercase;
+    color: var(--ink-dim);
+    font-family: var(--font);
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .tc-dot {
+    color: #2fe36a;
+    text-shadow: 0 0 6px rgba(47,227,106,.55), 0 0 2px rgba(47,227,106,.4);
+    font-size: 8px;
+  }
+  .tc {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 8px;
+    background: var(--panel);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+  }
+  .tc-nums {
+    font-family: var(--lcd);
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: .06em;
+    color: #ff2200;
+    text-shadow:
+      0 0 5px rgba(255, 34, 0, .85),
+      0 0 12px rgba(255, 34, 0, .5),
+      0 0 22px rgba(255, 34, 0, .25);
+    line-height: 1;
+  }
+  .tc-ff {
+    color: #ff2200;
+  }
+  @media(min-width: 900px) {
+    .tc-nums { font-size: 22px; }
+  }
+
+  /* ------------------------------------------------------------------
+     Main display panel — same visual language as track strips
+  ------------------------------------------------------------------ */
+  .main-box {
+    background: linear-gradient(180deg, #5b5b5b 0%, #14100a 100%);
+    border: 1px solid rgba(0,0,0,.22);
+    border-radius: 16px;
+    padding: clamp(18px,2.4vh,24px) clamp(22px,3vw,36px) clamp(16px,2vh,22px);
+    box-shadow:
+      inset 0 2px 0 rgba(27,23,23,.55),
+      inset 0 -2px 4px rgba(0,0,0,.12),
+      0 4px 0 #282828,
+      0 6px 12px rgba(0,0,0,.18);
+    max-width: 940px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  body.mode-studio .main-box {
+    background: linear-gradient(180deg, #e4e2dd 0%, #cfcdc8 100%);
+    border-color: rgba(0,0,0,.2);
+    box-shadow:
+      inset 0 2px 0 rgba(255,255,255,.72),
+      inset 0 -2px 4px rgba(0,0,0,.08),
+      0 4px 0 #a9a79f,
+      0 6px 12px rgba(0,0,0,.12);
+  }
+
+  /* ------------------------------------------------------------------
+     Display row: 788T-style main display + faders strip
+  ------------------------------------------------------------------ */
+  .display-row{
+    display:grid;
+    grid-template-columns:clamp(34px,4.4vw,56px) minmax(0,720px) clamp(52px,6vw,84px);
+    grid-template-rows:auto auto;
+    column-gap:clamp(22px,3vw,40px);
+    row-gap:clamp(12px,1.4vh,18px);
+    align-items:stretch;
+    justify-content:center;
+    width:100%;
+    max-width:none;
+    margin:0;
+  }
+  .display-row>.tc-group{
+    grid-column:1/-1;
+    grid-row:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:8px;
+  }
+
+  /* Vertical L/R meter beside display */
+  .lr-bay{
+    display:flex;
+    flex-direction:column;
+    align-self:stretch;
+    min-height:0;
+    gap:6px;
+    padding:clamp(5px,.8vw,8px);
+    background:#0a0a0a;
+    border:1px solid var(--rule);
+    border-radius:8px;
+  }
+  .lr-bay .lr-cols{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:4px;
+    flex:1;
+    min-height:0;
+  }
+  .lr-bay .lr-col{
+    display:flex;
+    flex-direction:column-reverse;
+    gap:2px;
+    width:auto;
+    min-width:0;
+    min-height:0;
+    padding:0;
+  }
+  .lr-bay .lr-col > *{
+    width:100%;
+  }
+  .lr-bay .lr-seg{
+    flex:1 1 0;
+    min-height:2px;
+    background:#1a1a1a;
+    border-radius:1px;
+    transition:background 60ms linear, box-shadow 60ms linear;
+  }
+  .lr-bay .lr-labels{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:4px;
+  }
+  .lr-bay .lr-labels span{
+    font-family:var(--font);
+    font-size:clamp(8px,.9vw,10px);
+    letter-spacing:.16em;
+    color:var(--ink-dim);
+    text-transform:uppercase;
+    text-align:center;
+    line-height:1.1;
+  }
+
+  /* 788T-inspired display — ~16:9 proportion, bright background / dark name */
+  .recorder{
+    background:var(--disp-bg);
+    border:1px solid var(--disp-accent);
+    border-radius:14px;
+    padding:clamp(14px,2vh,22px) clamp(18px,2.5vw,28px) clamp(16px,2.2vh,24px);
+    position:relative;
+    overflow:hidden;
+    transition:background 280ms ease, border-color 280ms ease, box-shadow 280ms ease;
+    display:grid;
+    grid-template-rows:auto minmax(0,1fr) auto;
+    gap:clamp(6px,1vw,10px);
+    aspect-ratio: 16 / 7.8;
+    width:100%;
+    max-width:none;
+    min-width:0;
+    min-height:0;
+    margin:0;
+    box-shadow:0 0 40px var(--disp-glow), inset 0 0 60px rgba(255,255,255,.25);
+    contain:inline-size;
+  }
+  .recorder-frame{
+    position:relative;
+    width:100%;
+    max-width:800px;
+    min-width:0;
+    margin:0;
+    padding:4px;
+    border:2px solid rgba(255,255,255,.62);
+    border-radius:3px;
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,.45),
+      0 2px 6px rgba(0,0,0,.12);
+  }
+  body.mode-studio .recorder-frame{
+    border-color:rgba(255,255,255,.62);
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,.45),
+      0 2px 6px rgba(0,0,0,.1);
+  }
+  .recorder::before{
+    /* subtle scanlines */
+    content:"";position:absolute;inset:0;pointer-events:none;
+    background:repeating-linear-gradient(180deg, rgba(0,0,0,.18) 0 2px, transparent 2px 4px);
+    mix-blend-mode:multiply;opacity:.35;
+  }
+  /* Reset display when no transport active — message hides */
+  .recorder:not(.has-msg) .disp-msg{opacity:0}
+  .recorder.armed{
+    background:var(--disp-bg-armed);
+  }
+
+  .recorder .disp-top,
+  .recorder .disp-bot{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:clamp(14px,3vw,36px);
+    font-family:var(--font);
+    font-size:clamp(10px,1vw,13px);
+    letter-spacing:.08em;
+    color:var(--disp-ink);
+    opacity:.8;
+    position:relative;
+    z-index:1;
+    min-width:0;
+    white-space:nowrap;
+    text-align:center;
+  }
+  .recorder .disp-left,
+  .recorder .disp-right{
+    min-width:0;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    max-width:50%;
+  }
+  .recorder .disp-right{text-align:center}
+  .recorder.armed .disp-top,
+  .recorder.armed .disp-bot{
+    color:var(--disp-ink-armed);
+  }
+  .recorder.standby{
+    background:var(--disp-bg);
+    border-color:var(--disp-accent);
+  }
+
+  .recorder .name-display{
+    display:grid;
+    grid-template-columns:minmax(0,1fr);
+    place-items:center;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    padding:clamp(4px,.8vh,10px) 0;
+    min-height:0;
+    z-index:1;
+  }
+  .recorder .name{
+    display:block;
+    width:100%;
+    font-family:var(--font);
+    font-weight:800;
+    letter-spacing:.04em;
+    line-height:.92;
+    font-size:clamp(20px,4cqw,38px);
+    letter-spacing:.01em;
+    color:var(--disp-ink);
+    text-shadow:none;
+    white-space:nowrap;
+    text-align:center;
+    user-select:none;
+    overflow:hidden;
+    text-overflow:clip;
+    max-width:100%;
+    transform:none;
+  }
+  .recorder.armed .name{
+    color:var(--disp-ink-armed);
+  }
+  .recorder .name .ch{display:inline-block}
+  .recorder .name .flicker{
+    animation:flicker 3.6s infinite;
+  }
+  @keyframes flicker{
+    0%,19%,21%,23%,25%,54%,56%,100%{opacity:1}
+    20%,24%,55%{opacity:.4}
+  }
+  .recorder .sub{
+    position:absolute;bottom:0;left:0;right:0;
+    display:flex;justify-content:space-between;
+    font-family:var(--font);font-size:10px;letter-spacing:.22em;
+    color:var(--disp-ink);opacity:.65;
+  }
+  .recorder.armed .sub{color:var(--disp-ink-armed);opacity:.75}
+
+  /* Display message line — appears when transport buttons pressed */
+  .recorder .disp-msg{
+    position:relative;
+    font-family:var(--font);font-weight:700;
+    font-size:clamp(10px,1vw,13px);
+    letter-spacing:.04em;
+    text-align:center;
+    color:var(--disp-ink);
+    padding:0 8px;
+    line-height:1.1;
+    opacity:0;
+    transition:opacity .25s ease, color .2s ease;
+    text-wrap:balance;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    max-width:100%;
+    min-height:1.2em;
+    position:relative;
+    z-index:1;
+    text-transform:uppercase;
+  }
+  .recorder.has-msg .disp-msg{opacity:1}
+  .recorder.armed .disp-msg{color:var(--disp-ink-armed)}
+  .recorder.play-on .disp-msg{color:#0a3a18}
+  .recorder.stop-on .disp-msg{color:#001b3a}
+
+  /* PLAY state — green tint */
+  :root, body.mode-studio { --c-play:#2fe36a; --c-play-glow:rgba(47,227,106,.55); }
+  body.mode-field   { --c-play:#9ec94a; --c-play-glow:rgba(158,201,74,.5); }
+  body.mode-archive { --c-play:#7ea368; --c-play-glow:rgba(126,163,104,.5); }
+
+  .recorder.play-on{
+    background:#bfe9c8;
+  }
+  .recorder.play-on .name,
+  .recorder.play-on .disp-top,
+  .recorder.play-on .disp-bot,
+  .recorder.play-on .sub{color:#0a3a18}
+
+  .recorder.stop-on{
+    background:#bcd7ff;
+    border-color:rgba(43,125,255,.85);
+    box-shadow:0 0 40px rgba(43,125,255,.45), inset 0 0 60px rgba(255,255,255,.25);
+  }
+  .recorder.stop-on .name,
+  .recorder.stop-on .disp-top,
+  .recorder.stop-on .disp-bot,
+  .recorder.stop-on .sub{color:#001b3a}
+
+  /* Transport buttons — vertical stack to the right of display */
+  .transport{
+    display:flex;flex-direction:column;gap:clamp(8px,1.4vh,14px);
+    justify-content:flex-start;
+    align-items:center;
+    align-self:stretch;
+    width:100%;
+    padding:clamp(4px,.8vw,8px) 0 0;
+  }
+  .xbtn{
+    font-family:var(--font);
+    font-size:clamp(9px,1vw,11px);
+    font-weight:800;
+    letter-spacing:.16em;text-transform:uppercase;
+    padding:0;
+    min-width:0;
+    width:100%;
+    max-width:100%;
+    height:clamp(32px,4vw,46px);
+    background: linear-gradient(180deg, #f9f9f8 0%, #b8b8b6 100%);
+    color:#0a0a0a;
+    border:1px solid rgba(0,0,0,.3);
+    border-radius:999px;
+    cursor:pointer;
+    display:inline-flex;align-items:center;justify-content:center;gap:8px;
+    transition:all .18s ease;
+    text-align:center;
+    box-shadow:
+      inset 0 2px 0 rgba(255,255,255,.95),
+      inset 0 -3px 5px rgba(0,0,0,.14),
+      0 4px 0 #7a7a78,
+      0 5px 2px rgba(0,0,0,.4),
+      0 8px 14px rgba(0,0,0,.24);
+  }
+  .xbtn.xrec{
+    font-size:clamp(10px,1.3vw,14px);
+    border-radius:50%;
+    aspect-ratio:1/1;
+    height:auto;
+    width:100%;
+    letter-spacing:.14em;
+    padding:0;
+  }
+  .xbtn.xstop{
+    font-size:clamp(18px,2.2vw,26px);
+    letter-spacing:0;
+    line-height:1;
+  }
+  .xbtn.xplay{
+    font-size:clamp(16px,2vw,24px);
+    letter-spacing:0;
+    line-height:1;
+  }
+  .xbtn .xdot{
+    width:9px;height:9px;border-radius:50%;
+    background:currentColor;opacity:.4;
+    box-shadow:none;
+    transition:all .18s ease;
+  }
+  .xbtn:hover{border-color:rgba(26,26,26,.4)}
+  .xbtn:hover{
+    background: linear-gradient(180deg, #fff 0%, #c8c8c6 100%);
+    transform:translateY(-1px);
+  }
+  .xbtn .xdot{display:none}
+  .xbtn.xrec.on{ color:#0a0a0a;background:radial-gradient(ellipse at center,rgba(255, 255, 255, 0.80) 5%,rgb(250, 39, 49) 100%);border-color:#ff2e3a;box-shadow:0 0 8px rgba(255,46,58,.75),0 0 32px rgba(255,46,58,.3); }
+  .xbtn.xstop.on{ color:#0a0a0a;background:radial-gradient(ellipse at center,rgba(255,255,255,.92) 5%,rgba(43,125,255,.72) 100%);border-color:var(--c-blue);box-shadow:0 0 14px rgba(43,125,255,.65),0 0 30px rgba(43,125,255,.25); }
+  .xbtn.xplay.on{ color:#0a0a0a;background:radial-gradient(ellipse at center,rgba(255,255,255,.92) 5%,rgba(47,227,106,.72) 100%);border-color:#2fe36a;box-shadow:0 0 14px rgba(47,227,106,.75),0 0 32px rgba(47,227,106,.3); }
+
+  @media(max-width:620px){
+    .display-row{
+      grid-template-columns:18px minmax(0,1fr) 44px;
+      grid-template-rows:auto auto;
+      column-gap:16px;
+      row-gap:6px;
+      margin-bottom:0;
+      align-items:stretch;
+    }
+    .display-row>.tc-group{gap:6px}
+    .transport{
+      flex-direction:column;
+      justify-content:flex-start;
+      gap:6px;
+      padding-top:0;
+    }
+    .lr-bay{padding:4px;gap:4px;border-radius:6px}
+    .lr-bay .lr-cols{gap:3px}
+    .lr-bay .lr-col{gap:1px}
+    .recorder{
+      border-radius:9px;
+      padding:9px 8px;
+      aspect-ratio:16 / 7;
+      max-width:none;
+    }
+    .recorder .disp-top{
+      font-size:8px;
+      letter-spacing:.04em;
+      gap:8px;
+      white-space:nowrap;
+    }
+    .tc-group .tc-label{display:none}
+    .tc-group .tc{padding:3px 8px}
+    .tc-group .tc-nums{font-size:16px;letter-spacing:.1em}
+    .recorder .name-display{padding:2px 0}
+    .recorder .name{
+      font-size:clamp(15px,5vw,24px);
+      line-height:.95;
+      white-space:nowrap;
+      max-width:100%;
+    }
+    .recorder .disp-msg{font-size:9px;letter-spacing:.02em}
+    .xbtn{
+      width:100%;
+      height:22px;
+      letter-spacing:.04em;
+      box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.95),
+        inset 0 -2px 4px rgba(0,0,0,.14),
+        0 2px 0 #7a7a78,
+        0 3px 2px rgba(0,0,0,.34);
+    }
+    .xbtn.xrec{font-size:11px;letter-spacing:.12em}
+    .xbtn.xstop{font-size:14px;height:22px}
+    .xbtn.xplay{font-size:12px;height:22px}
+    .xbtn:hover{
+      transform:none;
+    }
+  }
+
+  /* L/R big vertical meters outside display */
+  .display-stack{
+    display:grid;
+    grid-template-columns:1fr auto;
+    gap:clamp(10px,1.4vw,18px);
+    align-items:stretch;
+    max-width:1200px;
+    margin:0 auto;
+    width:100%;
+  }
+  .lr-meter{
+    display:flex;gap:6px;align-items:stretch;
+    padding:6px;
+    background:#0a0a0a;
+    border:1px solid var(--rule);
+    border-radius:6px;
+  }
+  .lr-col{
+    display:flex;flex-direction:column;gap:2px;
+    width:clamp(14px,1.6vw,22px);
+  }
+  .lr-col .lrlbl{
+    font-family:var(--font);font-size:10px;color:var(--ink-dim);
+    text-align:center;letter-spacing:.18em;
+    padding:2px 0;
+  }
+  .lr-col .lrseg{
+    flex:1;min-height:5px;background:#1a1a1a;border-radius:1px;
+    transition:background 60ms linear, box-shadow 60ms linear;
+  }
+  .lr-strip{
+    display:flex;flex-direction:column-reverse;gap:2px;flex:1;
+  }
+
+  /* tiny 5-led vertical meter inside tracks */
+  .t-mini{
+    display:flex;flex-direction:column-reverse;gap:2px;
+    padding:4px 4px;
+    background:#0a0a0a;
+    border:1px solid var(--rule);
+    border-radius:3px;
+    width:clamp(16px,2.2vw,22px);
+    height:clamp(56px,8vh,80px);
+  }
+  .t-mini .ms{
+    flex:1;background:#1a1a1a;border-radius:1px;
+    transition:background 60ms linear, box-shadow 60ms linear;
+  }
+
+  /* ------------------------------------------------------------------
+     Fader bay
+  ------------------------------------------------------------------ */
+  .fader-bay{
+    display:flex;gap:clamp(6px,1vw,14px);
+    padding:clamp(10px,1.6vh,18px) clamp(10px,1.4vw,18px);
+    background:var(--panel);
+    border:1px solid var(--rule);
+    box-shadow:inset 0 1px 0 rgba(26,26,26,.04);
+  }
+  @media(max-width:899px){
+    .fader-bay{justify-content:space-around}
+  }
+  .fader{
+    display:grid;grid-template-rows:auto 1fr auto;gap:6px;justify-items:center;
+    width:clamp(42px,5.6vw,64px);
+  }
+  .fader .flabel{
+    font-size:9px;letter-spacing:.2em;color:var(--ink-dim);text-transform:uppercase;
+  }
+  .fader .ftrack{
+    position:relative;width:10px;height:clamp(100px,18vh,180px);
+    background:var(--panel-2);
+    border:1px solid var(--rule);
+    border-radius:2px;
+    display:grid;align-items:end;
+  }
+  .fader .ftrack::before{
+    content:"";position:absolute;left:50%;top:6px;bottom:6px;width:1px;
+    background:repeating-linear-gradient(180deg, rgba(26,26,26,.18) 0 4px, transparent 4px 10px);
+    transform:translateX(-.5px);
+  }
+  .fader .cap{
+    position:absolute;left:-11px;width:32px;height:18px;
+    background:linear-gradient(180deg,#d0cdc6,#bbb8b1);
+    border:1px solid rgba(26,26,26,.18);
+    border-top-color:rgba(255,255,255,.6);
+    box-shadow:0 2px 6px rgba(0,0,0,.18), inset 0 1px 0 rgba(255,255,255,.5);
+    display:grid;place-items:center;
+  }
+  .fader .cap::after{
+    content:"";width:18px;height:2px;background:var(--glow,var(--ink-dim));
+    box-shadow:0 0 8px var(--glow,transparent);
+    border-radius:1px;
+  }
+  .fader .fbtns{display:flex;gap:3px}
+  .fbtn{
+    font-size:7.5px;letter-spacing:.14em;text-transform:uppercase;
+    padding:3px 4px;
+    border:1px solid var(--rule);
+    color:var(--ink-dim);
+    background:var(--panel-2);
+    transition:all .18s ease;
+    min-width:22px;text-align:center;
+  }
+  .fbtn:hover{color:var(--ink);border-color:rgba(26,26,26,.4)}
+  .fbtn.rec.on{
+    color:#fff;background:var(--c-red);border-color:var(--c-red);
+    box-shadow:0 0 10px var(--c-red);
+  }
+  .fbtn.solo.on{
+    color:#111;background:var(--c-yellow);border-color:var(--c-yellow);
+    box-shadow:0 0 10px var(--c-yellow);
+  }
+
+  /* ------------------------------------------------------------------
+     Channel strip (tracks)
+  ------------------------------------------------------------------ */
+  .channels{
+    display:grid;grid-template-columns:1fr;gap:clamp(14px,2.8vh,36px);
+    align-content:start;
+    padding-top:clamp(6px,1.4vh,20px);
+    padding-bottom:clamp(16px,2vh,32px);
+    width:100%;
+    max-width:940px;
+    margin:0 auto;
+  }
+
+  .track{
+    --track-bg: linear-gradient(180deg, #5b5b5b 0%, #14100a 100%);
+    --track-bg-hover: linear-gradient(180deg, #e5e3df 0%, #d1cfc9 100%);
+    --track-border: rgba(0,0,0,.22);
+    --track-border-hover: rgba(0,0,0,.32);
+    --track-fg: #f3f3f1;
+    --track-fg-hover: #0f0f0f;
+    --track-shadow:
+      inset 0 2px 0 rgba(27, 23, 23, 0.55),
+      inset 0 -2px 4px rgba(0,0,0,.12),
+      0 4px 0 #282828,
+      0 6px 12px rgba(0,0,0,.18);
+    --track-shadow-hover:
+      inset 0 2px 0 rgba(255,255,255,.65),
+      inset 0 -2px 4px rgba(0,0,0,.14),
+      0 6px 0 #a8a6a2,
+      0 8px 16px rgba(0,0,0,.22);
+    position:relative;
+    display:grid;
+    grid-template-columns:auto minmax(0,1fr) auto;
+    align-items:center;
+    height:clamp(84px,11vh,108px);
+    gap:14px;
+    padding:14px 20px;
+    background: var(--track-bg);
+    border:1px solid var(--track-border);
+    border-radius:16px;
+    cursor:pointer;
+    -webkit-tap-highlight-color:transparent;
+    overflow:hidden;
+    box-shadow:var(--track-shadow);
+    transition:all .18s ease;
+  }
+  .track[hidden]{display:none !important}
+  body.mode-studio .track{
+    --track-bg: linear-gradient(180deg, #e4e2dd 0%, #cfcdc8 100%);
+    --track-bg-hover: linear-gradient(180deg, #585858 0%, #1a1a1a 100%);
+    --track-border: rgba(0,0,0,.2);
+    --track-border-hover: rgba(0,0,0,.38);
+    --track-fg: #0f0f0f;
+    --track-fg-hover: #f2f2f2;
+    --track-shadow:
+      inset 0 2px 0 rgba(255,255,255,.72),
+      inset 0 -2px 4px rgba(0,0,0,.08),
+      0 4px 0 #a9a79f,
+      0 6px 12px rgba(0,0,0,.12);
+    --track-shadow-hover:
+      inset 0 2px 0 rgba(255,255,255,.22),
+      inset 0 -2px 4px rgba(0,0,0,.28),
+      0 6px 0 #303030,
+      0 8px 16px rgba(0,0,0,.3);
+  }
+  .track::before{
+    content:none;
+  }
+  .track:hover,.track:focus-within{
+    background: var(--track-bg-hover);
+    border-color:var(--track-border-hover);
+    box-shadow:var(--track-shadow-hover);
+    transform:translateY(-2px);
+  }
+  .track.armed{
+    border-color:var(--c-red);
+    box-shadow:
+      inset 0 2px 0 rgba(255,255,255,.85),
+      inset 0 -2px 4px rgba(0,0,0,.08),
+      0 4px 0 #c9c7c3,
+      0 6px 12px rgba(255,46,58,.35);
+    animation:armedPulse 1.4s ease-in-out infinite;
+  }
+  .track.armed .t-name{color:var(--track-fg-hover)}
+  @keyframes armedPulse{
+    50%{box-shadow:0 0 40px rgba(255,46,58,.7), inset 0 0 50px rgba(255,46,58,.18)}
+  }
+
+  .track .t-no{
+    display:none;
+  }
+  .track:hover .t-no,.track:focus-within .t-no,.track.armed .t-no{color:var(--track-fg-hover)}
+
+  .track .t-color-led{
+    display:none;
+    width:40px;height:12px;border-radius:50%;
+    background:var(--track-color);
+    box-shadow:0 0 10px var(--track-color), 0 0 3px var(--track-color);
+  }
+
+  .track .t-main{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:50%;
+    transform:translateX(-50%);
+    width:33%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    pointer-events:none;
+    z-index:2;
+  }
+  .track .t-name{
+    display:grid;
+    place-items:center;
+    width:100%;
+    max-width:none;
+    height:clamp(38px,5.2vh,52px);
+    padding:0 14px;
+    border-radius:8px;
+    border:1px solid var(--disp-accent);
+    background:var(--disp-bg);
+    box-shadow:0 0 14px var(--disp-glow), inset 0 0 22px rgba(255,255,255,.2);
+    font-family:var(--font);
+    font-weight:900;
+    font-size:clamp(21px,3.1vw,28px);
+    letter-spacing:.02em;
+    color:var(--disp-ink);
+    line-height:1;
+    text-transform:uppercase;
+    white-space:nowrap;
+    overflow:visible;
+    text-overflow:clip;
+    position:relative;
+    isolation:isolate;
+  }
+  .track .t-name::after{
+    content:"";
+    position:absolute;
+    inset:-5px;
+    border:2px solid rgba(255,255,255,.62);
+    border-radius:3px;
+    background:rgba(255,255,255,.18);
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,.45),
+      0 2px 6px rgba(0,0,0,.14);
+    pointer-events:none;
+    z-index:-1;
+  }
+  body.mode-studio .track .t-name::after{
+    background:rgba(255,255,255,.18);
+    border-color:rgba(255,255,255,.62);
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,.45),
+      0 2px 6px rgba(0,0,0,.1);
+  }
+  .track:hover .t-name::after,
+  .track:focus-within .t-name::after{
+    background:rgba(255,255,255,.18);
+    border-color:rgba(255,255,255,.62);
+  }
+  body.mode-studio .track:hover .t-name::after,
+  body.mode-studio .track:focus-within .t-name::after{
+    background:rgba(255,255,255,.18);
+    border-color:rgba(255,255,255,.62);
+  }
+  .track .t-name::before{
+    content:"";
+    position:absolute;inset:0;
+    background:repeating-linear-gradient(180deg, rgba(0,0,0,.18) 0 2px, transparent 2px 4px);
+    mix-blend-mode:multiply;
+    opacity:.35;
+    pointer-events:none;
+    z-index:0;
+  }
+  .track .t-name{
+    z-index:1;
+  }
+  .track:hover .t-name,
+  .track:focus-within .t-name,
+  .track.armed .t-name{
+    color:var(--disp-ink);
+  }
+  .track .t-name .cursor{display:none}
+
+  /* mini solo meter (legacy horizontal) - now hidden */
+  .t-meter{display:none !important}
+
+  /* Per-track vertical mini meter */
+  .t-mini-meter{
+    grid-column:1;
+    display:flex;
+    flex-direction:column-reverse;
+    align-items:stretch;
+    gap:2px;
+    padding:4px;
+    background:#070707;
+    border:1px solid rgba(0,0,0,.55);
+    border-radius:3px;
+    box-shadow:inset 0 1px 2px rgba(0,0,0,.6);
+    width:clamp(12px,1.6vw,18px);
+    height:clamp(48px,6.5vh,70px);
+    position:relative;
+    z-index:3;
+    flex-shrink:0;
+  }
+  body.mode-studio .t-mini-meter{
+    background:#c8c8c6;
+    border:1px solid rgba(0,0,0,.24);
+    box-shadow:inset 0 1px 2px rgba(255,255,255,.48), inset 0 -1px 2px rgba(0,0,0,.08);
+  }
+  body.mode-studio .t-mini-meter .ms{
+    background:#6f6f6f;
+  }
+  body.mode-studio .lr-bay{
+    background:#c8c8c6;
+    border-color:rgba(0,0,0,.24);
+    box-shadow:inset 0 1px 2px rgba(255,255,255,.48), inset 0 -1px 2px rgba(0,0,0,.08);
+  }
+  body.mode-studio .lr-bay .lr-seg{
+    background:#6f6f6f;
+  }
+
+  body.transport-rec .track .t-name{
+    background:var(--disp-bg-armed);
+    border-color:rgba(255,46,58,.55);
+    color:var(--disp-ink-armed);
+  }
+  body.transport-play .track .t-name{
+    background:#bfe9c8;
+    border-color:rgba(47,227,106,.65);
+    color:#0a3a18;
+  }
+  body.transport-stop .track .t-name{
+    background:#bcd7ff;
+    border-color:rgba(43,125,255,.75);
+    color:#001b3a;
+  }
+  .t-mini-meter .ms{
+    width:100%;
+    flex:1;
+    background:#1a1a1a;
+    border-radius:1px;
+    transition:background 40ms linear, box-shadow 40ms linear;
+  }
+  @media(max-width:699px){
+    .t-mini-meter{width:clamp(14px,2vw,18px);min-width:14px;height:clamp(40px,5.5vh,58px)}
+  }
+
+  .track .t-btns{
+    display:flex;gap:6px;align-items:center;
+    grid-column:3;
+    justify-self:end;
+    position:relative;
+    z-index:3;
+  }
+  .tbtn{
+    font-size:10px;letter-spacing:.16em;text-transform:uppercase;
+    padding:7px 12px;min-width:52px;font-weight:700;
+    border:1px solid rgba(0,0,0,.22);
+    border-radius:999px;
+    color:#0a0a0a;
+    background: linear-gradient(180deg, #f9f9f8 0%, #b8b8b6 100%);
+    box-shadow:
+      inset 0 2px 0 rgba(255,255,255,.95),
+      inset 0 -2px 4px rgba(0,0,0,.14),
+      0 3px 0 #7a7a78,
+      0 4px 2px rgba(0,0,0,.4),
+      0 6px 10px rgba(0,0,0,.2);
+    transition:all .18s ease;
+  }
+  .tbtn:hover{border-color:rgba(0,0,0,.32)}
+  .tbtn.solo.on{
+    color:#0a0a0a;
+    background:radial-gradient(ellipse at center,rgba(255,255,255,.92) 15%,rgba(255,194,31,.72) 100%);
+    border-color:#ffc21f;
+    box-shadow:0 0 14px rgba(255,194,31,.75),0 0 32px rgba(255,194,31,.3);
+  }
+
+  /* Remove old REC styling that's no longer used */
+
+  .track .t-arrow{
+    width:30px;height:30px;display:grid;place-items:center;
+    border:1px solid var(--rule);border-radius:50%;
+    color:var(--ink-dim);
+    transition:all .2s ease;
+  }
+  .track:hover .t-arrow{
+    color:#fff;border-color:var(--c-red);background:rgba(255,46,58,.12);
+    transform:rotate(-45deg);
+  }
+
+  @media(max-width:699px){
+    .track{grid-template-columns:auto minmax(0,1fr) auto;gap:10px;padding:12px 14px;height:auto;min-height:72px}
+    .track .t-btns{flex-direction:row}
+    .tbtn{padding:7px 10px;min-width:44px;font-size:9px}
+    .track .t-name{
+      width:100%;
+      height:34px;
+      font-size:clamp(12px,3.8vw,18px);
+      padding:0 8px;
+    }
+  }
+
+  .jack{
+    display:inline-flex;align-items:center;justify-content:center;gap:6px;
+    flex:0 0 auto;
+    padding:10px 16px;
+    border:1px solid rgba(0,0,0,.3);
+    border-radius:999px;
+    background: linear-gradient(180deg, #f9f9f8 0%, #b8b8b6 100%);
+    color:#0a0a0a;
+    transition:all .18s ease;
+    font-size:11px;letter-spacing:.18em;text-transform:uppercase;
+    font-weight:600;
+    min-width:64px;height:40px;
+    text-align:center;
+    box-shadow:
+      inset 0 2px 0 rgba(255,255,255,.95),
+      inset 0 -3px 5px rgba(0,0,0,.14),
+      0 4px 0 #7a7a78,
+      0 5px 2px rgba(0,0,0,.45),
+      0 6px 12px rgba(0,0,0,.2);
+  }
+  .jack:hover{background: linear-gradient(180deg, #fff 0%, #c8c8c6 100%);border-color:rgba(26,26,26,.4)}
+  .jack[hidden]{display:none !important}
+  .jack.on{
+    color:#111;background:var(--c-yellow);border-color:var(--c-yellow);
+    box-shadow:0 0 10px var(--c-yellow);
+  }
+  .jack .jled{
+    width:6px;height:6px;border-radius:50%;background:#2fe36a;
+    box-shadow:0 0 6px #2fe36a;
+  }
+  .jack svg{width:11px;height:11px}
+  .mode-toggle{
+    min-width:40px;
+    width:40px;
+    padding:0;
+    margin-left:2px;
+    letter-spacing:0;
+  }
+  .mode-toggle .sun{display:none}
+  .mode-toggle .moon{display:block}
+  body.mode-studio .mode-toggle .sun{display:block}
+  body.mode-studio .mode-toggle .moon{display:none}
+  .mode-toggle svg{width:14px;height:14px}
+
+  /* ------------------------------------------------------------------
+     Intro animations
+  ------------------------------------------------------------------ */
+  .fade-in{opacity:0;animation:fin .6s ease forwards}
+  @keyframes fin{to{opacity:1}}
+  .rise-in{opacity:0;transform:translateY(14px);animation:rise .6s cubic-bezier(.2,.75,.15,1) forwards}
+  @keyframes rise{to{opacity:1;transform:translateY(0)}}
+
+  .d-0{animation-delay:.1s}.d-1{animation-delay:.3s}.d-2{animation-delay:.5s}
+  .d-3{animation-delay:.7s}.d-4{animation-delay:.9s}.d-5{animation-delay:1.1s}
+  .d-6{animation-delay:1.3s}.d-7{animation-delay:1.5s}.d-8{animation-delay:1.7s}
+  .d-9{animation-delay:1.9s}.d-10{animation-delay:2.1s}
+
+  /* Launch overlay */
+  .launch-overlay{
+    position:fixed;inset:0;pointer-events:none;z-index:100;
+    display:grid;place-items:center;
+    background:rgba(58,0,4,0);
+    transition:background .18s ease;
+  }
+  body.is-launching .launch-overlay{
+    background:rgba(58,0,4,.55);
+    animation:launchStrobe .22s steps(2,end) 6;
+  }
+  @keyframes launchStrobe{50%{background:rgba(120,0,8,.75)}}
+  .launch-msg{
+    font-family:var(--font);
+    font-size:clamp(22px,4vw,48px);letter-spacing:.25em;
+    color:#fff;
+    text-shadow:0 0 20px #ff2e3a, 0 0 40px #ff2e3a;
+    opacity:0;transition:opacity .2s ease;
+    text-transform:uppercase;
+  }
+  body.is-launching .launch-msg{opacity:1}
+
+  @media(prefers-reduced-motion:reduce){
+    *,*::before,*::after{animation:none !important;transition:none !important}
+  }
+
+  @media(max-width:620px){
+    .stage{
+      padding:
+        calc(12px + var(--safe-t))
+        calc(12px + var(--safe-r))
+        calc(14px + var(--safe-b))
+        calc(12px + var(--safe-l));
+      gap:8px;
+    }
+    .topbar{
+      font-size:9px;
+      gap:8px;
+      justify-content:flex-start;
+      align-content:flex-start;
+    }
+    .topbar .l,.topbar .r{justify-content:center}
+    .topbar .tc-group{
+      margin-left:0 !important;
+      width:100%;
+      justify-content:flex-end;
+    }
+    .jack{
+      height:34px;
+      min-width:0;
+      padding:8px 11px;
+      font-size:9px;
+      letter-spacing:.14em;
+      box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.95),
+        inset 0 -2px 4px rgba(0,0,0,.14),
+        0 3px 0 #7a7a78,
+        0 4px 2px rgba(0,0,0,.34);
+    }
+    .mode-toggle{
+      width:34px;
+      min-width:34px;
+      margin-left:0;
+    }
+    .tc-nums{font-size:14px}
+    .recorder{padding:8px 10px}
+    .recorder .name{font-size:clamp(18px,4cqw,32px)}
+    .fader-bay{padding:8px 10px}
+  }
+  @media(max-height:680px){
+    .recorder .name{font-size:clamp(18px,4cqw,32px)}
+    .fader .ftrack{height:90px}
+  }
+</style>
 </head>
 <body>
+<script>(function(){var h=new Date().getHours();document.body.className=(h>=6&&h<20)?'mode-studio':'mode-field';}());</script>
 
-  <!-- ── NAV ────────────────────────── -->
-  <header class="site-header">
-    <nav class="nav container">
-      <a href="index.html" class="nav-brand">Chiossi Sound</a>
-      <div class="nav-right">
-        <ul class="nav-links">
-          <li><a href="index.html" class="active" data-umami-event="Nav: Bio">Bio</a></li>
-          <li><a href="cv.html" data-umami-event="Nav: CV">CV</a></li>
-          <li><a href="films.html" data-umami-event="Nav: Films">Films</a></li>
-        </ul>
-      </div>
-      <div class="social-icons nav-social">
-          <a href="mailto:chiossi.sound@gmail.com" class="social-icon" aria-label="Email" data-umami-event="Contact: Email">
-            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
-          </a>
-          <a href="https://wa.me/393383574233" class="social-icon" target="_blank" rel="noopener" aria-label="WhatsApp" data-umami-event="Contact: WhatsApp">
-            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-          </a>
-          <a href="https://www.instagram.com/windhorse.sound/" class="social-icon" target="_blank" rel="noopener" aria-label="Instagram" data-umami-event="Contact: Instagram">
-            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
-          </a>
-          <!-- <a href="https://www.facebook.com/anacmchiossi/" class="social-icon" target="_blank" rel="noopener" aria-label="Facebook"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a> -->
-          <a href="https://www.linkedin.com/in/anachiossi/" class="social-icon" target="_blank" rel="noopener" aria-label="LinkedIn" data-umami-event="Contact: LinkedIn">
-            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-          </a>
-          <a href="https://www.imdb.com/name/nm5227170/" class="social-icon social-icon--imdb" target="_blank" rel="noopener" aria-label="IMDb" data-umami-event="Contact: IMDb">IMDb</a>
-        </div>
-      <button class="nav-burger" id="nav-burger" aria-label="Open menu" aria-expanded="false">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-    </nav>
+<div class="ticks" aria-hidden="true">
+  <span class="tick tl"></span><span class="tick tr"></span>
+  <span class="tick bl"></span><span class="tick br"></span>
+</div>
+
+<main class="stage" role="main">
+
+  <!-- ============ TOP BAR ============ -->
+  <header class="topbar fade-in d-0" role="banner">
+    <a class="jack" href="#" data-contact="email-main" aria-label="Email" data-umami-event="Contact: Email" hidden>
+      <span class="jled"></span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14"/><path d="M3 6l9 7 9-7"/></svg>
+      <span>EMAIL</span>
+    </a>
+    <a class="jack" href="#" data-contact="whatsapp" aria-label="WhatsApp" target="_blank" rel="noopener" data-umami-event="Contact: WhatsApp" hidden>
+      <span class="jled"></span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 12a8.5 8.5 0 1 1-15.4 5L3.5 21l4.1-1.5A8.5 8.5 0 0 1 20.5 12z"/></svg>
+      <span>WHATSAPP</span>
+    </a>
+    <button class="jack mode-toggle" id="modeToggle" type="button" aria-label="Toggle bright and dark mode" title="Toggle Bright/Dark" data-umami-event="UI: Mode Toggle">
+      <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="12" cy="12" r="4"></circle>
+        <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path>
+      </svg>
+      <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"></path>
+      </svg>
+    </button>
   </header>
 
-  <main>
+  <!-- ============ DISPLAY + FADERS ============ -->
+  <div class="main-box rise-in d-1">
+  <section class="display-row">
 
-    <!-- ── HERO ───────────────────────── -->
-    <section class="hero container">
-      <div class="hero-text">
-        <h1 class="hero-name">Ana<br>Chiossi</h1>
-        <p class="hero-role">Production Sound Mixer &amp; Boom Operator</p>
-        <p class="hero-location">Rome, Italy</p>
-
-        <div class="stats-row">
-          <div class="stat">
-            <span class="stat-value" id="idx-projects">65+</span>
-            <span class="stat-label">Projects</span>
-          </div>
-          <div class="stat">
-            <span class="stat-value" id="idx-years">14</span>
-            <span class="stat-label">Years</span>
-          </div>
-          <div class="stat">
-            <span class="stat-value" id="idx-countries">14</span>
-            <span class="stat-label">Countries</span>
-          </div>
-          <div class="stat">
-            <span class="stat-value" id="idx-languages">5</span>
-            <span class="stat-label">Languages</span>
-          </div>
-        </div>
+    <!-- TC row — spans all 3 columns -->
+    <div class="tc-group" aria-live="off">
+      <span class="tc-label"><span class="tc-dot">●</span> TC</span>
+      <div class="tc">
+        <span class="tc-nums" id="tcNums">00:00:00<span class="tc-ff">:00</span></span>
       </div>
-
-      <div class="hero-photo">
-        <!--
-          Replace the src below with your preferred portrait.
-          Suggested: rename your photo to "assets/headshot.jpg"
-        -->
-        <img
-          src="assets/images/bio/profile_pic.jpg"
-          alt="Ana Chiossi — Production Sound Mixer"
-          loading="eager"
-          width="480"
-          height="480"
-        >
-      </div>
-    </section>
-
-    <!-- ── STREAMING STRIP ────────────── -->
-    <section class="streaming container">
-      <p class="streaming-label">Credits distributed on</p>
-      <div class="streaming-badges">
-        <span class="badge">Netflix</span>
-        <span class="badge">Disney+</span>
-        <span class="badge">HBO</span>
-        <span class="badge">Amazon Prime</span>
-      </div>
-    </section>
-
-    <!-- ── BIO ────────────────────────── -->
-    <section class="bio-section container">
-      <div class="bio-content">
-        <p>
-          Production sound mixer and boom operator based in Rome, Italy.
-          Born in Brazil, I've spent <span id="idx-bio-years">14</span> years working across feature films,
-          series, documentaries, and advertising — in Portuguese, English,
-          Spanish, Italian, et un petit peu du Français.
-        </p>
-        <p>
-          Before moving into sound, I worked as a camera assistant — as a
-          focus puller, video assist, and loader. That background gives me
-          a particular sensitivity to the relationship between image and
-          audio on set, and helps me communicate naturally with directors
-          and cinematographers from day one.
-        </p>
-        <p>
-          Over <span id="idx-bio-projects">65</span> projects, I've collaborated with <span id="idx-bio-companies">119</span> production companies.
-          My work has reached audiences on Netflix,
-          Disney+, HBO, and Amazon Prime.
-        </p>
-      </div>
-    </section>
-
-    <!-- ── CONTACT ────────────────────── -->
-    <section class="contact-section container" id="contact">
-      <div class="contact-inner">
-
-        <div class="contact-intro">
-          <h2>Get in<br>touch</h2>
-          <p>
-            Available for features, series, documentaries,
-            and commercials — in Italy, Brazil, and internationally.
-          </p>
-          <p class="note">
-            I reply in Português, English, Español, and Italiano.
-          </p>
-          <img
-            src="assets/images/bio/fishing_sound.jpg"
-            alt="Ana Chiossi boom operating on location by the water"
-            class="contact-photo"
-            loading="lazy"
-          >
-        </div>
-
-        <div data-fs-success style="display:none" class="form-success">
-          <span class="form-success-icon">✓</span>
-          <strong>Message sent!</strong>
-          I'll get back to you as soon as possible.
-        </div>
-        <div data-fs-error style="display:none" class="form-error"></div>
-
-        <form id="contact-form" class="contact-form">
-          <div class="field">
-            <label for="contact-name">Name</label>
-            <input
-              type="text"
-              id="contact-name"
-              name="name"
-              required
-              autocomplete="name"
-              placeholder="Your name"
-              data-fs-field
-            >
-            <span data-fs-error="name" class="field-error"></span>
-          </div>
-
-          <div class="field">
-            <label for="contact-email">Email</label>
-            <input
-              type="email"
-              id="contact-email"
-              name="email"
-              required
-              autocomplete="email"
-              placeholder="your@email.com"
-              data-fs-field
-            >
-            <span data-fs-error="email" class="field-error"></span>
-          </div>
-
-          <div class="field">
-            <label for="contact-phone">Phone</label>
-            <input
-              type="tel"
-              id="contact-phone"
-              name="phone"
-              autocomplete="tel"
-              placeholder="+39 333 000 0000"
-            >
-            <span id="phone-error" class="field-error"></span>
-          </div>
-
-          <div class="field">
-            <label for="contact-message">Message</label>
-            <textarea
-              id="contact-message"
-              name="message"
-              rows="5"
-              required
-              placeholder="Tell me about your project…"
-              data-fs-field
-            ></textarea>
-            <span data-fs-error="message" class="field-error"></span>
-          </div>
-
-          <button type="submit" class="btn-submit" data-fs-submit-btn data-umami-event="Contact: Form Submitted">Send message →</button>
-        </form>
-
-        <script>
-          window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
-          formspree('initForm', { formElement: '#contact-form', formId: 'xgorznbg' });
-
-          // Phone: if filled, must start with + (country code)
-          const phoneInput = document.getElementById('contact-phone');
-          const phoneErr   = document.getElementById('phone-error');
-
-          function validatePhone() {
-            const val = phoneInput.value.trim();
-            if (val !== '' && !val.startsWith('+')) {
-              phoneInput.setCustomValidity('Please include your country code (e.g. +39 333 000 0000).');
-              phoneErr.textContent = 'Please include your country code — e.g. +39 333 000 0000';
-            } else {
-              phoneInput.setCustomValidity('');
-              phoneErr.textContent = '';
-            }
-          }
-
-          phoneInput.addEventListener('input', validatePhone);
-        </script>
-        <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
-
-      </div>
-    </section>
-
-  </main>
-
-  <!-- ── FOOTER ─────────────────────── -->
-  <footer class="site-footer container">
-    <div class="footer-social-wrap">
-      <p class="footer-aits">Member of <a href="https://www.aits.it/soci/218" target="_blank" rel="noopener">A.I.T.S.</a> — Associazione Italiana Tecnici del Suono</p>
-      <div class="social-icons footer-social">
-        <a href="mailto:chiossi.sound@gmail.com" class="social-icon" aria-label="Email" data-umami-event="Contact: Email">
-          <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
-        </a>
-        <a href="https://wa.me/393383574233" class="social-icon" target="_blank" rel="noopener" aria-label="WhatsApp" data-umami-event="Contact: WhatsApp">
-          <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-        </a>
-        <a href="https://www.instagram.com/windhorse.sound/" class="social-icon" target="_blank" rel="noopener" aria-label="Instagram" data-umami-event="Contact: Instagram">
-          <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
-        </a>
-        <!-- <a href="https://www.facebook.com/anacmchiossi/" class="social-icon" target="_blank" rel="noopener" aria-label="Facebook"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a> -->
-        <a href="https://www.linkedin.com/in/anachiossi/" class="social-icon" target="_blank" rel="noopener" aria-label="LinkedIn" data-umami-event="Contact: LinkedIn">
-          <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-        </a>
-        <a href="https://www.imdb.com/name/nm5227170/" class="social-icon social-icon--imdb" target="_blank" rel="noopener" aria-label="IMDb" data-umami-event="Contact: IMDb">IMDb</a>
-      </div>
-      <p>
-        © <span id="year"></span> Ana Chiossi
-        &nbsp;·&nbsp; Rome, Italy
-        &nbsp;·&nbsp; Production Sound Mixer &amp; Boom Operator
-      </p>
     </div>
-  </footer>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-
-    /* ── Scroll depth tracking ─────────────────────────────────── */
-    (function () {
-      var fired = {};
-      window.addEventListener('scroll', function () {
-        var scrolled = window.scrollY + window.innerHeight;
-        var total = document.documentElement.scrollHeight;
-        var pct = Math.floor(scrolled / total * 100);
-        [25, 50, 75, 100].forEach(function (t) {
-          if (pct >= t && !fired[t]) {
-            fired[t] = true;
-            if (window.umami) window.umami.track('Scroll ' + t + '%', { page: 'bio' });
-          }
-        });
-      }, { passive: true });
-    }());
-
-    fetch('assets/stats.json')
-      .then(r => r.json())
-      .then(s => {
-        const set = (id, val) => { const el = document.getElementById(id); if (el) el.textContent = val; };
-        set('idx-projects',    s.career.total_projects);
-        set('idx-years',       s.career.years_active);
-        set('idx-countries',   s.career.countries_worked);
-        set('idx-languages',   s.career.languages_count);
-        set('idx-bio-years',   s.career.years_active);
-        set('idx-bio-projects',s.career.total_projects);
-        set('idx-bio-companies',s.production.companies_count);
-      });
-  </script>
-
-  <!-- ── MOBILE NAV OVERLAY ───────────────────────────────── -->
-  <div class="nav-overlay" id="nav-overlay" aria-hidden="true">
-    <div class="nav-overlay-head">
-      <a href="index.html" class="nav-overlay-brand">Chiossi Sound</a>
-      <button class="nav-overlay-close" id="nav-overlay-close" aria-label="Close menu">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12"/></svg>
-      </button>
-    </div>
-    <div class="nav-overlay-body">
-      <ul class="nav-overlay-links">
-        <li><a href="index.html" class="active" data-umami-event="Nav: Bio">Bio</a></li>
-        <li><a href="cv.html" data-umami-event="Nav: CV">CV</a></li>
-        <li><a href="films.html" data-umami-event="Nav: Films">Films</a></li>
-      </ul>
-    </div>
-    <div class="nav-overlay-foot">
-      <div class="social-icons">
-        <a href="mailto:chiossi.sound@gmail.com" class="social-icon" aria-label="Email" data-umami-event="Contact: Email"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg></a>
-        <a href="https://wa.me/393383574233" class="social-icon" target="_blank" rel="noopener" aria-label="WhatsApp" data-umami-event="Contact: WhatsApp"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
-        <a href="https://www.instagram.com/windhorse.sound/" class="social-icon" target="_blank" rel="noopener" aria-label="Instagram" data-umami-event="Contact: Instagram"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
-        <a href="https://www.linkedin.com/in/anachiossi/" class="social-icon" target="_blank" rel="noopener" aria-label="LinkedIn" data-umami-event="Contact: LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
-        <a href="https://www.imdb.com/name/nm5227170/" class="social-icon social-icon--imdb" target="_blank" rel="noopener" aria-label="IMDb" data-umami-event="Contact: IMDb">IMDb</a>
+    <!-- Vertical L/R VU beside display -->
+    <div class="lr-bay" aria-hidden="true">
+      <div class="lr-cols">
+        <div class="lr-col" id="lrColL"></div>
+        <div class="lr-col" id="lrColR"></div>
       </div>
+      <div class="lr-labels"><span>L</span><span>R</span></div>
+    </div>
+
+    <!-- 788T-inspired recorder display -->
+    <div class="recorder-frame">
+      <div class="recorder standby" id="recorder">
+        <div class="disp-top">
+          <span class="disp-left">PORTFOLIO_2026.WAV</span>
+          <span class="disp-right">32 BIT &nbsp; 48000 HZ</span>
+        </div>
+        <div class="name-display">
+          <div class="name" id="nameDisplay" aria-label="Ana Chiossi">ANA CHIOSSI</div>
+        </div>
+        <div class="disp-msg" id="dispMsg" aria-live="polite"></div>
+      </div>
+    </div>
+
+    <!-- Transport buttons (REC / STOP / PLAY) to the right of display -->
+    <div class="transport" role="group" aria-label="Transport">
+      <button class="xbtn xrec" id="xRec" type="button" aria-label="Record" data-umami-event="Transport: REC"><span class="xdot"></span>REC</button>
+      <button class="xbtn xstop" id="xStop" type="button" aria-label="Stop" data-umami-event="Transport: Stop"><span class="xdot"></span>■</button>
+      <button class="xbtn xplay" id="xPlay" type="button" aria-label="Play" data-umami-event="Transport: Play"><span class="xdot"></span>▶</button>
+    </div>
+
+  </section>
+  </div><!-- /.main-box -->
+
+  <!-- ============ CHANNEL STRIPS (tracks / nav) ============ -->
+  <nav class="channels" aria-label="Primary navigation">
+
+    <a class="track rise-in d-4" href="bio.html"
+       data-label="BIO"
+       data-color="red"
+       data-seed="0.3"
+       data-umami-event="Nav: Bio"
+       style="--track-color:var(--c-red)">
+      <span class="t-mini-meter" aria-hidden="true"></span>
+      <span class="t-no"></span>
+      <span class="t-main">
+        <span class="t-name" data-text="BIO"><span class="cursor"></span></span>
+      </span>
+      <span class="t-btns">
+        <button class="tbtn solo" data-role="solo" aria-label="Solo" data-umami-event="Track: Solo Bio">SOLO</button>
+      </span>
+    </a>
+
+    <a class="track rise-in d-5" href="cv.html"
+       data-label="CV"
+       data-color="blue"
+       data-seed="1.2"
+       data-umami-event="Nav: CV"
+       style="--track-color:var(--c-blue)">
+      <span class="t-mini-meter" aria-hidden="true"></span>
+      <span class="t-no"></span>
+      <span class="t-main">
+        <span class="t-name" data-text="CV"><span class="cursor"></span></span>
+      </span>
+      <span class="t-btns">
+        <button class="tbtn solo" data-role="solo" aria-label="Solo" data-umami-event="Track: Solo CV">SOLO</button>
+      </span>
+    </a>
+
+    <a class="track rise-in d-6" href="films.html"
+       data-label="FILMS"
+       data-color="yellow"
+       data-seed="2.1"
+       data-umami-event="Nav: Films"
+       style="--track-color:var(--c-yellow)">
+      <span class="t-mini-meter" aria-hidden="true"></span>
+      <span class="t-no"></span>
+      <span class="t-main">
+        <span class="t-name" data-text="FILMS"><span class="cursor"></span></span>
+      </span>
+      <span class="t-btns">
+        <button class="tbtn solo" data-role="solo" aria-label="Solo" data-umami-event="Track: Solo Films">SOLO</button>
+      </span>
+    </a>
+
+    <a class="track rise-in d-7" href="behind-the-scenes.html" hidden
+       data-label="SETS"
+       data-color="green"
+       data-seed="3.4"
+       data-umami-event="Nav: Behind the Scenes"
+       style="--track-color:var(--c-green)">
+      <span class="t-mini-meter" aria-hidden="true"></span>
+      <span class="t-no"></span>
+      <span class="t-main">
+        <span class="t-name" data-text="SETS"><span class="cursor"></span></span>
+      </span>
+      <span class="t-btns">
+        <button class="tbtn solo" data-role="solo" aria-label="Solo" data-umami-event="Track: Solo Behind the Scenes">SOLO</button>
+      </span>
+    </a>
+
+  </nav>
+
+
+</main>
+
+<div class="launch-overlay" aria-hidden="true" style="display:none">
+  <div class="launch-msg" id="launchMsg">● REC</div>
+</div>
+
+<!-- ================ TWEAKS PANEL ================ -->
+<aside class="tweaks" id="tweaksPanel" role="complementary" aria-label="Tweaks">
+  <h3>
+    <span><span class="dot"></span>TWEAKS</span>
+    <button class="close" id="tweaksClose" aria-label="Close" data-umami-event="UI: Tweaks Close">✕</button>
+  </h3>
+
+  <div class="tw-group">
+    <div class="tw-label">MODE</div>
+    <div class="tw-row" data-tweak="mode">
+      <button data-val="studio" data-umami-event="Tweak: Mode Studio"><span class="sw"></span>STUDIO</button>
+      <button data-val="field" data-umami-event="Tweak: Mode Field"><span class="sw"></span>FIELD</button>
+      <button data-val="archive" data-umami-event="Tweak: Mode Archive"><span class="sw"></span>ARCHIVE</button>
     </div>
   </div>
 
-  <script>
-  (function () {
-    var burger   = document.getElementById('nav-burger');
-    var overlay  = document.getElementById('nav-overlay');
-    var closeBtn = document.getElementById('nav-overlay-close');
-    function openMenu() {
-      overlay.classList.add('is-open');
-      overlay.setAttribute('aria-hidden', 'false');
-      burger.setAttribute('aria-expanded', 'true');
-      document.body.style.overflow = 'hidden';
-      closeBtn.focus();
-    }
-    function closeMenu() {
-      overlay.classList.remove('is-open');
-      overlay.setAttribute('aria-hidden', 'true');
-      burger.setAttribute('aria-expanded', 'false');
-      document.body.style.overflow = '';
-      burger.focus();
-    }
-    burger.addEventListener('click', openMenu);
-    closeBtn.addEventListener('click', closeMenu);
-    overlay.querySelectorAll('.nav-overlay-links a').forEach(function (a) {
-      a.addEventListener('click', closeMenu);
-    });
-    document.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape' && overlay.classList.contains('is-open')) closeMenu();
-    });
-  }());
-  </script>
+  <div class="tw-group">
+    <div class="tw-label">SIGNAL</div>
+    <div class="tw-row" data-tweak="signal">
+      <button data-val="silent" data-umami-event="Tweak: Signal Silent">SILENT</button>
+      <button data-val="ambient" data-umami-event="Tweak: Signal Ambient">AMBIENT</button>
+      <button data-val="dialog" data-umami-event="Tweak: Signal Dialog">DIALOG</button>
+      <button data-val="hot" data-umami-event="Tweak: Signal Hot">HOT</button>
+    </div>
+  </div>
 
+  <div class="tw-group">
+    <div class="tw-label">FILM GRAIN</div>
+    <div class="tw-toggle" id="tweakGrain">
+      <span class="lbl">Analog Texture</span>
+      <span class="sw"></span>
+    </div>
+  </div>
+</aside>
+
+<script>
+  /* ---------------- TC clock — red LED clapboard style -------- */
+  const tcNums = document.getElementById("tcNums");
+  const subTime = document.getElementById("subTime");
+  const pad = n => String(n).padStart(2, "0");
+
+  let frameCount = 0;
+  const FRAME_RATE = 24;
+  const FRAME_INTERVAL = Math.round(1000 / FRAME_RATE); // ~41ms
+
+  function tickFrames() {
+    frameCount = (frameCount + 1) % FRAME_RATE;
+    const ff = pad(frameCount);
+    const ffSpan = tcNums.querySelector(".tc-ff");
+    if (ffSpan) ffSpan.textContent = ":" + ff;
+  }
+
+  function tickTc() {
+    const d = new Date();
+    const hh = pad(d.getHours());
+    const mm = pad(d.getMinutes());
+    const ss = pad(d.getSeconds());
+    tcNums.innerHTML = `${hh}:${mm}:${ss}<span class="tc-ff">:${pad(frameCount)}</span>`;
+    if (subTime) {
+      const elapsed = Math.floor((d - sessionStart) / 1000);
+      const eh = pad(Math.floor(elapsed / 3600));
+      const em = pad(Math.floor((elapsed % 3600) / 60));
+      const es = pad(elapsed % 60);
+      subTime.textContent = `${eh}:${em}:${es}.1`;
+    }
+  }
+
+  const sessionStart = new Date();
+  tickTc();
+  setInterval(tickTc, 1000);
+  setInterval(tickFrames, FRAME_INTERVAL);
+
+  /* ---------------- Track labels (static, fixed-size displays) -------- */
+  document.querySelectorAll(".t-name").forEach(el => {
+    el.textContent = (el.dataset.text || "").toUpperCase();
+  });
+
+  /* ---------------- Per-track solo meter animation -------- */
+  const SEG_COUNT = 7;
+  const AMBER_FROM = 5, RED_FROM = 6;
+  const tracks = document.querySelectorAll(".track");
+  tracks.forEach(t => {
+    const meter = t.querySelector(".t-mini-meter");
+    if (!meter) return;
+    for (let i = 0; i < SEG_COUNT; i++) {
+      const s = document.createElement("span");
+      s.className = "ms";
+      meter.appendChild(s);
+    }
+  });
+
+  /* Signal profiles MUST be declared before any tick fn that reads them. */
+  const SIGNAL_PROFILES = {
+    silent:  { base: 0.12, sway: 0.06, peak: 0.00, rate: 0.6 },
+    ambient: { base: 0.30, sway: 0.14, peak: 0.15, rate: 1.0 },
+    dialog:  { base: 0.50, sway: 0.22, peak: 0.50, rate: 1.0 },
+    hot:     { base: 0.72, sway: 0.18, peak: 1.00, rate: 1.4 },
+  };
+  let signalProfile = SIGNAL_PROFILES.dialog;
+  function setSignalProfile(key) {
+    signalProfile = SIGNAL_PROFILES[key] || SIGNAL_PROFILES.dialog;
+  }
+
+  /* Big L/R bay segments */
+  const LR_SEG_COUNT = 22;
+  const LR_AMBER_FROM = 16;
+  const LR_RED_FROM = 19;
+  const lrColL = document.getElementById("lrColL");
+  const lrColR = document.getElementById("lrColR");
+  function buildLR(col) {
+    if (!col) return;
+    for (let i = 0; i < LR_SEG_COUNT; i++) {
+      const s = document.createElement("span");
+      s.className = "lr-seg";
+      col.appendChild(s);
+    }
+  }
+  buildLR(lrColL); buildLR(lrColR);
+  function lrSegColor(i, lit) {
+    if (!lit) return "#1a1a1a";
+    if (i >= LR_RED_FROM) return "#ff2e3a";
+    if (i >= LR_AMBER_FROM) return "#ffc21f";
+    return "#2fe36a";
+  }
+  /* Compute one stereo "audio" level per frame. Returns 0..LR_SEG_COUNT. */
+  function lrSharedLevel(t) {
+    const p = signalProfile;
+    const tt = t * p.rate;
+    const s = 0.7;
+    const base = p.base
+      + p.sway * Math.sin(tt * 1.4 + s)
+      + (p.sway * 0.6) * Math.sin(tt * 3.1 + s * 1.7)
+      + (p.sway * 0.35) * Math.sin(tt * 5.6 + s * 2.3);
+    const peak = Math.max(0, Math.sin(tt * 0.7 + s) - 0.6) * 2.0 * p.peak;
+    /* Hard cap so at most ONE red segment can light up.
+       Red starts at LR_RED_FROM (19); allow up to LR_RED_FROM (light index 19 = 1 red). */
+    const cap = LR_RED_FROM + 1; // = 20 → indices 0..19, last lit = 19 (1 red)
+    const raw = Math.max(0, base + peak) * LR_SEG_COUNT;
+    return Math.min(cap, raw);
+  }
+  /* Render one channel given a level. */
+  function renderLR(col, lvl) {
+    if (!col) return;
+    const segs = col.children;
+    const litCount = Math.max(0, Math.floor(lvl));
+    for (let i = 0; i < segs.length; i++) {
+      const lit = i < litCount;
+      const c = lrSegColor(i, lit);
+      segs[i].style.background = c;
+      segs[i].style.boxShadow = lit ? `0 0 6px ${c}` : "none";
+    }
+  }
+  /* Tiny per-channel jitter so L and R differ by at most 1 segment.
+     Slow sinusoid keeps it natural rather than noisy. */
+  function lrChannelOffset(t, seed) {
+    return Math.sin(t * 0.9 + seed) > 0 ? 1 : 0;
+  }
+  function levelFor(t, seed) {
+    const p = signalProfile;
+    const s = seed * 1.3;
+    const tt = t * p.rate;
+    const base = p.base
+      + p.sway * Math.sin(tt * 1.4 + s)
+      + (p.sway * 0.6) * Math.sin(tt * 3.1 + s * 1.7)
+      + (p.sway * 0.35) * Math.sin(tt * 5.6 + s * 2.3);
+    const peak = Math.max(0, Math.sin(tt * 0.7 + s) - 0.6) * 2.0 * p.peak;
+    return Math.max(0, Math.min(1.1, base + peak)) * SEG_COUNT;
+  }
+  function segColor(i, _trackColor, lit) {
+    if (!lit) return "#1a1a1a";
+    if (i >= RED_FROM) return "#ff2e3a";
+    if (i >= AMBER_FROM) return "#ffc21f";
+    return "#2fe36a";
+  }
+  const cssVar = name => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+  const colorMap = { red: cssVar("--c-red"), blue: cssVar("--c-blue"), yellow: cssVar("--c-yellow"), green: cssVar("--c-green") };
+
+  let running = true;
+  function meterTick(now) {
+    const t = now / 1000;
+    tracks.forEach(tr => {
+      const seed = parseFloat(tr.dataset.seed || "0");
+      const c = colorMap[tr.dataset.color] || cssVar("--ink");
+      const lvl = levelFor(t, seed);
+      const segs = tr.querySelectorAll(".ms");
+      segs.forEach((seg, i) => {
+        const lit = i < Math.floor(lvl);
+        const col = segColor(i, c, lit);
+        seg.style.background = col;
+        seg.style.boxShadow = lit ? `0 0 6px ${col}` : "none";
+      });
+    });
+    const sharedLR = lrSharedLevel(t);
+    /* L and R differ by at most 1 segment, but never exceed the cap. */
+    const maxLR = LR_RED_FROM + 1; // 20 → at most 1 red
+    const lLvl = Math.min(maxLR, sharedLR + lrChannelOffset(t, 0.3));
+    const rLvl = Math.min(maxLR, sharedLR - lrChannelOffset(t, 1.7));
+    renderLR(lrColL, lLvl);
+    renderLR(lrColR, rLvl);
+    if (running) requestAnimationFrame(meterTick);
+  }
+  requestAnimationFrame(meterTick);
+
+  /* ---------------- Track interactions -------- */
+  const recorder = document.getElementById("recorder");
+  const launchMsg = document.getElementById("launchMsg");
+  const dispMsg = document.getElementById("dispMsg");
+  const xRec = document.getElementById("xRec");
+  const xStop = document.getElementById("xStop");
+  const xPlay = document.getElementById("xPlay");
+
+  const RECORDER_MSG = "THIS IS NOT A REAL RECORDER";
+  function syncTransportDisplayState(state){
+    document.body.classList.remove("transport-standby","transport-rec","transport-play","transport-stop");
+    document.body.classList.add("transport-" + state);
+  }
+
+  function clearTransportColors(){
+    recorder.classList.remove("play-on","stop-on");
+    xRec.classList.remove("on");
+    xStop.classList.remove("on");
+    xPlay.classList.remove("on");
+  }
+  function showDispMsg(state){
+    dispMsg.textContent = RECORDER_MSG;
+    recorder.classList.add("has-msg");
+  }
+  function hideDispMsg(){
+    recorder.classList.remove("has-msg");
+    setTimeout(()=>{ if(!recorder.classList.contains("has-msg")) dispMsg.textContent=""; }, 260);
+  }
+
+  xRec.addEventListener("click", () => {
+    clearTransportColors();
+    syncTransportDisplayState("rec");
+    xRec.classList.add("on");
+    recorder.classList.remove("standby");
+    recorder.classList.add("armed");
+    showDispMsg("rec");
+  });
+  xStop.addEventListener("click", () => {
+    clearTransportColors();
+    syncTransportDisplayState("standby");
+    recorder.classList.remove("armed","play-on","stop-on");
+    recorder.classList.add("standby");
+    hideDispMsg();
+    // also disarm any tracks
+    document.querySelectorAll(".track.armed").forEach(t=>{
+      t.classList.remove("armed");
+      t.querySelector('.tbtn[data-role="rec"]')?.classList.remove("on");
+    });
+  });
+  xPlay.addEventListener("click", () => {
+    clearTransportColors();
+    syncTransportDisplayState("play");
+    xPlay.classList.add("on");
+    recorder.classList.remove("armed","standby");
+    recorder.classList.add("play-on");
+    showDispMsg("play");
+  });
+
+  function setRecorderArmed(armed) {
+    if (armed) {
+      recorder.classList.remove("standby","play-on","stop-on");
+      recorder.classList.add("armed");
+      syncTransportDisplayState("rec");
+      xPlay.classList.remove("on");
+      xStop.classList.remove("on");
+      xRec.classList.add("on");
+    } else {
+      recorder.classList.remove("armed");
+      syncTransportDisplayState("standby");
+      if (!recorder.classList.contains("play-on") && !recorder.classList.contains("stop-on")) {
+        recorder.classList.add("standby");
+      }
+      xRec.classList.remove("on");
+    }
+  }
+  syncTransportDisplayState("standby");
+
+  tracks.forEach(tr => {
+    const recBtn = tr.querySelector('.tbtn[data-role="rec"]');
+    const stopBtn = tr.querySelector('.tbtn[data-role="stop"]');
+    const soloBtn = tr.querySelector('.tbtn[data-role="solo"]');
+
+    // REC and STOP are fun-only — stopPropagation keeps them from triggering navigation
+    if (recBtn) {
+      recBtn.addEventListener("click", e => {
+        e.preventDefault();
+        e.stopPropagation();
+        tracks.forEach(o => {
+          if (o !== tr) {
+            o.classList.remove("armed");
+            o.querySelector('.tbtn[data-role="rec"]')?.classList.remove("on");
+          }
+        });
+        const nowOn = !recBtn.classList.contains("on");
+        recBtn.classList.toggle("on", nowOn);
+        tr.classList.toggle("armed", nowOn);
+        setRecorderArmed(nowOn);
+      });
+    }
+    if (stopBtn) {
+      stopBtn.addEventListener("click", e => {
+        e.preventDefault();
+        e.stopPropagation();
+        tr.classList.remove("armed");
+        tr.querySelector('.tbtn[data-role="rec"]')?.classList.remove("on");
+        tr.querySelector('.tbtn[data-role="solo"]')?.classList.remove("on");
+        const anyArmed = [...tracks].some(o => o.classList.contains("armed"));
+        setRecorderArmed(anyArmed);
+      });
+    }
+
+    if (soloBtn) {
+      soloBtn.addEventListener("click", e => {
+        e.preventDefault();
+        e.stopPropagation();
+        const href = tr.getAttribute("href");
+        if (!href || href === "#") return;
+
+        tracks.forEach(o => {
+          o.querySelector('.tbtn[data-role="solo"]')?.classList.remove("on");
+        });
+        soloBtn.classList.add("on");
+
+        launchTo(href, tr.dataset.label);
+      });
+    }
+
+    // Track clicks navigate without changing SOLO state.
+    tr.addEventListener("click", e => {
+      e.preventDefault();
+      const href = tr.getAttribute("href");
+      if (!href || href === "#") return;
+
+      launchTo(href, tr.dataset.label);
+    });
+
+    // keyboard
+    tr.addEventListener("keydown", e => {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        tr.click();
+      }
+    });
+  });
+
+  function launchTo(href, label) {
+    launchMsg.textContent = "● REC  " + (label || "");
+    setTimeout(() => {
+      window.location.href = href;
+    }, 350);
+  }
+
+  /* ---------------- Suppress default hash navigation -------- */
+  document.querySelectorAll('a[href^="#"]').forEach(a => a.addEventListener("click", e => e.preventDefault()));
+
+  /* ===================== TWEAKS ===================== */
+  const _h = new Date().getHours();
+  const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
+    "mode": (_h >= 6 && _h < 20) ? "studio" : "field",
+    "signal": "dialog",
+    "grain": false
+  }/*EDITMODE-END*/;
+
+  const tweakState = { ...TWEAK_DEFAULTS };
+  const panel = document.getElementById("tweaksPanel");
+  const modeToggle = document.getElementById("modeToggle");
+
+  function applyMode(val) {
+    document.body.classList.remove("mode-studio","mode-field","mode-archive");
+    document.body.classList.add("mode-" + val);
+    // refresh cached colors used by meters
+    colorMap.red    = cssVar("--c-red");
+    colorMap.blue   = cssVar("--c-blue");
+    colorMap.yellow = cssVar("--c-yellow");
+    colorMap.green  = cssVar("--c-green");
+  }
+  function applySignal(val) { setSignalProfile(val); }
+  function applyGrain(on)   { document.body.classList.toggle("grain-on", !!on); }
+  function syncModeToggle(mode) {
+    if (!modeToggle) return;
+    const bright = mode === "studio";
+    modeToggle.setAttribute("aria-label", bright ? "Switch to dark mode" : "Switch to bright mode");
+    modeToggle.setAttribute("title", bright ? "Switch to Dark Mode" : "Switch to Bright Mode");
+  }
+
+  function apply(all) {
+    applyMode(all.mode);
+    applySignal(all.signal);
+    applyGrain(all.grain);
+    syncModeToggle(all.mode);
+    // update active states in panel
+    panel.querySelectorAll('[data-tweak="mode"] button').forEach(b => b.classList.toggle("on", b.dataset.val === all.mode));
+    panel.querySelectorAll('[data-tweak="signal"] button').forEach(b => b.classList.toggle("on", b.dataset.val === all.signal));
+    document.getElementById("tweakGrain").classList.toggle("on", !!all.grain);
+  }
+
+  function setTweak(key, val) {
+    tweakState[key] = val;
+    apply(tweakState);
+    try {
+      window.parent.postMessage({ type: "__edit_mode_set_keys", edits: { [key]: val } }, "*");
+    } catch (e) {}
+  }
+
+  // wire radio groups
+  panel.querySelectorAll(".tw-row").forEach(row => {
+    const key = row.dataset.tweak;
+    row.querySelectorAll("button").forEach(btn => {
+      btn.addEventListener("click", () => setTweak(key, btn.dataset.val));
+    });
+  });
+  // wire grain toggle
+  document.getElementById("tweakGrain").addEventListener("click", () => {
+    setTweak("grain", !tweakState.grain);
+  });
+  if (modeToggle) {
+    modeToggle.addEventListener("click", () => {
+      const nextMode = tweakState.mode === "studio" ? "field" : "studio";
+      setTweak("mode", nextMode);
+    });
+  }
+  // wire close
+  document.getElementById("tweaksClose").addEventListener("click", () => {
+    panel.classList.remove("on");
+    try { window.parent.postMessage({ type: "__edit_mode_dismissed" }, "*"); } catch(e) {}
+  });
+
+  // apply defaults on load
+  apply(tweakState);
+
+  // host protocol: listen BEFORE announcing availability
+  window.addEventListener("message", e => {
+    const d = e.data || {};
+    if (d.type === "__activate_edit_mode")   panel.classList.add("on");
+    if (d.type === "__deactivate_edit_mode") panel.classList.remove("on");
+  });
+  try { window.parent.postMessage({ type: "__edit_mode_available" }, "*"); } catch(e) {}
+</script>
+
+<script>
+(function() {
+  const map = {
+    'email-main': 'mailto:' + 'chiossi.sound' + '@' + 'gmail.com',
+    'email-wind': 'mailto:' + 'windhorsesound' + '@' + 'gmail.com',
+    'whatsapp':   'https://wa.me/' + '39338' + '3574233'
+  };
+  document.querySelectorAll('[data-contact]').forEach(function(el) {
+    const key = el.getAttribute('data-contact');
+    if (map[key]) el.href = map[key];
+  });
+})();
+</script>
 </body>
 </html>
