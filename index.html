@@ -890,7 +890,7 @@
       0 8px 16px rgba(0,0,0,.22);
     position:relative;
     display:grid;
-    grid-template-columns:auto minmax(0,1fr) auto;
+    grid-template-columns:auto auto minmax(0,1fr) auto;
     align-items:center;
     height:clamp(84px,11vh,108px);
     gap:14px;
@@ -900,6 +900,7 @@
     border-radius:16px;
     cursor:pointer;
     -webkit-tap-highlight-color:transparent;
+    -webkit-user-drag:none;
     overflow:hidden;
     box-shadow:var(--track-shadow);
     transition:all .18s ease;
@@ -1108,9 +1109,83 @@
     .t-mini-meter{width:clamp(14px,2vw,18px);min-width:14px;height:clamp(40px,5.5vh,58px)}
   }
 
+  /* ------------------------------------------------------------------
+     Per-track knob
+  ------------------------------------------------------------------ */
+  .t-knob{
+    --angle:0deg;
+    width:clamp(48px,5.8vw,66px);
+    aspect-ratio:1;
+    position:relative;
+    display:block;
+    border:0;
+    border-radius:50%;
+    padding:0;
+    background:transparent;
+    cursor:grab;
+    touch-action:none;
+    user-select:none;
+    filter:drop-shadow(0 4px 8px rgba(0,0,0,.30));
+    flex-shrink:0;
+    z-index:3;
+    align-self:center;
+    margin-left:clamp(6px,1.2vw,12px);
+  }
+  .t-knob:active,.t-knob.is-dragging{cursor:grabbing}
+  .t-knob .knob-bg{
+    position:absolute;inset:0;width:100%;height:100%;
+    display:block;pointer-events:none;border-radius:50%;
+    -webkit-user-drag:none;user-drag:none;
+  }
+  .t-knob{-webkit-user-drag:none;user-drag:none;}
+  .t-knob .rotor{
+    position:absolute;
+    left:50%;top:55.5%;
+    width:71.6%;aspect-ratio:1;border-radius:50%;
+    pointer-events:none;
+    transform:translate(-50%,-50%) rotate(var(--angle));
+    transform-origin:50% 50%;
+    transition:transform 70ms linear;
+  }
+  .t-knob.is-dragging .rotor{transition:none}
+  .t-knob .face{
+    position:absolute;inset:0;border-radius:50%;
+    background:
+      radial-gradient(circle at 38% 24%,rgba(255,255,255,.72),rgba(255,255,255,.22) 28%,transparent 45%),
+      radial-gradient(circle at 50% 54%,#e7e5df 0 54%,#d3d0c8 72%,#bcb8ae 87%,#e1ded7 100%);
+    box-shadow:
+      inset 8px 10px 16px rgba(255,255,255,.58),
+      inset -10px -13px 22px rgba(112,108,101,.34),
+      0 0 0 1px rgba(130,126,118,.38),
+      0 5px 12px rgba(0,0,0,.22);
+  }
+  .t-knob .led-platform{
+    position:absolute;left:26%;top:23%;z-index:3;
+    width:18%;aspect-ratio:1;border-radius:50%;
+    background:
+      radial-gradient(circle at 34% 28%,rgba(255,255,255,.98),rgba(255,255,255,.35) 34%,transparent 54%),
+      linear-gradient(145deg,#ffffff 0%,#dedbd4 45%,#bdb9b0 72%,#f7f6f2 100%);
+    box-shadow:
+      inset 2px 3px 4px rgba(255,255,255,.82),
+      inset -2px -3px 5px rgba(107,104,98,.34),
+      0 0 0 1px rgba(126,124,118,.32),
+      0 3px 7px rgba(0,0,0,.22);
+    transform:translate(-50%,-50%);
+  }
+  .t-knob .led{
+    position:absolute;left:50%;top:50%;
+    width:78%;height:22%;border-radius:999px;
+    background:linear-gradient(180deg,rgba(255,255,255,.82),rgba(125,123,118,.44) 48%,rgba(43,43,42,.52) 52%,rgba(236,235,232,.82));
+    box-shadow:inset 0 1px 1px rgba(255,255,255,.9),inset 0 -1px 1px rgba(0,0,0,.32);
+    transform:translate(-50%,-50%) rotate(34deg);
+  }
+  @media(max-width:699px){
+    .t-knob{width:clamp(42px,11vw,56px)}
+  }
+
   .track .t-btns{
     display:flex;gap:6px;align-items:center;
-    grid-column:3;
+    grid-column:4;
     justify-self:end;
     position:relative;
     z-index:3;
@@ -1152,7 +1227,7 @@
   }
 
   @media(max-width:699px){
-    .track{grid-template-columns:auto minmax(0,1fr) auto;gap:10px;padding:12px 14px;height:auto;min-height:72px}
+    .track{grid-template-columns:auto auto minmax(0,1fr) auto;gap:8px;padding:12px 14px;height:auto;min-height:72px}
     .track .t-btns{flex-direction:row}
     .tbtn{padding:7px 10px;min-width:44px;font-size:9px}
     .track .t-name{
@@ -1376,13 +1451,17 @@
   <!-- ============ CHANNEL STRIPS (tracks / nav) ============ -->
   <nav class="channels" aria-label="Primary navigation">
 
-    <a class="track rise-in d-4" href="bio.html"
+    <a class="track rise-in d-4" href="bio.html" draggable="false"
        data-label="BIO"
        data-color="red"
        data-seed="0.3"
        data-umami-event="Nav: Bio"
        style="--track-color:var(--c-red)">
       <span class="t-mini-meter" aria-hidden="true"></span>
+      <button class="t-knob" type="button" aria-label="BIO channel knob" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" data-umami-event="Knob: Bio">
+        <img class="knob-bg" src="assets/knob_ready_round.png" alt="" loading="lazy" draggable="false">
+        <span class="rotor" aria-hidden="true"><span class="face"></span><span class="led-platform"><span class="led"></span></span></span>
+      </button>
       <span class="t-no"></span>
       <span class="t-main">
         <span class="t-name" data-text="BIO"><span class="cursor"></span></span>
@@ -1392,13 +1471,17 @@
       </span>
     </a>
 
-    <a class="track rise-in d-5" href="cv.html"
+    <a class="track rise-in d-5" href="cv.html" draggable="false"
        data-label="CV"
        data-color="blue"
        data-seed="1.2"
        data-umami-event="Nav: CV"
        style="--track-color:var(--c-blue)">
       <span class="t-mini-meter" aria-hidden="true"></span>
+      <button class="t-knob" type="button" aria-label="CV channel knob" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" data-umami-event="Knob: CV">
+        <img class="knob-bg" src="assets/knob_ready_round.png" alt="" loading="lazy" draggable="false">
+        <span class="rotor" aria-hidden="true"><span class="face"></span><span class="led-platform"><span class="led"></span></span></span>
+      </button>
       <span class="t-no"></span>
       <span class="t-main">
         <span class="t-name" data-text="CV"><span class="cursor"></span></span>
@@ -1408,13 +1491,17 @@
       </span>
     </a>
 
-    <a class="track rise-in d-6" href="films.html"
+    <a class="track rise-in d-6" href="films.html" draggable="false"
        data-label="FILMS"
        data-color="yellow"
        data-seed="2.1"
        data-umami-event="Nav: Films"
        style="--track-color:var(--c-yellow)">
       <span class="t-mini-meter" aria-hidden="true"></span>
+      <button class="t-knob" type="button" aria-label="FILMS channel knob" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" data-umami-event="Knob: Films">
+        <img class="knob-bg" src="assets/knob_ready_round.png" alt="" loading="lazy" draggable="false">
+        <span class="rotor" aria-hidden="true"><span class="face"></span><span class="led-platform"><span class="led"></span></span></span>
+      </button>
       <span class="t-no"></span>
       <span class="t-main">
         <span class="t-name" data-text="FILMS"><span class="cursor"></span></span>
@@ -1424,13 +1511,17 @@
       </span>
     </a>
 
-    <a class="track rise-in d-7" href="behind-the-scenes.html" hidden
+    <a class="track rise-in d-7" href="behind-the-scenes.html" hidden draggable="false"
        data-label="SETS"
        data-color="green"
        data-seed="3.4"
        data-umami-event="Nav: Behind the Scenes"
        style="--track-color:var(--c-green)">
       <span class="t-mini-meter" aria-hidden="true"></span>
+      <button class="t-knob" type="button" aria-label="SETS channel knob" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" data-umami-event="Knob: Sets">
+        <img class="knob-bg" src="assets/knob_ready_round.png" alt="" loading="lazy" draggable="false">
+        <span class="rotor" aria-hidden="true"><span class="face"></span><span class="led-platform"><span class="led"></span></span></span>
+      </button>
       <span class="t-no"></span>
       <span class="t-main">
         <span class="t-name" data-text="SETS"><span class="cursor"></span></span>
@@ -1771,9 +1862,12 @@
       });
     }
 
-    // Track clicks navigate without changing SOLO state.
+    tr.addEventListener("dragstart", e => e.preventDefault());
+
+    // Track clicks navigate — knob and solo are excluded.
     tr.addEventListener("click", e => {
       e.preventDefault();
+      if (e.target.closest('.t-knob') || e.target.closest('.tbtn')) return;
       const href = tr.getAttribute("href");
       if (!href || href === "#") return;
 
@@ -1881,6 +1975,55 @@
     if (d.type === "__deactivate_edit_mode") panel.classList.remove("on");
   });
   try { window.parent.postMessage({ type: "__edit_mode_available" }, "*"); } catch(e) {}
+
+  /* ---------------- Track knobs -------- */
+  (function(){
+    const MIN = -78, MAX = 162, DEF = 42;
+    document.querySelectorAll('.t-knob').forEach(function(knob) {
+      let angle = DEF, startX = 0, startAngle = 0, dragging = false;
+      let tracked = false;
+
+      function clampA(v){ return Math.min(MAX, Math.max(MIN, v)); }
+      function update(next){
+        angle = clampA(next);
+        knob.style.setProperty('--angle', angle + 'deg');
+        knob.setAttribute('aria-valuenow', String(Math.round(((angle-MIN)/(MAX-MIN))*100)));
+      }
+
+      knob.addEventListener('pointerdown', function(e){
+        dragging = true; startX = e.clientX; startAngle = angle;
+        knob.classList.add('is-dragging');
+        knob.setPointerCapture(e.pointerId);
+        if (!tracked) {
+          tracked = true;
+          if (window.umami) window.umami.track(knob.dataset.umamiEvent || 'Knob');
+        }
+      });
+      knob.addEventListener('pointermove', function(e){
+        if (!dragging) return;
+        update(startAngle + (e.clientX - startX) * 1.1);
+      });
+      function stop(e){
+        if (!dragging) return;
+        dragging = false;
+        knob.classList.remove('is-dragging');
+        if (knob.hasPointerCapture(e.pointerId)) knob.releasePointerCapture(e.pointerId);
+      }
+      knob.addEventListener('pointerup', stop);
+      knob.addEventListener('pointercancel', stop);
+      knob.addEventListener('lostpointercapture', function(){ dragging = false; knob.classList.remove('is-dragging'); });
+      knob.addEventListener('click', function(e){ e.stopPropagation(); });
+      knob.addEventListener('dragstart', function(e){ e.preventDefault(); });
+      knob.addEventListener('keydown', function(e){
+        const step = e.shiftKey ? 15 : 5;
+        if (e.key==='ArrowLeft'||e.key==='ArrowDown'){ e.preventDefault(); update(angle-step); }
+        if (e.key==='ArrowRight'||e.key==='ArrowUp'){ e.preventDefault(); update(angle+step); }
+        if (e.key==='Home'){ e.preventDefault(); update(MIN); }
+        if (e.key==='End'){ e.preventDefault(); update(MAX); }
+      });
+      update(DEF);
+    });
+  }());
 </script>
 
 <script>
