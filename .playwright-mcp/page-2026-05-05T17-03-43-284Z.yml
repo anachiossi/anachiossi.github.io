@@ -1,0 +1,41 @@
+- main [ref=e2]:
+  - banner [ref=e3]:
+    - button "Switch to dark mode" [ref=e4] [cursor=pointer]:
+      - img [ref=e5]
+  - generic [ref=e9]:
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - generic [ref=e12]: ●
+        - text: TC
+      - generic [ref=e14]: 19:03:42:11
+    - generic [ref=e63]:
+      - generic [ref=e64]: L
+      - generic [ref=e65]: R
+    - generic [ref=e67]:
+      - generic [ref=e68]:
+        - generic [ref=e69]: PORTFOLIO_2026.WAV
+        - generic [ref=e70]: 32 BIT 48000 HZ
+      - generic "Ana Chiossi" [ref=e72]: ANA CHIOSSI
+    - group "Transport" [ref=e74]:
+      - button "Record" [ref=e75] [cursor=pointer]: REC
+      - button "Stop" [ref=e76] [cursor=pointer]: ■
+      - button "Play" [ref=e77] [cursor=pointer]: ▶
+  - navigation "Primary navigation" [ref=e78]:
+    - link "BIO channel knob BIO Solo" [ref=e79] [cursor=pointer]:
+      - /url: bio.html
+      - button "BIO channel knob" [ref=e88]
+      - generic:
+        - generic: BIO
+      - button "Solo" [ref=e90]: SOLO
+    - link "CV channel knob CV Solo" [ref=e91] [cursor=pointer]:
+      - /url: cv.html
+      - button "CV channel knob" [ref=e100]
+      - generic:
+        - generic: CV
+      - button "Solo" [ref=e102]: SOLO
+    - link "FILMS channel knob FILMS Solo" [ref=e103] [cursor=pointer]:
+      - /url: films.html
+      - button "FILMS channel knob" [ref=e112]
+      - generic:
+        - generic: FILMS
+      - button "Solo" [ref=e114]: SOLO

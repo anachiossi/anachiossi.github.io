@@ -1,0 +1,150 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Chiossi Sound" [ref=e4] [cursor=pointer]:
+        - /url: index.html
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "Bio" [ref=e8] [cursor=pointer]:
+            - /url: bio.html
+        - listitem [ref=e9]:
+          - link "CV" [ref=e10] [cursor=pointer]:
+            - /url: cv.html
+        - listitem [ref=e11]:
+          - link "Films" [ref=e12] [cursor=pointer]:
+            - /url: films.html
+      - generic [ref=e13]:
+        - link "Email" [ref=e14] [cursor=pointer]:
+          - /url: mailto:chiossi.sound@gmail.com
+          - img [ref=e15]
+        - link "WhatsApp" [ref=e18] [cursor=pointer]:
+          - /url: https://wa.me/393383574233
+          - img [ref=e19]
+        - link "Instagram" [ref=e21] [cursor=pointer]:
+          - /url: https://www.instagram.com/windhorse.sound/
+          - img [ref=e22]
+        - link "LinkedIn" [ref=e25] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/anachiossi/
+          - img [ref=e26]
+        - link "IMDb" [ref=e28] [cursor=pointer]:
+          - /url: https://www.imdb.com/name/nm5227170/
+  - main [ref=e29]:
+    - generic [ref=e30]:
+      - generic [ref=e31]:
+        - heading "Ana Chiossi" [level=1] [ref=e32]:
+          - text: Ana
+          - text: Chiossi
+        - paragraph [ref=e33]: Production Sound Mixer & Boom Operator
+        - paragraph [ref=e34]: Rome, Italy
+        - generic [ref=e35]:
+          - generic [ref=e36]:
+            - generic [ref=e37]: "66"
+            - generic [ref=e38]: Projects
+          - generic [ref=e39]:
+            - generic [ref=e40]: "14"
+            - generic [ref=e41]: Years
+          - generic [ref=e42]:
+            - generic [ref=e43]: "4"
+            - generic [ref=e44]: Countries
+          - generic [ref=e45]:
+            - generic [ref=e46]: "5"
+            - generic [ref=e47]: Languages
+      - img "Ana Chiossi — Production Sound Mixer" [ref=e49]: Photo
+    - generic [ref=e50]:
+      - paragraph [ref=e51]: Credits distributed on
+      - generic [ref=e52]:
+        - generic [ref=e53]: Netflix
+        - generic [ref=e54]: Disney+
+        - generic [ref=e55]: HBO
+        - generic [ref=e56]: Amazon Prime
+    - generic [ref=e58]:
+      - paragraph [ref=e59]: Production sound mixer and boom operator based in Rome, Italy. Born in Brazil, I've spent 14 years working across feature films, series, documentaries, and advertising — in Portuguese, English, Spanish, Italian, et un petit peu du Français.
+      - paragraph [ref=e60]: Before moving into sound, I worked as a camera assistant — as a focus puller, video assist, and loader. That background gives me a particular sensitivity to the relationship between image and audio on set, and helps me communicate naturally with directors and cinematographers from day one.
+      - paragraph [ref=e61]: Over 66 projects, I've collaborated with 122 production companies. My work has reached audiences on Netflix, Disney+, HBO, and Amazon Prime.
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - heading "Get in touch" [level=2] [ref=e65]:
+          - text: Get in
+          - text: touch
+        - paragraph [ref=e66]: Available for features, series, documentaries, and commercials — in Italy, Brazil, and internationally.
+        - paragraph [ref=e67]: I reply in Português, English, Español, and Italiano.
+        - img "Ana Chiossi boom operating on location by the water" [ref=e68]
+      - generic [ref=e69]:
+        - generic [ref=e70]:
+          - generic [ref=e71]: Name
+          - textbox "Name" [ref=e72]:
+            - /placeholder: Your name
+        - generic [ref=e73]:
+          - generic [ref=e74]: Email
+          - textbox "Email" [ref=e75]:
+            - /placeholder: your@email.com
+        - generic [ref=e76]:
+          - generic [ref=e77]: Phone
+          - textbox "Phone" [ref=e78]:
+            - /placeholder: +39 333 000 0000
+        - generic [ref=e79]:
+          - generic [ref=e80]: Message
+          - textbox "Message" [ref=e81]:
+            - /placeholder: Tell me about your project…
+        - button "Send message →" [ref=e82] [cursor=pointer]
+  - contentinfo [ref=e83]:
+    - generic [ref=e84]:
+      - paragraph [ref=e85]:
+        - text: Member of
+        - link "A.I.T.S." [ref=e86] [cursor=pointer]:
+          - /url: https://www.aits.it/soci/218
+        - text: — Associazione Italiana Tecnici del Suono
+      - generic [ref=e87]:
+        - link "Email" [ref=e88] [cursor=pointer]:
+          - /url: mailto:chiossi.sound@gmail.com
+          - img [ref=e89]
+        - link "WhatsApp" [ref=e92] [cursor=pointer]:
+          - /url: https://wa.me/393383574233
+          - img [ref=e93]
+        - link "Instagram" [ref=e95] [cursor=pointer]:
+          - /url: https://www.instagram.com/windhorse.sound/
+          - img [ref=e96]
+        - link "LinkedIn" [ref=e99] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/anachiossi/
+          - img [ref=e100]
+        - link "IMDb" [ref=e102] [cursor=pointer]:
+          - /url: https://www.imdb.com/name/nm5227170/
+      - paragraph [ref=e103]: © 2026 Ana Chiossi · Rome, Italy · Production Sound Mixer & Boom Operator
+  - generic:
+    - generic:
+      - link:
+        - /url: index.html
+        - text: Chiossi Sound
+      - button:
+        - img
+    - generic:
+      - list:
+        - listitem:
+          - link:
+            - /url: bio.html
+            - text: Bio
+        - listitem:
+          - link:
+            - /url: cv.html
+            - text: CV
+        - listitem:
+          - link:
+            - /url: films.html
+            - text: Films
+    - generic:
+      - generic:
+        - link:
+          - /url: mailto:chiossi.sound@gmail.com
+          - img
+        - link:
+          - /url: https://wa.me/393383574233
+          - img
+        - link:
+          - /url: https://www.instagram.com/windhorse.sound/
+          - img
+        - link:
+          - /url: https://www.linkedin.com/in/anachiossi/
+          - img
+        - link:
+          - /url: https://www.imdb.com/name/nm5227170/
+          - text: IMDb

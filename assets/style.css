@@ -50,10 +50,22 @@ a   { color: inherit; }
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(255, 255, 255, 0.92);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
-  border-bottom: 1px solid var(--border);
+  background: #000;
+  border-bottom: 1px solid rgba(255,255,255,.1);
+}
+
+.site-header .nav-brand,
+.site-header .nav-links a,
+.site-header .social-icon {
+  color: rgba(255,255,255,.7);
+}
+.site-header .nav-links a:hover,
+.site-header .nav-links a.active,
+.site-header .social-icon:hover {
+  color: #fff;
+}
+.site-header .nav-burger span {
+  background: #fff;
 }
 
 .nav {
