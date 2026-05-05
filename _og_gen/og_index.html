@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Instrument+Serif:ital@0;1&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    width: 1200px;
+    height: 630px;
+    overflow: hidden;
+    background: #fbfaf7;
+    display: flex;
+    font-family: 'Manrope', system-ui, sans-serif;
+  }
+
+  .photo {
+    width: 480px;
+    height: 630px;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 55% 15%;
+    filter: grayscale(100%);
+  }
+
+  /* subtle gradient to blend photo into content */
+  .photo::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to right, transparent 70%, #fbfaf7 100%);
+  }
+
+  .content {
+    flex: 1;
+    padding: 52px 58px 52px 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 36px;
+  }
+
+  .top { }
+
+  .eyebrow {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #9a9890;
+    margin-bottom: 16px;
+  }
+
+  .name {
+    font-family: 'Instrument Serif', Georgia, serif;
+    font-style: italic;
+    font-size: 68px;
+    line-height: 1;
+    color: #1A1A1A;
+    margin-bottom: 18px;
+  }
+
+  .role {
+    font-size: 19px;
+    font-weight: 700;
+    color: #1A1A1A;
+    line-height: 1.3;
+    margin-bottom: 6px;
+  }
+
+  .role-sub {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6B6B6B;
+    margin-bottom: 30px;
+  }
+
+  .rule {
+    width: 48px;
+    height: 2px;
+    background: #ff5a5a;
+    margin-bottom: 28px;
+  }
+
+  .credits {
+    font-size: 13px;
+    font-weight: 600;
+    color: #6B6B6B;
+    letter-spacing: 0.04em;
+    margin-bottom: 8px;
+  }
+
+  .stats {
+    font-size: 13px;
+    color: #9a9890;
+    margin-bottom: 0;
+  }
+
+  .cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #1A1A1A;
+    color: #fbfaf7;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    padding: 14px 24px;
+    border-radius: 4px;
+  }
+
+  .cta-arrow {
+    font-size: 18px;
+  }
+
+  .url {
+    font-size: 11px;
+    color: #9a9890;
+    letter-spacing: 0.06em;
+    margin-top: 14px;
+  }
+</style>
+</head>
+<body>
+
+<div class="photo">
+  <img src="../assets/images/bio/profile_pic.jpg" alt="Ana Chiossi">
+</div>
+
+<div class="content">
+  <div class="top">
+    <div class="eyebrow">Production Sound · Rome, Italy</div>
+    <div class="name">Ana Chiossi</div>
+    <div class="role">Production Sound Mixer</div>
+    <div class="role-sub">& Boom Operator · 14 years on set</div>
+    <div class="rule"></div>
+    <div class="credits">Netflix · Disney+ · HBO · Amazon Prime</div>
+    <div class="stats">65+ projects across film, TV & documentary</div>
+  </div>
+
+  <div>
+    <div class="cta">
+      View Portfolio <span class="cta-arrow">→</span>
+    </div>
+    <div class="url">anachiossi.github.io</div>
+  </div>
+</div>
+
+</body>
+</html>
