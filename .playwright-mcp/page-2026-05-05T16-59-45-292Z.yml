@@ -1,0 +1,102 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Chiossi Sound" [ref=e4] [cursor=pointer]:
+        - /url: index.html
+      - generic [ref=e5]:
+        - list [ref=e6]:
+          - listitem [ref=e7]:
+            - link "Bio" [ref=e8] [cursor=pointer]:
+              - /url: bio.html
+          - listitem [ref=e9]:
+            - link "CV" [ref=e10] [cursor=pointer]:
+              - /url: cv.html
+          - listitem [ref=e11]:
+            - link "Films" [ref=e12] [cursor=pointer]:
+              - /url: films.html
+        - generic [ref=e13]:
+          - link "Email" [ref=e14] [cursor=pointer]:
+            - /url: mailto:chiossi.sound@gmail.com
+            - img [ref=e15]
+          - link "WhatsApp" [ref=e18] [cursor=pointer]:
+            - /url: https://wa.me/393383574233
+            - img [ref=e19]
+          - link "Instagram" [ref=e21] [cursor=pointer]:
+            - /url: https://www.instagram.com/windhorse.sound/
+            - img [ref=e22]
+          - link "LinkedIn" [ref=e25] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/anachiossi/
+            - img [ref=e26]
+          - link "IMDb" [ref=e28] [cursor=pointer]:
+            - /url: https://www.imdb.com/name/nm5227170/
+  - main [ref=e29]:
+    - generic [ref=e30]:
+      - generic [ref=e31]:
+        - paragraph [ref=e32]: Films & Projects
+        - heading "Films" [level=1] [ref=e33]
+      - searchbox "Search projects" [ref=e35]
+      - paragraph [ref=e36]: Loading projects…
+  - contentinfo [ref=e37]:
+    - generic [ref=e38]:
+      - paragraph [ref=e39]:
+        - text: Member of
+        - link "A.I.T.S." [ref=e40] [cursor=pointer]:
+          - /url: https://www.aits.it/soci/218
+        - text: — Associazione Italiana Tecnici del Suono
+      - generic [ref=e41]:
+        - link "Email" [ref=e42] [cursor=pointer]:
+          - /url: mailto:chiossi.sound@gmail.com
+          - img [ref=e43]
+        - link "WhatsApp" [ref=e46] [cursor=pointer]:
+          - /url: https://wa.me/393383574233
+          - img [ref=e47]
+        - link "Instagram" [ref=e49] [cursor=pointer]:
+          - /url: https://www.instagram.com/windhorse.sound/
+          - img [ref=e50]
+        - link "LinkedIn" [ref=e53] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/anachiossi/
+          - img [ref=e54]
+        - link "IMDb" [ref=e56] [cursor=pointer]:
+          - /url: https://www.imdb.com/name/nm5227170/
+      - paragraph [ref=e57]: © 2026 Ana Chiossi · Rome, Italy · Production Sound Mixer & Boom Operator
+  - generic:
+    - button:
+      - img
+  - generic:
+    - generic:
+      - link:
+        - /url: index.html
+        - text: Chiossi Sound
+      - button:
+        - img
+    - generic:
+      - list:
+        - listitem:
+          - link:
+            - /url: bio.html
+            - text: Bio
+        - listitem:
+          - link:
+            - /url: cv.html
+            - text: CV
+        - listitem:
+          - link:
+            - /url: films.html
+            - text: Films
+    - generic:
+      - generic:
+        - link:
+          - /url: mailto:chiossi.sound@gmail.com
+          - img
+        - link:
+          - /url: https://wa.me/393383574233
+          - img
+        - link:
+          - /url: https://www.instagram.com/windhorse.sound/
+          - img
+        - link:
+          - /url: https://www.linkedin.com/in/anachiossi/
+          - img
+        - link:
+          - /url: https://www.imdb.com/name/nm5227170/
+          - text: IMDb

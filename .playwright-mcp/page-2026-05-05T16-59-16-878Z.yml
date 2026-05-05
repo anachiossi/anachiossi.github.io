@@ -1,0 +1,471 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Chiossi Sound" [ref=e4] [cursor=pointer]:
+        - /url: index.html
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "Bio" [ref=e8] [cursor=pointer]:
+            - /url: bio.html
+        - listitem [ref=e9]:
+          - link "CV" [ref=e10] [cursor=pointer]:
+            - /url: cv.html
+        - listitem [ref=e11]:
+          - link "Films" [ref=e12] [cursor=pointer]:
+            - /url: films.html
+      - generic [ref=e13]:
+        - link "Email" [ref=e14] [cursor=pointer]:
+          - /url: mailto:chiossi.sound@gmail.com
+          - img [ref=e15]
+        - link "WhatsApp" [ref=e18] [cursor=pointer]:
+          - /url: https://wa.me/393383574233
+          - img [ref=e19]
+        - link "Instagram" [ref=e21] [cursor=pointer]:
+          - /url: https://www.instagram.com/windhorse.sound/
+          - img [ref=e22]
+        - link "LinkedIn" [ref=e25] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/anachiossi/
+          - img [ref=e26]
+        - link "IMDb" [ref=e28] [cursor=pointer]:
+          - /url: https://www.imdb.com/name/nm5227170/
+  - main [ref=e29]:
+    - generic [ref=e31]:
+      - generic [ref=e32]: Download CV PDF
+      - link "EN" [ref=e33] [cursor=pointer]:
+        - /url: assets/cv/ENG_CV_AnaChiossi.pdf
+      - link "PT" [ref=e34] [cursor=pointer]:
+        - /url: assets/cv/PTBR_CV_AnaChiossi.pdf
+      - link "ES" [ref=e35] [cursor=pointer]:
+        - /url: assets/cv/ESP_CV_AnaChiossi.pdf
+      - link "DE" [ref=e36] [cursor=pointer]:
+        - /url: assets/cv/DE_CV_AnaChiossi.pdf
+      - link "FR" [ref=e37] [cursor=pointer]:
+        - /url: assets/cv/FRA_CV_AnaChiossi.pdf
+      - link "IT" [ref=e38] [cursor=pointer]:
+        - /url: assets/cv/ITA_CV_AnaChiossi.pdf
+    - generic [ref=e39]:
+      - generic [ref=e40]:
+        - heading "Career stats" [level=2] [ref=e41]
+        - paragraph [ref=e42]: Projects, roles, and collaborators — counted.
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - generic [ref=e45]: "66"
+          - generic [ref=e46]:
+            - generic [ref=e47]: Projects to date
+            - generic [ref=e48]:
+              - generic [ref=e49]: Projects
+              - text: across feature films, series, documentaries & shorts.
+        - generic [ref=e50]:
+          - generic [ref=e51]:
+            - generic [ref=e52]: "0"
+            - generic [ref=e53]: TV Series
+          - generic [ref=e54]:
+            - generic [ref=e55]: "0"
+            - generic [ref=e56]: Features
+          - generic [ref=e57]:
+            - generic [ref=e58]: "0"
+            - generic [ref=e59]: Documentaries
+          - generic [ref=e60]:
+            - generic [ref=e61]: "0"
+            - generic [ref=e62]: Reality Shows
+          - generic [ref=e63]:
+            - generic [ref=e64]: "0"
+            - generic [ref=e65]: Short films
+          - generic [ref=e66]:
+            - generic [ref=e68]: +
+            - generic [ref=e69]: Commercials
+            - generic [ref=e70]: Uncounted
+        - generic [ref=e71]:
+          - generic [ref=e72]:
+            - generic [ref=e73]: Distribution
+            - generic [ref=e74]:
+              - generic [ref=e75]:
+                - generic [ref=e76]: "0"
+                - generic [ref=e77]: TV Channels
+              - generic [ref=e78]:
+                - generic [ref=e79]: "0"
+                - generic [ref=e80]: Streaming platforms
+              - generic [ref=e81]:
+                - generic [ref=e82]: "0"
+                - generic [ref=e83]: Film festival entries
+              - generic [ref=e84]:
+                - generic [ref=e85]: "0"
+                - generic [ref=e86]: Languages recorded
+          - generic [ref=e87]:
+            - generic [ref=e88]: Collaborators
+            - generic [ref=e89]:
+              - generic [ref=e90]: "0"
+              - generic [ref=e91]: Production companies
+            - generic [ref=e92]:
+              - generic [ref=e93]: from
+              - generic [ref=e94]: "0"
+              - generic [ref=e95]: countries
+        - generic [ref=e96]:
+          - generic [ref=e97]: "0"
+          - generic [ref=e98]:
+            - generic [ref=e100]: in Sound Department
+            - generic [ref=e101]:
+              - generic [ref=e102]:
+                - generic [ref=e103]: "0"
+                - generic [ref=e104]: as Boom Operator
+                - generic [ref=e105]: 65%
+              - generic [ref=e106]:
+                - generic [ref=e107]: "0"
+                - generic [ref=e108]: as Production Sound Mixer
+                - generic [ref=e109]: 30%
+          - generic [ref=e110]:
+            - generic [ref=e111]: not forgetting
+            - text: "0"
+            - generic [ref=e112]: in Camera Dept.
+            - generic [ref=e113]: As focus puller, loader & video assist.
+    - generic [ref=e114]:
+      - generic [ref=e115]:
+        - heading "Global work locations" [level=2] [ref=e116]
+        - paragraph [ref=e117]: One location per project, click any pin for details — toggle types in the legend.
+      - iframe [ref=e119]:
+        - generic [active] [ref=f1e1]:
+          - generic [ref=f1e2]:
+            - generic:
+              - generic:
+                - button "OS AMIGOS" [ref=f1e3] [cursor=pointer]
+                - button "AUGUSTA E ANTONICO" [ref=f1e7] [cursor=pointer]
+                - button "PEDRO E BIANCA" [ref=f1e11] [cursor=pointer]
+                - button "QUE HORAS ELA VOLTA" [ref=f1e15] [cursor=pointer]
+                - button "EXPERIMENTOS EXTRAORDINARIOS" [ref=f1e19] [cursor=pointer]
+                - button "CINELAB" [ref=f1e23] [cursor=pointer]
+                - button "BREAKOUT BRASIL" [ref=f1e27] [cursor=pointer]
+                - button "QUAL VAI SER" [ref=f1e31] [cursor=pointer]
+                - button "WHEN THE DOGS BARK" [ref=f1e35] [cursor=pointer]
+                - button "SOLACE" [ref=f1e39] [cursor=pointer]
+                - button "A GRANDE LUTA" [ref=f1e43] [cursor=pointer]
+                - button "QUE TALENTO S03" [ref=f1e47] [cursor=pointer]
+                - button "LOS ANGELES NO TIENEN ALAS" [ref=f1e51] [cursor=pointer]
+                - button "VILANOVA ARTIGAS THE ARCHITECT AND THE LIGHT" [ref=f1e55] [cursor=pointer]
+                - button "A GAROTA DA MOTO S01" [ref=f1e59] [cursor=pointer]
+                - button "LILI A EX S02" [ref=f1e63] [cursor=pointer]
+                - button "A SECRETARIA DO PRESIDENTE" [ref=f1e67] [cursor=pointer]
+                - button "BLITZ" [ref=f1e71] [cursor=pointer]
+                - button "NATUREZA MORTA" [ref=f1e75] [cursor=pointer]
+                - button "O PIOR ALUNO DA ESCOLA" [ref=f1e79] [cursor=pointer]
+                - button "ZOO DA ZU S02" [ref=f1e83] [cursor=pointer]
+                - button "O AMOR DA VOLTAS" [ref=f1e87] [cursor=pointer]
+                - button "SWEET HEART" [ref=f1e91] [cursor=pointer]
+                - button "FERRUGEM" [ref=f1e95] [cursor=pointer]
+                - button "QUERIDA MAMAE" [ref=f1e99] [cursor=pointer]
+                - button "THE YELLOW NIGHT" [ref=f1e103] [cursor=pointer]
+                - button "EXPLODE SAO PAULO GIL" [ref=f1e107] [cursor=pointer]
+                - button "DIVINE LOVE" [ref=f1e111] [cursor=pointer]
+                - button "LAMENTO" [ref=f1e115] [cursor=pointer]
+                - button "MESMO COM TANTA AGONIA" [ref=f1e119] [cursor=pointer]
+                - button "A GAROTA DA MOTO S02" [ref=f1e123] [cursor=pointer]
+                - button "FERAS" [ref=f1e127] [cursor=pointer]
+                - button "A MULHER QUE SOU" [ref=f1e131] [cursor=pointer]
+                - button "HELEN" [ref=f1e135] [cursor=pointer]
+                - button "SAO PAULO HEIST" [ref=f1e139] [cursor=pointer]
+                - button "JESUS KID" [ref=f1e143] [cursor=pointer]
+                - button "INVISIBLE CITY S01" [ref=f1e147] [cursor=pointer]
+                - button "SPECTROS" [ref=f1e151] [cursor=pointer]
+                - button "A QUEEN IS BORN" [ref=f1e155] [cursor=pointer]
+                - button "ESTRADA DO BATOM" [ref=f1e159] [cursor=pointer]
+                - button "DETETIVE MADEINUSA" [ref=f1e163] [cursor=pointer]
+                - button "TPM MEU AMOR" [ref=f1e167] [cursor=pointer]
+                - button "EL PRESIDENTE 2 CORRUPTION GAME" [ref=f1e171] [cursor=pointer]
+                - button "UNDER PRESSURE S05" [ref=f1e175] [cursor=pointer]
+                - button "AREA DE SERVIÇO" [ref=f1e179] [cursor=pointer]
+                - button "AS FIVE S02" [ref=f1e183] [cursor=pointer]
+                - button "ESCOLA DA QUEBRADA" [ref=f1e187] [cursor=pointer]
+                - button "AS FIVE S03" [ref=f1e191] [cursor=pointer]
+                - button "UMA GAROTA COMUM" [ref=f1e195] [cursor=pointer]
+                - button "TARÃ" [ref=f1e199] [cursor=pointer]
+                - button "BACK TO 15" [ref=f1e203] [cursor=pointer]
+                - button "THE HIJACKING OF FLIGHT 375" [ref=f1e207] [cursor=pointer]
+                - button "DA PONTE PRA LA" [ref=f1e211] [cursor=pointer]
+                - button "SCARS OF BEAUTY" [ref=f1e215] [cursor=pointer]
+                - button "O DIA EM QUE MINHA VIDA MUDOU" [ref=f1e219] [cursor=pointer]
+                - button "O REI DA INTERNET" [ref=f1e223] [cursor=pointer]
+                - button "DE MENOR" [ref=f1e227] [cursor=pointer]
+                - button "100 DAYS" [ref=f1e231] [cursor=pointer]
+                - button "SOLO MIO" [ref=f1e235] [cursor=pointer]
+                - button "L'ALTRO ISPETTORE" [ref=f1e239] [cursor=pointer]
+                - button "L'ABBAGLIO" [ref=f1e243] [cursor=pointer]
+                - button "VARIOUS" [ref=f1e247] [cursor=pointer]
+                - button "CARO MONDO CRUDELE" [ref=f1e251] [cursor=pointer]
+                - button "TUTTO SU MIO PADRE" [ref=f1e255] [cursor=pointer]
+                - button "CAMPIONI" [ref=f1e259] [cursor=pointer]
+                - button "È STATO UN CASO" [ref=f1e263] [cursor=pointer]
+                - button "ALDAIR. CUORE GIALLOROSSO" [ref=f1e267] [cursor=pointer]
+            - generic:
+              - generic [ref=f1e271]:
+                - button "Zoom in" [ref=f1e272] [cursor=pointer]: +
+                - button "Zoom out" [ref=f1e273] [cursor=pointer]: −
+              - generic [ref=f1e274]:
+                - link "Leaflet" [ref=f1e275] [cursor=pointer]:
+                  - /url: https://leafletjs.com
+                  - img [ref=f1e276]
+                  - text: Leaflet
+                - text: "| ©"
+                - link "OpenStreetMap" [ref=f1e280] [cursor=pointer]:
+                  - /url: https://www.openstreetmap.org/copyright
+                - text: ©
+                - link "CARTO" [ref=f1e281] [cursor=pointer]:
+                  - /url: https://carto.com/
+          - generic [ref=f1e282]:
+            - generic [ref=f1e283]: Type
+            - generic [ref=f1e286] [cursor=pointer]: Film
+            - generic [ref=f1e289] [cursor=pointer]: TV Series
+            - generic [ref=f1e292] [cursor=pointer]: Short Film
+            - generic [ref=f1e295] [cursor=pointer]: Documentary Film
+            - generic [ref=f1e298] [cursor=pointer]: Documentary TV
+            - generic [ref=f1e301] [cursor=pointer]: Reality Show
+            - generic [ref=f1e304] [cursor=pointer]: Commercials
+    - generic [ref=e120]:
+      - generic [ref=e121]:
+        - heading "Education" [level=2] [ref=e122]
+        - paragraph [ref=e123]: Click an entry to view diploma and details.
+      - generic [ref=e124]:
+        - button "Centro Europeu — Photography, 2009–2010" [ref=e125] [cursor=pointer]:
+          - generic [ref=e126]:
+            - generic [ref=e127]: 2009–2010
+            - generic [ref=e128]: Photography
+          - img "Centro Europeu" [ref=e130]
+          - generic [ref=e131]: Centro Europeu
+        - button "SICA Argentina — Cinematography, 2011–2012" [ref=e132] [cursor=pointer]:
+          - generic [ref=e133]:
+            - generic [ref=e134]: 2011–2012
+            - generic [ref=e135]:
+              - text: Cinematography
+              - text: 16 & 35mm
+          - img "SICA Argentina" [ref=e137]
+          - generic [ref=e138]: SICA Argentina
+        - button "UNESPAR — Bachelor's in Film Studies, 2008–2013" [ref=e139] [cursor=pointer]:
+          - generic [ref=e140]:
+            - generic [ref=e141]: 2008–2013
+            - generic [ref=e142]:
+              - text: Bachelor's Degree
+              - text: Film Studies
+          - img "UNESPAR" [ref=e144]
+          - generic [ref=e145]:
+            - text: Universidade
+            - text: Estadual do Paraná
+        - button "Cinecittà — Tecnico di Restauro Audio, 2025" [ref=e146] [cursor=pointer]:
+          - generic [ref=e147]:
+            - generic [ref=e148]: "2025"
+            - generic [ref=e149]:
+              - text: Tecnico di
+              - text: Restauro Audio
+          - img "Cinecittà" [ref=e151]
+          - generic [ref=e152]:
+            - text: Cinecittà
+            - text: Luce Lab
+    - generic [ref=e153]:
+      - heading "Certifications" [level=2] [ref=e155]
+      - generic [ref=e156]:
+        - link "Dante Certified Level 3" [ref=e158] [cursor=pointer]:
+          - /url: https://www.audinate.com/learning/training-certification
+          - img "Dante Certified Level 3" [ref=e159]
+        - iframe [ref=e161]:
+          - generic [active] [ref=f2e1]:
+            - generic [ref=f2e2]:
+              - link "Avid Certified | …" [ref=f2e3] [cursor=pointer]:
+                - /url: https://www.credly.com/badges/f2e7ec4b-aa23-428a-adec-833974695fa4/embedded
+                - generic [ref=f2e4]: Avid Certified | …
+              - generic "Avid Technology" [ref=f2e5]: "Issuer: Avid Technol…"
+            - link "PROVIDED BY Credly" [ref=f2e7] [cursor=pointer]:
+              - /url: /
+              - text: PROVIDED BY
+              - generic [ref=f2e8]: Credly
+    - generic [ref=e162]:
+      - generic [ref=e163]:
+        - generic [ref=e164]: Trusted Gear
+        - generic [ref=e165]: the sound technology and accessories that made it all possible
+      - generic [ref=e166]:
+        - link "Schoeps" [ref=e167] [cursor=pointer]:
+          - /url: https://www.schoeps.de
+          - img "Schoeps" [ref=e168]
+        - link "Lectrosonics" [ref=e169] [cursor=pointer]:
+          - /url: https://www.lectrosonics.com
+          - img "Lectrosonics" [ref=e170]
+        - link "DPA Microphones" [ref=e171] [cursor=pointer]:
+          - /url: https://www.dpamicrophones.com
+          - img "DPA Microphones" [ref=e172]
+        - link "Zaxcom" [ref=e173] [cursor=pointer]:
+          - /url: https://www.zaxcom.com
+          - img "Zaxcom" [ref=e174]
+        - link "Shure" [ref=e175] [cursor=pointer]:
+          - /url: https://www.shure.com
+          - img "Shure" [ref=e176]
+        - link "Sony" [ref=e177] [cursor=pointer]:
+          - /url: https://pro.sony/en_GB/products/audio/pro-audio?cmp=mur-ngp-15738
+          - img "Sony" [ref=e178]
+        - link "Wisycom" [ref=e179] [cursor=pointer]:
+          - /url: https://www.wisycom.com
+          - img "Wisycom" [ref=e180]
+        - link "Sennheiser" [ref=e181] [cursor=pointer]:
+          - /url: https://www.sennheiser.com
+          - img "Sennheiser" [ref=e182]
+        - link "Aaton Digital" [ref=e183] [cursor=pointer]:
+          - /url: https://www.aaton.com
+          - img "Aaton Digital" [ref=e184]
+        - link "Sound Devices" [ref=e185] [cursor=pointer]:
+          - /url: https://www.sounddevices.com
+          - img "Sound Devices" [ref=e186]
+        - link "Sanken" [ref=e187] [cursor=pointer]:
+          - /url: https://www.sanken-mic.com
+          - img "Sanken" [ref=e188]
+        - link "Neumann" [ref=e189] [cursor=pointer]:
+          - /url: https://www.neumann.com
+          - img "Neumann" [ref=e190]
+        - link "Countryman" [ref=e191] [cursor=pointer]:
+          - /url: https://www.countryman.com
+          - img "Countryman" [ref=e192]
+        - link "Audio-Technica" [ref=e193] [cursor=pointer]:
+          - /url: https://www.audio-technica.com
+          - img "Audio-Technica" [ref=e194]
+        - link "Oktava" [ref=e195] [cursor=pointer]:
+          - /url: https://oktavamicrophones.com/
+          - img "Oktava" [ref=e196]
+        - link "LOM Microphones" [ref=e197] [cursor=pointer]:
+          - /url: https://store.lom.audio/
+          - img "LOM Microphones" [ref=e198]
+        - link "Canare" [ref=e199] [cursor=pointer]:
+          - /url: https://www.canare.com
+          - img "Canare" [ref=e200]
+        - link "Mogami" [ref=e201] [cursor=pointer]:
+          - /url: https://www.mogamicable.com
+          - img "Mogami" [ref=e202]
+        - link "Neutrik" [ref=e203] [cursor=pointer]:
+          - /url: https://www.neutrik.com
+          - img "Neutrik" [ref=e204]
+        - link "Lemo" [ref=e205] [cursor=pointer]:
+          - /url: https://www.lemo.com
+          - img "Lemo" [ref=e206]
+        - link "Phonak" [ref=e207] [cursor=pointer]:
+          - /url: https://www.phonak.com
+          - img "Phonak" [ref=e208]
+        - link "PSC" [ref=e209] [cursor=pointer]:
+          - /url: https://professionalsound.com/bell-light-system
+          - img "PSC" [ref=e210]
+        - link "RF Venue" [ref=e211] [cursor=pointer]:
+          - /url: https://www.rfvenue.com
+          - img "RF Venue" [ref=e212]
+        - link "Halter Technical" [ref=e213] [cursor=pointer]:
+          - /url: https://www.haltertechnical.com
+          - img "Halter Technical" [ref=e214]
+        - link "K-Tek" [ref=e215] [cursor=pointer]:
+          - /url: https://ktekpro.com/
+          - img "K-Tek" [ref=e216]
+        - link "Rycote" [ref=e217] [cursor=pointer]:
+          - /url: https://www.rycote.com
+          - img "Rycote" [ref=e218]
+        - link "Cinela" [ref=e219] [cursor=pointer]:
+          - /url: https://www.cinela.fr/home/
+          - img "Cinela" [ref=e220]
+        - link "Bubblebee" [ref=e221] [cursor=pointer]:
+          - /url: https://www.bubblebeeindustries.com
+          - img "Bubblebee" [ref=e222]
+        - link "Ursa Straps" [ref=e223] [cursor=pointer]:
+          - /url: https://www.ursastraps.com
+          - img "Ursa Straps" [ref=e224]
+        - link "Hide-A-Mic" [ref=e225] [cursor=pointer]:
+          - /url: https://www.hideamic.com/
+          - img "Hide-A-Mic" [ref=e226]
+        - link "Viviana" [ref=e227] [cursor=pointer]:
+          - /url: https://www.vivianaproducts.com/it/
+          - img "Viviana" [ref=e228]
+        - link "Radius" [ref=e229] [cursor=pointer]:
+          - /url: https://radiuswindshields.com/
+          - img "Radius" [ref=e230]
+        - link "Kit-Bravo" [ref=e231] [cursor=pointer]:
+          - /url: https://kitbravo.net/
+          - img "Kit-Bravo" [ref=e232]
+        - link "Tentacle Sync" [ref=e233] [cursor=pointer]:
+          - /url: https://www.tentaclesync.com
+          - img "Tentacle Sync" [ref=e234]
+        - link "Denecke" [ref=e235] [cursor=pointer]:
+          - /url: http://www.denecke.com/
+          - img "Denecke" [ref=e236]
+        - link "Audioroot" [ref=e237] [cursor=pointer]:
+          - /url: https://www.audioroot.fr
+          - img "Audioroot" [ref=e238]
+        - link "Mixtwojacks" [ref=e239] [cursor=pointer]:
+          - /url: https://www.mixtwojacks.com
+          - img "Mixtwojacks" [ref=e240]
+        - link "Bellentani Audio Arte" [ref=e241] [cursor=pointer]:
+          - /url: https://www.instagram.com/bellentani.audioarte?igsh=MWQ2Y3J2OHhpMnoxeg==
+          - img "Bellentani Audio Arte" [ref=e242]
+        - link "London Location Sound" [ref=e243] [cursor=pointer]:
+          - /url: https://www.locationsoundlondon.com/
+          - img "London Location Sound" [ref=e244]
+        - link "Dante by Audinate" [ref=e245] [cursor=pointer]:
+          - /url: https://www.audinate.com/
+          - img "Dante by Audinate" [ref=e246]
+        - link "Ambient Recording" [ref=e247] [cursor=pointer]:
+          - /url: https://www.ambient.de/en/
+          - img "Ambient Recording" [ref=e248]
+        - link "Betso" [ref=e249] [cursor=pointer]:
+          - /url: https://www.betso.fr/
+          - img "Betso" [ref=e250]
+        - link "Bongo Ties" [ref=e251] [cursor=pointer]:
+          - /url: https://www.bongoties.com/
+          - img "Bongo Ties" [ref=e252]
+  - contentinfo [ref=e253]:
+    - generic [ref=e254]:
+      - paragraph [ref=e255]:
+        - text: Member of
+        - link "A.I.T.S." [ref=e256] [cursor=pointer]:
+          - /url: https://www.aits.it/soci/218
+        - text: — Associazione Italiana Tecnici del Suono
+      - generic [ref=e257]:
+        - link "Email" [ref=e258] [cursor=pointer]:
+          - /url: mailto:chiossi.sound@gmail.com
+          - img [ref=e259]
+        - link "WhatsApp" [ref=e262] [cursor=pointer]:
+          - /url: https://wa.me/393383574233
+          - img [ref=e263]
+        - link "Instagram" [ref=e265] [cursor=pointer]:
+          - /url: https://www.instagram.com/windhorse.sound/
+          - img [ref=e266]
+        - link "LinkedIn" [ref=e269] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/anachiossi/
+          - img [ref=e270]
+        - link "IMDb" [ref=e272] [cursor=pointer]:
+          - /url: https://www.imdb.com/name/nm5227170/
+      - paragraph [ref=e273]: © 2026 Ana Chiossi · Rome, Italy · Production Sound Mixer & Boom Operator
+  - generic:
+    - generic:
+      - link:
+        - /url: index.html
+        - text: Chiossi Sound
+      - button:
+        - img
+    - generic:
+      - list:
+        - listitem:
+          - link:
+            - /url: bio.html
+            - text: Bio
+        - listitem:
+          - link:
+            - /url: cv.html
+            - text: CV
+        - listitem:
+          - link:
+            - /url: films.html
+            - text: Films
+    - generic:
+      - generic:
+        - link:
+          - /url: mailto:chiossi.sound@gmail.com
+          - img
+        - link:
+          - /url: https://wa.me/393383574233
+          - img
+        - link:
+          - /url: https://www.instagram.com/windhorse.sound/
+          - img
+        - link:
+          - /url: https://www.linkedin.com/in/anachiossi/
+          - img
+        - link:
+          - /url: https://www.imdb.com/name/nm5227170/
+          - text: IMDb
