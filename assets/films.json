@@ -88,41 +88,6 @@
     "description": "Feature by Niccolò Falsetti and Francesco Turbanti, with the unmistakable style of Zerocalcare and original music by Giancane. Produced by Dispàrte, Mompracem and Fandango with Rai Cinema, in collaboration with Movimenti Production. Selected for the Freestyle section of the Festa del Cinema di Roma 2026; in Italian cinemas from 22 October 2026."
   },
   {
-    "id": "064d04",
-    "title": "TUTTO SU MIO PADRE",
-    "type": "Documentary TV",
-    "director": [
-      "Massimo Chiellini",
-      "Sara Filippelli"
-    ],
-    "prod_co": [
-      "Next Different"
-    ],
-    "department": "Sound",
-    "role": "Prod. Sound Mixer",
-    "release_year": 0,
-    "release_status": "upcoming",
-    "platforms": [
-      "RAI"
-    ],
-    "film_language": [
-      "ITA"
-    ],
-    "prod_country": [
-      "Italy"
-    ],
-    "imdb_link": null,
-    "image_id": "000x00",
-    "thumb_id": "000x00",
-    "awards_count": 0,
-    "festivals_count": 0,
-    "awards_detail": [],
-    "festivals_detail": [],
-    "job_start": "2025-07-01",
-    "job_end": "2025-07-31",
-    "description": "A RAI documentary about memory, justice, and the legacy of those who served the rule of law in Italy. Blends personal testimony and archival footage."
-  },
-  {
     "id": "065f25",
     "title": "CAMPIONI",
     "type": "Film",
