@@ -153,6 +153,15 @@
       }
     }
 
+    /* Keyboard focus: show overlay + outline */
+    .film-card:focus-visible {
+      outline: 2px solid currentColor;
+      outline-offset: 3px;
+    }
+    .film-card:focus-visible .film-card-overlay {
+      opacity: 1;
+    }
+
     /* State messages: loading / error / no-results */
     .films-state {
       padding: 64px 0 80px;

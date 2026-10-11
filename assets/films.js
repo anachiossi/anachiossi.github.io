@@ -128,9 +128,16 @@ function buildCard(project, index) {
     `</div>`;
   card.appendChild(overlay);
 
+  card.tabIndex = 0;
+  card.setAttribute('role', 'button');
+  card.setAttribute('aria-label', project.title);
+
   card.addEventListener('click', () => {
     if (window.umami) window.umami.track('Film Click', { title: project.title });
     openModal(index);
+  });
+  card.addEventListener('keydown', e => {
+    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); card.click(); }
   });
 
   return card;
@@ -356,10 +363,13 @@ function openModal(index) {
 }
 
 function closeModal() {
+  // Return keyboard focus to the card that was open
+  const lastCard = gridEl.querySelector(`.film-card[data-index="${currentModalIndex}"]`);
   backdropEl.classList.remove('is-open');
   backdropEl.setAttribute('aria-hidden', 'true');
   document.body.style.overflow = '';
   currentModalIndex = -1;
+  if (lastCard) lastCard.focus({ preventScroll: true });
 }
 
 function navigateTo(newIndex) {
