@@ -20,6 +20,7 @@ const LANG_LABELS = {
   IT: 'Italian',  EN: 'English',  ES: 'Spanish',
   FR: 'French',   DE: 'German',   JA: 'Japanese',
   ZH: 'Chinese',  AR: 'Arabic',   RU: 'Russian',
+  ITA: 'Italian', ENG: 'English', SPA: 'Spanish', FRA: 'French',
 };
 
 // ── DOM refs — grid ───────────────────────────────────────────────────────────

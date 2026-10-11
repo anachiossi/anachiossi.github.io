@@ -1,7 +1,7 @@
 [
   {
     "id": "058f21",
-    "title": "100 DAYS",
+    "title": "100 DIAS",
     "type": "Film",
     "director": [
       "Carlos Saldanha"
@@ -14,15 +14,15 @@
       "Good Hand Production",
       "MARZ",
       "Boipeba Filmes",
-      "Madremidia"
+      "Madremidia",
+      "Buena Vista International",
+      "Trema"
     ],
     "department": "Sound",
     "role": "Prod. Sound Mixer",
-    "release_year": 0,
+    "release_year": 2026,
     "release_status": "upcoming",
-    "platforms": [
-      "STAR+"
-    ],
+    "platforms": [],
     "film_language": [
       "PT_BR"
     ],
@@ -41,24 +41,27 @@
     "festivals_detail": [],
     "job_start": "2024-07-16",
     "job_end": "2024-09-30",
-    "description": "Live-action feature directed by Carlos Saldanha about explorer Amyr Klink’s 1984 solo South Atlantic row, inspired by the book One Hundred Days Between Sky and Sea. Produced by Ventre Studio with Buena Vista International/Disney; filming wrapped Sept 2024 with a 2025 theatrical target. Cast includes Filipe Bragança."
+    "description": "Live-action feature directed by Carlos Saldanha about explorer Amyr Klink’s 1984 solo South Atlantic row, inspired by his book ‘Cem Dias entre Céu e Mar’. Starring Philippine Leroy-Beaulieu, Filipe Bragança and Felipe Camargo. Distributed by Buena Vista International, in Brazilian cinemas from 29 October 2026."
   },
   {
     "id": "063f24",
     "title": "CARO MONDO CRUDELE",
     "type": "Film",
     "director": [
-      "Niccolò Falsetti"
+      "Niccolò Falsetti",
+      "Francesco Turbanti"
     ],
     "prod_co": [
       "Disparte",
       "Fandango",
       "Indigo Film",
-      "Rai Cinema"
+      "Rai Cinema",
+      "Mompracem",
+      "Movimenti Production"
     ],
     "department": "Sound",
     "role": "2nd Boom Operator",
-    "release_year": 0,
+    "release_year": 2026,
     "release_status": "upcoming",
     "platforms": [],
     "film_language": [
@@ -71,12 +74,18 @@
     "image_id": "063f24",
     "thumb_id": "063f24",
     "awards_count": 0,
-    "festivals_count": 0,
+    "festivals_count": 1,
     "awards_detail": [],
-    "festivals_detail": [],
+    "festivals_detail": [
+      {
+        "name": "Festa del Cinema di Roma",
+        "year": 2026,
+        "country": "Italy"
+      }
+    ],
     "job_start": "2025-05-01",
     "job_end": "2025-06-30",
-    "description": "New feature by Niccolò Falsetti (with Francesco Turbanti), produced by Disparte with Fandango and Mompracem; Toscana Film Commission support. Filming started in Maremma (Tuscany) in May 2025."
+    "description": "Feature by Niccolò Falsetti and Francesco Turbanti, with the unmistakable style of Zerocalcare and original music by Giancane. Produced by Dispàrte, Mompracem and Fandango with Rai Cinema, in collaboration with Movimenti Production. Selected for the Freestyle section of the Festa del Cinema di Roma 2026; in Italian cinemas from 22 October 2026."
   },
   {
     "id": "064d04",
@@ -149,17 +158,19 @@
   },
   {
     "id": "066d02",
-    "title": "È STATO UN CASO",
+    "title": "FUKSAS – DA TUTTA LA VITA",
     "type": "Documentary Film",
     "director": [
       "Elisa Fuksas"
     ],
     "prod_co": [
-      "Indiana Production"
+      "Indiana Production",
+      "7A",
+      "Rai Cinema"
     ],
     "department": "Sound",
     "role": "Prod. Sound Mixer",
-    "release_year": 0,
+    "release_year": 2026,
     "release_status": "upcoming",
     "platforms": [],
     "film_language": [
@@ -169,15 +180,21 @@
       "Italy"
     ],
     "imdb_link": null,
-    "image_id": "000x00",
-    "thumb_id": "000x00",
+    "image_id": "066d02",
+    "thumb_id": "066d02",
     "awards_count": 0,
-    "festivals_count": 0,
+    "festivals_count": 1,
     "awards_detail": [],
-    "festivals_detail": [],
+    "festivals_detail": [
+      {
+        "name": "Festa del Cinema di Roma",
+        "year": 2026,
+        "country": "Italy"
+      }
+    ],
     "job_start": "2026-03-01",
     "job_end": "2026-03-15",
-    "description": "A documentary portrait of the architects Massimiliano and Doriana Fuksas, the duo behind landmark works including Rome's Nuvola and the Peres Center for Peace in Jaffa. Directed by their daughter Elisa Fuksas, known for her intimate and personal filmmaking style."
+    "description": "A documentary portrait of the architects Massimiliano and Doriana Fuksas, the duo behind landmark works including Rome's Nuvola and the Peres Center for Peace in Jaffa. Directed by their daughter Elisa Fuksas and produced by Indiana and 7A with Rai Cinema. Premiered as a Special Screening at the Festa del Cinema di Roma 2026."
   },
   {
     "id": "059f22",
