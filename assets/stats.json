@@ -74,7 +74,7 @@
     ]
   },
   "production": {
-    "companies_count": 122,
+    "companies_count": 127,
     "prod_countries_count": 14
   },
   "awards": {
@@ -83,7 +83,7 @@
     "sound_award_wins": 3
   },
   "festivals": {
-    "total_entries": 68,
-    "unique_festivals": 60
+    "total_entries": 70,
+    "unique_festivals": 61
   }
 }
